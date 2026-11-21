@@ -5550,7 +5550,6 @@
    "clock:closed:2026-11-20:before the open": "2026-11-20T05:01:36Z",
    "clock:open:2026-11-19": "2026-11-19T14:31:36Z",
    "clock:open:2026-11-20": "2026-11-20T14:31:54Z",
-   "futures-closed:2026-11-18": "2026-11-18T23:01:38Z",
    "futures-closed:2026-11-19": "2026-11-19T23:01:45Z",
    "futures-closed:2026-11-20": "2026-11-20T23:01:44Z",
    "futures-closed:2026-11-21": "2026-11-21T17:01:51Z",
@@ -5713,7 +5712,7 @@
  },
  "fund": {
   "benchmarkBtcUnits": 0.03103649722666308,
-  "benchmarkCad": 9007.59,
+  "benchmarkCad": 9000.72,
   "benchmarkSet": true,
   "benchmarkSpyUnits": 6.399142948573451,
   "cad": 3000.0,
@@ -5989,11 +5988,11 @@
   "halted": false,
   "lastCongressCheck": "2026-11-20",
   "lastEtfScan": "2026-11-21T11:01:42Z",
-  "lastFuturesScan": "2026-11-21T22:31:48Z",
-  "lastRun": "2026-11-21T22:31:48Z",
+  "lastFuturesScan": "2026-11-21T23:01:40Z",
+  "lastRun": "2026-11-21T23:01:40Z",
   "lastRunBy": "github",
-  "lastRunNote": "US stock market closed today. Bitcoin up 2.1% in 24 hours (risk-off). No trades: nothing scored high enough with a clean setup. Holding 0 positions. Value $9,929.31 vs buy-and-hold $9,007.59.",
-  "lastSaved": "2026-11-21T22:31:48Z",
+  "lastRunNote": "US stock market closed today. Bitcoin up 1.5% in 24 hours (risk-off). No trades: nothing scored high enough with a clean setup. Holding 0 positions. Value $9,929.31 vs buy-and-hold $9,000.72.",
+  "lastSaved": "2026-11-21T23:01:40Z",
   "lastStockScan": "2026-11-20T19:46:44Z",
   "lastTradingDay": "2026-11-20",
   "lastUniverseScan": "2026-11-20T13:01:48Z",
@@ -6602,10 +6601,10 @@
    "exits": [],
    "signals": []
   },
-  "updated": "2026-11-21T22:31:48Z"
+  "updated": "2026-11-21T23:01:40Z"
  },
  "log": [
-  "Run 2026-11-21 WATCH (New York 17:31), stock market closed today",
+  "Run 2026-11-21 WATCH (New York 18:01), stock market closed today",
   "Futures market closed now: no futures trades"
  ],
  "nav": [
@@ -6652,7 +6651,7 @@
    "equityCad": 9928.83
   },
   {
-   "benchmarkCad": 9007.59,
+   "benchmarkCad": 9000.72,
    "cashCad": 9929.31,
    "date": "2026-11-21",
    "equityCad": 9929.31
@@ -6663,7 +6662,7 @@
   "alertState": {},
   "clock": {
    "calendar_known": true,
-   "checkedAt": "2026-11-21T22:31:48Z",
+   "checkedAt": "2026-11-21T23:01:40Z",
    "closes": null,
    "date": "2026-11-21",
    "early_close": null,
