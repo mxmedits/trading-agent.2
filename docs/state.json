@@ -5560,7 +5560,6 @@
    "idea:MET:short:19:breakdown": "2026-11-20T15:31:44Z",
    "idea:MET:short:19:none": "2026-11-20T22:01:49Z",
    "idea:MU:short:21:none": "2026-11-20T15:46:36Z",
-   "idea:NFLX:short:19:breakdown": "2026-11-19T16:06:46Z",
    "idea:ORCL:short:16:breakdown": "2026-11-19T17:06:37Z",
    "idea:ORCL:short:16:none": "2026-11-20T14:51:44Z",
    "idea:ORCL:short:17:breakdown": "2026-11-20T17:36:45Z",
@@ -5590,7 +5589,6 @@
    "macro:futures:short:neutral:2026-11-20T17:01:47.727613": "2026-11-20T17:01:47Z",
    "macro:futures:short:neutral:2026-11-20T18:31:33.760546": "2026-11-20T18:31:33Z",
    "macro:futures:short:neutral:2026-11-20T21:31:44.638585": "2026-11-20T21:31:44Z",
-   "macro:futures:short:risk-off:2026-11-19T16:01:47.202724": "2026-11-19T16:01:47Z",
    "macro:futures:short:risk-off:2026-11-19T18:31:54.656835": "2026-11-19T18:31:54Z",
    "macro:futures:short:risk-off:2026-11-19T22:01:35.946829": "2026-11-19T22:01:35Z",
    "macro:futures:short:risk-off:2026-11-20T01:01:49.191415": "2026-11-20T01:01:49Z",
@@ -5604,7 +5602,6 @@
    "macro:futures:short:risk-off:2026-11-20T22:01:49.985034": "2026-11-20T22:01:49Z",
    "macro:futures:short:risk-off:2026-11-20T22:31:42.130487": "2026-11-20T22:31:42Z",
    "macro:stocks:long:risk-off:2026-11-20T15:16:39.593336": "2026-11-20T15:16:39Z",
-   "macro:stocks:short:risk-off:2026-11-19T16:06:46.406397": "2026-11-19T16:06:46Z",
    "macro:stocks:short:risk-off:2026-11-19T16:46:43.621964": "2026-11-19T16:46:43Z",
    "macro:stocks:short:risk-off:2026-11-19T16:56:55.259466": "2026-11-19T16:56:55Z",
    "macro:stocks:short:risk-off:2026-11-19T17:06:37.289703": "2026-11-19T17:06:37Z",
@@ -5674,7 +5671,7 @@
  },
  "fund": {
   "benchmarkBtcUnits": 0.03103649722666308,
-  "benchmarkCad": 9035.31,
+  "benchmarkCad": 9050.94,
   "benchmarkSet": true,
   "benchmarkSpyUnits": 6.399142948573451,
   "cad": 3000.0,
@@ -5950,11 +5947,11 @@
   "halted": false,
   "lastCongressCheck": "2026-11-20",
   "lastEtfScan": "2026-11-21T11:01:42Z",
-  "lastFuturesScan": "2026-11-22T16:01:44Z",
-  "lastRun": "2026-11-22T16:01:44Z",
+  "lastFuturesScan": "2026-11-22T16:31:42Z",
+  "lastRun": "2026-11-22T16:31:42Z",
   "lastRunBy": "github",
-  "lastRunNote": "US stock market closed today. Bitcoin up 1.7% in 24 hours (risk-off). No trades: nothing scored high enough with a clean setup. Holding 0 positions. Value $9,928.83 vs buy-and-hold $9,035.31.",
-  "lastSaved": "2026-11-22T16:01:44Z",
+  "lastRunNote": "US stock market closed today. Bitcoin up 2.0% in 24 hours (risk-off). No trades: nothing scored high enough with a clean setup. Holding 0 positions. Value $9,928.83 vs buy-and-hold $9,050.94.",
+  "lastSaved": "2026-11-22T16:31:42Z",
   "lastStockScan": "2026-11-20T19:46:44Z",
   "lastTradingDay": "2026-11-20",
   "lastUniverseScan": "2026-11-20T13:01:48Z",
@@ -6573,10 +6570,10 @@
    "exits": [],
    "signals": []
   },
-  "updated": "2026-11-22T16:01:44Z"
+  "updated": "2026-11-22T16:31:42Z"
  },
  "log": [
-  "Run 2026-11-22 WATCH (New York 11:01), stock market closed today",
+  "Run 2026-11-22 WATCH (New York 11:31), stock market closed today",
   "Futures market closed now: no futures trades"
  ],
  "nav": [
@@ -6629,7 +6626,7 @@
    "equityCad": 9929.31
   },
   {
-   "benchmarkCad": 9035.31,
+   "benchmarkCad": 9050.94,
    "cashCad": 9928.83,
    "date": "2026-11-22",
    "equityCad": 9928.83
@@ -6640,7 +6637,7 @@
   "alertState": {},
   "clock": {
    "calendar_known": true,
-   "checkedAt": "2026-11-22T16:01:44Z",
+   "checkedAt": "2026-11-22T16:31:42Z",
    "closes": null,
    "date": "2026-11-22",
    "early_close": null,
