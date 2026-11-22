@@ -5544,7 +5544,6 @@
    }
   ],
   "said": {
-   "clock:closed:2026-11-19:after the close": "2026-11-19T21:01:38Z",
    "clock:closed:2026-11-20:after the close": "2026-11-20T21:01:04Z",
    "clock:closed:2026-11-20:before the open": "2026-11-20T05:01:36Z",
    "clock:open:2026-11-20": "2026-11-20T14:31:54Z",
@@ -5643,7 +5642,7 @@
  },
  "fund": {
   "benchmarkBtcUnits": 0.03103649722666308,
-  "benchmarkCad": 9024.17,
+  "benchmarkCad": 9035.95,
   "benchmarkSet": true,
   "benchmarkSpyUnits": 6.399142948573451,
   "cad": 3000.0,
@@ -5919,11 +5918,11 @@
   "halted": false,
   "lastCongressCheck": "2026-11-20",
   "lastEtfScan": "2026-11-21T11:01:42Z",
-  "lastFuturesScan": "2026-11-22T20:31:47Z",
-  "lastRun": "2026-11-22T20:31:47Z",
+  "lastFuturesScan": "2026-11-22T21:01:50Z",
+  "lastRun": "2026-11-22T21:01:50Z",
   "lastRunBy": "github",
-  "lastRunNote": "US stock market closed today. Bitcoin up 0.3% in 24 hours (risk-off). No trades: nothing scored high enough with a clean setup. Holding 0 positions. Value $9,929.79 vs buy-and-hold $9,024.17.",
-  "lastSaved": "2026-11-22T20:31:47Z",
+  "lastRunNote": "US stock market closed today. Bitcoin up 0.8% in 24 hours (risk-off). No trades: nothing scored high enough with a clean setup. Holding 0 positions. Value $9,929.79 vs buy-and-hold $9,035.95.",
+  "lastSaved": "2026-11-22T21:01:50Z",
   "lastStockScan": "2026-11-20T19:46:44Z",
   "lastTradingDay": "2026-11-20",
   "lastUniverseScan": "2026-11-20T13:01:48Z",
@@ -6542,10 +6541,10 @@
    "exits": [],
    "signals": []
   },
-  "updated": "2026-11-22T20:31:47Z"
+  "updated": "2026-11-22T21:01:50Z"
  },
  "log": [
-  "Run 2026-11-22 WATCH (New York 15:31), stock market closed today",
+  "Run 2026-11-22 WATCH (New York 16:01), stock market closed today",
   "Futures market closed now: no futures trades"
  ],
  "nav": [
@@ -6598,7 +6597,7 @@
    "equityCad": 9929.31
   },
   {
-   "benchmarkCad": 9024.17,
+   "benchmarkCad": 9035.95,
    "cashCad": 9929.79,
    "date": "2026-11-22",
    "equityCad": 9929.79
@@ -6609,7 +6608,7 @@
   "alertState": {},
   "clock": {
    "calendar_known": true,
-   "checkedAt": "2026-11-22T20:31:47Z",
+   "checkedAt": "2026-11-22T21:01:50Z",
    "closes": null,
    "date": "2026-11-22",
    "early_close": null,
