@@ -5588,7 +5588,6 @@
    "idea:XLK:short:20:breakdown": "2026-11-20T14:51:44Z",
    "idea:XLK:short:21:breakdown": "2026-11-19T16:56:55Z",
    "idea:XLY:long:18:pullback": "2026-11-19T14:51:39Z",
-   "macro:futures:short:neutral:2026-11-19T05:31:43.351476": "2026-11-19T05:31:43Z",
    "macro:futures:short:neutral:2026-11-19T07:31:42.317590": "2026-11-19T07:31:42Z",
    "macro:futures:short:neutral:2026-11-19T11:01:41.488161": "2026-11-19T11:01:41Z",
    "macro:futures:short:neutral:2026-11-19T14:01:44.861436": "2026-11-19T14:01:44Z",
@@ -5709,7 +5708,7 @@
  },
  "fund": {
   "benchmarkBtcUnits": 0.03103649722666308,
-  "benchmarkCad": 8960.12,
+  "benchmarkCad": 8950.66,
   "benchmarkSet": true,
   "benchmarkSpyUnits": 6.399142948573451,
   "cad": 3000.0,
@@ -5985,11 +5984,11 @@
   "halted": false,
   "lastCongressCheck": "2026-11-20",
   "lastEtfScan": "2026-11-21T11:01:42Z",
-  "lastFuturesScan": "2026-11-22T05:01:51Z",
-  "lastRun": "2026-11-22T05:01:51Z",
+  "lastFuturesScan": "2026-11-22T05:31:43Z",
+  "lastRun": "2026-11-22T05:31:43Z",
   "lastRunBy": "github",
-  "lastRunNote": "US stock market closed today. Bitcoin up 4.9% in 24 hours (risk-off). No trades: nothing scored high enough with a clean setup. Holding 0 positions. Value $9,929.31 vs buy-and-hold $8,960.12.",
-  "lastSaved": "2026-11-22T05:01:51Z",
+  "lastRunNote": "US stock market closed today. Bitcoin up 5.4% in 24 hours (risk-off). No trades: nothing scored high enough with a clean setup. Holding 0 positions. Value $9,929.31 vs buy-and-hold $8,950.66.",
+  "lastSaved": "2026-11-22T05:31:43Z",
   "lastStockScan": "2026-11-20T19:46:44Z",
   "lastTradingDay": "2026-11-20",
   "lastUniverseScan": "2026-11-20T13:01:48Z",
@@ -6580,7 +6579,7 @@
   },
   {
    "cryptoRegime": "risk-off",
-   "dataCalls": 17,
+   "dataCalls": 15,
    "date": "2026-11-22",
    "liquid": 2258,
    "regime": "risk-off",
@@ -6608,13 +6607,10 @@
    "exits": [],
    "signals": []
   },
-  "updated": "2026-11-22T05:01:51Z"
+  "updated": "2026-11-22T05:31:43Z"
  },
  "log": [
-  "Run 2026-11-22 WATCH (New York 00:01), stock market closed today",
-  "Borrow list unavailable: TimeoutError: timed out",
-  "Borrow data for SPY unavailable (Remote end closed connection without response)",
-  "Data sources: Cboe options 0 rows, borrow list 0 names, CPI dates 13, jobs dates 13, SEC contact set",
+  "Run 2026-11-22 WATCH (New York 00:31), stock market closed today",
   "Futures market closed now: no futures trades"
  ],
  "nav": [
@@ -6667,7 +6663,7 @@
    "equityCad": 9929.31
   },
   {
-   "benchmarkCad": 8960.12,
+   "benchmarkCad": 8950.66,
    "cashCad": 9929.31,
    "date": "2026-11-22",
    "equityCad": 9929.31
@@ -6678,7 +6674,7 @@
   "alertState": {},
   "clock": {
    "calendar_known": true,
-   "checkedAt": "2026-11-22T05:01:51Z",
+   "checkedAt": "2026-11-22T05:31:43Z",
    "closes": null,
    "date": "2026-11-22",
    "early_close": null,
