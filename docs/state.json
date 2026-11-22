@@ -5586,7 +5586,6 @@
    "idea:XLI:short:20:breakdown": "2026-11-20T15:16:39Z",
    "idea:XLK:short:20:breakdown": "2026-11-20T14:51:44Z",
    "idea:XLK:short:21:breakdown": "2026-11-19T16:56:55Z",
-   "idea:XLY:long:18:pullback": "2026-11-19T14:51:39Z",
    "macro:futures:short:neutral:2026-11-19T17:01:44.546800": "2026-11-19T17:01:44Z",
    "macro:futures:short:neutral:2026-11-19T20:01:54.434245": "2026-11-19T20:01:54Z",
    "macro:futures:short:neutral:2026-11-19T20:31:38.466845": "2026-11-19T20:31:38Z",
@@ -5612,7 +5611,6 @@
    "macro:futures:short:risk-off:2026-11-20T19:01:48.589609": "2026-11-20T19:01:48Z",
    "macro:futures:short:risk-off:2026-11-20T22:01:49.985034": "2026-11-20T22:01:49Z",
    "macro:futures:short:risk-off:2026-11-20T22:31:42.130487": "2026-11-20T22:31:42Z",
-   "macro:stocks:long:cautious:2026-11-19T14:51:39.399557": "2026-11-19T14:51:39Z",
    "macro:stocks:long:cautious:2026-11-19T15:01:42.070783": "2026-11-19T15:01:42Z",
    "macro:stocks:long:cautious:2026-11-19T15:16:42.230546": "2026-11-19T15:16:42Z",
    "macro:stocks:long:risk-off:2026-11-20T15:16:39.593336": "2026-11-20T15:16:39Z",
@@ -5658,7 +5656,6 @@
    "nothing:XLI:19": "2026-11-20T18:46:45Z",
    "nothing:XLK:20": "2026-11-19T19:26:47Z",
    "nothing:XLK:21": "2026-11-19T19:06:47Z",
-   "nothing:XLY:18": "2026-11-19T14:51:39Z",
    "scan:stocks:WMT,WM,WELL,XLK:4:8": "2026-11-19T17:06:37Z",
    "scan:stocks:XEL,WELL,WEC,XLK:3:8": "2026-11-19T15:56:44Z",
    "scan:stocks:XEL,WM,WELL,XLK:4:8": "2026-11-19T15:46:37Z",
@@ -5682,10 +5679,8 @@
    "scan:stocks:XLP,XEL,WTW,XLK:0:0": "2026-11-20T14:51:44Z",
    "scan:stocks:XLP,XEL,WTW,XLK:3:0": "2026-11-20T15:01:43Z",
    "scan:stocks:XLP,XEL,WTW,XLK:5:0": "2026-11-20T15:11:43Z",
-   "scan:stocks:XLY,XEL,WM,XLI:0:0": "2026-11-19T14:51:39Z",
    "scan:stocks:XLY,XEL,WMT,XLI:3:2": "2026-11-19T15:01:42Z",
    "scan:stocks:XLY,XEL,WMT,XLI:4:5": "2026-11-19T15:11:48Z",
-   "scan:tsx:TRP.TO,L.TO,IAG.TO": "2026-11-19T14:51:39Z",
    "scan:tsx:TRP.TO,PPL.TO,L.TO": "2026-11-20T14:51:44Z",
    "scan:tsx:TRP.TO,PPL.TO,MRU.TO": "2026-11-20T15:36:45Z",
    "scan:tsx:TRP.TO,REI-UN.TO,PPL.TO": "2026-11-19T19:46:47Z",
@@ -5700,7 +5695,7 @@
  },
  "fund": {
   "benchmarkBtcUnits": 0.03103649722666308,
-  "benchmarkCad": 9024.49,
+  "benchmarkCad": 9036.82,
   "benchmarkSet": true,
   "benchmarkSpyUnits": 6.399142948573451,
   "cad": 3000.0,
@@ -5976,11 +5971,11 @@
   "halted": false,
   "lastCongressCheck": "2026-11-20",
   "lastEtfScan": "2026-11-21T11:01:42Z",
-  "lastFuturesScan": "2026-11-22T14:31:43Z",
-  "lastRun": "2026-11-22T14:31:43Z",
+  "lastFuturesScan": "2026-11-22T15:01:37Z",
+  "lastRun": "2026-11-22T15:01:37Z",
   "lastRunBy": "github",
-  "lastRunNote": "US stock market closed today. Bitcoin up 0.4% in 24 hours (risk-off). No trades: nothing scored high enough with a clean setup. Holding 0 positions. Value $9,928.83 vs buy-and-hold $9,024.49.",
-  "lastSaved": "2026-11-22T14:31:43Z",
+  "lastRunNote": "US stock market closed today. Bitcoin up 1.0% in 24 hours (risk-off). No trades: nothing scored high enough with a clean setup. Holding 0 positions. Value $9,928.83 vs buy-and-hold $9,036.82.",
+  "lastSaved": "2026-11-22T15:01:37Z",
   "lastStockScan": "2026-11-20T19:46:44Z",
   "lastTradingDay": "2026-11-20",
   "lastUniverseScan": "2026-11-20T13:01:48Z",
@@ -6599,10 +6594,10 @@
    "exits": [],
    "signals": []
   },
-  "updated": "2026-11-22T14:31:43Z"
+  "updated": "2026-11-22T15:01:37Z"
  },
  "log": [
-  "Run 2026-11-22 WATCH (New York 09:31), stock market closed today",
+  "Run 2026-11-22 WATCH (New York 10:01), stock market closed today",
   "Futures market closed now: no futures trades"
  ],
  "nav": [
@@ -6655,7 +6650,7 @@
    "equityCad": 9929.31
   },
   {
-   "benchmarkCad": 9024.49,
+   "benchmarkCad": 9036.82,
    "cashCad": 9928.83,
    "date": "2026-11-22",
    "equityCad": 9928.83
@@ -6666,7 +6661,7 @@
   "alertState": {},
   "clock": {
    "calendar_known": true,
-   "checkedAt": "2026-11-22T14:31:43Z",
+   "checkedAt": "2026-11-22T15:01:37Z",
    "closes": null,
    "date": "2026-11-22",
    "early_close": null,
