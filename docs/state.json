@@ -5596,7 +5596,6 @@
    "macro:futures:short:risk-off:2026-11-20T22:01:49.985034": "2026-11-20T22:01:49Z",
    "macro:futures:short:risk-off:2026-11-20T22:31:42.130487": "2026-11-20T22:31:42Z",
    "macro:stocks:long:risk-off:2026-11-20T15:16:39.593336": "2026-11-20T15:16:39Z",
-   "macro:stocks:short:risk-off:2026-11-19T19:26:47.386935": "2026-11-19T19:26:47Z",
    "macro:stocks:short:risk-off:2026-11-20T14:51:44.821280": "2026-11-20T14:51:44Z",
    "macro:stocks:short:risk-off:2026-11-20T15:01:43.984149": "2026-11-20T15:01:43Z",
    "macro:stocks:short:risk-off:2026-11-20T15:11:43.306834": "2026-11-20T15:11:43Z",
@@ -5625,9 +5624,6 @@
    "nothing:UBER:20": "2026-11-20T17:06:35Z",
    "nothing:UBER:21": "2026-11-20T16:56:43Z",
    "nothing:XLI:19": "2026-11-20T18:46:45Z",
-   "nothing:XLK:20": "2026-11-19T19:26:47Z",
-   "nothing:XLK:21": "2026-11-19T19:06:47Z",
-   "scan:stocks:XLP,XEL,WMT,XLK:4:8": "2026-11-19T19:26:47Z",
    "scan:stocks:XLP,XEL,WTW,XLI:6:8": "2026-11-20T19:46:44Z",
    "scan:stocks:XLP,XEL,WTW,XLI:7:6": "2026-11-20T16:26:43Z",
    "scan:stocks:XLP,XEL,WTW,XLI:8:0": "2026-11-20T15:16:39Z",
@@ -5652,7 +5648,7 @@
  },
  "fund": {
   "benchmarkBtcUnits": 0.03103649722666308,
-  "benchmarkCad": 9029.66,
+  "benchmarkCad": 9029.17,
   "benchmarkSet": true,
   "benchmarkSpyUnits": 6.399142948573451,
   "cad": 3000.0,
@@ -5928,11 +5924,11 @@
   "halted": false,
   "lastCongressCheck": "2026-11-20",
   "lastEtfScan": "2026-11-21T11:01:42Z",
-  "lastFuturesScan": "2026-11-22T19:01:42Z",
-  "lastRun": "2026-11-22T19:01:42Z",
+  "lastFuturesScan": "2026-11-22T19:31:44Z",
+  "lastRun": "2026-11-22T19:31:44Z",
   "lastRunBy": "github",
-  "lastRunNote": "US stock market closed today. Bitcoin up 0.7% in 24 hours (risk-off). No trades: nothing scored high enough with a clean setup. Holding 0 positions. Value $9,929.79 vs buy-and-hold $9,029.66.",
-  "lastSaved": "2026-11-22T19:01:42Z",
+  "lastRunNote": "US stock market closed today. Bitcoin up 0.7% in 24 hours (risk-off). No trades: nothing scored high enough with a clean setup. Holding 0 positions. Value $9,929.79 vs buy-and-hold $9,029.17.",
+  "lastSaved": "2026-11-22T19:31:44Z",
   "lastStockScan": "2026-11-20T19:46:44Z",
   "lastTradingDay": "2026-11-20",
   "lastUniverseScan": "2026-11-20T13:01:48Z",
@@ -6551,10 +6547,10 @@
    "exits": [],
    "signals": []
   },
-  "updated": "2026-11-22T19:01:42Z"
+  "updated": "2026-11-22T19:31:44Z"
  },
  "log": [
-  "Run 2026-11-22 WATCH (New York 14:01), stock market closed today",
+  "Run 2026-11-22 WATCH (New York 14:31), stock market closed today",
   "Futures market closed now: no futures trades"
  ],
  "nav": [
@@ -6607,7 +6603,7 @@
    "equityCad": 9929.31
   },
   {
-   "benchmarkCad": 9029.66,
+   "benchmarkCad": 9029.17,
    "cashCad": 9929.79,
    "date": "2026-11-22",
    "equityCad": 9929.79
@@ -6618,7 +6614,7 @@
   "alertState": {},
   "clock": {
    "calendar_known": true,
-   "checkedAt": "2026-11-22T19:01:42Z",
+   "checkedAt": "2026-11-22T19:31:44Z",
    "closes": null,
    "date": "2026-11-22",
    "early_close": null,
