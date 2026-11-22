@@ -2838,28 +2838,10 @@
  },
  "floor": {
   "lastRun": {
-   "at": "2026-11-22T17:31:44Z",
-   "count": 1
+   "at": "2026-11-22T23:31:47Z",
+   "count": 2
   },
   "messages": [
-   {
-    "d": "pm",
-    "k": "decide",
-    "n": 3,
-    "s": "M6E",
-    "t": "2026-11-19T17:01:44Z",
-    "to": "all",
-    "x": "Short M6E scores 75 but no clean setup yet. Waiting."
-   },
-   {
-    "d": "research",
-    "k": "info",
-    "n": 0,
-    "s": "",
-    "t": "2026-11-19T17:06:37Z",
-    "to": "pm",
-    "x": "Stock scan: 87 long and 59 short charts checked, 4 breakouts, 8 breakdowns. Strongest: WMT, WM, WELL, XLK."
-   },
    {
     "d": "research",
     "k": "info",
@@ -5541,18 +5523,36 @@
     "t": "2026-11-22T17:31:44Z",
     "to": "pm",
     "x": "Futures market is closed right now. No futures trades."
+   },
+   {
+    "d": "risk",
+    "k": "check",
+    "n": 0,
+    "s": "",
+    "t": "2026-11-22T23:31:47Z",
+    "to": "research",
+    "x": "Futures that fit the account today: MET, M6E. Too big for one contract: MES, MNQ, MYM, M2K, MGC, SIL, MCL, MBT."
+   },
+   {
+    "d": "pm",
+    "k": "decide",
+    "n": 1,
+    "s": "",
+    "t": "2026-11-22T23:31:47Z",
+    "to": "all",
+    "x": "Nothing good enough this scan. Closest: short M6E at 65, needs 75."
    }
   ],
   "said": {
    "clock:closed:2026-11-20:after the close": "2026-11-20T21:01:04Z",
    "clock:closed:2026-11-20:before the open": "2026-11-20T05:01:36Z",
    "clock:open:2026-11-20": "2026-11-20T14:31:54Z",
-   "futures-closed:2026-11-19": "2026-11-19T23:01:45Z",
    "futures-closed:2026-11-20": "2026-11-20T23:01:44Z",
    "futures-closed:2026-11-21": "2026-11-21T17:01:51Z",
    "futures-closed:2026-11-22": "2026-11-22T17:31:44Z",
    "futures-fit:2026-11-19:MET,M6E": "2026-11-20T01:01:49Z",
    "futures-fit:2026-11-20:MET,M6E": "2026-11-20T05:01:36Z",
+   "futures-fit:2026-11-22:MET,M6E": "2026-11-22T23:31:47Z",
    "idea:M6E:short:17:none": "2026-11-20T21:31:44Z",
    "idea:M6E:short:18:none": "2026-11-20T17:01:47Z",
    "idea:MET:short:16:none": "2026-11-20T22:31:42Z",
@@ -5609,6 +5609,7 @@
    "mood:crypto:risk-off:2026-11-21": "2026-11-21T05:01:42Z",
    "mood:crypto:risk-off:2026-11-22": "2026-11-22T05:01:51Z",
    "mood:stocks:risk-off:2026-11-20": "2026-11-20T05:01:36Z",
+   "nothing:M6E:16": "2026-11-22T23:31:47Z",
    "nothing:M6E:17": "2026-11-20T22:31:42Z",
    "nothing:MET:16": "2026-11-20T04:01:43Z",
    "nothing:MET:19": "2026-11-20T21:31:44Z",
@@ -5641,7 +5642,7 @@
  },
  "fund": {
   "benchmarkBtcUnits": 0.03103649722666308,
-  "benchmarkCad": 9048.63,
+  "benchmarkCad": 9050.64,
   "benchmarkSet": true,
   "benchmarkSpyUnits": 6.399142948573451,
   "cad": 3000.0,
@@ -5651,7 +5652,7 @@
   "earningsKnown": true,
   "entriesThisWeek": 0,
   "entriesToday": 0,
-  "equityCad": 9928.83,
+  "equityCad": 9929.31,
   "focus": {
    "active": [
     "SPY",
@@ -5917,11 +5918,11 @@
   "halted": false,
   "lastCongressCheck": "2026-11-20",
   "lastEtfScan": "2026-11-21T11:01:42Z",
-  "lastFuturesScan": "2026-11-22T23:01:39Z",
-  "lastRun": "2026-11-22T23:01:39Z",
+  "lastFuturesScan": "2026-11-22T23:31:47Z",
+  "lastRun": "2026-11-22T23:31:47Z",
   "lastRunBy": "github",
-  "lastRunNote": "US stock market closed today. Bitcoin up 1.9% in 24 hours (risk-off). No trades: nothing scored high enough with a clean setup. Holding 0 positions. Value $9,928.83 vs buy-and-hold $9,048.63.",
-  "lastSaved": "2026-11-22T23:01:39Z",
+  "lastRunNote": "US stock market closed today. Bitcoin up 1.6% in 24 hours (risk-off). No trades: nothing scored high enough with a clean setup. Holding 0 positions. Value $9,929.31 vs buy-and-hold $9,050.64.",
+  "lastSaved": "2026-11-22T23:31:47Z",
   "lastStockScan": "2026-11-20T19:46:44Z",
   "lastTradingDay": "2026-11-20",
   "lastUniverseScan": "2026-11-20T13:01:48Z",
@@ -5988,7 +5989,7 @@
   },
   "tradingDays": 5,
   "usd": 4832.15361973509,
-  "usdCad": 1.4339,
+  "usdCad": 1.434,
   "weekStart": "2026-11-16",
   "weekStartEquityCad": 9897.9
  },
@@ -6511,13 +6512,26 @@
    "universe": 6224
   },
   {
+   "blocked": [],
    "cryptoRegime": "risk-off",
-   "dataCalls": 15,
+   "dataCalls": 18,
    "date": "2026-11-22",
    "liquid": 2258,
    "regime": "risk-off",
    "screened": 6223,
    "summary": "",
+   "topCandidates": [
+    {
+     "score": 65,
+     "symbol": "SHORT M6E",
+     "verdict": "65/100, below the 75 needed"
+    },
+    {
+     "score": 62,
+     "symbol": "SHORT MET",
+     "verdict": "62/100, below the 70 needed"
+    }
+   ],
    "universe": 6224
   }
  ],
@@ -6540,11 +6554,10 @@
    "exits": [],
    "signals": []
   },
-  "updated": "2026-11-22T23:01:39Z"
+  "updated": "2026-11-22T23:31:47Z"
  },
  "log": [
-  "Run 2026-11-22 WATCH (New York 18:01), stock market closed today",
-  "Futures market closed now: no futures trades"
+  "Run 2026-11-22 WATCH (New York 18:31), stock market closed today"
  ],
  "nav": [
   {
@@ -6596,10 +6609,10 @@
    "equityCad": 9929.31
   },
   {
-   "benchmarkCad": 9048.63,
-   "cashCad": 9928.83,
+   "benchmarkCad": 9050.64,
+   "cashCad": 9929.31,
    "date": "2026-11-22",
-   "equityCad": 9928.83
+   "equityCad": 9929.31
   }
  ],
  "pack": {
@@ -6607,7 +6620,7 @@
   "alertState": {},
   "clock": {
    "calendar_known": true,
-   "checkedAt": "2026-11-22T23:01:39Z",
+   "checkedAt": "2026-11-22T23:31:47Z",
    "closes": null,
    "date": "2026-11-22",
    "early_close": null,
