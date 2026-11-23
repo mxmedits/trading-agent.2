@@ -2838,19 +2838,10 @@
  },
  "floor": {
   "lastRun": {
-   "at": "2026-11-22T23:31:47Z",
-   "count": 2
+   "at": "2026-11-23T00:01:40Z",
+   "count": 1
   },
   "messages": [
-   {
-    "d": "research",
-    "k": "info",
-    "n": 1,
-    "s": "",
-    "t": "2026-11-19T17:06:37Z",
-    "to": "pm",
-    "x": "TSX scan: 79 Canadian charts checked. Strongest: WN.TO, TRP.TO, STN.TO."
-   },
    {
     "d": "research",
     "k": "idea",
@@ -5541,6 +5532,15 @@
     "t": "2026-11-22T23:31:47Z",
     "to": "all",
     "x": "Nothing good enough this scan. Closest: short M6E at 65, needs 75."
+   },
+   {
+    "d": "pm",
+    "k": "decide",
+    "n": 0,
+    "s": "",
+    "t": "2026-11-23T00:01:40Z",
+    "to": "all",
+    "x": "Nothing good enough this scan. Closest: short MET at 62, needs 70."
    }
   ],
   "said": {
@@ -5611,6 +5611,7 @@
    "mood:stocks:risk-off:2026-11-20": "2026-11-20T05:01:36Z",
    "nothing:M6E:16": "2026-11-22T23:31:47Z",
    "nothing:M6E:17": "2026-11-20T22:31:42Z",
+   "nothing:MET:15": "2026-11-23T00:01:40Z",
    "nothing:MET:16": "2026-11-20T04:01:43Z",
    "nothing:MET:19": "2026-11-20T21:31:44Z",
    "nothing:MU:21": "2026-11-20T15:46:36Z",
@@ -5642,7 +5643,7 @@
  },
  "fund": {
   "benchmarkBtcUnits": 0.03103649722666308,
-  "benchmarkCad": 9050.64,
+  "benchmarkCad": 9047.5,
   "benchmarkSet": true,
   "benchmarkSpyUnits": 6.399142948573451,
   "cad": 3000.0,
@@ -5652,7 +5653,7 @@
   "earningsKnown": true,
   "entriesThisWeek": 0,
   "entriesToday": 0,
-  "equityCad": 9929.31,
+  "equityCad": 9928.34,
   "focus": {
    "active": [
     "SPY",
@@ -5918,11 +5919,11 @@
   "halted": false,
   "lastCongressCheck": "2026-11-20",
   "lastEtfScan": "2026-11-21T11:01:42Z",
-  "lastFuturesScan": "2026-11-22T23:31:47Z",
-  "lastRun": "2026-11-22T23:31:47Z",
+  "lastFuturesScan": "2026-11-23T00:01:40Z",
+  "lastRun": "2026-11-23T00:01:40Z",
   "lastRunBy": "github",
-  "lastRunNote": "US stock market closed today. Bitcoin up 1.6% in 24 hours (risk-off). No trades: nothing scored high enough with a clean setup. Holding 0 positions. Value $9,929.31 vs buy-and-hold $9,050.64.",
-  "lastSaved": "2026-11-22T23:31:47Z",
+  "lastRunNote": "US stock market closed today. Bitcoin up 1.7% in 24 hours (risk-off). No trades: nothing scored high enough with a clean setup. Holding 0 positions. Value $9,928.34 vs buy-and-hold $9,047.50.",
+  "lastSaved": "2026-11-23T00:01:40Z",
   "lastStockScan": "2026-11-20T19:46:44Z",
   "lastTradingDay": "2026-11-20",
   "lastUniverseScan": "2026-11-20T13:01:48Z",
@@ -5989,7 +5990,7 @@
   },
   "tradingDays": 5,
   "usd": 4832.15361973509,
-  "usdCad": 1.434,
+  "usdCad": 1.4338,
   "weekStart": "2026-11-16",
   "weekStartEquityCad": 9897.9
  },
@@ -6522,14 +6523,14 @@
    "summary": "",
    "topCandidates": [
     {
-     "score": 65,
-     "symbol": "SHORT M6E",
-     "verdict": "65/100, below the 75 needed"
-    },
-    {
      "score": 62,
      "symbol": "SHORT MET",
      "verdict": "62/100, below the 70 needed"
+    },
+    {
+     "score": 60,
+     "symbol": "SHORT M6E",
+     "verdict": "60/100, below the 75 needed"
     }
    ],
    "universe": 6224
@@ -6554,10 +6555,10 @@
    "exits": [],
    "signals": []
   },
-  "updated": "2026-11-22T23:31:47Z"
+  "updated": "2026-11-23T00:01:40Z"
  },
  "log": [
-  "Run 2026-11-22 WATCH (New York 18:31), stock market closed today"
+  "Run 2026-11-22 WATCH (New York 19:01), stock market closed today"
  ],
  "nav": [
   {
@@ -6609,10 +6610,10 @@
    "equityCad": 9929.31
   },
   {
-   "benchmarkCad": 9050.64,
-   "cashCad": 9929.31,
+   "benchmarkCad": 9047.5,
+   "cashCad": 9928.34,
    "date": "2026-11-22",
-   "equityCad": 9929.31
+   "equityCad": 9928.34
   }
  ],
  "pack": {
@@ -6620,7 +6621,7 @@
   "alertState": {},
   "clock": {
    "calendar_known": true,
-   "checkedAt": "2026-11-22T23:31:47Z",
+   "checkedAt": "2026-11-23T00:01:40Z",
    "closes": null,
    "date": "2026-11-22",
    "early_close": null,
