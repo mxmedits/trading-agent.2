@@ -2860,19 +2860,10 @@
  },
  "floor": {
   "lastRun": {
-   "at": "2026-11-23T16:16:42Z",
+   "at": "2026-11-23T16:26:46Z",
    "count": 1
   },
   "messages": [
-   {
-    "d": "pm",
-    "k": "decide",
-    "n": 10,
-    "s": "",
-    "t": "2026-11-20T12:31:34Z",
-    "to": "all",
-    "x": "Nothing good enough this scan. Closest: short MET at 77, needs 70."
-   },
    {
     "d": "research",
     "k": "info",
@@ -5563,6 +5554,15 @@
     "t": "2026-11-23T16:16:42Z",
     "to": "pm",
     "x": "Stock scan: 89 long and 67 short charts checked, 7 breakouts, 1 breakdown. Strongest: XLP, XEL, WTW, WFC."
+   },
+   {
+    "d": "research",
+    "k": "info",
+    "n": 0,
+    "s": "",
+    "t": "2026-11-23T16:26:46Z",
+    "to": "pm",
+    "x": "Stock scan: 89 long and 67 short charts checked, 8 breakouts, 1 breakdown. Strongest: XLP, XEL, WTW, WFC."
    }
   ],
   "said": {
@@ -5610,7 +5610,6 @@
    "macro:futures:short:risk-off:2026-11-23T09:31:39.673640": "2026-11-23T09:31:39Z",
    "macro:futures:short:risk-off:2026-11-23T12:31:41.125787": "2026-11-23T12:31:41Z",
    "macro:futures:short:risk-off:2026-11-23T14:31:37.044270": "2026-11-23T14:31:37Z",
-   "macro:stocks:short:risk-off:2026-11-20T16:26:43.232773": "2026-11-20T16:26:43Z",
    "macro:stocks:short:risk-off:2026-11-20T16:56:43.454040": "2026-11-20T16:56:43Z",
    "macro:stocks:short:risk-off:2026-11-20T17:06:35.606478": "2026-11-20T17:06:35Z",
    "macro:stocks:short:risk-off:2026-11-20T17:36:45.133660": "2026-11-20T17:36:45Z",
@@ -5643,13 +5642,12 @@
    "scan:stocks:XLP,XEL,WTW,WFC:5:0": "2026-11-23T15:26:53Z",
    "scan:stocks:XLP,XEL,WTW,WFC:7:0": "2026-11-23T15:36:45Z",
    "scan:stocks:XLP,XEL,WTW,WFC:7:1": "2026-11-23T16:16:42Z",
+   "scan:stocks:XLP,XEL,WTW,WFC:8:1": "2026-11-23T16:26:46Z",
    "scan:stocks:XLP,XEL,WTW,WFC:9:0": "2026-11-23T15:56:35Z",
    "scan:stocks:XLP,XEL,WTW,WFC:9:1": "2026-11-23T16:06:44Z",
    "scan:stocks:XLP,XEL,WTW,XLI:6:8": "2026-11-20T19:46:44Z",
-   "scan:stocks:XLP,XEL,WTW,XLI:7:6": "2026-11-20T16:26:43Z",
    "scan:stocks:XLP,XEL,WTW,XLI:8:6": "2026-11-20T16:46:41Z",
    "scan:stocks:XLP,XEL,WTW,XLI:8:8": "2026-11-20T19:36:52Z",
-   "scan:stocks:XLP,XEL,WTW,XLI:9:7": "2026-11-20T16:16:59Z",
    "scan:stocks:XLP,XEL,WTW,XLI:9:8": "2026-11-20T18:26:37Z",
    "scan:tsx:TRP.TO,H.TO,GWO.TO": "2026-11-23T14:51:42Z",
    "scan:tsx:TRP.TO,L.TO,IFC.TO": "2026-11-23T15:01:43Z",
@@ -5664,7 +5662,7 @@
  },
  "fund": {
   "benchmarkBtcUnits": 0.03103649722666308,
-  "benchmarkCad": 9445.06,
+  "benchmarkCad": 9455.75,
   "benchmarkSet": true,
   "benchmarkSpyUnits": 6.399142948573451,
   "cad": 3000.0,
@@ -5674,7 +5672,7 @@
   "earningsKnown": true,
   "entriesThisWeek": 0,
   "entriesToday": 0,
-  "equityCad": 9945.25,
+  "equityCad": 9944.77,
   "focus": {
    "active": [
     "SPY",
@@ -5950,11 +5948,11 @@
   "lastCongressCheck": "2026-11-23",
   "lastEtfScan": "2026-11-21T11:01:42Z",
   "lastFuturesScan": "2026-11-23T16:01:49Z",
-  "lastRun": "2026-11-23T16:16:42Z",
+  "lastRun": "2026-11-23T16:26:46Z",
   "lastRunBy": "github",
-  "lastRunNote": "The S&P 500 fund was up 4.9% today; market mood risk-off. Bitcoin up 2.7% in 24 hours (risk-off). No trades: nothing scored high enough with a clean setup. Holding 0 positions. Value $9,945.25 vs buy-and-hold $9,445.06.",
-  "lastSaved": "2026-11-23T16:16:42Z",
-  "lastStockScan": "2026-11-23T16:16:42Z",
+  "lastRunNote": "The S&P 500 fund was up 5.0% today; market mood risk-off. Bitcoin up 2.5% in 24 hours (risk-off). No trades: nothing scored high enough with a clean setup. Holding 0 positions. Value $9,944.77 vs buy-and-hold $9,455.75.",
+  "lastSaved": "2026-11-23T16:26:46Z",
+  "lastStockScan": "2026-11-23T16:26:46Z",
   "lastTradingDay": "2026-11-20",
   "lastUniverseScan": "2026-11-23T13:01:44Z",
   "maxDrawdownPct": 1.06,
@@ -6020,7 +6018,7 @@
   },
   "tradingDays": 5,
   "usd": 4832.15361973509,
-  "usdCad": 1.4373,
+  "usdCad": 1.4372,
   "weekStart": "2026-11-23",
   "weekStartEquityCad": 9923.99
  },
@@ -6636,11 +6634,6 @@
     },
     {
      "score": 61,
-     "symbol": "LONG WMT",
-     "verdict": "61/100, below the 80 needed"
-    },
-    {
-     "score": 61,
      "symbol": "LONG VBIL",
      "verdict": "61/100, below the 80 needed"
     },
@@ -6652,6 +6645,11 @@
     {
      "score": 56,
      "symbol": "LONG XEL",
+     "verdict": "56/100, below the 80 needed"
+    },
+    {
+     "score": 56,
+     "symbol": "LONG WMT",
      "verdict": "56/100, below the 80 needed"
     },
     {
@@ -6682,11 +6680,11 @@
    "exits": [],
    "signals": []
   },
-  "updated": "2026-11-23T16:16:42Z"
+  "updated": "2026-11-23T16:26:46Z"
  },
  "log": [
-  "Run 2026-11-23 WATCH (New York 11:16), stock market open day",
-  "Stock scan: 89 long and 67 short ideas pre-screened; 7 breakouts, 1 breakdowns",
+  "Run 2026-11-23 WATCH (New York 11:26), stock market open day",
+  "Stock scan: 89 long and 67 short ideas pre-screened; 8 breakouts, 1 breakdowns",
   "News model loaded"
  ],
  "nav": [
@@ -6745,10 +6743,10 @@
    "equityCad": 9923.99
   },
   {
-   "benchmarkCad": 9445.06,
-   "cashCad": 9945.25,
+   "benchmarkCad": 9455.75,
+   "cashCad": 9944.77,
    "date": "2026-11-23",
-   "equityCad": 9945.25
+   "equityCad": 9944.77
   }
  ],
  "pack": {
@@ -6756,7 +6754,7 @@
   "alertState": {},
   "clock": {
    "calendar_known": true,
-   "checkedAt": "2026-11-23T16:16:42Z",
+   "checkedAt": "2026-11-23T16:26:46Z",
    "closes": "16:00",
    "date": "2026-11-23",
    "early_close": null,
