@@ -2838,19 +2838,10 @@
  },
  "floor": {
   "lastRun": {
-   "at": "2026-11-23T00:01:40Z",
+   "at": "2026-11-23T02:00:27Z",
    "count": 1
   },
   "messages": [
-   {
-    "d": "research",
-    "k": "idea",
-    "n": 2,
-    "s": "ORCL",
-    "t": "2026-11-19T17:06:37Z",
-    "to": "pm",
-    "x": "Short ORCL: fell below its opening range, chart 25/30."
-   },
    {
     "d": "news",
     "k": "vote",
@@ -5541,6 +5532,15 @@
     "t": "2026-11-23T00:01:40Z",
     "to": "all",
     "x": "Nothing good enough this scan. Closest: short MET at 62, needs 70."
+   },
+   {
+    "d": "pm",
+    "k": "decide",
+    "n": 0,
+    "s": "",
+    "t": "2026-11-23T02:00:27Z",
+    "to": "all",
+    "x": "Nothing good enough this scan. Closest: short M6E at 65, needs 75."
    }
   ],
   "said": {
@@ -5607,7 +5607,7 @@
    "mood:crypto:risk-off:2026-11-21": "2026-11-21T05:01:42Z",
    "mood:crypto:risk-off:2026-11-22": "2026-11-22T05:01:51Z",
    "mood:stocks:risk-off:2026-11-20": "2026-11-20T05:01:36Z",
-   "nothing:M6E:16": "2026-11-22T23:31:47Z",
+   "nothing:M6E:16": "2026-11-23T02:00:27Z",
    "nothing:M6E:17": "2026-11-20T22:31:42Z",
    "nothing:MET:15": "2026-11-23T00:01:40Z",
    "nothing:MET:16": "2026-11-20T04:01:43Z",
@@ -5641,7 +5641,7 @@
  },
  "fund": {
   "benchmarkBtcUnits": 0.03103649722666308,
-  "benchmarkCad": 9044.02,
+  "benchmarkCad": 9028.84,
   "benchmarkSet": true,
   "benchmarkSpyUnits": 6.399142948573451,
   "cad": 3000.0,
@@ -5651,7 +5651,7 @@
   "earningsKnown": true,
   "entriesThisWeek": 0,
   "entriesToday": 0,
-  "equityCad": 9924.96,
+  "equityCad": 9925.93,
   "focus": {
    "active": [
     "SPY",
@@ -5917,11 +5917,11 @@
   "halted": false,
   "lastCongressCheck": "2026-11-20",
   "lastEtfScan": "2026-11-21T11:01:42Z",
-  "lastFuturesScan": "2026-11-23T01:31:43Z",
-  "lastRun": "2026-11-23T01:31:43Z",
+  "lastFuturesScan": "2026-11-23T02:00:27Z",
+  "lastRun": "2026-11-23T02:00:27Z",
   "lastRunBy": "github",
-  "lastRunNote": "US stock market closed today. Bitcoin up 1.9% in 24 hours (risk-off). No trades: nothing scored high enough with a clean setup. Holding 0 positions. Value $9,924.96 vs buy-and-hold $9,044.02.",
-  "lastSaved": "2026-11-23T01:31:43Z",
+  "lastRunNote": "US stock market closed today. Bitcoin up 1.2% in 24 hours (risk-off). No trades: nothing scored high enough with a clean setup. Holding 0 positions. Value $9,925.93 vs buy-and-hold $9,028.84.",
+  "lastSaved": "2026-11-23T02:00:27Z",
   "lastStockScan": "2026-11-20T19:46:44Z",
   "lastTradingDay": "2026-11-20",
   "lastUniverseScan": "2026-11-20T13:01:48Z",
@@ -5988,7 +5988,7 @@
   },
   "tradingDays": 5,
   "usd": 4832.15361973509,
-  "usdCad": 1.4331,
+  "usdCad": 1.4333,
   "weekStart": "2026-11-16",
   "weekStartEquityCad": 9897.9
  },
@@ -6553,10 +6553,10 @@
    "exits": [],
    "signals": []
   },
-  "updated": "2026-11-23T01:31:43Z"
+  "updated": "2026-11-23T02:00:27Z"
  },
  "log": [
-  "Run 2026-11-22 WATCH (New York 20:31), stock market closed today"
+  "Run 2026-11-22 WATCH (New York 21:00), stock market closed today"
  ],
  "nav": [
   {
@@ -6608,10 +6608,10 @@
    "equityCad": 9929.31
   },
   {
-   "benchmarkCad": 9044.02,
-   "cashCad": 9924.96,
+   "benchmarkCad": 9028.84,
+   "cashCad": 9925.93,
    "date": "2026-11-22",
-   "equityCad": 9924.96
+   "equityCad": 9925.93
   }
  ],
  "pack": {
@@ -6619,7 +6619,7 @@
   "alertState": {},
   "clock": {
    "calendar_known": true,
-   "checkedAt": "2026-11-23T01:31:43Z",
+   "checkedAt": "2026-11-23T02:00:27Z",
    "closes": null,
    "date": "2026-11-22",
    "early_close": null,
