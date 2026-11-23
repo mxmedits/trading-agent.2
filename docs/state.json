@@ -2860,19 +2860,10 @@
  },
  "floor": {
   "lastRun": {
-   "at": "2026-11-23T19:06:45Z",
-   "count": 5
+   "at": "2026-11-23T19:26:38Z",
+   "count": 1
   },
   "messages": [
-   {
-    "d": "research",
-    "k": "idea",
-    "n": 1,
-    "s": "PLTR",
-    "t": "2026-11-20T15:01:43Z",
-    "to": "pm",
-    "x": "Short PLTR: new 20-day low on heavy volume, chart 30/30."
-   },
    {
     "d": "news",
     "k": "vote",
@@ -5563,6 +5554,15 @@
     "t": "2026-11-23T19:06:45Z",
     "to": "all",
     "x": "Short BKNG scores 65, needs 70. Pass."
+   },
+   {
+    "d": "research",
+    "k": "info",
+    "n": 0,
+    "s": "",
+    "t": "2026-11-23T19:26:38Z",
+    "to": "pm",
+    "x": "Stock scan: 89 long and 67 short charts checked, 7 breakouts, 1 breakdown. Strongest: XLP, XEL, WTW, WFC."
    }
   ],
   "said": {
@@ -5632,7 +5632,7 @@
    "scan:stocks:XLP,XEL,WTW,WFC:2:0": "2026-11-23T14:51:42Z",
    "scan:stocks:XLP,XEL,WTW,WFC:5:0": "2026-11-23T15:26:53Z",
    "scan:stocks:XLP,XEL,WTW,WFC:7:0": "2026-11-23T15:36:45Z",
-   "scan:stocks:XLP,XEL,WTW,WFC:7:1": "2026-11-23T16:16:42Z",
+   "scan:stocks:XLP,XEL,WTW,WFC:7:1": "2026-11-23T19:26:38Z",
    "scan:stocks:XLP,XEL,WTW,WFC:8:1": "2026-11-23T18:56:45Z",
    "scan:stocks:XLP,XEL,WTW,WFC:9:0": "2026-11-23T15:56:35Z",
    "scan:stocks:XLP,XEL,WTW,WFC:9:1": "2026-11-23T18:16:35Z",
@@ -5644,7 +5644,6 @@
    "scan:tsx:TRP.TO,SAP.TO,L.TO": "2026-11-23T15:36:45Z",
    "scan:tsx:WN.TO,SAP.TO,REI-UN.TO": "2026-11-23T18:36:47Z",
    "scan:tsx:WN.TO,TRP.TO,L.TO": "2026-11-23T17:26:37Z",
-   "scan:tsx:WN.TO,TRP.TO,REI-UN.TO": "2026-11-20T19:16:52Z",
    "scan:tsx:WN.TO,TRP.TO,SAP.TO": "2026-11-23T17:36:38Z",
    "sources:2026-11-21": "2026-11-21T05:01:42Z",
    "sources:2026-11-22": "2026-11-22T05:01:51Z",
@@ -5653,7 +5652,7 @@
  },
  "fund": {
   "benchmarkBtcUnits": 0.03103649722666308,
-  "benchmarkCad": 9403.2,
+  "benchmarkCad": 9395.68,
   "benchmarkSet": true,
   "benchmarkSpyUnits": 6.399142948573451,
   "cad": 3000.0,
@@ -5939,11 +5938,11 @@
   "lastCongressCheck": "2026-11-23",
   "lastEtfScan": "2026-11-21T11:01:42Z",
   "lastFuturesScan": "2026-11-23T19:01:34Z",
-  "lastRun": "2026-11-23T19:16:44Z",
+  "lastRun": "2026-11-23T19:26:38Z",
   "lastRunBy": "github",
-  "lastRunNote": "The S&P 500 fund was up 4.9% today; market mood risk-off. Bitcoin up 1.6% in 24 hours (risk-off). No trades: nothing scored high enough with a clean setup. Holding 0 positions. Value $9,944.29 vs buy-and-hold $9,403.20.",
-  "lastSaved": "2026-11-23T19:16:44Z",
-  "lastStockScan": "2026-11-23T19:16:44Z",
+  "lastRunNote": "The S&P 500 fund was up 4.9% today; market mood risk-off. Bitcoin up 1.3% in 24 hours (risk-off). No trades: nothing scored high enough with a clean setup. Holding 0 positions. Value $9,944.29 vs buy-and-hold $9,395.68.",
+  "lastSaved": "2026-11-23T19:26:38Z",
+  "lastStockScan": "2026-11-23T19:26:38Z",
   "lastTradingDay": "2026-11-20",
   "lastUniverseScan": "2026-11-23T13:01:44Z",
   "maxDrawdownPct": 1.06,
@@ -6614,11 +6613,6 @@
      "verdict": "72/100, no clean setup yet"
     },
     {
-     "score": 69,
-     "symbol": "LONG WMT",
-     "verdict": "69/100, below the 80 needed"
-    },
-    {
      "score": 65,
      "symbol": "SHORT BKNG",
      "verdict": "65/100, below the 70 needed"
@@ -6627,6 +6621,11 @@
      "score": 62,
      "symbol": "SHORT WFC",
      "verdict": "62/100, below the 70 needed"
+    },
+    {
+     "score": 56,
+     "symbol": "LONG USFD",
+     "verdict": "56/100, below the 80 needed"
     },
     {
      "score": 56,
@@ -6671,11 +6670,11 @@
    "exits": [],
    "signals": []
   },
-  "updated": "2026-11-23T19:16:44Z"
+  "updated": "2026-11-23T19:26:38Z"
  },
  "log": [
-  "Run 2026-11-23 WATCH (New York 14:16), stock market open day",
-  "Stock scan: 89 long and 67 short ideas pre-screened; 8 breakouts, 1 breakdowns",
+  "Run 2026-11-23 WATCH (New York 14:26), stock market open day",
+  "Stock scan: 89 long and 67 short ideas pre-screened; 7 breakouts, 1 breakdowns",
   "News model loaded"
  ],
  "nav": [
@@ -6734,7 +6733,7 @@
    "equityCad": 9923.99
   },
   {
-   "benchmarkCad": 9403.2,
+   "benchmarkCad": 9395.68,
    "cashCad": 9944.29,
    "date": "2026-11-23",
    "equityCad": 9944.29
@@ -6745,7 +6744,7 @@
   "alertState": {},
   "clock": {
    "calendar_known": true,
-   "checkedAt": "2026-11-23T19:16:44Z",
+   "checkedAt": "2026-11-23T19:26:38Z",
    "closes": "16:00",
    "date": "2026-11-23",
    "early_close": null,
