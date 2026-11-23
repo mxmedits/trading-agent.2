@@ -5647,7 +5647,7 @@
  },
  "fund": {
   "benchmarkBtcUnits": 0.03103649722666308,
-  "benchmarkCad": 9064.28,
+  "benchmarkCad": 9063.87,
   "benchmarkSet": true,
   "benchmarkSpyUnits": 6.399142948573451,
   "cad": 3000.0,
@@ -5657,7 +5657,7 @@
   "earningsKnown": true,
   "entriesThisWeek": 0,
   "entriesToday": 0,
-  "equityCad": 9936.07,
+  "equityCad": 9938.97,
   "focus": {
    "active": [
     "SPY",
@@ -5932,11 +5932,11 @@
   "halted": false,
   "lastCongressCheck": "2026-11-20",
   "lastEtfScan": "2026-11-21T11:01:42Z",
-  "lastFuturesScan": "2026-11-23T13:01:44Z",
-  "lastRun": "2026-11-23T13:01:44Z",
+  "lastFuturesScan": "2026-11-23T13:31:38Z",
+  "lastRun": "2026-11-23T13:31:38Z",
   "lastRunBy": "github",
-  "lastRunNote": "The S&P 500 fund was up 0.0% today; market mood risk-off. Bitcoin up 1.0% in 24 hours (risk-off). No trades: SHORT MET came closest but failed daily loss limit, time machine favourable. Holding 0 positions. Value $9,936.07 vs buy-and-hold $",
-  "lastSaved": "2026-11-23T13:01:44Z",
+  "lastRunNote": "The S&P 500 fund was up 0.0% today; market mood risk-off. Bitcoin up 0.7% in 24 hours (risk-off). No trades: SHORT MET came closest but failed daily loss limit, time machine favourable. Holding 0 positions. Value $9,938.97 vs buy-and-hold $",
+  "lastSaved": "2026-11-23T13:31:38Z",
   "lastStockScan": "2026-11-20T19:46:44Z",
   "lastTradingDay": "2026-11-20",
   "lastUniverseScan": "2026-11-23T13:01:44Z",
@@ -6003,7 +6003,7 @@
   },
   "tradingDays": 5,
   "usd": 4832.15361973509,
-  "usdCad": 1.4354,
+  "usdCad": 1.436,
   "weekStart": "2026-11-23",
   "weekStartEquityCad": 9923.99
  },
@@ -6559,7 +6559,7 @@
     }
    ],
    "cryptoRegime": "risk-off",
-   "dataCalls": 330,
+   "dataCalls": 18,
    "date": "2026-11-23",
    "liquid": 2313,
    "regime": "risk-off",
@@ -6599,11 +6599,10 @@
    "exits": [],
    "signals": []
   },
-  "updated": "2026-11-23T13:01:44Z"
+  "updated": "2026-11-23T13:31:38Z"
  },
  "log": [
-  "Run 2026-11-23 WATCH (New York 08:01), stock market open day",
-  "Market screen: 6223 of 6224 charts read, 2313 liquid, focus 60 long / 40 short ideas (122s)",
+  "Run 2026-11-23 WATCH (New York 08:31), stock market open day",
   "BLOCK SHORT MET: Daily loss limit, Time machine favourable"
  ],
  "nav": [
@@ -6662,10 +6661,10 @@
    "equityCad": 9923.99
   },
   {
-   "benchmarkCad": 9064.28,
-   "cashCad": 9936.07,
+   "benchmarkCad": 9063.87,
+   "cashCad": 9938.97,
    "date": "2026-11-23",
-   "equityCad": 9936.07
+   "equityCad": 9938.97
   }
  ],
  "pack": {
@@ -6673,7 +6672,7 @@
   "alertState": {},
   "clock": {
    "calendar_known": true,
-   "checkedAt": "2026-11-23T13:01:44Z",
+   "checkedAt": "2026-11-23T13:31:38Z",
    "closes": "16:00",
    "date": "2026-11-23",
    "early_close": null,
