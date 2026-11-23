@@ -5657,7 +5657,7 @@
  },
  "fund": {
   "benchmarkBtcUnits": 0.03103649722666308,
-  "benchmarkCad": 9402.82,
+  "benchmarkCad": 9396.49,
   "benchmarkSet": true,
   "benchmarkSpyUnits": 6.399142948573451,
   "cad": 3000.0,
@@ -5667,7 +5667,7 @@
   "earningsKnown": true,
   "entriesThisWeek": 0,
   "entriesToday": 0,
-  "equityCad": 9947.67,
+  "equityCad": 9949.12,
   "focus": {
    "active": [
     "SPY",
@@ -5943,11 +5943,11 @@
   "lastCongressCheck": "2026-11-23",
   "lastEtfScan": "2026-11-21T11:01:42Z",
   "lastFuturesScan": "2026-11-23T18:01:43Z",
-  "lastRun": "2026-11-23T18:01:43Z",
+  "lastRun": "2026-11-23T18:06:50Z",
   "lastRunBy": "github",
-  "lastRunNote": "The S&P 500 fund was up 4.8% today; market mood risk-off. Bitcoin up 1.4% in 24 hours (risk-off). No trades: SHORT MET came closest but failed daily loss limit, time machine favourable. Holding 0 positions. Value $9,947.67 vs buy-and-hold $",
-  "lastSaved": "2026-11-23T18:01:43Z",
-  "lastStockScan": "2026-11-23T17:56:42Z",
+  "lastRunNote": "The S&P 500 fund was up 4.8% today; market mood risk-off. Bitcoin up 1.5% in 24 hours (risk-off). No trades: nothing scored high enough with a clean setup. Holding 0 positions. Value $9,949.12 vs buy-and-hold $9,396.49.",
+  "lastSaved": "2026-11-23T18:06:50Z",
+  "lastStockScan": "2026-11-23T18:06:50Z",
   "lastTradingDay": "2026-11-20",
   "lastUniverseScan": "2026-11-23T13:01:44Z",
   "maxDrawdownPct": 1.06,
@@ -6013,7 +6013,7 @@
   },
   "tradingDays": 5,
   "usd": 4832.15361973509,
-  "usdCad": 1.4378,
+  "usdCad": 1.4381,
   "weekStart": "2026-11-23",
   "weekStartEquityCad": 9923.99
  },
@@ -6603,17 +6603,9 @@
    "universe": 6224
   },
   {
-   "blocked": [
-    {
-     "failed": [
-      "Daily loss limit",
-      "Time machine favourable"
-     ],
-     "symbol": "SHORT MET"
-    }
-   ],
+   "blocked": [],
    "cryptoRegime": "risk-off",
-   "dataCalls": 18,
+   "dataCalls": 48,
    "date": "2026-11-23",
    "liquid": 2313,
    "regime": "risk-off",
@@ -6622,13 +6614,43 @@
    "topCandidates": [
     {
      "score": 77,
-     "symbol": "SHORT MET",
-     "verdict": "77/100, new 20-day low on heavy volume"
+     "symbol": "SHORT KRE",
+     "verdict": "77/100, no clean setup yet"
     },
     {
-     "score": 70,
-     "symbol": "SHORT M6E",
-     "verdict": "70/100, below the 75 needed"
+     "score": 66,
+     "symbol": "LONG WMT",
+     "verdict": "66/100, below the 80 needed"
+    },
+    {
+     "score": 65,
+     "symbol": "SHORT BKNG",
+     "verdict": "65/100, below the 70 needed"
+    },
+    {
+     "score": 62,
+     "symbol": "SHORT WFC",
+     "verdict": "62/100, below the 70 needed"
+    },
+    {
+     "score": 56,
+     "symbol": "LONG XLP",
+     "verdict": "56/100, below the 80 needed"
+    },
+    {
+     "score": 56,
+     "symbol": "LONG XEL",
+     "verdict": "56/100, below the 80 needed"
+    },
+    {
+     "score": 56,
+     "symbol": "LONG VBIL",
+     "verdict": "56/100, below the 80 needed"
+    },
+    {
+     "score": 56,
+     "symbol": "LONG WN.TO",
+     "verdict": "56/100, below the 80 needed"
     }
    ],
    "universe": 6224
@@ -6653,11 +6675,12 @@
    "exits": [],
    "signals": []
   },
-  "updated": "2026-11-23T18:01:43Z"
+  "updated": "2026-11-23T18:06:50Z"
  },
  "log": [
-  "Run 2026-11-23 WATCH (New York 13:01), stock market open day",
-  "BLOCK SHORT MET: Daily loss limit, Time machine favourable"
+  "Run 2026-11-23 WATCH (New York 13:06), stock market open day",
+  "Stock scan: 89 long and 67 short ideas pre-screened; 8 breakouts, 1 breakdowns",
+  "News model loaded"
  ],
  "nav": [
   {
@@ -6715,10 +6738,10 @@
    "equityCad": 9923.99
   },
   {
-   "benchmarkCad": 9402.82,
-   "cashCad": 9947.67,
+   "benchmarkCad": 9396.49,
+   "cashCad": 9949.12,
    "date": "2026-11-23",
-   "equityCad": 9947.67
+   "equityCad": 9949.12
   }
  ],
  "pack": {
@@ -6726,7 +6749,7 @@
   "alertState": {},
   "clock": {
    "calendar_known": true,
-   "checkedAt": "2026-11-23T18:01:43Z",
+   "checkedAt": "2026-11-23T18:06:50Z",
    "closes": "16:00",
    "date": "2026-11-23",
    "early_close": null,
