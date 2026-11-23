@@ -5550,7 +5550,6 @@
    "futures-closed:2026-11-20": "2026-11-20T23:01:44Z",
    "futures-closed:2026-11-21": "2026-11-21T17:01:51Z",
    "futures-closed:2026-11-22": "2026-11-22T17:31:44Z",
-   "futures-fit:2026-11-19:MET,M6E": "2026-11-20T01:01:49Z",
    "futures-fit:2026-11-20:MET,M6E": "2026-11-20T05:01:36Z",
    "futures-fit:2026-11-22:MET,M6E": "2026-11-22T23:31:47Z",
    "idea:M6E:short:17:none": "2026-11-20T21:31:44Z",
@@ -5581,7 +5580,6 @@
    "macro:futures:short:neutral:2026-11-20T17:01:47.727613": "2026-11-20T17:01:47Z",
    "macro:futures:short:neutral:2026-11-20T18:31:33.760546": "2026-11-20T18:31:33Z",
    "macro:futures:short:neutral:2026-11-20T21:31:44.638585": "2026-11-20T21:31:44Z",
-   "macro:futures:short:risk-off:2026-11-20T01:01:49.191415": "2026-11-20T01:01:49Z",
    "macro:futures:short:risk-off:2026-11-20T04:31:38.891972": "2026-11-20T04:31:38Z",
    "macro:futures:short:risk-off:2026-11-20T05:31:44.143884": "2026-11-20T05:31:44Z",
    "macro:futures:short:risk-off:2026-11-20T09:01:54.435971": "2026-11-20T09:01:54Z",
@@ -5643,7 +5641,7 @@
  },
  "fund": {
   "benchmarkBtcUnits": 0.03103649722666308,
-  "benchmarkCad": 9042.54,
+  "benchmarkCad": 9044.02,
   "benchmarkSet": true,
   "benchmarkSpyUnits": 6.399142948573451,
   "cad": 3000.0,
@@ -5653,7 +5651,7 @@
   "earningsKnown": true,
   "entriesThisWeek": 0,
   "entriesToday": 0,
-  "equityCad": 9925.44,
+  "equityCad": 9924.96,
   "focus": {
    "active": [
     "SPY",
@@ -5919,11 +5917,11 @@
   "halted": false,
   "lastCongressCheck": "2026-11-20",
   "lastEtfScan": "2026-11-21T11:01:42Z",
-  "lastFuturesScan": "2026-11-23T01:01:36Z",
-  "lastRun": "2026-11-23T01:01:36Z",
+  "lastFuturesScan": "2026-11-23T01:31:43Z",
+  "lastRun": "2026-11-23T01:31:43Z",
   "lastRunBy": "github",
-  "lastRunNote": "US stock market closed today. Bitcoin up 1.7% in 24 hours (risk-off). No trades: nothing scored high enough with a clean setup. Holding 0 positions. Value $9,925.44 vs buy-and-hold $9,042.54.",
-  "lastSaved": "2026-11-23T01:01:36Z",
+  "lastRunNote": "US stock market closed today. Bitcoin up 1.9% in 24 hours (risk-off). No trades: nothing scored high enough with a clean setup. Holding 0 positions. Value $9,924.96 vs buy-and-hold $9,044.02.",
+  "lastSaved": "2026-11-23T01:31:43Z",
   "lastStockScan": "2026-11-20T19:46:44Z",
   "lastTradingDay": "2026-11-20",
   "lastUniverseScan": "2026-11-20T13:01:48Z",
@@ -5990,7 +5988,7 @@
   },
   "tradingDays": 5,
   "usd": 4832.15361973509,
-  "usdCad": 1.4332,
+  "usdCad": 1.4331,
   "weekStart": "2026-11-16",
   "weekStartEquityCad": 9897.9
  },
@@ -6555,10 +6553,10 @@
    "exits": [],
    "signals": []
   },
-  "updated": "2026-11-23T01:01:36Z"
+  "updated": "2026-11-23T01:31:43Z"
  },
  "log": [
-  "Run 2026-11-22 WATCH (New York 20:01), stock market closed today"
+  "Run 2026-11-22 WATCH (New York 20:31), stock market closed today"
  ],
  "nav": [
   {
@@ -6610,10 +6608,10 @@
    "equityCad": 9929.31
   },
   {
-   "benchmarkCad": 9042.54,
-   "cashCad": 9925.44,
+   "benchmarkCad": 9044.02,
+   "cashCad": 9924.96,
    "date": "2026-11-22",
-   "equityCad": 9925.44
+   "equityCad": 9924.96
   }
  ],
  "pack": {
@@ -6621,7 +6619,7 @@
   "alertState": {},
   "clock": {
    "calendar_known": true,
-   "checkedAt": "2026-11-23T01:01:36Z",
+   "checkedAt": "2026-11-23T01:31:43Z",
    "closes": null,
    "date": "2026-11-22",
    "early_close": null,
