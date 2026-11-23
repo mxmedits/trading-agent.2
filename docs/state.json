@@ -2860,19 +2860,10 @@
  },
  "floor": {
   "lastRun": {
-   "at": "2026-11-23T17:06:49Z",
-   "count": 2
+   "at": "2026-11-23T17:26:37Z",
+   "count": 1
   },
   "messages": [
-   {
-    "d": "pm",
-    "k": "decide",
-    "n": 3,
-    "s": "M6E",
-    "t": "2026-11-20T13:31:45Z",
-    "to": "all",
-    "x": "Short M6E scores 75 but no clean setup yet. Waiting."
-   },
    {
     "d": "analyst",
     "k": "info",
@@ -5563,6 +5554,15 @@
     "t": "2026-11-23T17:06:49Z",
     "to": "pm",
     "x": "TSX scan: 75 Canadian charts checked. Strongest: TRP.TO, L.TO, IFC.TO."
+   },
+   {
+    "d": "research",
+    "k": "info",
+    "n": 0,
+    "s": "",
+    "t": "2026-11-23T17:26:37Z",
+    "to": "pm",
+    "x": "TSX scan: 76 Canadian charts checked. Strongest: WN.TO, TRP.TO, L.TO."
    }
   ],
   "said": {
@@ -5645,6 +5645,7 @@
    "scan:tsx:TRP.TO,L.TO,IFC.TO": "2026-11-23T17:06:49Z",
    "scan:tsx:TRP.TO,L.TO,KXS.TO": "2026-11-23T15:26:53Z",
    "scan:tsx:TRP.TO,SAP.TO,L.TO": "2026-11-23T15:36:45Z",
+   "scan:tsx:WN.TO,TRP.TO,L.TO": "2026-11-23T17:26:37Z",
    "scan:tsx:WN.TO,TRP.TO,REI-UN.TO": "2026-11-20T19:16:52Z",
    "sources:2026-11-21": "2026-11-21T05:01:42Z",
    "sources:2026-11-22": "2026-11-22T05:01:51Z",
@@ -5653,7 +5654,7 @@
  },
  "fund": {
   "benchmarkBtcUnits": 0.03103649722666308,
-  "benchmarkCad": 9418.07,
+  "benchmarkCad": 9404.71,
   "benchmarkSet": true,
   "benchmarkSpyUnits": 6.399142948573451,
   "cad": 3000.0,
@@ -5663,7 +5664,7 @@
   "earningsKnown": true,
   "entriesThisWeek": 0,
   "entriesToday": 0,
-  "equityCad": 9943.32,
+  "equityCad": 9945.25,
   "focus": {
    "active": [
     "SPY",
@@ -5939,11 +5940,11 @@
   "lastCongressCheck": "2026-11-23",
   "lastEtfScan": "2026-11-21T11:01:42Z",
   "lastFuturesScan": "2026-11-23T17:01:48Z",
-  "lastRun": "2026-11-23T17:16:36Z",
+  "lastRun": "2026-11-23T17:26:37Z",
   "lastRunBy": "github",
-  "lastRunNote": "The S&P 500 fund was up 4.9% today; market mood risk-off. Bitcoin up 2.0% in 24 hours (risk-off). No trades: nothing scored high enough with a clean setup. Holding 0 positions. Value $9,943.32 vs buy-and-hold $9,418.07.",
-  "lastSaved": "2026-11-23T17:16:36Z",
-  "lastStockScan": "2026-11-23T17:16:36Z",
+  "lastRunNote": "The S&P 500 fund was up 4.8% today; market mood risk-off. Bitcoin up 1.6% in 24 hours (risk-off). No trades: nothing scored high enough with a clean setup. Holding 0 positions. Value $9,945.25 vs buy-and-hold $9,404.71.",
+  "lastSaved": "2026-11-23T17:26:37Z",
+  "lastStockScan": "2026-11-23T17:26:37Z",
   "lastTradingDay": "2026-11-20",
   "lastUniverseScan": "2026-11-23T13:01:44Z",
   "maxDrawdownPct": 1.06,
@@ -6009,7 +6010,7 @@
   },
   "tradingDays": 5,
   "usd": 4832.15361973509,
-  "usdCad": 1.4369,
+  "usdCad": 1.4373,
   "weekStart": "2026-11-23",
   "weekStartEquityCad": 9923.99
  },
@@ -6629,11 +6630,6 @@
      "verdict": "61/100, below the 80 needed"
     },
     {
-     "score": 61,
-     "symbol": "LONG VBIL",
-     "verdict": "61/100, below the 80 needed"
-    },
-    {
      "score": 56,
      "symbol": "LONG XEL",
      "verdict": "56/100, below the 80 needed"
@@ -6645,7 +6641,12 @@
     },
     {
      "score": 56,
-     "symbol": "LONG SAP.TO",
+     "symbol": "LONG VBIL",
+     "verdict": "56/100, below the 80 needed"
+    },
+    {
+     "score": 56,
+     "symbol": "LONG WN.TO",
      "verdict": "56/100, below the 80 needed"
     }
    ],
@@ -6671,10 +6672,10 @@
    "exits": [],
    "signals": []
   },
-  "updated": "2026-11-23T17:16:36Z"
+  "updated": "2026-11-23T17:26:37Z"
  },
  "log": [
-  "Run 2026-11-23 WATCH (New York 12:16), stock market open day",
+  "Run 2026-11-23 WATCH (New York 12:26), stock market open day",
   "Stock scan: 89 long and 67 short ideas pre-screened; 8 breakouts, 1 breakdowns",
   "News model loaded"
  ],
@@ -6734,10 +6735,10 @@
    "equityCad": 9923.99
   },
   {
-   "benchmarkCad": 9418.07,
-   "cashCad": 9943.32,
+   "benchmarkCad": 9404.71,
+   "cashCad": 9945.25,
    "date": "2026-11-23",
-   "equityCad": 9943.32
+   "equityCad": 9945.25
   }
  ],
  "pack": {
@@ -6745,7 +6746,7 @@
   "alertState": {},
   "clock": {
    "calendar_known": true,
-   "checkedAt": "2026-11-23T17:16:36Z",
+   "checkedAt": "2026-11-23T17:26:37Z",
    "closes": "16:00",
    "date": "2026-11-23",
    "early_close": null,
