@@ -2838,55 +2838,10 @@
  },
  "floor": {
   "lastRun": {
-   "at": "2026-11-23T02:00:27Z",
-   "count": 1
+   "at": "2026-11-23T03:31:44Z",
+   "count": 5
   },
   "messages": [
-   {
-    "d": "news",
-    "k": "vote",
-    "n": 3,
-    "s": "ORCL",
-    "t": "2026-11-19T17:06:37Z",
-    "to": "pm",
-    "x": "ORCL: 3 fresh headlines, mixed; 13/25. Top: \"David Tepper and 27 Other Big Funds Bought Oracle Last Quarter,...\""
-   },
-   {
-    "d": "analyst",
-    "k": "vote",
-    "n": 4,
-    "s": "ORCL",
-    "t": "2026-11-19T17:06:37Z",
-    "to": "pm",
-    "x": "ORCL: filed: operating margin 35%, sales +30%, P/E 19, debt/equity 1.9, target +103%; 1/15."
-   },
-   {
-    "d": "strategy",
-    "k": "vote",
-    "n": 5,
-    "s": "",
-    "t": "2026-11-19T17:06:37Z",
-    "to": "pm",
-    "x": "Stocks are risk off: 15/15 for a short."
-   },
-   {
-    "d": "pm",
-    "k": "decide",
-    "n": 6,
-    "s": "ORCL",
-    "t": "2026-11-19T17:06:37Z",
-    "to": "all",
-    "x": "Short ORCL scores 64, needs 70. Pass."
-   },
-   {
-    "d": "research",
-    "k": "idea",
-    "n": 0,
-    "s": "ORCL",
-    "t": "2026-11-19T17:16:43Z",
-    "to": "pm",
-    "x": "Short ORCL: fell below its opening range, chart 25/30."
-   },
    {
     "d": "news",
     "k": "vote",
@@ -5541,6 +5496,51 @@
     "t": "2026-11-23T02:00:27Z",
     "to": "all",
     "x": "Nothing good enough this scan. Closest: short M6E at 65, needs 75."
+   },
+   {
+    "d": "research",
+    "k": "idea",
+    "n": 0,
+    "s": "MET",
+    "t": "2026-11-23T03:31:44Z",
+    "to": "pm",
+    "x": "Short MET: no clean setup yet, chart 20/30."
+   },
+   {
+    "d": "news",
+    "k": "vote",
+    "n": 1,
+    "s": "MET",
+    "t": "2026-11-23T03:31:44Z",
+    "to": "pm",
+    "x": "MET: no fresh headlines, neutral 13/25."
+   },
+   {
+    "d": "strategy",
+    "k": "vote",
+    "n": 2,
+    "s": "",
+    "t": "2026-11-23T03:31:44Z",
+    "to": "pm",
+    "x": "Futures are risk off: 15/15 for a short."
+   },
+   {
+    "d": "pm",
+    "k": "decide",
+    "n": 3,
+    "s": "MET",
+    "t": "2026-11-23T03:31:44Z",
+    "to": "all",
+    "x": "Short MET scores 67, needs 70. Pass."
+   },
+   {
+    "d": "pm",
+    "k": "decide",
+    "n": 4,
+    "s": "",
+    "t": "2026-11-23T03:31:44Z",
+    "to": "all",
+    "x": "Nothing good enough this scan. Closest: short MET at 67, needs 70."
    }
   ],
   "said": {
@@ -5554,7 +5554,7 @@
    "futures-fit:2026-11-22:MET,M6E": "2026-11-22T23:31:47Z",
    "idea:M6E:short:17:none": "2026-11-20T21:31:44Z",
    "idea:M6E:short:18:none": "2026-11-20T17:01:47Z",
-   "idea:MET:short:16:none": "2026-11-20T22:31:42Z",
+   "idea:MET:short:16:none": "2026-11-23T03:31:44Z",
    "idea:MET:short:19:breakdown": "2026-11-20T15:31:44Z",
    "idea:MET:short:19:none": "2026-11-20T22:01:49Z",
    "idea:MU:short:21:none": "2026-11-20T15:46:36Z",
@@ -5589,6 +5589,7 @@
    "macro:futures:short:risk-off:2026-11-20T19:01:48.589609": "2026-11-20T19:01:48Z",
    "macro:futures:short:risk-off:2026-11-20T22:01:49.985034": "2026-11-20T22:01:49Z",
    "macro:futures:short:risk-off:2026-11-20T22:31:42.130487": "2026-11-20T22:31:42Z",
+   "macro:futures:short:risk-off:2026-11-23T03:31:44.575538": "2026-11-23T03:31:44Z",
    "macro:stocks:long:risk-off:2026-11-20T15:16:39.593336": "2026-11-20T15:16:39Z",
    "macro:stocks:short:risk-off:2026-11-20T14:51:44.821280": "2026-11-20T14:51:44Z",
    "macro:stocks:short:risk-off:2026-11-20T15:01:43.984149": "2026-11-20T15:01:43Z",
@@ -5610,7 +5611,7 @@
    "nothing:M6E:16": "2026-11-23T02:00:27Z",
    "nothing:M6E:17": "2026-11-20T22:31:42Z",
    "nothing:MET:15": "2026-11-23T00:01:40Z",
-   "nothing:MET:16": "2026-11-20T04:01:43Z",
+   "nothing:MET:16": "2026-11-23T03:31:44Z",
    "nothing:MET:19": "2026-11-20T21:31:44Z",
    "nothing:MU:21": "2026-11-20T15:46:36Z",
    "nothing:TSM:23": "2026-11-20T14:51:44Z",
@@ -5641,7 +5642,7 @@
  },
  "fund": {
   "benchmarkBtcUnits": 0.03103649722666308,
-  "benchmarkCad": 9018.19,
+  "benchmarkCad": 9056.37,
   "benchmarkSet": true,
   "benchmarkSpyUnits": 6.399142948573451,
   "cad": 3000.0,
@@ -5651,7 +5652,7 @@
   "earningsKnown": true,
   "entriesThisWeek": 0,
   "entriesToday": 0,
-  "equityCad": 9923.99,
+  "equityCad": 9922.54,
   "focus": {
    "active": [
     "SPY",
@@ -5917,11 +5918,11 @@
   "halted": false,
   "lastCongressCheck": "2026-11-20",
   "lastEtfScan": "2026-11-21T11:01:42Z",
-  "lastFuturesScan": "2026-11-23T03:01:44Z",
-  "lastRun": "2026-11-23T03:01:44Z",
+  "lastFuturesScan": "2026-11-23T03:31:44Z",
+  "lastRun": "2026-11-23T03:31:44Z",
   "lastRunBy": "github",
-  "lastRunNote": "US stock market closed today. Bitcoin up 2.3% in 24 hours (risk-off). No trades: nothing scored high enough with a clean setup. Holding 0 positions. Value $9,923.99 vs buy-and-hold $9,018.19.",
-  "lastSaved": "2026-11-23T03:01:44Z",
+  "lastRunNote": "US stock market closed today. Bitcoin up 4.0% in 24 hours (risk-off). No trades: nothing scored high enough with a clean setup. Holding 0 positions. Value $9,922.54 vs buy-and-hold $9,056.37.",
+  "lastSaved": "2026-11-23T03:31:44Z",
   "lastStockScan": "2026-11-20T19:46:44Z",
   "lastTradingDay": "2026-11-20",
   "lastUniverseScan": "2026-11-20T13:01:48Z",
@@ -5988,7 +5989,7 @@
   },
   "tradingDays": 5,
   "usd": 4832.15361973509,
-  "usdCad": 1.4329,
+  "usdCad": 1.4326,
   "weekStart": "2026-11-16",
   "weekStartEquityCad": 9897.9
  },
@@ -6521,14 +6522,14 @@
    "summary": "",
    "topCandidates": [
     {
+     "score": 67,
+     "symbol": "SHORT MET",
+     "verdict": "67/100, below the 70 needed"
+    },
+    {
      "score": 65,
      "symbol": "SHORT M6E",
      "verdict": "65/100, below the 75 needed"
-    },
-    {
-     "score": 62,
-     "symbol": "SHORT MET",
-     "verdict": "62/100, below the 70 needed"
     }
    ],
    "universe": 6224
@@ -6553,10 +6554,10 @@
    "exits": [],
    "signals": []
   },
-  "updated": "2026-11-23T03:01:44Z"
+  "updated": "2026-11-23T03:31:44Z"
  },
  "log": [
-  "Run 2026-11-22 WATCH (New York 22:01), stock market closed today"
+  "Run 2026-11-22 WATCH (New York 22:31), stock market closed today"
  ],
  "nav": [
   {
@@ -6608,10 +6609,10 @@
    "equityCad": 9929.31
   },
   {
-   "benchmarkCad": 9018.19,
-   "cashCad": 9923.99,
+   "benchmarkCad": 9056.37,
+   "cashCad": 9922.54,
    "date": "2026-11-22",
-   "equityCad": 9923.99
+   "equityCad": 9922.54
   }
  ],
  "pack": {
@@ -6619,7 +6620,7 @@
   "alertState": {},
   "clock": {
    "calendar_known": true,
-   "checkedAt": "2026-11-23T03:01:44Z",
+   "checkedAt": "2026-11-23T03:31:44Z",
    "closes": null,
    "date": "2026-11-22",
    "early_close": null,
