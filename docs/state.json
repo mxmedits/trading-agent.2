@@ -2296,6 +2296,18 @@
   ]
  },
  "earnings": {
+  "ROST": {
+   "blockLongUntil": "",
+   "blockShortUntil": "",
+   "note": "profit per share 1.91 vs 1.85 expected (+3.2%); tone neutral (from the company's report)",
+   "reportDate": "2026-11-19",
+   "source": "https://www.sec.gov/Archives/edgar/data/745732/000074573226000047/0000745732-26-000047-index-headers.html",
+   "status": "reported",
+   "symbol": "ROST",
+   "timing": "unknown",
+   "updatedOn": "2026-11-23",
+   "verdict": "mixed"
+  },
   "VIK": {
    "note": "reports before open",
    "reportDate": "2026-11-17",
@@ -2711,6 +2723,19 @@
    "period": "2026-09-30",
    "revGrowth": 95.9
   },
+  "ROST": {
+   "epsGrowth": 70.5,
+   "epsTtm": 8.26,
+   "fetchedOn": "2026-11-23",
+   "grossMargin": 33.8,
+   "line": "Quarter ending 2026-08-01: revenue $6.26B (+13.3% vs a year earlier), net income $851.3M (+67.6%), diluted EPS $2.66 (+70.5%).",
+   "netMargin": 13.6,
+   "note": "",
+   "oneOff": false,
+   "opMargin": 17.6,
+   "period": "2026-08-01",
+   "revGrowth": 13.3
+  },
   "SBUX": {
    "epsGrowth": 436.4,
    "epsTtm": 2.21,
@@ -2822,82 +2847,10 @@
  },
  "floor": {
   "lastRun": {
-   "at": "2026-11-23T15:16:36Z",
-   "count": 1
+   "at": "2026-11-23T15:26:53Z",
+   "count": 8
   },
   "messages": [
-   {
-    "d": "pm",
-    "k": "decide",
-    "n": 3,
-    "s": "MET",
-    "t": "2026-11-20T09:01:54Z",
-    "to": "all",
-    "x": "Short MET scores 77, needs 70. Quant and Risk, check it."
-   },
-   {
-    "d": "quant",
-    "k": "vote",
-    "n": 4,
-    "s": "MET",
-    "t": "2026-11-20T09:01:54Z",
-    "to": "pm",
-    "x": "MET: in 10,000 daily replays the target comes first 0%, the stop 5%. Most run out of time first. Odds are against us."
-   },
-   {
-    "d": "risk",
-    "k": "block",
-    "n": 5,
-    "s": "MET",
-    "t": "2026-11-20T09:01:54Z",
-    "to": "pm",
-    "x": "Blocked MET: a stop-out would break today's loss limit; the replays favour the stop."
-   },
-   {
-    "d": "research",
-    "k": "idea",
-    "n": 6,
-    "s": "M6E",
-    "t": "2026-11-20T09:01:54Z",
-    "to": "pm",
-    "x": "Short M6E: no clean setup yet, chart 25/30."
-   },
-   {
-    "d": "news",
-    "k": "vote",
-    "n": 7,
-    "s": "M6E",
-    "t": "2026-11-20T09:01:54Z",
-    "to": "pm",
-    "x": "M6E: no fresh headlines, neutral 13/25."
-   },
-   {
-    "d": "strategy",
-    "k": "vote",
-    "n": 8,
-    "s": "",
-    "t": "2026-11-20T09:01:54Z",
-    "to": "pm",
-    "x": "Futures are neutral: 8/15 for a short."
-   },
-   {
-    "d": "pm",
-    "k": "decide",
-    "n": 9,
-    "s": "M6E",
-    "t": "2026-11-20T09:01:54Z",
-    "to": "all",
-    "x": "Short M6E scores 70, needs 75. Pass."
-   },
-   {
-    "d": "research",
-    "k": "idea",
-    "n": 0,
-    "s": "M6E",
-    "t": "2026-11-20T10:01:49Z",
-    "to": "pm",
-    "x": "Short M6E: no clean setup yet, chart 30/30."
-   },
    {
     "d": "news",
     "k": "vote",
@@ -5525,6 +5478,78 @@
     "t": "2026-11-23T15:16:36Z",
     "to": "all",
     "x": "Morning meeting: value $9,944.29, 0 positions held, stocks risk off, crypto risk off. Let's find setups."
+   },
+   {
+    "d": "research",
+    "k": "info",
+    "n": 0,
+    "s": "",
+    "t": "2026-11-23T15:26:53Z",
+    "to": "pm",
+    "x": "Stock scan: 89 long and 67 short charts checked, 5 breakouts, 0 breakdowns. Strongest: XLP, XEL, WTW, WFC."
+   },
+   {
+    "d": "analyst",
+    "k": "info",
+    "n": 1,
+    "s": "ROST",
+    "t": "2026-11-23T15:26:53Z",
+    "to": "pm",
+    "x": "ROST reported: mixed. profit per share 1.91 vs 1.85 expected (+3.2%); tone neutral (from the company's report)."
+   },
+   {
+    "d": "research",
+    "k": "info",
+    "n": 2,
+    "s": "",
+    "t": "2026-11-23T15:26:53Z",
+    "to": "pm",
+    "x": "TSX scan: 67 Canadian charts checked. Strongest: TRP.TO, L.TO, KXS.TO."
+   },
+   {
+    "d": "research",
+    "k": "idea",
+    "n": 3,
+    "s": "ROST",
+    "t": "2026-11-23T15:26:53Z",
+    "to": "pm",
+    "x": "Short ROST: no clean setup yet, chart 25/30."
+   },
+   {
+    "d": "news",
+    "k": "vote",
+    "n": 4,
+    "s": "ROST",
+    "t": "2026-11-23T15:26:53Z",
+    "to": "pm",
+    "x": "ROST: no fresh headlines, neutral 13/25."
+   },
+   {
+    "d": "analyst",
+    "k": "vote",
+    "n": 5,
+    "s": "ROST",
+    "t": "2026-11-23T15:26:53Z",
+    "to": "pm",
+    "x": "ROST: filed: operating margin 18%, sales +13%, P/E 33, debt/equity 0.1, target +27%; 1/15."
+   },
+   {
+    "d": "strategy",
+    "k": "vote",
+    "n": 6,
+    "s": "",
+    "t": "2026-11-23T15:26:53Z",
+    "to": "pm",
+    "x": "Stocks are risk off: 15/15 for a short."
+   },
+   {
+    "d": "pm",
+    "k": "decide",
+    "n": 7,
+    "s": "ROST",
+    "t": "2026-11-23T15:26:53Z",
+    "to": "all",
+    "x": "Short ROST scores 69, needs 70. Pass."
    }
   ],
   "said": {
@@ -5547,14 +5572,13 @@
    "idea:MU:short:21:none": "2026-11-20T15:46:36Z",
    "idea:ORCL:short:17:breakdown": "2026-11-20T17:36:45Z",
    "idea:ORCL:short:18:breakdown": "2026-11-20T18:16:35Z",
+   "idea:ROST:short:17:none": "2026-11-23T15:26:53Z",
    "idea:UBER:short:16:none": "2026-11-23T15:01:43Z",
    "idea:UBER:short:19:breakdown": "2026-11-20T18:16:35Z",
    "idea:UBER:short:20:breakdown": "2026-11-20T17:06:35Z",
    "idea:UBER:short:21:breakdown": "2026-11-20T16:56:43Z",
-   "idea:WMT:long:20:breakout": "2026-11-20T15:16:39Z",
    "idea:XLI:short:18:breakdown": "2026-11-20T18:16:35Z",
    "idea:XLI:short:19:breakdown": "2026-11-20T19:36:52Z",
-   "idea:XLI:short:20:breakdown": "2026-11-20T15:16:39Z",
    "macro:futures:short:neutral:2026-11-20T17:01:47.727613": "2026-11-20T17:01:47Z",
    "macro:futures:short:neutral:2026-11-20T18:31:33.760546": "2026-11-20T18:31:33Z",
    "macro:futures:short:neutral:2026-11-20T21:31:44.638585": "2026-11-20T21:31:44Z",
@@ -5574,8 +5598,6 @@
    "macro:futures:short:risk-off:2026-11-23T09:31:39.673640": "2026-11-23T09:31:39Z",
    "macro:futures:short:risk-off:2026-11-23T12:31:41.125787": "2026-11-23T12:31:41Z",
    "macro:futures:short:risk-off:2026-11-23T14:31:37.044270": "2026-11-23T14:31:37Z",
-   "macro:stocks:long:risk-off:2026-11-20T15:16:39.593336": "2026-11-20T15:16:39Z",
-   "macro:stocks:short:risk-off:2026-11-20T15:16:39.593336": "2026-11-20T15:16:39Z",
    "macro:stocks:short:risk-off:2026-11-20T15:46:36.663229": "2026-11-20T15:46:36Z",
    "macro:stocks:short:risk-off:2026-11-20T16:26:43.232773": "2026-11-20T16:26:43Z",
    "macro:stocks:short:risk-off:2026-11-20T16:56:43.454040": "2026-11-20T16:56:43Z",
@@ -5585,8 +5607,8 @@
    "macro:stocks:short:risk-off:2026-11-20T19:36:52.890058": "2026-11-20T19:36:52Z",
    "macro:stocks:short:risk-off:2026-11-23T14:51:42.292869": "2026-11-23T14:51:42Z",
    "macro:stocks:short:risk-off:2026-11-23T15:01:43.556476": "2026-11-23T15:01:43Z",
+   "macro:stocks:short:risk-off:2026-11-23T15:26:53.155617": "2026-11-23T15:26:53Z",
    "meeting:close:2026-11-20": "2026-11-20T20:16:43Z",
-   "meeting:open:2026-11-20": "2026-11-20T15:16:39Z",
    "meeting:open:2026-11-23": "2026-11-23T15:16:36Z",
    "mood:crypto:risk-off:2026-11-21": "2026-11-21T05:01:42Z",
    "mood:crypto:risk-off:2026-11-22": "2026-11-22T05:01:51Z",
@@ -5607,9 +5629,9 @@
    "nothing:XLI:19": "2026-11-20T18:46:45Z",
    "scan:stocks:XEL,WTW,WRB,WFC:3:0": "2026-11-23T15:01:43Z",
    "scan:stocks:XLP,XEL,WTW,WFC:2:0": "2026-11-23T14:51:42Z",
+   "scan:stocks:XLP,XEL,WTW,WFC:5:0": "2026-11-23T15:26:53Z",
    "scan:stocks:XLP,XEL,WTW,XLI:6:8": "2026-11-20T19:46:44Z",
    "scan:stocks:XLP,XEL,WTW,XLI:7:6": "2026-11-20T16:26:43Z",
-   "scan:stocks:XLP,XEL,WTW,XLI:8:0": "2026-11-20T15:16:39Z",
    "scan:stocks:XLP,XEL,WTW,XLI:8:6": "2026-11-20T16:46:41Z",
    "scan:stocks:XLP,XEL,WTW,XLI:8:8": "2026-11-20T19:36:52Z",
    "scan:stocks:XLP,XEL,WTW,XLI:9:5": "2026-11-20T15:46:36Z",
@@ -5618,6 +5640,7 @@
    "scan:stocks:XLP,XEL,WTW,XLI:9:8": "2026-11-20T18:26:37Z",
    "scan:tsx:TRP.TO,H.TO,GWO.TO": "2026-11-23T14:51:42Z",
    "scan:tsx:TRP.TO,L.TO,IFC.TO": "2026-11-23T15:01:43Z",
+   "scan:tsx:TRP.TO,L.TO,KXS.TO": "2026-11-23T15:26:53Z",
    "scan:tsx:TRP.TO,PPL.TO,MRU.TO": "2026-11-20T15:36:45Z",
    "scan:tsx:WN.TO,TRP.TO,PPL.TO": "2026-11-20T16:46:41Z",
    "scan:tsx:WN.TO,TRP.TO,REI-UN.TO": "2026-11-20T19:16:52Z",
@@ -5628,7 +5651,7 @@
  },
  "fund": {
   "benchmarkBtcUnits": 0.03103649722666308,
-  "benchmarkCad": 9453.25,
+  "benchmarkCad": 9514.86,
   "benchmarkSet": true,
   "benchmarkSpyUnits": 6.399142948573451,
   "cad": 3000.0,
@@ -5638,7 +5661,7 @@
   "earningsKnown": true,
   "entriesThisWeek": 0,
   "entriesToday": 0,
-  "equityCad": 9944.29,
+  "equityCad": 9942.36,
   "focus": {
    "active": [
     "SPY",
@@ -5914,11 +5937,11 @@
   "lastCongressCheck": "2026-11-23",
   "lastEtfScan": "2026-11-21T11:01:42Z",
   "lastFuturesScan": "2026-11-23T15:01:43Z",
-  "lastRun": "2026-11-23T15:16:36Z",
+  "lastRun": "2026-11-23T15:26:53Z",
   "lastRunBy": "github",
-  "lastRunNote": "The S&P 500 fund was up 4.8% today; market mood risk-off. Bitcoin up 3.6% in 24 hours (risk-off). No trades: nothing scored high enough with a clean setup. Holding 0 positions. Value $9,944.29 vs buy-and-hold $9,453.25.",
-  "lastSaved": "2026-11-23T15:16:36Z",
-  "lastStockScan": "2026-11-23T15:16:36Z",
+  "lastRunNote": "The S&P 500 fund was up 5.4% today; market mood risk-off. Bitcoin up 4.4% in 24 hours (risk-off). No trades: nothing scored high enough with a clean setup. Holding 0 positions. Value $9,942.36 vs buy-and-hold $9,514.86.",
+  "lastSaved": "2026-11-23T15:26:53Z",
+  "lastStockScan": "2026-11-23T15:26:53Z",
   "lastTradingDay": "2026-11-20",
   "lastUniverseScan": "2026-11-23T13:01:44Z",
   "maxDrawdownPct": 1.06,
@@ -5984,7 +6007,7 @@
   },
   "tradingDays": 5,
   "usd": 4832.15361973509,
-  "usdCad": 1.4371,
+  "usdCad": 1.4367,
   "weekStart": "2026-11-23",
   "weekStartEquityCad": 9923.99
  },
@@ -6098,6 +6121,17 @@
    "sector": "Technology",
    "target1y": 205.0,
    "ttmEps": 10.31
+  },
+  "ROST": {
+   "debtToEquity": 0.15,
+   "epsGrowthPct": 11.7,
+   "fetchedOn": "2026-11-23",
+   "freeCashFlow": 1127021.0,
+   "lastEps": 2.0,
+   "revGrowthPct": 7.7,
+   "sector": "Consumer Discretionary",
+   "target1y": 277.0,
+   "ttmEps": 6.61
   },
   "SBUX": {
    "debtToEquity": 1.73,
@@ -6238,6 +6272,17 @@
    "sector": "Industrials",
    "target1y": 119.5,
    "ttmEps": 5.19
+  },
+  "USFD": {
+   "debtToEquity": 1.18,
+   "epsGrowthPct": 49.3,
+   "fetchedOn": "2026-11-23",
+   "freeCashFlow": 527000.0,
+   "lastEps": 1.0,
+   "revGrowthPct": -22.5,
+   "sector": "Consumer Discretionary",
+   "target1y": 120.0,
+   "ttmEps": 3.58
   },
   "V": {
    "debtToEquity": 0.69,
@@ -6543,7 +6588,7 @@
   {
    "blocked": [],
    "cryptoRegime": "risk-off",
-   "dataCalls": 49,
+   "dataCalls": 59,
    "date": "2026-11-23",
    "liquid": 2313,
    "regime": "risk-off",
@@ -6556,14 +6601,19 @@
      "verdict": "82/100, no clean setup yet"
     },
     {
+     "score": 69,
+     "symbol": "SHORT ROST",
+     "verdict": "69/100, below the 70 needed"
+    },
+    {
      "score": 66,
      "symbol": "LONG VBIL",
      "verdict": "66/100, below the 80 needed"
     },
     {
-     "score": 65,
+     "score": 64,
      "symbol": "LONG SYNA",
-     "verdict": "65/100, below the 80 needed"
+     "verdict": "64/100, below the 80 needed"
     },
     {
      "score": 62,
@@ -6576,18 +6626,13 @@
      "verdict": "61/100, below the 80 needed"
     },
     {
-     "score": 59,
-     "symbol": "SHORT UBER",
-     "verdict": "59/100, below the 70 needed"
-    },
-    {
      "score": 56,
-     "symbol": "LONG SONY",
+     "symbol": "LONG TRP.TO",
      "verdict": "56/100, below the 80 needed"
     },
     {
      "score": 56,
-     "symbol": "LONG TRP.TO",
+     "symbol": "LONG L.TO",
      "verdict": "56/100, below the 80 needed"
     }
    ],
@@ -6613,12 +6658,14 @@
    "exits": [],
    "signals": []
   },
-  "updated": "2026-11-23T15:16:36Z"
+  "updated": "2026-11-23T15:26:53Z"
  },
  "log": [
-  "Run 2026-11-23 OPEN (New York 10:16), stock market open day",
-  "Stock scan: 89 long and 67 short ideas pre-screened; 2 breakouts, 0 breakdowns",
-  "News model loaded"
+  "Run 2026-11-23 WATCH (New York 10:26), stock market open day",
+  "Stock scan: 89 long and 67 short ideas pre-screened; 5 breakouts, 0 breakdowns",
+  "News model loaded",
+  "Earnings ROST: mixed - profit per share 1.91 vs 1.85 expected (+3.2%); tone neutral (from the company's report)",
+  "SEC filed numbers for ROST: sales 13.3% y/y, operating margin 17.6%"
  ],
  "nav": [
   {
@@ -6676,10 +6723,10 @@
    "equityCad": 9923.99
   },
   {
-   "benchmarkCad": 9453.25,
-   "cashCad": 9944.29,
+   "benchmarkCad": 9514.86,
+   "cashCad": 9942.36,
    "date": "2026-11-23",
-   "equityCad": 9944.29
+   "equityCad": 9942.36
   }
  ],
  "pack": {
@@ -6687,7 +6734,7 @@
   "alertState": {},
   "clock": {
    "calendar_known": true,
-   "checkedAt": "2026-11-23T15:16:36Z",
+   "checkedAt": "2026-11-23T15:26:53Z",
    "closes": "16:00",
    "date": "2026-11-23",
    "early_close": null,
