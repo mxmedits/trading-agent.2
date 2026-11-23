@@ -5580,7 +5580,6 @@
    "macro:futures:short:neutral:2026-11-20T17:01:47.727613": "2026-11-20T17:01:47Z",
    "macro:futures:short:neutral:2026-11-20T18:31:33.760546": "2026-11-20T18:31:33Z",
    "macro:futures:short:neutral:2026-11-20T21:31:44.638585": "2026-11-20T21:31:44Z",
-   "macro:futures:short:risk-off:2026-11-20T04:31:38.891972": "2026-11-20T04:31:38Z",
    "macro:futures:short:risk-off:2026-11-20T05:31:44.143884": "2026-11-20T05:31:44Z",
    "macro:futures:short:risk-off:2026-11-20T09:01:54.435971": "2026-11-20T09:01:54Z",
    "macro:futures:short:risk-off:2026-11-20T12:31:34.137119": "2026-11-20T12:31:34Z",
@@ -5642,7 +5641,7 @@
  },
  "fund": {
   "benchmarkBtcUnits": 0.03103649722666308,
-  "benchmarkCad": 9048.82,
+  "benchmarkCad": 9039.47,
   "benchmarkSet": true,
   "benchmarkSpyUnits": 6.399142948573451,
   "cad": 3000.0,
@@ -5652,7 +5651,7 @@
   "earningsKnown": true,
   "entriesThisWeek": 0,
   "entriesToday": 0,
-  "equityCad": 9925.93,
+  "equityCad": 9923.99,
   "focus": {
    "active": [
     "SPY",
@@ -5918,11 +5917,11 @@
   "halted": false,
   "lastCongressCheck": "2026-11-20",
   "lastEtfScan": "2026-11-21T11:01:42Z",
-  "lastFuturesScan": "2026-11-23T04:01:55Z",
-  "lastRun": "2026-11-23T04:01:55Z",
+  "lastFuturesScan": "2026-11-23T04:31:44Z",
+  "lastRun": "2026-11-23T04:31:44Z",
   "lastRunBy": "github",
-  "lastRunNote": "US stock market closed today. Bitcoin up 2.9% in 24 hours (risk-off). No trades: nothing scored high enough with a clean setup. Holding 0 positions. Value $9,925.93 vs buy-and-hold $9,048.82.",
-  "lastSaved": "2026-11-23T04:01:55Z",
+  "lastRunNote": "US stock market closed today. Bitcoin up 2.9% in 24 hours (risk-off). No trades: nothing scored high enough with a clean setup. Holding 0 positions. Value $9,923.99 vs buy-and-hold $9,039.47.",
+  "lastSaved": "2026-11-23T04:31:44Z",
   "lastStockScan": "2026-11-20T19:46:44Z",
   "lastTradingDay": "2026-11-20",
   "lastUniverseScan": "2026-11-20T13:01:48Z",
@@ -5989,7 +5988,7 @@
   },
   "tradingDays": 5,
   "usd": 4832.15361973509,
-  "usdCad": 1.4333,
+  "usdCad": 1.4329,
   "weekStart": "2026-11-16",
   "weekStartEquityCad": 9897.9
  },
@@ -6554,10 +6553,10 @@
    "exits": [],
    "signals": []
   },
-  "updated": "2026-11-23T04:01:55Z"
+  "updated": "2026-11-23T04:31:44Z"
  },
  "log": [
-  "Run 2026-11-22 WATCH (New York 23:01), stock market closed today"
+  "Run 2026-11-22 WATCH (New York 23:31), stock market closed today"
  ],
  "nav": [
   {
@@ -6609,10 +6608,10 @@
    "equityCad": 9929.31
   },
   {
-   "benchmarkCad": 9048.82,
-   "cashCad": 9925.93,
+   "benchmarkCad": 9039.47,
+   "cashCad": 9923.99,
    "date": "2026-11-22",
-   "equityCad": 9925.93
+   "equityCad": 9923.99
   }
  ],
  "pack": {
@@ -6620,7 +6619,7 @@
   "alertState": {},
   "clock": {
    "calendar_known": true,
-   "checkedAt": "2026-11-23T04:01:55Z",
+   "checkedAt": "2026-11-23T04:31:44Z",
    "closes": null,
    "date": "2026-11-22",
    "early_close": null,
