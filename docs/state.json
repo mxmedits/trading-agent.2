@@ -5653,7 +5653,7 @@
  },
  "fund": {
   "benchmarkBtcUnits": 0.03103649722666308,
-  "benchmarkCad": 9406.33,
+  "benchmarkCad": 9403.2,
   "benchmarkSet": true,
   "benchmarkSpyUnits": 6.399142948573451,
   "cad": 3000.0,
@@ -5939,11 +5939,11 @@
   "lastCongressCheck": "2026-11-23",
   "lastEtfScan": "2026-11-21T11:01:42Z",
   "lastFuturesScan": "2026-11-23T19:01:34Z",
-  "lastRun": "2026-11-23T19:06:45Z",
+  "lastRun": "2026-11-23T19:16:44Z",
   "lastRunBy": "github",
-  "lastRunNote": "The S&P 500 fund was up 5.0% today; market mood risk-off. Bitcoin up 1.7% in 24 hours (risk-off). No trades: nothing scored high enough with a clean setup. Holding 0 positions. Value $9,944.29 vs buy-and-hold $9,406.33.",
-  "lastSaved": "2026-11-23T19:06:45Z",
-  "lastStockScan": "2026-11-23T19:06:45Z",
+  "lastRunNote": "The S&P 500 fund was up 4.9% today; market mood risk-off. Bitcoin up 1.6% in 24 hours (risk-off). No trades: nothing scored high enough with a clean setup. Holding 0 positions. Value $9,944.29 vs buy-and-hold $9,403.20.",
+  "lastSaved": "2026-11-23T19:16:44Z",
+  "lastStockScan": "2026-11-23T19:16:44Z",
   "lastTradingDay": "2026-11-20",
   "lastUniverseScan": "2026-11-23T13:01:44Z",
   "maxDrawdownPct": 1.06,
@@ -6671,10 +6671,10 @@
    "exits": [],
    "signals": []
   },
-  "updated": "2026-11-23T19:06:45Z"
+  "updated": "2026-11-23T19:16:44Z"
  },
  "log": [
-  "Run 2026-11-23 WATCH (New York 14:06), stock market open day",
+  "Run 2026-11-23 WATCH (New York 14:16), stock market open day",
   "Stock scan: 89 long and 67 short ideas pre-screened; 8 breakouts, 1 breakdowns",
   "News model loaded"
  ],
@@ -6734,7 +6734,7 @@
    "equityCad": 9923.99
   },
   {
-   "benchmarkCad": 9406.33,
+   "benchmarkCad": 9403.2,
    "cashCad": 9944.29,
    "date": "2026-11-23",
    "equityCad": 9944.29
@@ -6745,7 +6745,7 @@
   "alertState": {},
   "clock": {
    "calendar_known": true,
-   "checkedAt": "2026-11-23T19:06:45Z",
+   "checkedAt": "2026-11-23T19:16:44Z",
    "closes": "16:00",
    "date": "2026-11-23",
    "early_close": null,
