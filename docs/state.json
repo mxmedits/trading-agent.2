@@ -2822,19 +2822,10 @@
  },
  "floor": {
   "lastRun": {
-   "at": "2026-11-23T15:01:43Z",
-   "count": 7
+   "at": "2026-11-23T15:16:36Z",
+   "count": 1
   },
   "messages": [
-   {
-    "d": "strategy",
-    "k": "vote",
-    "n": 2,
-    "s": "",
-    "t": "2026-11-20T09:01:54Z",
-    "to": "pm",
-    "x": "Futures are risk off: 15/15 for a short."
-   },
    {
     "d": "pm",
     "k": "decide",
@@ -5525,6 +5516,15 @@
     "t": "2026-11-23T15:01:43Z",
     "to": "all",
     "x": "Short UBER scores 64, needs 70. Pass."
+   },
+   {
+    "d": "pm",
+    "k": "meeting",
+    "n": 0,
+    "s": "",
+    "t": "2026-11-23T15:16:36Z",
+    "to": "all",
+    "x": "Morning meeting: value $9,944.29, 0 positions held, stocks risk off, crypto risk off. Let's find setups."
    }
   ],
   "said": {
@@ -5547,7 +5547,6 @@
    "idea:MU:short:21:none": "2026-11-20T15:46:36Z",
    "idea:ORCL:short:17:breakdown": "2026-11-20T17:36:45Z",
    "idea:ORCL:short:18:breakdown": "2026-11-20T18:16:35Z",
-   "idea:TSM:short:23:none": "2026-11-20T15:11:43Z",
    "idea:UBER:short:16:none": "2026-11-23T15:01:43Z",
    "idea:UBER:short:19:breakdown": "2026-11-20T18:16:35Z",
    "idea:UBER:short:20:breakdown": "2026-11-20T17:06:35Z",
@@ -5576,7 +5575,6 @@
    "macro:futures:short:risk-off:2026-11-23T12:31:41.125787": "2026-11-23T12:31:41Z",
    "macro:futures:short:risk-off:2026-11-23T14:31:37.044270": "2026-11-23T14:31:37Z",
    "macro:stocks:long:risk-off:2026-11-20T15:16:39.593336": "2026-11-20T15:16:39Z",
-   "macro:stocks:short:risk-off:2026-11-20T15:11:43.306834": "2026-11-20T15:11:43Z",
    "macro:stocks:short:risk-off:2026-11-20T15:16:39.593336": "2026-11-20T15:16:39Z",
    "macro:stocks:short:risk-off:2026-11-20T15:46:36.663229": "2026-11-20T15:46:36Z",
    "macro:stocks:short:risk-off:2026-11-20T16:26:43.232773": "2026-11-20T16:26:43Z",
@@ -5589,6 +5587,7 @@
    "macro:stocks:short:risk-off:2026-11-23T15:01:43.556476": "2026-11-23T15:01:43Z",
    "meeting:close:2026-11-20": "2026-11-20T20:16:43Z",
    "meeting:open:2026-11-20": "2026-11-20T15:16:39Z",
+   "meeting:open:2026-11-23": "2026-11-23T15:16:36Z",
    "mood:crypto:risk-off:2026-11-21": "2026-11-21T05:01:42Z",
    "mood:crypto:risk-off:2026-11-22": "2026-11-22T05:01:51Z",
    "mood:crypto:risk-off:2026-11-23": "2026-11-23T05:01:48Z",
@@ -5617,7 +5616,6 @@
    "scan:stocks:XLP,XEL,WTW,XLI:9:6": "2026-11-20T15:56:43Z",
    "scan:stocks:XLP,XEL,WTW,XLI:9:7": "2026-11-20T16:16:59Z",
    "scan:stocks:XLP,XEL,WTW,XLI:9:8": "2026-11-20T18:26:37Z",
-   "scan:stocks:XLP,XEL,WTW,XLK:5:0": "2026-11-20T15:11:43Z",
    "scan:tsx:TRP.TO,H.TO,GWO.TO": "2026-11-23T14:51:42Z",
    "scan:tsx:TRP.TO,L.TO,IFC.TO": "2026-11-23T15:01:43Z",
    "scan:tsx:TRP.TO,PPL.TO,MRU.TO": "2026-11-20T15:36:45Z",
@@ -5630,7 +5628,7 @@
  },
  "fund": {
   "benchmarkBtcUnits": 0.03103649722666308,
-  "benchmarkCad": 9446.11,
+  "benchmarkCad": 9453.25,
   "benchmarkSet": true,
   "benchmarkSpyUnits": 6.399142948573451,
   "cad": 3000.0,
@@ -5640,7 +5638,7 @@
   "earningsKnown": true,
   "entriesThisWeek": 0,
   "entriesToday": 0,
-  "equityCad": 9942.36,
+  "equityCad": 9944.29,
   "focus": {
    "active": [
     "SPY",
@@ -5916,11 +5914,11 @@
   "lastCongressCheck": "2026-11-23",
   "lastEtfScan": "2026-11-21T11:01:42Z",
   "lastFuturesScan": "2026-11-23T15:01:43Z",
-  "lastRun": "2026-11-23T15:11:36Z",
+  "lastRun": "2026-11-23T15:16:36Z",
   "lastRunBy": "github",
-  "lastRunNote": "The S&P 500 fund was up 4.7% today; market mood risk-off. Bitcoin up 3.6% in 24 hours (risk-off). No trades: nothing scored high enough with a clean setup. Holding 0 positions. Value $9,942.36 vs buy-and-hold $9,446.11.",
-  "lastSaved": "2026-11-23T15:11:36Z",
-  "lastStockScan": "2026-11-23T15:11:36Z",
+  "lastRunNote": "The S&P 500 fund was up 4.8% today; market mood risk-off. Bitcoin up 3.6% in 24 hours (risk-off). No trades: nothing scored high enough with a clean setup. Holding 0 positions. Value $9,944.29 vs buy-and-hold $9,453.25.",
+  "lastSaved": "2026-11-23T15:16:36Z",
+  "lastStockScan": "2026-11-23T15:16:36Z",
   "lastTradingDay": "2026-11-20",
   "lastUniverseScan": "2026-11-23T13:01:44Z",
   "maxDrawdownPct": 1.06,
@@ -5986,7 +5984,7 @@
   },
   "tradingDays": 5,
   "usd": 4832.15361973509,
-  "usdCad": 1.4367,
+  "usdCad": 1.4371,
   "weekStart": "2026-11-23",
   "weekStartEquityCad": 9923.99
  },
@@ -6545,12 +6543,12 @@
   {
    "blocked": [],
    "cryptoRegime": "risk-off",
-   "dataCalls": 52,
+   "dataCalls": 49,
    "date": "2026-11-23",
    "liquid": 2313,
    "regime": "risk-off",
    "screened": 6223,
-   "summary": "",
+   "summary": "Morning: The S&P 500 fund was up 4.8% today; market mood risk-off. Bitcoin up 3.6% in 24 hours (risk-off). No trades: nothing scored high enough with a clean setup. Holding 0 positions. Value $9,944.29 vs buy-and-hold $9,453.25.",
    "topCandidates": [
     {
      "score": 82,
@@ -6563,24 +6561,9 @@
      "verdict": "66/100, below the 80 needed"
     },
     {
-     "score": 66,
-     "symbol": "LONG USFR",
-     "verdict": "66/100, below the 80 needed"
-    },
-    {
      "score": 65,
      "symbol": "LONG SYNA",
      "verdict": "65/100, below the 80 needed"
-    },
-    {
-     "score": 64,
-     "symbol": "LONG PTC",
-     "verdict": "64/100, below the 80 needed"
-    },
-    {
-     "score": 64,
-     "symbol": "SHORT UBER",
-     "verdict": "64/100, below the 70 needed"
     },
     {
      "score": 62,
@@ -6588,8 +6571,23 @@
      "verdict": "62/100, below the 70 needed"
     },
     {
+     "score": 61,
+     "symbol": "LONG XLP",
+     "verdict": "61/100, below the 80 needed"
+    },
+    {
+     "score": 59,
+     "symbol": "SHORT UBER",
+     "verdict": "59/100, below the 70 needed"
+    },
+    {
      "score": 56,
      "symbol": "LONG SONY",
+     "verdict": "56/100, below the 80 needed"
+    },
+    {
+     "score": 56,
+     "symbol": "LONG TRP.TO",
      "verdict": "56/100, below the 80 needed"
     }
    ],
@@ -6615,11 +6613,11 @@
    "exits": [],
    "signals": []
   },
-  "updated": "2026-11-23T15:11:36Z"
+  "updated": "2026-11-23T15:16:36Z"
  },
  "log": [
-  "Run 2026-11-23 WATCH (New York 10:11), stock market open day",
-  "Stock scan: 89 long and 67 short ideas pre-screened; 3 breakouts, 0 breakdowns",
+  "Run 2026-11-23 OPEN (New York 10:16), stock market open day",
+  "Stock scan: 89 long and 67 short ideas pre-screened; 2 breakouts, 0 breakdowns",
   "News model loaded"
  ],
  "nav": [
@@ -6678,10 +6676,10 @@
    "equityCad": 9923.99
   },
   {
-   "benchmarkCad": 9446.11,
-   "cashCad": 9942.36,
+   "benchmarkCad": 9453.25,
+   "cashCad": 9944.29,
    "date": "2026-11-23",
-   "equityCad": 9942.36
+   "equityCad": 9944.29
   }
  ],
  "pack": {
@@ -6689,7 +6687,7 @@
   "alertState": {},
   "clock": {
    "calendar_known": true,
-   "checkedAt": "2026-11-23T15:11:36Z",
+   "checkedAt": "2026-11-23T15:16:36Z",
    "closes": "16:00",
    "date": "2026-11-23",
    "early_close": null,
@@ -6746,6 +6744,10 @@
   },
   "2026-11-20 OPEN": {
    "at": "2026-11-20T15:16:39Z",
+   "by": "github"
+  },
+  "2026-11-23 OPEN": {
+   "at": "2026-11-23T15:16:36Z",
    "by": "github"
   }
  },
