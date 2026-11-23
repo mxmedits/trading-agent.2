@@ -2860,19 +2860,10 @@
  },
  "floor": {
   "lastRun": {
-   "at": "2026-11-23T18:46:47Z",
-   "count": 5
+   "at": "2026-11-23T18:56:45Z",
+   "count": 1
   },
   "messages": [
-   {
-    "d": "research",
-    "k": "idea",
-    "n": 14,
-    "s": "ORCL",
-    "t": "2026-11-20T14:51:44Z",
-    "to": "pm",
-    "x": "Short ORCL: no clean setup yet, chart 25/30."
-   },
    {
     "d": "news",
     "k": "vote",
@@ -5563,6 +5554,15 @@
     "t": "2026-11-23T18:46:47Z",
     "to": "all",
     "x": "Nothing to trade this scan. Short KRE scores enough but has no clean setup yet."
+   },
+   {
+    "d": "research",
+    "k": "info",
+    "n": 0,
+    "s": "",
+    "t": "2026-11-23T18:56:45Z",
+    "to": "pm",
+    "x": "Stock scan: 89 long and 67 short charts checked, 8 breakouts, 1 breakdown. Strongest: XLP, XEL, WTW, WFC."
    }
   ],
   "said": {
@@ -5633,7 +5633,7 @@
    "scan:stocks:XLP,XEL,WTW,WFC:5:0": "2026-11-23T15:26:53Z",
    "scan:stocks:XLP,XEL,WTW,WFC:7:0": "2026-11-23T15:36:45Z",
    "scan:stocks:XLP,XEL,WTW,WFC:7:1": "2026-11-23T16:16:42Z",
-   "scan:stocks:XLP,XEL,WTW,WFC:8:1": "2026-11-23T17:36:38Z",
+   "scan:stocks:XLP,XEL,WTW,WFC:8:1": "2026-11-23T18:56:45Z",
    "scan:stocks:XLP,XEL,WTW,WFC:9:0": "2026-11-23T15:56:35Z",
    "scan:stocks:XLP,XEL,WTW,WFC:9:1": "2026-11-23T18:16:35Z",
    "scan:stocks:XLP,XEL,WTW,XLI:6:8": "2026-11-20T19:46:44Z",
@@ -5653,7 +5653,7 @@
  },
  "fund": {
   "benchmarkBtcUnits": 0.03103649722666308,
-  "benchmarkCad": 9380.16,
+  "benchmarkCad": 9372.46,
   "benchmarkSet": true,
   "benchmarkSpyUnits": 6.399142948573451,
   "cad": 3000.0,
@@ -5663,7 +5663,7 @@
   "earningsKnown": true,
   "entriesThisWeek": 0,
   "entriesToday": 0,
-  "equityCad": 9948.15,
+  "equityCad": 9946.22,
   "focus": {
    "active": [
     "SPY",
@@ -5939,11 +5939,11 @@
   "lastCongressCheck": "2026-11-23",
   "lastEtfScan": "2026-11-21T11:01:42Z",
   "lastFuturesScan": "2026-11-23T18:31:41Z",
-  "lastRun": "2026-11-23T18:46:47Z",
+  "lastRun": "2026-11-23T18:56:45Z",
   "lastRunBy": "github",
-  "lastRunNote": "The S&P 500 fund was up 4.7% today; market mood risk-off. Bitcoin up 1.2% in 24 hours (risk-off). No trades: nothing scored high enough with a clean setup. Holding 0 positions. Value $9,948.15 vs buy-and-hold $9,380.16.",
-  "lastSaved": "2026-11-23T18:46:47Z",
-  "lastStockScan": "2026-11-23T18:46:47Z",
+  "lastRunNote": "The S&P 500 fund was up 4.6% today; market mood risk-off. Bitcoin up 1.1% in 24 hours (risk-off). No trades: nothing scored high enough with a clean setup. Holding 0 positions. Value $9,946.22 vs buy-and-hold $9,372.46.",
+  "lastSaved": "2026-11-23T18:56:45Z",
+  "lastStockScan": "2026-11-23T18:56:45Z",
   "lastTradingDay": "2026-11-20",
   "lastUniverseScan": "2026-11-23T13:01:44Z",
   "maxDrawdownPct": 1.06,
@@ -6009,7 +6009,7 @@
   },
   "tradingDays": 5,
   "usd": 4832.15361973509,
-  "usdCad": 1.4379,
+  "usdCad": 1.4375,
   "weekStart": "2026-11-23",
   "weekStartEquityCad": 9923.99
  },
@@ -6614,9 +6614,9 @@
      "verdict": "72/100, no clean setup yet"
     },
     {
-     "score": 66,
+     "score": 69,
      "symbol": "LONG WMT",
-     "verdict": "66/100, below the 80 needed"
+     "verdict": "69/100, below the 80 needed"
     },
     {
      "score": 65,
@@ -6635,17 +6635,17 @@
     },
     {
      "score": 56,
-     "symbol": "LONG XEL",
-     "verdict": "56/100, below the 80 needed"
-    },
-    {
-     "score": 56,
      "symbol": "LONG VBIL",
      "verdict": "56/100, below the 80 needed"
     },
     {
      "score": 56,
      "symbol": "LONG WN.TO",
+     "verdict": "56/100, below the 80 needed"
+    },
+    {
+     "score": 56,
+     "symbol": "LONG SAP.TO",
      "verdict": "56/100, below the 80 needed"
     }
    ],
@@ -6671,11 +6671,11 @@
    "exits": [],
    "signals": []
   },
-  "updated": "2026-11-23T18:46:47Z"
+  "updated": "2026-11-23T18:56:45Z"
  },
  "log": [
-  "Run 2026-11-23 WATCH (New York 13:46), stock market open day",
-  "Stock scan: 89 long and 67 short ideas pre-screened; 9 breakouts, 1 breakdowns",
+  "Run 2026-11-23 WATCH (New York 13:56), stock market open day",
+  "Stock scan: 89 long and 67 short ideas pre-screened; 8 breakouts, 1 breakdowns",
   "News model loaded"
  ],
  "nav": [
@@ -6734,10 +6734,10 @@
    "equityCad": 9923.99
   },
   {
-   "benchmarkCad": 9380.16,
-   "cashCad": 9948.15,
+   "benchmarkCad": 9372.46,
+   "cashCad": 9946.22,
    "date": "2026-11-23",
-   "equityCad": 9948.15
+   "equityCad": 9946.22
   }
  ],
  "pack": {
@@ -6745,7 +6745,7 @@
   "alertState": {},
   "clock": {
    "calendar_known": true,
-   "checkedAt": "2026-11-23T18:46:47Z",
+   "checkedAt": "2026-11-23T18:56:45Z",
    "closes": "16:00",
    "date": "2026-11-23",
    "early_close": null,
