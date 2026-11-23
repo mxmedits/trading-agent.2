@@ -5637,7 +5637,6 @@
    "scan:stocks:XLP,XEL,WTW,WFC:9:1": "2026-11-23T18:16:35Z",
    "scan:stocks:XLP,XEL,WTW,XLI:6:8": "2026-11-20T19:46:44Z",
    "scan:stocks:XLP,XEL,WTW,XLI:8:8": "2026-11-20T19:36:52Z",
-   "scan:stocks:XLP,XEL,WTW,XLI:9:8": "2026-11-20T18:26:37Z",
    "scan:tsx:TRP.TO,H.TO,GWO.TO": "2026-11-23T14:51:42Z",
    "scan:tsx:TRP.TO,L.TO,IFC.TO": "2026-11-23T17:06:49Z",
    "scan:tsx:TRP.TO,L.TO,KXS.TO": "2026-11-23T15:26:53Z",
@@ -5652,7 +5651,7 @@
  },
  "fund": {
   "benchmarkBtcUnits": 0.03103649722666308,
-  "benchmarkCad": 9395.73,
+  "benchmarkCad": 9413.53,
   "benchmarkSet": true,
   "benchmarkSpyUnits": 6.399142948573451,
   "cad": 3000.0,
@@ -5662,7 +5661,7 @@
   "earningsKnown": true,
   "entriesThisWeek": 0,
   "entriesToday": 0,
-  "equityCad": 9947.19,
+  "equityCad": 9949.12,
   "focus": {
    "active": [
     "SPY",
@@ -5938,11 +5937,11 @@
   "lastCongressCheck": "2026-11-23",
   "lastEtfScan": "2026-11-21T11:01:42Z",
   "lastFuturesScan": "2026-11-23T18:01:43Z",
-  "lastRun": "2026-11-23T18:16:35Z",
+  "lastRun": "2026-11-23T18:26:43Z",
   "lastRunBy": "github",
-  "lastRunNote": "The S&P 500 fund was up 4.9% today; market mood risk-off. Bitcoin up 1.2% in 24 hours (risk-off). No trades: nothing scored high enough with a clean setup. Holding 0 positions. Value $9,947.19 vs buy-and-hold $9,395.73.",
-  "lastSaved": "2026-11-23T18:16:35Z",
-  "lastStockScan": "2026-11-23T18:16:35Z",
+  "lastRunNote": "The S&P 500 fund was up 5.0% today; market mood risk-off. Bitcoin up 1.6% in 24 hours (risk-off). No trades: nothing scored high enough with a clean setup. Holding 0 positions. Value $9,949.12 vs buy-and-hold $9,413.53.",
+  "lastSaved": "2026-11-23T18:26:43Z",
+  "lastStockScan": "2026-11-23T18:26:43Z",
   "lastTradingDay": "2026-11-20",
   "lastUniverseScan": "2026-11-23T13:01:44Z",
   "maxDrawdownPct": 1.06,
@@ -6008,7 +6007,7 @@
   },
   "tradingDays": 5,
   "usd": 4832.15361973509,
-  "usdCad": 1.4377,
+  "usdCad": 1.4381,
   "weekStart": "2026-11-23",
   "weekStartEquityCad": 9923.99
  },
@@ -6623,9 +6622,9 @@
      "verdict": "65/100, below the 70 needed"
     },
     {
-     "score": 62,
+     "score": 59,
      "symbol": "SHORT WFC",
-     "verdict": "62/100, below the 70 needed"
+     "verdict": "59/100, below the 70 needed"
     },
     {
      "score": 56,
@@ -6670,10 +6669,10 @@
    "exits": [],
    "signals": []
   },
-  "updated": "2026-11-23T18:16:35Z"
+  "updated": "2026-11-23T18:26:43Z"
  },
  "log": [
-  "Run 2026-11-23 WATCH (New York 13:16), stock market open day",
+  "Run 2026-11-23 WATCH (New York 13:26), stock market open day",
   "Stock scan: 89 long and 67 short ideas pre-screened; 9 breakouts, 1 breakdowns",
   "News model loaded"
  ],
@@ -6733,10 +6732,10 @@
    "equityCad": 9923.99
   },
   {
-   "benchmarkCad": 9395.73,
-   "cashCad": 9947.19,
+   "benchmarkCad": 9413.53,
+   "cashCad": 9949.12,
    "date": "2026-11-23",
-   "equityCad": 9947.19
+   "equityCad": 9949.12
   }
  ],
  "pack": {
@@ -6744,7 +6743,7 @@
   "alertState": {},
   "clock": {
    "calendar_known": true,
-   "checkedAt": "2026-11-23T18:16:35Z",
+   "checkedAt": "2026-11-23T18:26:43Z",
    "closes": "16:00",
    "date": "2026-11-23",
    "early_close": null,
