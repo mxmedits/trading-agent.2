@@ -2860,64 +2860,10 @@
  },
  "floor": {
   "lastRun": {
-   "at": "2026-11-23T17:26:37Z",
-   "count": 1
+   "at": "2026-11-23T17:31:43Z",
+   "count": 6
   },
   "messages": [
-   {
-    "d": "analyst",
-    "k": "info",
-    "n": 0,
-    "s": "JNJ",
-    "t": "2026-11-20T14:01:34Z",
-    "to": "research",
-    "x": "House filing: Thomas H. Kean Jr sold JNJ ($1,001 - $15,000), traded Oct 27."
-   },
-   {
-    "d": "analyst",
-    "k": "info",
-    "n": 1,
-    "s": "MSFT",
-    "t": "2026-11-20T14:01:34Z",
-    "to": "research",
-    "x": "House filing: Thomas H. Kean Jr sold MSFT ($15,001 - $50,000), traded Oct 27."
-   },
-   {
-    "d": "analyst",
-    "k": "info",
-    "n": 2,
-    "s": "SYK",
-    "t": "2026-11-20T14:01:34Z",
-    "to": "research",
-    "x": "House filing: Thomas H. Kean Jr sold SYK ($1,001 - $15,000), traded Oct 27."
-   },
-   {
-    "d": "strategy",
-    "k": "mood",
-    "n": 0,
-    "s": "",
-    "t": "2026-11-20T14:31:54Z",
-    "to": "pm",
-    "x": "NYSE is open until 4:00 PM."
-   },
-   {
-    "d": "research",
-    "k": "alert",
-    "n": 1,
-    "s": "XLK",
-    "t": "2026-11-20T14:31:54Z",
-    "to": "pm",
-    "x": "XLK just went below $159.63. Bringing it back to the desk."
-   },
-   {
-    "d": "pm",
-    "k": "decide",
-    "n": 2,
-    "s": "",
-    "t": "2026-11-20T14:31:54Z",
-    "to": "all",
-    "x": "Nothing good enough this scan. Closest: short MET at 77, needs 70."
-   },
    {
     "d": "research",
     "k": "info",
@@ -5563,6 +5509,60 @@
     "t": "2026-11-23T17:26:37Z",
     "to": "pm",
     "x": "TSX scan: 76 Canadian charts checked. Strongest: WN.TO, TRP.TO, L.TO."
+   },
+   {
+    "d": "research",
+    "k": "idea",
+    "n": 0,
+    "s": "MET",
+    "t": "2026-11-23T17:31:43Z",
+    "to": "pm",
+    "x": "Short MET: new 20-day low on heavy volume, chart 25/30."
+   },
+   {
+    "d": "news",
+    "k": "vote",
+    "n": 1,
+    "s": "MET",
+    "t": "2026-11-23T17:31:43Z",
+    "to": "pm",
+    "x": "MET: no fresh headlines, neutral 13/25."
+   },
+   {
+    "d": "strategy",
+    "k": "vote",
+    "n": 2,
+    "s": "",
+    "t": "2026-11-23T17:31:43Z",
+    "to": "pm",
+    "x": "Futures are risk off: 15/15 for a short."
+   },
+   {
+    "d": "pm",
+    "k": "decide",
+    "n": 3,
+    "s": "MET",
+    "t": "2026-11-23T17:31:43Z",
+    "to": "all",
+    "x": "Short MET scores 77, needs 70. Quant and Risk, check it."
+   },
+   {
+    "d": "quant",
+    "k": "vote",
+    "n": 4,
+    "s": "MET",
+    "t": "2026-11-23T17:31:43Z",
+    "to": "pm",
+    "x": "MET: in 10,000 daily replays the target comes first 0%, the stop 4%. Most run out of time first. Odds are against us."
+   },
+   {
+    "d": "risk",
+    "k": "block",
+    "n": 5,
+    "s": "MET",
+    "t": "2026-11-23T17:31:43Z",
+    "to": "pm",
+    "x": "Blocked MET: a stop-out would break today's loss limit; the replays favour the stop."
    }
   ],
   "said": {
@@ -5581,7 +5581,7 @@
    "idea:M6E:short:18:none": "2026-11-23T09:01:46Z",
    "idea:MET:short:16:none": "2026-11-23T03:31:44Z",
    "idea:MET:short:18:breakdown": "2026-11-23T12:31:41Z",
-   "idea:MET:short:19:breakdown": "2026-11-23T14:31:37Z",
+   "idea:MET:short:19:breakdown": "2026-11-23T17:31:43Z",
    "idea:MET:short:19:none": "2026-11-20T22:01:49Z",
    "idea:ORCL:short:17:breakdown": "2026-11-20T17:36:45Z",
    "idea:ORCL:short:18:breakdown": "2026-11-20T18:16:35Z",
@@ -5607,6 +5607,7 @@
    "macro:futures:short:risk-off:2026-11-23T09:31:39.673640": "2026-11-23T09:31:39Z",
    "macro:futures:short:risk-off:2026-11-23T12:31:41.125787": "2026-11-23T12:31:41Z",
    "macro:futures:short:risk-off:2026-11-23T14:31:37.044270": "2026-11-23T14:31:37Z",
+   "macro:futures:short:risk-off:2026-11-23T17:31:43.276600": "2026-11-23T17:31:43Z",
    "macro:stocks:short:risk-off:2026-11-20T17:36:45.133660": "2026-11-20T17:36:45Z",
    "macro:stocks:short:risk-off:2026-11-20T18:16:35.679622": "2026-11-20T18:16:35Z",
    "macro:stocks:short:risk-off:2026-11-20T19:36:52.890058": "2026-11-20T19:36:52Z",
@@ -5654,7 +5655,7 @@
  },
  "fund": {
   "benchmarkBtcUnits": 0.03103649722666308,
-  "benchmarkCad": 9404.71,
+  "benchmarkCad": 9402.27,
   "benchmarkSet": true,
   "benchmarkSpyUnits": 6.399142948573451,
   "cad": 3000.0,
@@ -5664,7 +5665,7 @@
   "earningsKnown": true,
   "entriesThisWeek": 0,
   "entriesToday": 0,
-  "equityCad": 9945.25,
+  "equityCad": 9944.77,
   "focus": {
    "active": [
     "SPY",
@@ -5939,11 +5940,11 @@
   "halted": false,
   "lastCongressCheck": "2026-11-23",
   "lastEtfScan": "2026-11-21T11:01:42Z",
-  "lastFuturesScan": "2026-11-23T17:01:48Z",
-  "lastRun": "2026-11-23T17:26:37Z",
+  "lastFuturesScan": "2026-11-23T17:31:43Z",
+  "lastRun": "2026-11-23T17:31:43Z",
   "lastRunBy": "github",
-  "lastRunNote": "The S&P 500 fund was up 4.8% today; market mood risk-off. Bitcoin up 1.6% in 24 hours (risk-off). No trades: nothing scored high enough with a clean setup. Holding 0 positions. Value $9,945.25 vs buy-and-hold $9,404.71.",
-  "lastSaved": "2026-11-23T17:26:37Z",
+  "lastRunNote": "The S&P 500 fund was up 4.8% today; market mood risk-off. Bitcoin up 1.5% in 24 hours (risk-off). No trades: SHORT MET came closest but failed daily loss limit, time machine favourable. Holding 0 positions. Value $9,944.77 vs buy-and-hold $",
+  "lastSaved": "2026-11-23T17:31:43Z",
   "lastStockScan": "2026-11-23T17:26:37Z",
   "lastTradingDay": "2026-11-20",
   "lastUniverseScan": "2026-11-23T13:01:44Z",
@@ -6010,7 +6011,7 @@
   },
   "tradingDays": 5,
   "usd": 4832.15361973509,
-  "usdCad": 1.4373,
+  "usdCad": 1.4372,
   "weekStart": "2026-11-23",
   "weekStartEquityCad": 9923.99
  },
@@ -6600,9 +6601,17 @@
    "universe": 6224
   },
   {
-   "blocked": [],
+   "blocked": [
+    {
+     "failed": [
+      "Daily loss limit",
+      "Time machine favourable"
+     ],
+     "symbol": "SHORT MET"
+    }
+   ],
    "cryptoRegime": "risk-off",
-   "dataCalls": 48,
+   "dataCalls": 18,
    "date": "2026-11-23",
    "liquid": 2313,
    "regime": "risk-off",
@@ -6610,44 +6619,14 @@
    "summary": "Morning: The S&P 500 fund was up 4.8% today; market mood risk-off. Bitcoin up 3.6% in 24 hours (risk-off). No trades: nothing scored high enough with a clean setup. Holding 0 positions. Value $9,944.29 vs buy-and-hold $9,453.25.",
    "topCandidates": [
     {
-     "score": 82,
-     "symbol": "SHORT KRE",
-     "verdict": "82/100, no clean setup yet"
+     "score": 77,
+     "symbol": "SHORT MET",
+     "verdict": "77/100, new 20-day low on heavy volume"
     },
     {
-     "score": 65,
-     "symbol": "SHORT BKNG",
-     "verdict": "65/100, below the 70 needed"
-    },
-    {
-     "score": 62,
-     "symbol": "SHORT WFC",
-     "verdict": "62/100, below the 70 needed"
-    },
-    {
-     "score": 61,
-     "symbol": "LONG XLP",
-     "verdict": "61/100, below the 80 needed"
-    },
-    {
-     "score": 56,
-     "symbol": "LONG XEL",
-     "verdict": "56/100, below the 80 needed"
-    },
-    {
-     "score": 56,
-     "symbol": "LONG WMT",
-     "verdict": "56/100, below the 80 needed"
-    },
-    {
-     "score": 56,
-     "symbol": "LONG VBIL",
-     "verdict": "56/100, below the 80 needed"
-    },
-    {
-     "score": 56,
-     "symbol": "LONG WN.TO",
-     "verdict": "56/100, below the 80 needed"
+     "score": 70,
+     "symbol": "SHORT M6E",
+     "verdict": "70/100, below the 75 needed"
     }
    ],
    "universe": 6224
@@ -6672,12 +6651,11 @@
    "exits": [],
    "signals": []
   },
-  "updated": "2026-11-23T17:26:37Z"
+  "updated": "2026-11-23T17:31:43Z"
  },
  "log": [
-  "Run 2026-11-23 WATCH (New York 12:26), stock market open day",
-  "Stock scan: 89 long and 67 short ideas pre-screened; 8 breakouts, 1 breakdowns",
-  "News model loaded"
+  "Run 2026-11-23 WATCH (New York 12:31), stock market open day",
+  "BLOCK SHORT MET: Daily loss limit, Time machine favourable"
  ],
  "nav": [
   {
@@ -6735,10 +6713,10 @@
    "equityCad": 9923.99
   },
   {
-   "benchmarkCad": 9404.71,
-   "cashCad": 9945.25,
+   "benchmarkCad": 9402.27,
+   "cashCad": 9944.77,
    "date": "2026-11-23",
-   "equityCad": 9945.25
+   "equityCad": 9944.77
   }
  ],
  "pack": {
@@ -6746,7 +6724,7 @@
   "alertState": {},
   "clock": {
    "calendar_known": true,
-   "checkedAt": "2026-11-23T17:26:37Z",
+   "checkedAt": "2026-11-23T17:31:43Z",
    "closes": "16:00",
    "date": "2026-11-23",
    "early_close": null,
