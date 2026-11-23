@@ -2860,55 +2860,10 @@
  },
  "floor": {
   "lastRun": {
-   "at": "2026-11-23T22:01:49Z",
-   "count": 1
+   "at": "2026-11-23T22:31:51Z",
+   "count": 5
   },
   "messages": [
-   {
-    "d": "strategy",
-    "k": "vote",
-    "n": 12,
-    "s": "",
-    "t": "2026-11-20T15:16:39Z",
-    "to": "pm",
-    "x": "Stocks are risk off: 0/15 for a long."
-   },
-   {
-    "d": "pm",
-    "k": "decide",
-    "n": 13,
-    "s": "WMT",
-    "t": "2026-11-20T15:16:39Z",
-    "to": "all",
-    "x": "Long WMT scores 80, needs 80. Quant and Risk, check it."
-   },
-   {
-    "d": "quant",
-    "k": "vote",
-    "n": 14,
-    "s": "WMT",
-    "t": "2026-11-20T15:16:39Z",
-    "to": "pm",
-    "x": "WMT: in 10,000 5-minute replays the target comes first 3%, the stop 20%. Most run out of time first. Odds are against us."
-   },
-   {
-    "d": "risk",
-    "k": "check",
-    "n": 15,
-    "s": "WMT",
-    "t": "2026-11-20T15:16:39Z",
-    "to": "trader",
-    "x": "WMT: 9 whole shares, limited by the position cap; max loss $10.98."
-   },
-   {
-    "d": "risk",
-    "k": "block",
-    "n": 16,
-    "s": "WMT",
-    "t": "2026-11-20T15:16:39Z",
-    "to": "pm",
-    "x": "Blocked WMT: the replays favour the stop."
-   },
    {
     "d": "research",
     "k": "info",
@@ -5563,6 +5518,51 @@
     "t": "2026-11-23T22:01:49Z",
     "to": "all",
     "x": "Nothing good enough this scan. Closest: short MET at 72, needs 70."
+   },
+   {
+    "d": "research",
+    "k": "idea",
+    "n": 0,
+    "s": "M6E",
+    "t": "2026-11-23T22:31:51Z",
+    "to": "pm",
+    "x": "Short M6E: new 20-day low on heavy volume, chart 25/30."
+   },
+   {
+    "d": "news",
+    "k": "vote",
+    "n": 1,
+    "s": "M6E",
+    "t": "2026-11-23T22:31:51Z",
+    "to": "pm",
+    "x": "M6E: no fresh headlines, neutral 13/25."
+   },
+   {
+    "d": "strategy",
+    "k": "vote",
+    "n": 2,
+    "s": "",
+    "t": "2026-11-23T22:31:51Z",
+    "to": "pm",
+    "x": "Futures are neutral: 8/15 for a short."
+   },
+   {
+    "d": "pm",
+    "k": "decide",
+    "n": 3,
+    "s": "M6E",
+    "t": "2026-11-23T22:31:51Z",
+    "to": "all",
+    "x": "Short M6E scores 70, needs 75. Pass."
+   },
+   {
+    "d": "pm",
+    "k": "decide",
+    "n": 4,
+    "s": "",
+    "t": "2026-11-23T22:31:51Z",
+    "to": "all",
+    "x": "Nothing good enough this scan. Closest: short M6E at 70, needs 75."
    }
   ],
   "said": {
@@ -5578,7 +5578,7 @@
    "idea:KRE:short:18:none": "2026-11-23T18:46:47Z",
    "idea:KRE:short:19:none": "2026-11-23T17:36:38Z",
    "idea:KRE:short:20:none": "2026-11-23T14:51:42Z",
-   "idea:M6E:short:17:breakdown": "2026-11-23T19:31:43Z",
+   "idea:M6E:short:17:breakdown": "2026-11-23T22:31:51Z",
    "idea:M6E:short:17:none": "2026-11-23T10:31:41Z",
    "idea:M6E:short:18:none": "2026-11-23T09:01:46Z",
    "idea:MET:short:16:none": "2026-11-23T03:31:44Z",
@@ -5592,7 +5592,7 @@
    "macro:futures:short:neutral:2026-11-23T13:01:44.918756": "2026-11-23T13:01:44Z",
    "macro:futures:short:neutral:2026-11-23T16:01:49.788387": "2026-11-23T16:01:49Z",
    "macro:futures:short:neutral:2026-11-23T19:31:43.627033": "2026-11-23T19:31:43Z",
-   "macro:futures:short:risk-off:2026-11-20T22:31:42.130487": "2026-11-20T22:31:42Z",
+   "macro:futures:short:neutral:2026-11-23T22:31:51.278462": "2026-11-23T22:31:51Z",
    "macro:futures:short:risk-off:2026-11-23T03:31:44.575538": "2026-11-23T03:31:44Z",
    "macro:futures:short:risk-off:2026-11-23T05:31:49.177076": "2026-11-23T05:31:49Z",
    "macro:futures:short:risk-off:2026-11-23T06:01:42.411376": "2026-11-23T06:01:42Z",
@@ -5620,7 +5620,7 @@
    "nothing:KRE:19": "2026-11-23T17:36:38Z",
    "nothing:KRE:20": "2026-11-23T16:56:47Z",
    "nothing:M6E:16": "2026-11-23T05:01:48Z",
-   "nothing:M6E:17": "2026-11-20T22:31:42Z",
+   "nothing:M6E:17": "2026-11-23T22:31:51Z",
    "nothing:M6E:18": "2026-11-23T08:01:48Z",
    "nothing:MET:15": "2026-11-23T00:01:40Z",
    "nothing:MET:16": "2026-11-23T03:31:44Z",
@@ -5650,7 +5650,7 @@
  },
  "fund": {
   "benchmarkBtcUnits": 0.03103649722666308,
-  "benchmarkCad": 9363.87,
+  "benchmarkCad": 9367.35,
   "benchmarkSet": true,
   "benchmarkSpyUnits": 6.399142948573451,
   "cad": 3000.0,
@@ -5660,7 +5660,7 @@
   "earningsKnown": true,
   "entriesThisWeek": 0,
   "entriesToday": 0,
-  "equityCad": 9937.52,
+  "equityCad": 9941.39,
   "focus": {
    "active": [
     "SPY",
@@ -5935,11 +5935,11 @@
   "halted": false,
   "lastCongressCheck": "2026-11-23",
   "lastEtfScan": "2026-11-21T11:01:42Z",
-  "lastFuturesScan": "2026-11-23T22:01:49Z",
-  "lastRun": "2026-11-23T22:01:49Z",
+  "lastFuturesScan": "2026-11-23T22:31:51Z",
+  "lastRun": "2026-11-23T22:31:51Z",
   "lastRunBy": "github",
-  "lastRunNote": "The S&P 500 fund was up 4.7% today; market mood risk-off. Bitcoin up 0.7% in 24 hours (risk-off). No trades: SHORT MET came closest but failed daily loss limit, time machine favourable. Holding 0 positions. Value $9,937.52 vs buy-and-hold $",
-  "lastSaved": "2026-11-23T22:01:49Z",
+  "lastRunNote": "The S&P 500 fund was up 4.7% today; market mood risk-off. Bitcoin up 0.7% in 24 hours (risk-off). No trades: nothing scored high enough with a clean setup. Holding 0 positions. Value $9,941.39 vs buy-and-hold $9,367.35.",
+  "lastSaved": "2026-11-23T22:31:51Z",
   "lastStockScan": "2026-11-23T19:46:33Z",
   "lastTradingDay": "2026-11-23",
   "lastUniverseScan": "2026-11-23T13:01:44Z",
@@ -6006,7 +6006,7 @@
   },
   "tradingDays": 6,
   "usd": 4832.15361973509,
-  "usdCad": 1.4357,
+  "usdCad": 1.4365,
   "weekStart": "2026-11-23",
   "weekStartEquityCad": 9923.99
  },
@@ -6596,15 +6596,7 @@
    "universe": 6224
   },
   {
-   "blocked": [
-    {
-     "failed": [
-      "Daily loss limit",
-      "Time machine favourable"
-     ],
-     "symbol": "SHORT MET"
-    }
-   ],
+   "blocked": [],
    "cryptoRegime": "risk-off",
    "dataCalls": 18,
    "date": "2026-11-23",
@@ -6614,14 +6606,14 @@
    "summary": "Morning: The S&P 500 fund was up 4.8% today; market mood risk-off. Bitcoin up 3.6% in 24 hours (risk-off). No trades: nothing scored high enough with a clean setup. Holding 0 positions. Value $9,944.29 vs buy-and-hold $9,453.25. Close: The S&P 500 fund was up 4.9% today; market mood risk-off. Bitcoin up 1.3% in 24 hours (risk-off). No new trades this run (nothing due). Holding 0 positions. Value $9,944.29 vs buy-and-hold $9,394.32.",
    "topCandidates": [
     {
-     "score": 72,
-     "symbol": "SHORT MET",
-     "verdict": "72/100, new 20-day low on heavy volume"
-    },
-    {
      "score": 70,
      "symbol": "SHORT M6E",
      "verdict": "70/100, below the 75 needed"
+    },
+    {
+     "score": 62,
+     "symbol": "SHORT MET",
+     "verdict": "62/100, below the 70 needed"
     }
    ],
    "universe": 6224
@@ -6646,11 +6638,10 @@
    "exits": [],
    "signals": []
   },
-  "updated": "2026-11-23T22:01:49Z"
+  "updated": "2026-11-23T22:31:51Z"
  },
  "log": [
-  "Run 2026-11-23 WATCH (New York 17:01), stock market open day",
-  "BLOCK SHORT MET: Daily loss limit, Time machine favourable"
+  "Run 2026-11-23 WATCH (New York 17:31), stock market open day"
  ],
  "nav": [
   {
@@ -6708,10 +6699,10 @@
    "equityCad": 9923.99
   },
   {
-   "benchmarkCad": 9363.87,
-   "cashCad": 9937.52,
+   "benchmarkCad": 9367.35,
+   "cashCad": 9941.39,
    "date": "2026-11-23",
-   "equityCad": 9937.52
+   "equityCad": 9941.39
   }
  ],
  "pack": {
@@ -6719,7 +6710,7 @@
   "alertState": {},
   "clock": {
    "calendar_known": true,
-   "checkedAt": "2026-11-23T22:01:49Z",
+   "checkedAt": "2026-11-23T22:31:51Z",
    "closes": "16:00",
    "date": "2026-11-23",
    "early_close": null,
