@@ -5587,7 +5587,6 @@
    "idea:MET:short:19:none": "2026-11-20T22:01:49Z",
    "idea:ROST:short:17:none": "2026-11-23T15:26:53Z",
    "idea:UBER:short:16:none": "2026-11-23T15:01:43Z",
-   "macro:futures:short:neutral:2026-11-20T21:31:44.638585": "2026-11-20T21:31:44Z",
    "macro:futures:short:neutral:2026-11-23T05:31:49.177076": "2026-11-23T05:31:49Z",
    "macro:futures:short:neutral:2026-11-23T09:01:46.069332": "2026-11-23T09:01:46Z",
    "macro:futures:short:neutral:2026-11-23T10:31:41.866478": "2026-11-23T10:31:41Z",
@@ -5653,7 +5652,7 @@
  },
  "fund": {
   "benchmarkBtcUnits": 0.03103649722666308,
-  "benchmarkCad": 9376.34,
+  "benchmarkCad": 9375.04,
   "benchmarkSet": true,
   "benchmarkSpyUnits": 6.399142948573451,
   "cad": 3000.0,
@@ -5663,7 +5662,7 @@
   "earningsKnown": true,
   "entriesThisWeek": 0,
   "entriesToday": 0,
-  "equityCad": 9945.74,
+  "equityCad": 9940.91,
   "focus": {
    "active": [
     "SPY",
@@ -5938,11 +5937,11 @@
   "halted": false,
   "lastCongressCheck": "2026-11-23",
   "lastEtfScan": "2026-11-21T11:01:42Z",
-  "lastFuturesScan": "2026-11-23T21:01:39Z",
-  "lastRun": "2026-11-23T21:01:39Z",
+  "lastFuturesScan": "2026-11-23T21:31:47Z",
+  "lastRun": "2026-11-23T21:31:47Z",
   "lastRunBy": "github",
-  "lastRunNote": "The S&P 500 fund was up 4.7% today; market mood risk-off. Bitcoin up 0.5% in 24 hours (risk-off). No trades: SHORT MET came closest but failed daily loss limit, time machine favourable. Holding 0 positions. Value $9,945.74 vs buy-and-hold $",
-  "lastSaved": "2026-11-23T21:01:39Z",
+  "lastRunNote": "The S&P 500 fund was up 4.7% today; market mood risk-off. Bitcoin up 0.8% in 24 hours (risk-off). No trades: SHORT MET came closest but failed daily loss limit, time machine favourable. Holding 0 positions. Value $9,940.91 vs buy-and-hold $",
+  "lastSaved": "2026-11-23T21:31:47Z",
   "lastStockScan": "2026-11-23T19:46:33Z",
   "lastTradingDay": "2026-11-23",
   "lastUniverseScan": "2026-11-23T13:01:44Z",
@@ -6009,7 +6008,7 @@
   },
   "tradingDays": 6,
   "usd": 4832.15361973509,
-  "usdCad": 1.4374,
+  "usdCad": 1.4364,
   "weekStart": "2026-11-23",
   "weekStartEquityCad": 9923.99
  },
@@ -6649,10 +6648,10 @@
    "exits": [],
    "signals": []
   },
-  "updated": "2026-11-23T21:01:39Z"
+  "updated": "2026-11-23T21:31:47Z"
  },
  "log": [
-  "Run 2026-11-23 WATCH (New York 16:01), stock market open day",
+  "Run 2026-11-23 WATCH (New York 16:31), stock market open day",
   "BLOCK SHORT MET: Daily loss limit, Time machine favourable"
  ],
  "nav": [
@@ -6711,10 +6710,10 @@
    "equityCad": 9923.99
   },
   {
-   "benchmarkCad": 9376.34,
-   "cashCad": 9945.74,
+   "benchmarkCad": 9375.04,
+   "cashCad": 9940.91,
    "date": "2026-11-23",
-   "equityCad": 9945.74
+   "equityCad": 9940.91
   }
  ],
  "pack": {
@@ -6722,7 +6721,7 @@
   "alertState": {},
   "clock": {
    "calendar_known": true,
-   "checkedAt": "2026-11-23T21:01:39Z",
+   "checkedAt": "2026-11-23T21:31:47Z",
    "closes": "16:00",
    "date": "2026-11-23",
    "early_close": null,
