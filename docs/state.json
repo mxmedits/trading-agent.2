@@ -2838,19 +2838,10 @@
  },
  "floor": {
   "lastRun": {
-   "at": "2026-11-23T06:01:42Z",
-   "count": 7
+   "at": "2026-11-23T08:01:48Z",
+   "count": 1
   },
   "messages": [
-   {
-    "d": "research",
-    "k": "idea",
-    "n": 1,
-    "s": "XLK",
-    "t": "2026-11-19T19:26:47Z",
-    "to": "pm",
-    "x": "Short XLK: fell below its opening range, chart 30/30."
-   },
    {
     "d": "news",
     "k": "vote",
@@ -5541,6 +5532,15 @@
     "t": "2026-11-23T06:01:42Z",
     "to": "all",
     "x": "Nothing good enough this scan. Closest: short MET at 77, needs 70."
+   },
+   {
+    "d": "pm",
+    "k": "decide",
+    "n": 0,
+    "s": "",
+    "t": "2026-11-23T08:01:48Z",
+    "to": "all",
+    "x": "Nothing to trade this scan. Short M6E scores enough but has no clean setup yet."
    }
   ],
   "said": {
@@ -5611,7 +5611,7 @@
    "mood:stocks:risk-off:2026-11-23": "2026-11-23T05:01:48Z",
    "nothing:M6E:16": "2026-11-23T05:01:48Z",
    "nothing:M6E:17": "2026-11-20T22:31:42Z",
-   "nothing:M6E:18": "2026-11-23T05:31:49Z",
+   "nothing:M6E:18": "2026-11-23T08:01:48Z",
    "nothing:MET:15": "2026-11-23T00:01:40Z",
    "nothing:MET:16": "2026-11-23T03:31:44Z",
    "nothing:MET:19": "2026-11-23T06:01:42Z",
@@ -5644,7 +5644,7 @@
  },
  "fund": {
   "benchmarkBtcUnits": 0.03103649722666308,
-  "benchmarkCad": 9046.92,
+  "benchmarkCad": 9047.68,
   "benchmarkSet": true,
   "benchmarkSpyUnits": 6.399142948573451,
   "cad": 3000.0,
@@ -5920,11 +5920,11 @@
   "halted": false,
   "lastCongressCheck": "2026-11-20",
   "lastEtfScan": "2026-11-21T11:01:42Z",
-  "lastFuturesScan": "2026-11-23T07:31:45Z",
-  "lastRun": "2026-11-23T07:31:45Z",
+  "lastFuturesScan": "2026-11-23T08:01:48Z",
+  "lastRun": "2026-11-23T08:01:48Z",
   "lastRunBy": "github",
-  "lastRunNote": "The S&P 500 fund was up 0.0% today; market mood risk-off. Bitcoin up 4.0% in 24 hours (risk-off). No trades: SHORT MET came closest but failed daily loss limit, time machine favourable. Holding 0 positions. Value $9,917.71 vs buy-and-hold $",
-  "lastSaved": "2026-11-23T07:31:45Z",
+  "lastRunNote": "The S&P 500 fund was up 0.0% today; market mood risk-off. Bitcoin up 4.1% in 24 hours (risk-off). No trades: SHORT MET came closest but failed daily loss limit, time machine favourable. Holding 0 positions. Value $9,917.71 vs buy-and-hold $",
+  "lastSaved": "2026-11-23T08:01:48Z",
   "lastStockScan": "2026-11-20T19:46:44Z",
   "lastTradingDay": "2026-11-20",
   "lastUniverseScan": "2026-11-20T13:01:48Z",
@@ -6587,10 +6587,10 @@
    "exits": [],
    "signals": []
   },
-  "updated": "2026-11-23T07:31:45Z"
+  "updated": "2026-11-23T08:01:48Z"
  },
  "log": [
-  "Run 2026-11-23 WATCH (New York 02:31), stock market open day",
+  "Run 2026-11-23 WATCH (New York 03:01), stock market open day",
   "BLOCK SHORT MET: Daily loss limit, Time machine favourable"
  ],
  "nav": [
@@ -6649,7 +6649,7 @@
    "equityCad": 9923.99
   },
   {
-   "benchmarkCad": 9046.92,
+   "benchmarkCad": 9047.68,
    "cashCad": 9917.71,
    "date": "2026-11-23",
    "equityCad": 9917.71
@@ -6660,7 +6660,7 @@
   "alertState": {},
   "clock": {
    "calendar_known": true,
-   "checkedAt": "2026-11-23T07:31:45Z",
+   "checkedAt": "2026-11-23T08:01:48Z",
    "closes": "16:00",
    "date": "2026-11-23",
    "early_close": null,
