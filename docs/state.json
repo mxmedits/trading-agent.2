@@ -5587,7 +5587,6 @@
    "idea:ROST:short:17:none": "2026-11-23T15:26:53Z",
    "idea:UBER:short:16:none": "2026-11-23T15:01:43Z",
    "idea:XLI:short:19:breakdown": "2026-11-20T19:36:52Z",
-   "macro:futures:short:neutral:2026-11-20T18:31:33.760546": "2026-11-20T18:31:33Z",
    "macro:futures:short:neutral:2026-11-20T21:31:44.638585": "2026-11-20T21:31:44Z",
    "macro:futures:short:neutral:2026-11-23T05:31:49.177076": "2026-11-23T05:31:49Z",
    "macro:futures:short:neutral:2026-11-23T09:01:46.069332": "2026-11-23T09:01:46Z",
@@ -5651,7 +5650,7 @@
  },
  "fund": {
   "benchmarkBtcUnits": 0.03103649722666308,
-  "benchmarkCad": 9413.53,
+  "benchmarkCad": 9405.25,
   "benchmarkSet": true,
   "benchmarkSpyUnits": 6.399142948573451,
   "cad": 3000.0,
@@ -5661,7 +5660,7 @@
   "earningsKnown": true,
   "entriesThisWeek": 0,
   "entriesToday": 0,
-  "equityCad": 9949.12,
+  "equityCad": 9948.15,
   "focus": {
    "active": [
     "SPY",
@@ -5936,11 +5935,11 @@
   "halted": false,
   "lastCongressCheck": "2026-11-23",
   "lastEtfScan": "2026-11-21T11:01:42Z",
-  "lastFuturesScan": "2026-11-23T18:01:43Z",
-  "lastRun": "2026-11-23T18:26:43Z",
+  "lastFuturesScan": "2026-11-23T18:31:41Z",
+  "lastRun": "2026-11-23T18:31:41Z",
   "lastRunBy": "github",
-  "lastRunNote": "The S&P 500 fund was up 5.0% today; market mood risk-off. Bitcoin up 1.6% in 24 hours (risk-off). No trades: nothing scored high enough with a clean setup. Holding 0 positions. Value $9,949.12 vs buy-and-hold $9,413.53.",
-  "lastSaved": "2026-11-23T18:26:43Z",
+  "lastRunNote": "The S&P 500 fund was up 5.0% today; market mood risk-off. Bitcoin up 1.4% in 24 hours (risk-off). No trades: SHORT MET came closest but failed daily loss limit, time machine favourable. Holding 0 positions. Value $9,948.15 vs buy-and-hold $",
+  "lastSaved": "2026-11-23T18:31:41Z",
   "lastStockScan": "2026-11-23T18:26:43Z",
   "lastTradingDay": "2026-11-20",
   "lastUniverseScan": "2026-11-23T13:01:44Z",
@@ -6007,7 +6006,7 @@
   },
   "tradingDays": 5,
   "usd": 4832.15361973509,
-  "usdCad": 1.4381,
+  "usdCad": 1.4379,
   "weekStart": "2026-11-23",
   "weekStartEquityCad": 9923.99
  },
@@ -6597,9 +6596,17 @@
    "universe": 6224
   },
   {
-   "blocked": [],
+   "blocked": [
+    {
+     "failed": [
+      "Daily loss limit",
+      "Time machine favourable"
+     ],
+     "symbol": "SHORT MET"
+    }
+   ],
    "cryptoRegime": "risk-off",
-   "dataCalls": 48,
+   "dataCalls": 18,
    "date": "2026-11-23",
    "liquid": 2313,
    "regime": "risk-off",
@@ -6608,43 +6615,13 @@
    "topCandidates": [
     {
      "score": 77,
-     "symbol": "SHORT KRE",
-     "verdict": "77/100, no clean setup yet"
+     "symbol": "SHORT MET",
+     "verdict": "77/100, new 20-day low on heavy volume"
     },
     {
-     "score": 66,
-     "symbol": "LONG WMT",
-     "verdict": "66/100, below the 80 needed"
-    },
-    {
-     "score": 65,
-     "symbol": "SHORT BKNG",
-     "verdict": "65/100, below the 70 needed"
-    },
-    {
-     "score": 59,
-     "symbol": "SHORT WFC",
-     "verdict": "59/100, below the 70 needed"
-    },
-    {
-     "score": 56,
-     "symbol": "LONG XLP",
-     "verdict": "56/100, below the 80 needed"
-    },
-    {
-     "score": 56,
-     "symbol": "LONG XEL",
-     "verdict": "56/100, below the 80 needed"
-    },
-    {
-     "score": 56,
-     "symbol": "LONG VBIL",
-     "verdict": "56/100, below the 80 needed"
-    },
-    {
-     "score": 56,
-     "symbol": "LONG WN.TO",
-     "verdict": "56/100, below the 80 needed"
+     "score": 70,
+     "symbol": "SHORT M6E",
+     "verdict": "70/100, below the 75 needed"
     }
    ],
    "universe": 6224
@@ -6669,12 +6646,11 @@
    "exits": [],
    "signals": []
   },
-  "updated": "2026-11-23T18:26:43Z"
+  "updated": "2026-11-23T18:31:41Z"
  },
  "log": [
-  "Run 2026-11-23 WATCH (New York 13:26), stock market open day",
-  "Stock scan: 89 long and 67 short ideas pre-screened; 9 breakouts, 1 breakdowns",
-  "News model loaded"
+  "Run 2026-11-23 WATCH (New York 13:31), stock market open day",
+  "BLOCK SHORT MET: Daily loss limit, Time machine favourable"
  ],
  "nav": [
   {
@@ -6732,10 +6708,10 @@
    "equityCad": 9923.99
   },
   {
-   "benchmarkCad": 9413.53,
-   "cashCad": 9949.12,
+   "benchmarkCad": 9405.25,
+   "cashCad": 9948.15,
    "date": "2026-11-23",
-   "equityCad": 9949.12
+   "equityCad": 9948.15
   }
  ],
  "pack": {
@@ -6743,7 +6719,7 @@
   "alertState": {},
   "clock": {
    "calendar_known": true,
-   "checkedAt": "2026-11-23T18:26:43Z",
+   "checkedAt": "2026-11-23T18:31:41Z",
    "closes": "16:00",
    "date": "2026-11-23",
    "early_close": null,
