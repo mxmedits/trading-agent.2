@@ -5657,7 +5657,7 @@
  },
  "fund": {
   "benchmarkBtcUnits": 0.03103649722666308,
-  "benchmarkCad": 9358.61,
+  "benchmarkCad": 9399.24,
   "benchmarkSet": true,
   "benchmarkSpyUnits": 6.399142948573451,
   "cad": 3000.0,
@@ -5667,7 +5667,7 @@
   "earningsKnown": true,
   "entriesThisWeek": 0,
   "entriesToday": 0,
-  "equityCad": 9946.22,
+  "equityCad": 9950.57,
   "focus": {
    "active": [
     "SPY",
@@ -5943,11 +5943,11 @@
   "lastCongressCheck": "2026-11-23",
   "lastEtfScan": "2026-11-21T11:01:42Z",
   "lastFuturesScan": "2026-11-23T17:31:43Z",
-  "lastRun": "2026-11-23T17:46:46Z",
+  "lastRun": "2026-11-23T17:56:42Z",
   "lastRunBy": "github",
-  "lastRunNote": "The S&P 500 fund was up 4.4% today; market mood risk-off. Bitcoin up 0.9% in 24 hours (risk-off). No trades: nothing scored high enough with a clean setup. Holding 0 positions. Value $9,946.22 vs buy-and-hold $9,358.61.",
-  "lastSaved": "2026-11-23T17:46:46Z",
-  "lastStockScan": "2026-11-23T17:46:46Z",
+  "lastRunNote": "The S&P 500 fund was up 4.7% today; market mood risk-off. Bitcoin up 1.5% in 24 hours (risk-off). No trades: nothing scored high enough with a clean setup. Holding 0 positions. Value $9,950.57 vs buy-and-hold $9,399.24.",
+  "lastSaved": "2026-11-23T17:56:42Z",
+  "lastStockScan": "2026-11-23T17:56:42Z",
   "lastTradingDay": "2026-11-20",
   "lastUniverseScan": "2026-11-23T13:01:44Z",
   "maxDrawdownPct": 1.06,
@@ -6013,7 +6013,7 @@
   },
   "tradingDays": 5,
   "usd": 4832.15361973509,
-  "usdCad": 1.4375,
+  "usdCad": 1.4384,
   "weekStart": "2026-11-23",
   "weekStartEquityCad": 9923.99
  },
@@ -6618,6 +6618,11 @@
      "verdict": "77/100, no clean setup yet"
     },
     {
+     "score": 66,
+     "symbol": "LONG WMT",
+     "verdict": "66/100, below the 80 needed"
+    },
+    {
      "score": 65,
      "symbol": "SHORT BKNG",
      "verdict": "65/100, below the 70 needed"
@@ -6635,11 +6640,6 @@
     {
      "score": 56,
      "symbol": "LONG XEL",
-     "verdict": "56/100, below the 80 needed"
-    },
-    {
-     "score": 56,
-     "symbol": "LONG WMT",
      "verdict": "56/100, below the 80 needed"
     },
     {
@@ -6675,10 +6675,10 @@
    "exits": [],
    "signals": []
   },
-  "updated": "2026-11-23T17:46:46Z"
+  "updated": "2026-11-23T17:56:42Z"
  },
  "log": [
-  "Run 2026-11-23 WATCH (New York 12:46), stock market open day",
+  "Run 2026-11-23 WATCH (New York 12:56), stock market open day",
   "Stock scan: 89 long and 67 short ideas pre-screened; 8 breakouts, 1 breakdowns",
   "News model loaded"
  ],
@@ -6738,10 +6738,10 @@
    "equityCad": 9923.99
   },
   {
-   "benchmarkCad": 9358.61,
-   "cashCad": 9946.22,
+   "benchmarkCad": 9399.24,
+   "cashCad": 9950.57,
    "date": "2026-11-23",
-   "equityCad": 9946.22
+   "equityCad": 9950.57
   }
  ],
  "pack": {
@@ -6749,7 +6749,7 @@
   "alertState": {},
   "clock": {
    "calendar_known": true,
-   "checkedAt": "2026-11-23T17:46:46Z",
+   "checkedAt": "2026-11-23T17:56:42Z",
    "closes": "16:00",
    "date": "2026-11-23",
    "early_close": null,
