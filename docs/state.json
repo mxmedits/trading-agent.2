@@ -2961,28 +2961,10 @@
  },
  "floor": {
   "lastRun": {
-   "at": "2026-11-24T16:16:46Z",
+   "at": "2026-11-24T16:26:47Z",
    "count": 2
   },
   "messages": [
-   {
-    "d": "pm",
-    "k": "meeting",
-    "n": 0,
-    "s": "",
-    "t": "2026-11-20T20:16:43Z",
-    "to": "all",
-    "x": "Closing bell: value $9,925.93 (+$3.87 today), 0 new trades, 0 exits, 0 held overnight."
-   },
-   {
-    "d": "strategy",
-    "k": "mood",
-    "n": 0,
-    "s": "",
-    "t": "2026-11-20T21:01:04Z",
-    "to": "pm",
-    "x": "NYSE is closed (after the close). Opens Nov 23 at 9:30 AM."
-   },
    {
     "d": "research",
     "k": "idea",
@@ -5664,6 +5646,24 @@
     "t": "2026-11-24T16:16:46Z",
     "to": "pm",
     "x": "TSX scan: 73 Canadian charts checked. Strongest: T.TO, SAP.TO, IFC.TO."
+   },
+   {
+    "d": "research",
+    "k": "info",
+    "n": 0,
+    "s": "",
+    "t": "2026-11-24T16:26:47Z",
+    "to": "pm",
+    "x": "Stock scan: 89 long and 70 short charts checked, 11 breakouts, 2 breakdowns. Strongest: YUM, XLP, XEL, WSM."
+   },
+   {
+    "d": "research",
+    "k": "info",
+    "n": 1,
+    "s": "",
+    "t": "2026-11-24T16:26:47Z",
+    "to": "pm",
+    "x": "TSX scan: 75 Canadian charts checked. Strongest: WN.TO, T.TO, MRU.TO."
    }
   ],
   "said": {
@@ -5762,6 +5762,7 @@
    "scan:stocks:XLP,XEL,WTW,WFC:9:0": "2026-11-23T15:56:35Z",
    "scan:stocks:XLP,XEL,WTW,WFC:9:1": "2026-11-23T18:16:35Z",
    "scan:stocks:YUM,XLP,XEL,WSM:10:0": "2026-11-24T15:01:51Z",
+   "scan:stocks:YUM,XLP,XEL,WSM:11:2": "2026-11-24T16:26:47Z",
    "scan:stocks:YUM,XLP,XEL,WSM:12:1": "2026-11-24T15:46:51Z",
    "scan:stocks:YUM,XLP,XEL,WSM:12:3": "2026-11-24T16:16:46Z",
    "scan:stocks:YUM,XLP,XEL,WSM:13:0": "2026-11-24T15:12:01Z",
@@ -5778,6 +5779,7 @@
    "scan:tsx:WN.TO,L.TO,IFC.TO": "2026-11-24T15:12:01Z",
    "scan:tsx:WN.TO,SAP.TO,REI-UN.TO": "2026-11-23T18:36:47Z",
    "scan:tsx:WN.TO,T.TO,IFC.TO": "2026-11-24T15:26:51Z",
+   "scan:tsx:WN.TO,T.TO,MRU.TO": "2026-11-24T16:26:47Z",
    "scan:tsx:WN.TO,T.TO,SAP.TO": "2026-11-24T15:46:51Z",
    "scan:tsx:WN.TO,TRP.TO,L.TO": "2026-11-23T17:26:37Z",
    "scan:tsx:WN.TO,TRP.TO,SAP.TO": "2026-11-23T17:36:38Z",
@@ -5788,7 +5790,7 @@
  },
  "fund": {
   "benchmarkBtcUnits": 0.03103649722666308,
-  "benchmarkCad": 9176.71,
+  "benchmarkCad": 9206.07,
   "benchmarkSet": true,
   "benchmarkSpyUnits": 6.399142948573451,
   "cad": 3000.0,
@@ -5798,7 +5800,7 @@
   "earningsKnown": true,
   "entriesThisWeek": 0,
   "entriesToday": 0,
-  "equityCad": 9916.74,
+  "equityCad": 9914.33,
   "focus": {
    "active": [
     "NVDA",
@@ -6077,11 +6079,11 @@
   "lastCongressCheck": "2026-11-24",
   "lastEtfScan": "2026-11-21T11:01:42Z",
   "lastFuturesScan": "2026-11-24T16:01:55Z",
-  "lastRun": "2026-11-24T16:16:46Z",
+  "lastRun": "2026-11-24T16:26:47Z",
   "lastRunBy": "github",
-  "lastRunNote": "The S&P 500 fund was down 1.2% today; market mood risk-off. Bitcoin down 5.1% in 24 hours (risk-off). No trades: SHORT SRLN came closest but failed time machine favourable. Holding 0 positions. Value $9,916.74 vs buy-and-hold $9,176.71.",
-  "lastSaved": "2026-11-24T16:16:46Z",
-  "lastStockScan": "2026-11-24T16:16:46Z",
+  "lastRunNote": "The S&P 500 fund was down 0.9% today; market mood risk-off. Bitcoin down 4.7% in 24 hours (risk-off). No trades: SHORT SRLN came closest but failed time machine favourable. Holding 0 positions. Value $9,914.33 vs buy-and-hold $9,206.07.",
+  "lastSaved": "2026-11-24T16:26:47Z",
+  "lastStockScan": "2026-11-24T16:26:47Z",
   "lastTradingDay": "2026-11-23",
   "lastUniverseScan": "2026-11-24T13:01:39Z",
   "maxDrawdownPct": 1.06,
@@ -6147,7 +6149,7 @@
   },
   "tradingDays": 6,
   "usd": 4832.15361973509,
-  "usdCad": 1.4314,
+  "usdCad": 1.4309,
   "weekStart": "2026-11-23",
   "weekStartEquityCad": 9923.99
  },
@@ -6883,11 +6885,11 @@
    "exits": [],
    "signals": []
   },
-  "updated": "2026-11-24T16:16:46Z"
+  "updated": "2026-11-24T16:26:47Z"
  },
  "log": [
-  "Run 2026-11-24 WATCH (New York 11:16), stock market open day",
-  "Stock scan: 89 long and 70 short ideas pre-screened; 12 breakouts, 3 breakdowns",
+  "Run 2026-11-24 WATCH (New York 11:26), stock market open day",
+  "Stock scan: 89 long and 70 short ideas pre-screened; 11 breakouts, 2 breakdowns",
   "Borrow list unavailable: TimeoutError: timed out",
   "Borrow data for SRLN unavailable (Remote end closed connection without response)",
   "BLOCK SHORT SRLN: Time machine favourable"
@@ -6954,10 +6956,10 @@
    "equityCad": 9940.42
   },
   {
-   "benchmarkCad": 9176.71,
-   "cashCad": 9916.74,
+   "benchmarkCad": 9206.07,
+   "cashCad": 9914.33,
    "date": "2026-11-24",
-   "equityCad": 9916.74
+   "equityCad": 9914.33
   }
  ],
  "pack": {
@@ -6965,7 +6967,7 @@
   "alertState": {},
   "clock": {
    "calendar_known": true,
-   "checkedAt": "2026-11-24T16:16:46Z",
+   "checkedAt": "2026-11-24T16:26:47Z",
    "closes": "16:00",
    "date": "2026-11-24",
    "early_close": null,
