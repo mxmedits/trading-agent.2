@@ -2961,19 +2961,10 @@
  },
  "floor": {
   "lastRun": {
-   "at": "2026-11-24T16:26:47Z",
-   "count": 2
+   "at": "2026-11-24T16:46:44Z",
+   "count": 1
   },
   "messages": [
-   {
-    "d": "research",
-    "k": "idea",
-    "n": 0,
-    "s": "M6E",
-    "t": "2026-11-20T21:31:44Z",
-    "to": "pm",
-    "x": "Short M6E: no clean setup yet, chart 25/30."
-   },
    {
     "d": "news",
     "k": "vote",
@@ -5664,6 +5655,15 @@
     "t": "2026-11-24T16:26:47Z",
     "to": "pm",
     "x": "TSX scan: 75 Canadian charts checked. Strongest: WN.TO, T.TO, MRU.TO."
+   },
+   {
+    "d": "research",
+    "k": "info",
+    "n": 0,
+    "s": "",
+    "t": "2026-11-24T16:46:44Z",
+    "to": "pm",
+    "x": "Stock scan: 89 long and 70 short charts checked, 11 breakouts, 3 breakdowns. Strongest: YUM, XLP, XEL, WSM."
    }
   ],
   "said": {
@@ -5763,6 +5763,7 @@
    "scan:stocks:XLP,XEL,WTW,WFC:9:1": "2026-11-23T18:16:35Z",
    "scan:stocks:YUM,XLP,XEL,WSM:10:0": "2026-11-24T15:01:51Z",
    "scan:stocks:YUM,XLP,XEL,WSM:11:2": "2026-11-24T16:26:47Z",
+   "scan:stocks:YUM,XLP,XEL,WSM:11:3": "2026-11-24T16:46:44Z",
    "scan:stocks:YUM,XLP,XEL,WSM:12:1": "2026-11-24T15:46:51Z",
    "scan:stocks:YUM,XLP,XEL,WSM:12:3": "2026-11-24T16:16:46Z",
    "scan:stocks:YUM,XLP,XEL,WSM:13:0": "2026-11-24T15:12:01Z",
@@ -5790,7 +5791,7 @@
  },
  "fund": {
   "benchmarkBtcUnits": 0.03103649722666308,
-  "benchmarkCad": 9173.66,
+  "benchmarkCad": 9193.5,
   "benchmarkSet": true,
   "benchmarkSpyUnits": 6.399142948573451,
   "cad": 3000.0,
@@ -6079,11 +6080,11 @@
   "lastCongressCheck": "2026-11-24",
   "lastEtfScan": "2026-11-21T11:01:42Z",
   "lastFuturesScan": "2026-11-24T16:31:41Z",
-  "lastRun": "2026-11-24T16:36:53Z",
+  "lastRun": "2026-11-24T16:46:44Z",
   "lastRunBy": "github",
-  "lastRunNote": "The S&P 500 fund was down 1.2% today; market mood risk-off. Bitcoin down 4.9% in 24 hours (risk-off). No trades: SHORT SRLN came closest but failed time machine favourable. Holding 0 positions. Value $9,920.13 vs buy-and-hold $9,173.66.",
-  "lastSaved": "2026-11-24T16:36:53Z",
-  "lastStockScan": "2026-11-24T16:36:53Z",
+  "lastRunNote": "The S&P 500 fund was down 1.0% today; market mood risk-off. Bitcoin down 4.3% in 24 hours (risk-off). No trades: SHORT SRLN came closest but failed time machine favourable. Holding 0 positions. Value $9,920.13 vs buy-and-hold $9,193.50.",
+  "lastSaved": "2026-11-24T16:46:44Z",
+  "lastStockScan": "2026-11-24T16:46:44Z",
   "lastTradingDay": "2026-11-23",
   "lastUniverseScan": "2026-11-24T13:01:39Z",
   "maxDrawdownPct": 1.06,
@@ -6833,14 +6834,14 @@
      "verdict": "67/100, below the 70 needed"
     },
     {
-     "score": 66,
-     "symbol": "LONG XLP",
-     "verdict": "66/100, below the 80 needed"
-    },
-    {
      "score": 64,
      "symbol": "SHORT WSM",
      "verdict": "64/100, below the 70 needed"
+    },
+    {
+     "score": 61,
+     "symbol": "LONG XLP",
+     "verdict": "61/100, below the 80 needed"
     },
     {
      "score": 56,
@@ -6885,12 +6886,12 @@
    "exits": [],
    "signals": []
   },
-  "updated": "2026-11-24T16:36:53Z"
+  "updated": "2026-11-24T16:46:44Z"
  },
  "log": [
-  "Run 2026-11-24 WATCH (New York 11:36), stock market open day",
-  "Stock scan: 89 long and 70 short ideas pre-screened; 12 breakouts, 3 breakdowns",
-  "Borrow list unavailable: OSError: [Errno 113] No route to host",
+  "Run 2026-11-24 WATCH (New York 11:46), stock market open day",
+  "Stock scan: 89 long and 70 short ideas pre-screened; 11 breakouts, 3 breakdowns",
+  "Borrow list unavailable: TimeoutError: timed out",
   "Borrow data for SRLN unavailable (Remote end closed connection without response)",
   "BLOCK SHORT SRLN: Time machine favourable"
  ],
@@ -6956,7 +6957,7 @@
    "equityCad": 9940.42
   },
   {
-   "benchmarkCad": 9173.66,
+   "benchmarkCad": 9193.5,
    "cashCad": 9920.13,
    "date": "2026-11-24",
    "equityCad": 9920.13
@@ -6967,7 +6968,7 @@
   "alertState": {},
   "clock": {
    "calendar_known": true,
-   "checkedAt": "2026-11-24T16:36:53Z",
+   "checkedAt": "2026-11-24T16:46:44Z",
    "closes": "16:00",
    "date": "2026-11-24",
    "early_close": null,
