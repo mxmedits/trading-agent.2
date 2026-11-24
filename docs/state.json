@@ -2961,55 +2961,10 @@
  },
  "floor": {
   "lastRun": {
-   "at": "2026-11-24T18:16:35Z",
-   "count": 2
+   "at": "2026-11-24T18:26:54Z",
+   "count": 5
   },
   "messages": [
-   {
-    "d": "research",
-    "k": "info",
-    "n": 0,
-    "s": "",
-    "t": "2026-11-21T11:01:42Z",
-    "to": "pm",
-    "x": "Weekly ETF list: 300 liquid ETFs kept out of 4,424."
-   },
-   {
-    "d": "strategy",
-    "k": "mood",
-    "n": 0,
-    "s": "",
-    "t": "2026-11-21T17:01:51Z",
-    "to": "pm",
-    "x": "Futures market is closed right now. No futures trades."
-   },
-   {
-    "d": "strategy",
-    "k": "mood",
-    "n": 0,
-    "s": "",
-    "t": "2026-11-22T05:01:51Z",
-    "to": "pm",
-    "x": "Crypto is risk off: Bitcoin +4.9% in 24 hours, below its 50-day average."
-   },
-   {
-    "d": "research",
-    "k": "info",
-    "n": 1,
-    "s": "",
-    "t": "2026-11-22T05:01:51Z",
-    "to": "pm",
-    "x": "Data check: options backup not answering, borrow list not answering, economic calendar ok, SEC filings on."
-   },
-   {
-    "d": "strategy",
-    "k": "mood",
-    "n": 2,
-    "s": "",
-    "t": "2026-11-22T05:01:51Z",
-    "to": "pm",
-    "x": "Futures market is closed right now. No futures trades."
-   },
    {
     "d": "strategy",
     "k": "mood",
@@ -5664,6 +5619,51 @@
     "t": "2026-11-24T18:16:35Z",
     "to": "all",
     "x": "Nothing good enough this scan. Closest: short SRLN at 72, needs 70."
+   },
+   {
+    "d": "research",
+    "k": "idea",
+    "n": 0,
+    "s": "WSM",
+    "t": "2026-11-24T18:26:54Z",
+    "to": "pm",
+    "x": "Short WSM: fell below its opening range, chart 25/30."
+   },
+   {
+    "d": "news",
+    "k": "vote",
+    "n": 1,
+    "s": "WSM",
+    "t": "2026-11-24T18:26:54Z",
+    "to": "pm",
+    "x": "WSM: no fresh headlines, neutral 13/25."
+   },
+   {
+    "d": "analyst",
+    "k": "vote",
+    "n": 2,
+    "s": "WSM",
+    "t": "2026-11-24T18:26:54Z",
+    "to": "pm",
+    "x": "WSM: filed: operating margin 23%, sales +7%, P/E 24, debt/equity 0.0, target +17%; 1/15."
+   },
+   {
+    "d": "strategy",
+    "k": "vote",
+    "n": 3,
+    "s": "",
+    "t": "2026-11-24T18:26:54Z",
+    "to": "pm",
+    "x": "Stocks are risk off: 15/15 for a short."
+   },
+   {
+    "d": "pm",
+    "k": "decide",
+    "n": 4,
+    "s": "WSM",
+    "t": "2026-11-24T18:26:54Z",
+    "to": "all",
+    "x": "Short WSM scores 64, needs 70. Pass."
    }
   ],
   "said": {
@@ -5693,7 +5693,7 @@
    "idea:UBER:short:16:none": "2026-11-23T15:01:43Z",
    "idea:USHY:short:18:none": "2026-11-24T14:51:50Z",
    "idea:WMB:short:16:none": "2026-11-24T14:51:50Z",
-   "idea:WSM:short:16:breakdown": "2026-11-24T15:26:51Z",
+   "idea:WSM:short:16:breakdown": "2026-11-24T18:26:54Z",
    "idea:WSM:short:16:none": "2026-11-24T14:51:50Z",
    "macro:futures:short:neutral:2026-11-23T05:31:49.177076": "2026-11-23T05:31:49Z",
    "macro:futures:short:neutral:2026-11-23T09:01:46.069332": "2026-11-23T09:01:46Z",
@@ -5732,6 +5732,7 @@
    "macro:stocks:short:risk-off:2026-11-24T14:51:50.118522": "2026-11-24T14:51:50Z",
    "macro:stocks:short:risk-off:2026-11-24T15:26:51.945905": "2026-11-24T15:26:51Z",
    "macro:stocks:short:risk-off:2026-11-24T16:06:40.102181": "2026-11-24T16:06:40Z",
+   "macro:stocks:short:risk-off:2026-11-24T18:26:54.725166": "2026-11-24T18:26:54Z",
    "meeting:close:2026-11-23": "2026-11-23T20:16:42Z",
    "meeting:open:2026-11-23": "2026-11-23T15:16:36Z",
    "meeting:open:2026-11-24": "2026-11-24T15:17:04Z",
@@ -5798,7 +5799,7 @@
  },
  "fund": {
   "benchmarkBtcUnits": 0.03103649722666308,
-  "benchmarkCad": 9223.69,
+  "benchmarkCad": 9225.63,
   "benchmarkSet": true,
   "benchmarkSpyUnits": 6.399142948573451,
   "cad": 3000.0,
@@ -5808,7 +5809,7 @@
   "earningsKnown": true,
   "entriesThisWeek": 0,
   "entriesToday": 0,
-  "equityCad": 9898.38,
+  "equityCad": 9896.93,
   "focus": {
    "active": [
     "NVDA",
@@ -6087,11 +6088,11 @@
   "lastCongressCheck": "2026-11-24",
   "lastEtfScan": "2026-11-21T11:01:42Z",
   "lastFuturesScan": "2026-11-24T18:01:48Z",
-  "lastRun": "2026-11-24T18:16:35Z",
+  "lastRun": "2026-11-24T18:26:54Z",
   "lastRunBy": "github",
-  "lastRunNote": "The S&P 500 fund was down 0.5% today; market mood risk-off. Bitcoin down 2.4% in 24 hours (risk-off). No trades: SHORT SRLN came closest but failed time machine favourable. Holding 0 positions. Value $9,898.38 vs buy-and-hold $9,223.69.",
-  "lastSaved": "2026-11-24T18:16:35Z",
-  "lastStockScan": "2026-11-24T18:16:35Z",
+  "lastRunNote": "The S&P 500 fund was down 0.5% today; market mood risk-off. Bitcoin down 2.3% in 24 hours (risk-off). No trades: SHORT SRLN came closest but failed time machine favourable. Holding 0 positions. Value $9,896.93 vs buy-and-hold $9,225.63.",
+  "lastSaved": "2026-11-24T18:26:54Z",
+  "lastStockScan": "2026-11-24T18:26:54Z",
   "lastTradingDay": "2026-11-23",
   "lastUniverseScan": "2026-11-24T13:01:39Z",
   "maxDrawdownPct": 1.06,
@@ -6157,7 +6158,7 @@
   },
   "tradingDays": 6,
   "usd": 4832.15361973509,
-  "usdCad": 1.4276,
+  "usdCad": 1.4273,
   "weekStart": "2026-11-23",
   "weekStartEquityCad": 9923.99
  },
@@ -6893,11 +6894,11 @@
    "exits": [],
    "signals": []
   },
-  "updated": "2026-11-24T18:16:35Z"
+  "updated": "2026-11-24T18:26:54Z"
  },
  "log": [
-  "Run 2026-11-24 WATCH (New York 13:16), stock market open day",
-  "Stock scan: 89 long and 70 short ideas pre-screened; 11 breakouts, 2 breakdowns",
+  "Run 2026-11-24 WATCH (New York 13:26), stock market open day",
+  "Stock scan: 89 long and 70 short ideas pre-screened; 10 breakouts, 2 breakdowns",
   "Borrow list unavailable: TimeoutError: timed out",
   "Borrow data for SRLN unavailable (Remote end closed connection without response)",
   "BLOCK SHORT SRLN: Time machine favourable"
@@ -6964,10 +6965,10 @@
    "equityCad": 9940.42
   },
   {
-   "benchmarkCad": 9223.69,
-   "cashCad": 9898.38,
+   "benchmarkCad": 9225.63,
+   "cashCad": 9896.93,
    "date": "2026-11-24",
-   "equityCad": 9898.38
+   "equityCad": 9896.93
   }
  ],
  "pack": {
@@ -6975,7 +6976,7 @@
   "alertState": {},
   "clock": {
    "calendar_known": true,
-   "checkedAt": "2026-11-24T18:16:35Z",
+   "checkedAt": "2026-11-24T18:26:54Z",
    "closes": "16:00",
    "date": "2026-11-24",
    "early_close": null,
