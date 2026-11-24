@@ -2961,73 +2961,10 @@
  },
  "floor": {
   "lastRun": {
-   "at": "2026-11-24T18:56:43Z",
-   "count": 1
+   "at": "2026-11-24T19:06:45Z",
+   "count": 7
   },
   "messages": [
-   {
-    "d": "risk",
-    "k": "check",
-    "n": 0,
-    "s": "",
-    "t": "2026-11-22T23:31:47Z",
-    "to": "research",
-    "x": "Futures that fit the account today: MET, M6E. Too big for one contract: MES, MNQ, MYM, M2K, MGC, SIL, MCL, MBT."
-   },
-   {
-    "d": "pm",
-    "k": "decide",
-    "n": 1,
-    "s": "",
-    "t": "2026-11-22T23:31:47Z",
-    "to": "all",
-    "x": "Nothing good enough this scan. Closest: short M6E at 65, needs 75."
-   },
-   {
-    "d": "pm",
-    "k": "decide",
-    "n": 0,
-    "s": "",
-    "t": "2026-11-23T00:01:40Z",
-    "to": "all",
-    "x": "Nothing good enough this scan. Closest: short MET at 62, needs 70."
-   },
-   {
-    "d": "pm",
-    "k": "decide",
-    "n": 0,
-    "s": "",
-    "t": "2026-11-23T02:00:27Z",
-    "to": "all",
-    "x": "Nothing good enough this scan. Closest: short M6E at 65, needs 75."
-   },
-   {
-    "d": "research",
-    "k": "idea",
-    "n": 0,
-    "s": "MET",
-    "t": "2026-11-23T03:31:44Z",
-    "to": "pm",
-    "x": "Short MET: no clean setup yet, chart 20/30."
-   },
-   {
-    "d": "news",
-    "k": "vote",
-    "n": 1,
-    "s": "MET",
-    "t": "2026-11-23T03:31:44Z",
-    "to": "pm",
-    "x": "MET: no fresh headlines, neutral 13/25."
-   },
-   {
-    "d": "strategy",
-    "k": "vote",
-    "n": 2,
-    "s": "",
-    "t": "2026-11-23T03:31:44Z",
-    "to": "pm",
-    "x": "Futures are risk off: 15/15 for a short."
-   },
    {
     "d": "pm",
     "k": "decide",
@@ -5664,6 +5601,69 @@
     "t": "2026-11-24T18:56:43Z",
     "to": "pm",
     "x": "Stock scan: 89 long and 70 short charts checked, 10 breakouts, 2 breakdowns. Strongest: YUM, XLP, XEL, WSM."
+   },
+   {
+    "d": "research",
+    "k": "info",
+    "n": 0,
+    "s": "",
+    "t": "2026-11-24T19:06:45Z",
+    "to": "pm",
+    "x": "Stock scan: 89 long and 70 short charts checked, 9 breakouts, 2 breakdowns. Strongest: YUM, XLP, XEL, WSM."
+   },
+   {
+    "d": "research",
+    "k": "idea",
+    "n": 1,
+    "s": "SRLN",
+    "t": "2026-11-24T19:06:45Z",
+    "to": "pm",
+    "x": "Short SRLN: fell below its opening range, chart 25/30."
+   },
+   {
+    "d": "news",
+    "k": "vote",
+    "n": 2,
+    "s": "SRLN",
+    "t": "2026-11-24T19:06:45Z",
+    "to": "pm",
+    "x": "SRLN: no fresh headlines, neutral 13/25."
+   },
+   {
+    "d": "strategy",
+    "k": "vote",
+    "n": 3,
+    "s": "",
+    "t": "2026-11-24T19:06:45Z",
+    "to": "pm",
+    "x": "Stocks are risk off: 15/15 for a short."
+   },
+   {
+    "d": "pm",
+    "k": "decide",
+    "n": 4,
+    "s": "SRLN",
+    "t": "2026-11-24T19:06:45Z",
+    "to": "all",
+    "x": "Short SRLN scores 72, needs 70. Quant and Risk, check it."
+   },
+   {
+    "d": "quant",
+    "k": "vote",
+    "n": 5,
+    "s": "SRLN",
+    "t": "2026-11-24T19:06:45Z",
+    "to": "pm",
+    "x": "SRLN: in 10,000 5-minute replays the target comes first 0%, the stop 0%. Most run out of time first. Odds are against us."
+   },
+   {
+    "d": "risk",
+    "k": "block",
+    "n": 6,
+    "s": "SRLN",
+    "t": "2026-11-24T19:06:45Z",
+    "to": "pm",
+    "x": "Blocked SRLN: the replays favour the stop."
    }
   ],
   "said": {
@@ -5689,7 +5689,7 @@
    "idea:MET:short:18:none": "2026-11-24T15:01:51Z",
    "idea:MET:short:19:breakdown": "2026-11-23T20:31:43Z",
    "idea:ROST:short:17:none": "2026-11-23T15:26:53Z",
-   "idea:SRLN:short:18:breakdown": "2026-11-24T16:06:40Z",
+   "idea:SRLN:short:18:breakdown": "2026-11-24T19:06:45Z",
    "idea:UBER:short:16:none": "2026-11-23T15:01:43Z",
    "idea:USHY:short:18:none": "2026-11-24T14:51:50Z",
    "idea:WMB:short:16:none": "2026-11-24T14:51:50Z",
@@ -5733,6 +5733,7 @@
    "macro:stocks:short:risk-off:2026-11-24T15:26:51.945905": "2026-11-24T15:26:51Z",
    "macro:stocks:short:risk-off:2026-11-24T16:06:40.102181": "2026-11-24T16:06:40Z",
    "macro:stocks:short:risk-off:2026-11-24T18:26:54.725166": "2026-11-24T18:26:54Z",
+   "macro:stocks:short:risk-off:2026-11-24T19:06:45.199238": "2026-11-24T19:06:45Z",
    "meeting:close:2026-11-23": "2026-11-23T20:16:42Z",
    "meeting:open:2026-11-23": "2026-11-23T15:16:36Z",
    "meeting:open:2026-11-24": "2026-11-24T15:17:04Z",
@@ -5773,6 +5774,7 @@
    "scan:stocks:YUM,XLP,XEL,WSM:13:1": "2026-11-24T15:26:51Z",
    "scan:stocks:YUM,XLP,XEL,WSM:13:3": "2026-11-24T16:06:40Z",
    "scan:stocks:YUM,XLP,XEL,WSM:4:0": "2026-11-24T14:51:50Z",
+   "scan:stocks:YUM,XLP,XEL,WSM:9:2": "2026-11-24T19:06:45Z",
    "scan:tsx:SAP.TO,REI-UN.TO,MRU.TO": "2026-11-24T18:16:35Z",
    "scan:tsx:T.TO,REI-UN.TO,MRU.TO": "2026-11-24T17:56:41Z",
    "scan:tsx:T.TO,SAP.TO,IFC.TO": "2026-11-24T16:16:46Z",
@@ -5799,7 +5801,7 @@
  },
  "fund": {
   "benchmarkBtcUnits": 0.03103649722666308,
-  "benchmarkCad": 9202.53,
+  "benchmarkCad": 9203.14,
   "benchmarkSet": true,
   "benchmarkSpyUnits": 6.399142948573451,
   "cad": 3000.0,
@@ -5809,7 +5811,7 @@
   "earningsKnown": true,
   "entriesThisWeek": 0,
   "entriesToday": 0,
-  "equityCad": 9896.93,
+  "equityCad": 9895.97,
   "focus": {
    "active": [
     "NVDA",
@@ -6088,11 +6090,11 @@
   "lastCongressCheck": "2026-11-24",
   "lastEtfScan": "2026-11-21T11:01:42Z",
   "lastFuturesScan": "2026-11-24T19:01:46Z",
-  "lastRun": "2026-11-24T19:01:46Z",
+  "lastRun": "2026-11-24T19:06:45Z",
   "lastRunBy": "github",
-  "lastRunNote": "The S&P 500 fund was down 0.7% today; market mood risk-off. Bitcoin down 3.0% in 24 hours (risk-off). No trades: nothing scored high enough with a clean setup. Holding 0 positions. Value $9,896.93 vs buy-and-hold $9,202.53.",
-  "lastSaved": "2026-11-24T19:01:46Z",
-  "lastStockScan": "2026-11-24T18:56:43Z",
+  "lastRunNote": "The S&P 500 fund was down 0.6% today; market mood risk-off. Bitcoin down 2.7% in 24 hours (risk-off). No trades: SHORT SRLN came closest but failed time machine favourable. Holding 0 positions. Value $9,895.97 vs buy-and-hold $9,203.14.",
+  "lastSaved": "2026-11-24T19:06:45Z",
+  "lastStockScan": "2026-11-24T19:06:45Z",
   "lastTradingDay": "2026-11-23",
   "lastUniverseScan": "2026-11-24T13:01:39Z",
   "maxDrawdownPct": 1.06,
@@ -6158,7 +6160,7 @@
   },
   "tradingDays": 6,
   "usd": 4832.15361973509,
-  "usdCad": 1.4273,
+  "usdCad": 1.4271,
   "weekStart": "2026-11-23",
   "weekStartEquityCad": 9923.99
  },
@@ -6815,9 +6817,16 @@
    "universe": 6224
   },
   {
-   "blocked": [],
+   "blocked": [
+    {
+     "failed": [
+      "Time machine favourable"
+     ],
+     "symbol": "SHORT SRLN"
+    }
+   ],
    "cryptoRegime": "risk-off",
-   "dataCalls": 16,
+   "dataCalls": 47,
    "date": "2026-11-24",
    "liquid": 2227,
    "regime": "risk-off",
@@ -6825,14 +6834,44 @@
    "summary": "Morning: The S&P 500 fund was down 0.6% today; market mood risk-off. Bitcoin down 5.4% in 24 hours (risk-off). No trades: nothing scored high enough with a clean setup. Holding 0 positions. Value $9,909.98 vs buy-and-hold $9,218.34.",
    "topCandidates": [
     {
-     "score": 75,
-     "symbol": "SHORT M6E",
-     "verdict": "75/100, no clean setup yet"
+     "score": 72,
+     "symbol": "SHORT SRLN",
+     "verdict": "72/100, fell below its opening range"
+    },
+    {
+     "score": 64,
+     "symbol": "SHORT WSM",
+     "verdict": "64/100, below the 70 needed"
     },
     {
      "score": 62,
-     "symbol": "SHORT MET",
+     "symbol": "SHORT WMB",
      "verdict": "62/100, below the 70 needed"
+    },
+    {
+     "score": 61,
+     "symbol": "LONG VRSN",
+     "verdict": "61/100, below the 80 needed"
+    },
+    {
+     "score": 56,
+     "symbol": "LONG YUM",
+     "verdict": "56/100, below the 80 needed"
+    },
+    {
+     "score": 56,
+     "symbol": "LONG XLP",
+     "verdict": "56/100, below the 80 needed"
+    },
+    {
+     "score": 56,
+     "symbol": "LONG WM",
+     "verdict": "56/100, below the 80 needed"
+    },
+    {
+     "score": 56,
+     "symbol": "LONG VBIL",
+     "verdict": "56/100, below the 80 needed"
     }
    ],
    "universe": 6225
@@ -6857,10 +6896,15 @@
    "exits": [],
    "signals": []
   },
-  "updated": "2026-11-24T19:01:46Z"
+  "updated": "2026-11-24T19:06:45Z"
  },
  "log": [
-  "Run 2026-11-24 WATCH (New York 14:01), stock market open day"
+  "Run 2026-11-24 WATCH (New York 14:06), stock market open day",
+  "Stock scan: 89 long and 70 short ideas pre-screened; 9 breakouts, 2 breakdowns",
+  "News model loaded",
+  "Borrow list unavailable: TimeoutError: timed out",
+  "Borrow data for SRLN unavailable (Remote end closed connection without response)",
+  "BLOCK SHORT SRLN: Time machine favourable"
  ],
  "nav": [
   {
@@ -6924,10 +6968,10 @@
    "equityCad": 9940.42
   },
   {
-   "benchmarkCad": 9202.53,
-   "cashCad": 9896.93,
+   "benchmarkCad": 9203.14,
+   "cashCad": 9895.97,
    "date": "2026-11-24",
-   "equityCad": 9896.93
+   "equityCad": 9895.97
   }
  ],
  "pack": {
@@ -6935,7 +6979,7 @@
   "alertState": {},
   "clock": {
    "calendar_known": true,
-   "checkedAt": "2026-11-24T19:01:46Z",
+   "checkedAt": "2026-11-24T19:06:45Z",
    "closes": "16:00",
    "date": "2026-11-24",
    "early_close": null,
