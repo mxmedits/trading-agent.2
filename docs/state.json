@@ -2862,19 +2862,10 @@
  },
  "floor": {
   "lastRun": {
-   "at": "2026-11-24T14:01:45Z",
-   "count": 2
+   "at": "2026-11-24T14:31:36Z",
+   "count": 1
   },
   "messages": [
-   {
-    "d": "news",
-    "k": "vote",
-    "n": 2,
-    "s": "UBER",
-    "t": "2026-11-20T17:06:35Z",
-    "to": "pm",
-    "x": "UBER: 2 fresh headlines, mostly bad; 23/25. Top: \"Amazon and McDonald\u2019s just backed Uber\u2014so why is the stock...\""
-   },
    {
     "d": "analyst",
     "k": "vote",
@@ -5565,6 +5556,15 @@
     "t": "2026-11-24T14:01:45Z",
     "to": "research",
     "x": "House filing: Jennifer McClellan sold VZ ($50,001 - $100,000), traded Nov 19."
+   },
+   {
+    "d": "strategy",
+    "k": "mood",
+    "n": 0,
+    "s": "",
+    "t": "2026-11-24T14:31:36Z",
+    "to": "pm",
+    "x": "NYSE is open until 4:00 PM."
    }
   ],
   "said": {
@@ -5572,6 +5572,7 @@
    "clock:closed:2026-11-23:before the open": "2026-11-23T05:01:48Z",
    "clock:closed:2026-11-24:before the open": "2026-11-24T05:01:54Z",
    "clock:open:2026-11-23": "2026-11-23T14:31:37Z",
+   "clock:open:2026-11-24": "2026-11-24T14:31:36Z",
    "futures-closed:2026-11-21": "2026-11-21T17:01:51Z",
    "futures-closed:2026-11-22": "2026-11-22T17:31:44Z",
    "futures-closed:2026-11-23": "2026-11-23T23:01:48Z",
@@ -5663,7 +5664,7 @@
  },
  "fund": {
   "benchmarkBtcUnits": 0.03103649722666308,
-  "benchmarkCad": 9301.05,
+  "benchmarkCad": 9211.48,
   "benchmarkSet": true,
   "benchmarkSpyUnits": 6.399142948573451,
   "cad": 3000.0,
@@ -5673,7 +5674,7 @@
   "earningsKnown": true,
   "entriesThisWeek": 0,
   "entriesToday": 0,
-  "equityCad": 9922.06,
+  "equityCad": 9914.81,
   "focus": {
    "active": [
     "NVDA",
@@ -5951,11 +5952,11 @@
   "halted": false,
   "lastCongressCheck": "2026-11-24",
   "lastEtfScan": "2026-11-21T11:01:42Z",
-  "lastFuturesScan": "2026-11-24T14:01:45Z",
-  "lastRun": "2026-11-24T14:01:45Z",
+  "lastFuturesScan": "2026-11-24T14:31:36Z",
+  "lastRun": "2026-11-24T14:31:36Z",
   "lastRunBy": "github",
-  "lastRunNote": "The S&P 500 fund was up 0.0% today; market mood risk-off. Bitcoin down 4.7% in 24 hours (risk-off). No trades: nothing scored high enough with a clean setup. Holding 0 positions. Value $9,922.06 vs buy-and-hold $9,301.05.",
-  "lastSaved": "2026-11-24T14:01:45Z",
+  "lastRunNote": "The S&P 500 fund was down 1.2% today; market mood risk-off. Bitcoin down 4.8% in 24 hours (risk-off). No trades: nothing scored high enough with a clean setup. Holding 0 positions. Value $9,914.81 vs buy-and-hold $9,211.48.",
+  "lastSaved": "2026-11-24T14:31:36Z",
   "lastStockScan": "2026-11-23T19:46:33Z",
   "lastTradingDay": "2026-11-23",
   "lastUniverseScan": "2026-11-24T13:01:39Z",
@@ -6022,7 +6023,7 @@
   },
   "tradingDays": 6,
   "usd": 4832.15361973509,
-  "usdCad": 1.4325,
+  "usdCad": 1.431,
   "weekStart": "2026-11-23",
   "weekStartEquityCad": 9923.99
  },
@@ -6677,11 +6678,10 @@
    "exits": [],
    "signals": []
   },
-  "updated": "2026-11-24T14:01:45Z"
+  "updated": "2026-11-24T14:31:36Z"
  },
  "log": [
-  "Run 2026-11-24 WATCH (New York 09:01), stock market open day",
-  "Congress tracker: 2 new House reports, 2 read"
+  "Run 2026-11-24 WATCH (New York 09:31), stock market open day"
  ],
  "nav": [
   {
@@ -6745,10 +6745,10 @@
    "equityCad": 9940.42
   },
   {
-   "benchmarkCad": 9301.05,
-   "cashCad": 9922.06,
+   "benchmarkCad": 9211.48,
+   "cashCad": 9914.81,
    "date": "2026-11-24",
-   "equityCad": 9922.06
+   "equityCad": 9914.81
   }
  ],
  "pack": {
@@ -6756,14 +6756,14 @@
   "alertState": {},
   "clock": {
    "calendar_known": true,
-   "checkedAt": "2026-11-24T14:01:45Z",
+   "checkedAt": "2026-11-24T14:31:36Z",
    "closes": "16:00",
    "date": "2026-11-24",
    "early_close": null,
-   "next_open": "2026-11-24 09:30",
-   "open": false,
+   "next_open": "2026-11-25 09:30",
+   "open": true,
    "opens": "09:30",
-   "reason": "before the open"
+   "reason": "regular session"
   }
  },
  "positions": {},
