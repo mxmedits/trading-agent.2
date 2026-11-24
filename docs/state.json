@@ -1911,28 +1911,6 @@
    "type": "Sale",
    "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035831.pdf"
   },
-  "2026-11-12-T-Taylor-4": {
-   "amount": "$1,001 - $15,000",
-   "chamber": "House",
-   "filedDate": "2026-11-12",
-   "member": "David J. Taylor",
-   "note": "9 days to report",
-   "symbol": "T",
-   "tradeDate": "2026-11-03",
-   "type": "Purchase",
-   "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035831.pdf"
-  },
-  "2026-11-12-T-Taylor-5": {
-   "amount": "$1,001 - $15,000",
-   "chamber": "House",
-   "filedDate": "2026-11-12",
-   "member": "David J. Taylor",
-   "note": "9 days to report",
-   "symbol": "T",
-   "tradeDate": "2026-11-03",
-   "type": "Purchase",
-   "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035831.pdf"
-  },
   "2026-11-13-20035779": {
    "amount": "",
    "chamber": "House",
@@ -2240,6 +2218,28 @@
    "tradeDate": "2026-10-07",
    "type": "Sale",
    "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20036844.pdf"
+  },
+  "2026-11-20-VZ-McClellan-0": {
+   "amount": "$50,001 - $100,000",
+   "chamber": "House",
+   "filedDate": "2026-11-20",
+   "member": "Jennifer McClellan",
+   "note": "1 days to report",
+   "symbol": "VZ",
+   "tradeDate": "2026-11-19",
+   "type": "Sale",
+   "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20036883.pdf"
+  },
+  "2026-11-21-AAPL-Case-0": {
+   "amount": "$1,001 - $15,000",
+   "chamber": "House",
+   "filedDate": "2026-11-21",
+   "member": "Ed Case",
+   "note": "5 days to report",
+   "symbol": "AAPL",
+   "tradeDate": "2026-11-16",
+   "type": "Purchase",
+   "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20036891.pdf"
   }
  },
  "congressSeen": [
@@ -2259,6 +2259,8 @@
   "20036849",
   "20036855",
   "20036864",
+  "20036883",
+  "20036891",
   "9116403"
  ],
  "earnCal": {
@@ -2860,28 +2862,10 @@
  },
  "floor": {
   "lastRun": {
-   "at": "2026-11-24T13:31:48Z",
-   "count": 4
+   "at": "2026-11-24T14:01:45Z",
+   "count": 2
   },
   "messages": [
-   {
-    "d": "research",
-    "k": "info",
-    "n": 0,
-    "s": "",
-    "t": "2026-11-20T17:06:35Z",
-    "to": "pm",
-    "x": "Stock scan: 88 long and 59 short charts checked, 8 breakouts, 8 breakdowns. Strongest: XLP, XEL, WTW, XLI."
-   },
-   {
-    "d": "research",
-    "k": "idea",
-    "n": 1,
-    "s": "UBER",
-    "t": "2026-11-20T17:06:35Z",
-    "to": "pm",
-    "x": "Short UBER: fell below its opening range, chart 30/30."
-   },
    {
     "d": "news",
     "k": "vote",
@@ -5563,6 +5547,24 @@
     "t": "2026-11-24T13:31:48Z",
     "to": "all",
     "x": "Short M6E scores 75 but no clean setup yet. Waiting."
+   },
+   {
+    "d": "analyst",
+    "k": "info",
+    "n": 0,
+    "s": "AAPL",
+    "t": "2026-11-24T14:01:45Z",
+    "to": "research",
+    "x": "House filing: Ed Case bought AAPL ($1,001 - $15,000), traded Nov 16."
+   },
+   {
+    "d": "analyst",
+    "k": "info",
+    "n": 1,
+    "s": "VZ",
+    "t": "2026-11-24T14:01:45Z",
+    "to": "research",
+    "x": "House filing: Jennifer McClellan sold VZ ($50,001 - $100,000), traded Nov 19."
    }
   ],
   "said": {
@@ -5661,7 +5663,7 @@
  },
  "fund": {
   "benchmarkBtcUnits": 0.03103649722666308,
-  "benchmarkCad": 9289.99,
+  "benchmarkCad": 9301.05,
   "benchmarkSet": true,
   "benchmarkSpyUnits": 6.399142948573451,
   "cad": 3000.0,
@@ -5671,7 +5673,7 @@
   "earningsKnown": true,
   "entriesThisWeek": 0,
   "entriesToday": 0,
-  "equityCad": 9921.58,
+  "equityCad": 9922.06,
   "focus": {
    "active": [
     "NVDA",
@@ -5947,13 +5949,13 @@
   },
   "haltReason": "",
   "halted": false,
-  "lastCongressCheck": "2026-11-23",
+  "lastCongressCheck": "2026-11-24",
   "lastEtfScan": "2026-11-21T11:01:42Z",
-  "lastFuturesScan": "2026-11-24T13:31:48Z",
-  "lastRun": "2026-11-24T13:31:48Z",
+  "lastFuturesScan": "2026-11-24T14:01:45Z",
+  "lastRun": "2026-11-24T14:01:45Z",
   "lastRunBy": "github",
-  "lastRunNote": "The S&P 500 fund was up 0.0% today; market mood risk-off. Bitcoin down 1.7% in 24 hours (risk-off). No trades: nothing scored high enough with a clean setup. Holding 0 positions. Value $9,921.58 vs buy-and-hold $9,289.99.",
-  "lastSaved": "2026-11-24T13:31:48Z",
+  "lastRunNote": "The S&P 500 fund was up 0.0% today; market mood risk-off. Bitcoin down 4.7% in 24 hours (risk-off). No trades: nothing scored high enough with a clean setup. Holding 0 positions. Value $9,922.06 vs buy-and-hold $9,301.05.",
+  "lastSaved": "2026-11-24T14:01:45Z",
   "lastStockScan": "2026-11-23T19:46:33Z",
   "lastTradingDay": "2026-11-23",
   "lastUniverseScan": "2026-11-24T13:01:39Z",
@@ -6020,7 +6022,7 @@
   },
   "tradingDays": 6,
   "usd": 4832.15361973509,
-  "usdCad": 1.4324,
+  "usdCad": 1.4325,
   "weekStart": "2026-11-23",
   "weekStartEquityCad": 9923.99
  },
@@ -6675,10 +6677,11 @@
    "exits": [],
    "signals": []
   },
-  "updated": "2026-11-24T13:31:48Z"
+  "updated": "2026-11-24T14:01:45Z"
  },
  "log": [
-  "Run 2026-11-24 WATCH (New York 08:31), stock market open day"
+  "Run 2026-11-24 WATCH (New York 09:01), stock market open day",
+  "Congress tracker: 2 new House reports, 2 read"
  ],
  "nav": [
   {
@@ -6742,10 +6745,10 @@
    "equityCad": 9940.42
   },
   {
-   "benchmarkCad": 9289.99,
-   "cashCad": 9921.58,
+   "benchmarkCad": 9301.05,
+   "cashCad": 9922.06,
    "date": "2026-11-24",
-   "equityCad": 9921.58
+   "equityCad": 9922.06
   }
  ],
  "pack": {
@@ -6753,7 +6756,7 @@
   "alertState": {},
   "clock": {
    "calendar_known": true,
-   "checkedAt": "2026-11-24T13:31:48Z",
+   "checkedAt": "2026-11-24T14:01:45Z",
    "closes": "16:00",
    "date": "2026-11-24",
    "early_close": null,
