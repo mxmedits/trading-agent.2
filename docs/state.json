@@ -5801,7 +5801,7 @@
  },
  "fund": {
   "benchmarkBtcUnits": 0.03103649722666308,
-  "benchmarkCad": 9196.95,
+  "benchmarkCad": 9173.18,
   "benchmarkSet": true,
   "benchmarkSpyUnits": 6.399142948573451,
   "cad": 3000.0,
@@ -5811,7 +5811,7 @@
   "earningsKnown": true,
   "entriesThisWeek": 0,
   "entriesToday": 0,
-  "equityCad": 9894.03,
+  "equityCad": 9895.48,
   "focus": {
    "active": [
     "NVDA",
@@ -6089,11 +6089,11 @@
   "halted": false,
   "lastCongressCheck": "2026-11-24",
   "lastEtfScan": "2026-11-21T11:01:42Z",
-  "lastFuturesScan": "2026-11-24T19:31:51Z",
-  "lastRun": "2026-11-24T19:46:43Z",
+  "lastFuturesScan": "2026-11-24T20:01:39Z",
+  "lastRun": "2026-11-24T20:01:39Z",
   "lastRunBy": "github",
-  "lastRunNote": "The S&P 500 fund was down 0.6% today; market mood risk-off. Bitcoin down 2.2% in 24 hours (risk-off). No trades: SHORT SRLN came closest but failed time machine favourable. Holding 0 positions. Value $9,894.03 vs buy-and-hold $9,196.95.",
-  "lastSaved": "2026-11-24T19:46:43Z",
+  "lastRunNote": "The S&P 500 fund was down 0.9% today; market mood risk-off. Bitcoin down 2.7% in 24 hours (risk-off). No trades: nothing scored high enough with a clean setup. Holding 0 positions. Value $9,895.48 vs buy-and-hold $9,173.18.",
+  "lastSaved": "2026-11-24T20:01:39Z",
   "lastStockScan": "2026-11-24T19:46:43Z",
   "lastTradingDay": "2026-11-23",
   "lastUniverseScan": "2026-11-24T13:01:39Z",
@@ -6160,7 +6160,7 @@
   },
   "tradingDays": 6,
   "usd": 4832.15361973509,
-  "usdCad": 1.4267,
+  "usdCad": 1.427,
   "weekStart": "2026-11-23",
   "weekStartEquityCad": 9923.99
  },
@@ -6817,16 +6817,9 @@
    "universe": 6224
   },
   {
-   "blocked": [
-    {
-     "failed": [
-      "Time machine favourable"
-     ],
-     "symbol": "SHORT SRLN"
-    }
-   ],
+   "blocked": [],
    "cryptoRegime": "risk-off",
-   "dataCalls": 47,
+   "dataCalls": 16,
    "date": "2026-11-24",
    "liquid": 2227,
    "regime": "risk-off",
@@ -6834,44 +6827,14 @@
    "summary": "Morning: The S&P 500 fund was down 0.6% today; market mood risk-off. Bitcoin down 5.4% in 24 hours (risk-off). No trades: nothing scored high enough with a clean setup. Holding 0 positions. Value $9,909.98 vs buy-and-hold $9,218.34.",
    "topCandidates": [
     {
-     "score": 72,
-     "symbol": "SHORT SRLN",
-     "verdict": "72/100, fell below its opening range"
-    },
-    {
-     "score": 64,
-     "symbol": "SHORT WSM",
-     "verdict": "64/100, below the 70 needed"
+     "score": 75,
+     "symbol": "SHORT M6E",
+     "verdict": "75/100, no clean setup yet"
     },
     {
      "score": 62,
-     "symbol": "SHORT WMB",
+     "symbol": "SHORT MET",
      "verdict": "62/100, below the 70 needed"
-    },
-    {
-     "score": 56,
-     "symbol": "LONG YUM",
-     "verdict": "56/100, below the 80 needed"
-    },
-    {
-     "score": 56,
-     "symbol": "LONG XLP",
-     "verdict": "56/100, below the 80 needed"
-    },
-    {
-     "score": 56,
-     "symbol": "LONG XEL",
-     "verdict": "56/100, below the 80 needed"
-    },
-    {
-     "score": 56,
-     "symbol": "LONG WM",
-     "verdict": "56/100, below the 80 needed"
-    },
-    {
-     "score": 56,
-     "symbol": "LONG VBIL",
-     "verdict": "56/100, below the 80 needed"
     }
    ],
    "universe": 6225
@@ -6896,14 +6859,10 @@
    "exits": [],
    "signals": []
   },
-  "updated": "2026-11-24T19:46:43Z"
+  "updated": "2026-11-24T20:01:39Z"
  },
  "log": [
-  "Run 2026-11-24 WATCH (New York 14:46), stock market open day",
-  "Stock scan: 89 long and 70 short ideas pre-screened; 10 breakouts, 2 breakdowns",
-  "Borrow list unavailable: TimeoutError: timed out",
-  "Borrow data for SRLN unavailable (Remote end closed connection without response)",
-  "BLOCK SHORT SRLN: Time machine favourable"
+  "Run 2026-11-24 WATCH (New York 15:01), stock market open day"
  ],
  "nav": [
   {
@@ -6967,10 +6926,10 @@
    "equityCad": 9940.42
   },
   {
-   "benchmarkCad": 9196.95,
-   "cashCad": 9894.03,
+   "benchmarkCad": 9173.18,
+   "cashCad": 9895.48,
    "date": "2026-11-24",
-   "equityCad": 9894.03
+   "equityCad": 9895.48
   }
  ],
  "pack": {
@@ -6978,7 +6937,7 @@
   "alertState": {},
   "clock": {
    "calendar_known": true,
-   "checkedAt": "2026-11-24T19:46:43Z",
+   "checkedAt": "2026-11-24T20:01:39Z",
    "closes": "16:00",
    "date": "2026-11-24",
    "early_close": null,
