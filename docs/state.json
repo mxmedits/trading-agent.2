@@ -5799,7 +5799,7 @@
  },
  "fund": {
   "benchmarkBtcUnits": 0.03103649722666308,
-  "benchmarkCad": 9214.05,
+  "benchmarkCad": 9215.04,
   "benchmarkSet": true,
   "benchmarkSpyUnits": 6.399142948573451,
   "cad": 3000.0,
@@ -5809,7 +5809,7 @@
   "earningsKnown": true,
   "entriesThisWeek": 0,
   "entriesToday": 0,
-  "equityCad": 9893.55,
+  "equityCad": 9895.48,
   "focus": {
    "active": [
     "NVDA",
@@ -6088,11 +6088,11 @@
   "lastCongressCheck": "2026-11-24",
   "lastEtfScan": "2026-11-21T11:01:42Z",
   "lastFuturesScan": "2026-11-24T18:31:51Z",
-  "lastRun": "2026-11-24T18:36:40Z",
+  "lastRun": "2026-11-24T18:46:42Z",
   "lastRunBy": "github",
-  "lastRunNote": "The S&P 500 fund was down 0.5% today; market mood risk-off. Bitcoin down 2.2% in 24 hours (risk-off). No trades: SHORT SRLN came closest but failed time machine favourable. Holding 0 positions. Value $9,893.55 vs buy-and-hold $9,214.05.",
-  "lastSaved": "2026-11-24T18:36:40Z",
-  "lastStockScan": "2026-11-24T18:36:40Z",
+  "lastRunNote": "The S&P 500 fund was down 0.5% today; market mood risk-off. Bitcoin down 2.4% in 24 hours (risk-off). No trades: SHORT SRLN came closest but failed time machine favourable. Holding 0 positions. Value $9,895.48 vs buy-and-hold $9,215.04.",
+  "lastSaved": "2026-11-24T18:46:42Z",
+  "lastStockScan": "2026-11-24T18:46:42Z",
   "lastTradingDay": "2026-11-23",
   "lastUniverseScan": "2026-11-24T13:01:39Z",
   "maxDrawdownPct": 1.06,
@@ -6158,7 +6158,7 @@
   },
   "tradingDays": 6,
   "usd": 4832.15361973509,
-  "usdCad": 1.4266,
+  "usdCad": 1.427,
   "weekStart": "2026-11-23",
   "weekStartEquityCad": 9923.99
  },
@@ -6894,10 +6894,10 @@
    "exits": [],
    "signals": []
   },
-  "updated": "2026-11-24T18:36:40Z"
+  "updated": "2026-11-24T18:46:42Z"
  },
  "log": [
-  "Run 2026-11-24 WATCH (New York 13:36), stock market open day",
+  "Run 2026-11-24 WATCH (New York 13:46), stock market open day",
   "Stock scan: 89 long and 70 short ideas pre-screened; 10 breakouts, 2 breakdowns",
   "Borrow list unavailable: TimeoutError: timed out",
   "Borrow data for SRLN unavailable (Remote end closed connection without response)",
@@ -6965,10 +6965,10 @@
    "equityCad": 9940.42
   },
   {
-   "benchmarkCad": 9214.05,
-   "cashCad": 9893.55,
+   "benchmarkCad": 9215.04,
+   "cashCad": 9895.48,
    "date": "2026-11-24",
-   "equityCad": 9893.55
+   "equityCad": 9895.48
   }
  ],
  "pack": {
@@ -6976,7 +6976,7 @@
   "alertState": {},
   "clock": {
    "calendar_known": true,
-   "checkedAt": "2026-11-24T18:36:40Z",
+   "checkedAt": "2026-11-24T18:46:42Z",
    "closes": "16:00",
    "date": "2026-11-24",
    "early_close": null,
