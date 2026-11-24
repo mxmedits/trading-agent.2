@@ -2860,19 +2860,10 @@
  },
  "floor": {
   "lastRun": {
-   "at": "2026-11-24T12:01:44Z",
-   "count": 4
+   "at": "2026-11-24T12:31:50Z",
+   "count": 1
   },
   "messages": [
-   {
-    "d": "pm",
-    "k": "decide",
-    "n": 8,
-    "s": "",
-    "t": "2026-11-20T16:56:43Z",
-    "to": "all",
-    "x": "Nothing good enough this scan. Closest: short UBER at 87, needs 70."
-   },
    {
     "d": "research",
     "k": "idea",
@@ -5563,6 +5554,15 @@
     "t": "2026-11-24T12:01:44Z",
     "to": "all",
     "x": "Short MET scores 72 but no clean setup yet. Waiting."
+   },
+   {
+    "d": "pm",
+    "k": "decide",
+    "n": 0,
+    "s": "",
+    "t": "2026-11-24T12:31:50Z",
+    "to": "all",
+    "x": "Nothing to trade this scan. Short M6E scores enough but has no clean setup yet."
    }
   ],
   "said": {
@@ -5631,7 +5631,7 @@
    "nothing:KRE:20": "2026-11-23T16:56:47Z",
    "nothing:M6E:16": "2026-11-23T05:01:48Z",
    "nothing:M6E:17": "2026-11-23T22:31:51Z",
-   "nothing:M6E:18": "2026-11-24T10:31:48Z",
+   "nothing:M6E:18": "2026-11-24T12:31:50Z",
    "nothing:MET:15": "2026-11-24T04:31:50Z",
    "nothing:MET:16": "2026-11-23T03:31:44Z",
    "nothing:MET:18": "2026-11-24T09:31:45Z",
@@ -5660,7 +5660,7 @@
  },
  "fund": {
   "benchmarkBtcUnits": 0.03103649722666308,
-  "benchmarkCad": 9301.03,
+  "benchmarkCad": 9302.9,
   "benchmarkSet": true,
   "benchmarkSpyUnits": 6.399142948573451,
   "cad": 3000.0,
@@ -5670,7 +5670,7 @@
   "earningsKnown": true,
   "entriesThisWeek": 0,
   "entriesToday": 0,
-  "equityCad": 9923.51,
+  "equityCad": 9923.99,
   "focus": {
    "active": [
     "SPY",
@@ -5945,11 +5945,11 @@
   "halted": false,
   "lastCongressCheck": "2026-11-23",
   "lastEtfScan": "2026-11-21T11:01:42Z",
-  "lastFuturesScan": "2026-11-24T12:01:44Z",
-  "lastRun": "2026-11-24T12:01:44Z",
+  "lastFuturesScan": "2026-11-24T12:31:50Z",
+  "lastRun": "2026-11-24T12:31:50Z",
   "lastRunBy": "github",
-  "lastRunNote": "The S&P 500 fund was up 0.0% today; market mood risk-off. Bitcoin down 1.7% in 24 hours (risk-off). No trades: nothing scored high enough with a clean setup. Holding 0 positions. Value $9,923.51 vs buy-and-hold $9,301.03.",
-  "lastSaved": "2026-11-24T12:01:44Z",
+  "lastRunNote": "The S&P 500 fund was up 0.0% today; market mood risk-off. Bitcoin down 1.6% in 24 hours (risk-off). No trades: nothing scored high enough with a clean setup. Holding 0 positions. Value $9,923.99 vs buy-and-hold $9,302.90.",
+  "lastSaved": "2026-11-24T12:31:50Z",
   "lastStockScan": "2026-11-23T19:46:33Z",
   "lastTradingDay": "2026-11-23",
   "lastUniverseScan": "2026-11-23T13:01:44Z",
@@ -6016,7 +6016,7 @@
   },
   "tradingDays": 6,
   "usd": 4832.15361973509,
-  "usdCad": 1.4328,
+  "usdCad": 1.4329,
   "weekStart": "2026-11-23",
   "weekStartEquityCad": 9923.99
  },
@@ -6671,10 +6671,10 @@
    "exits": [],
    "signals": []
   },
-  "updated": "2026-11-24T12:01:44Z"
+  "updated": "2026-11-24T12:31:50Z"
  },
  "log": [
-  "Run 2026-11-24 WATCH (New York 07:01), stock market open day"
+  "Run 2026-11-24 WATCH (New York 07:31), stock market open day"
  ],
  "nav": [
   {
@@ -6738,10 +6738,10 @@
    "equityCad": 9940.42
   },
   {
-   "benchmarkCad": 9301.03,
-   "cashCad": 9923.51,
+   "benchmarkCad": 9302.9,
+   "cashCad": 9923.99,
    "date": "2026-11-24",
-   "equityCad": 9923.51
+   "equityCad": 9923.99
   }
  ],
  "pack": {
@@ -6749,7 +6749,7 @@
   "alertState": {},
   "clock": {
    "calendar_known": true,
-   "checkedAt": "2026-11-24T12:01:44Z",
+   "checkedAt": "2026-11-24T12:31:50Z",
    "closes": "16:00",
    "date": "2026-11-24",
    "early_close": null,
