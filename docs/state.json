@@ -83,12 +83,12 @@
    "currency": "USD",
    "direction": "below",
    "expiresOn": "2026-12-02",
-   "hitOn": "2026-11-24",
+   "hitOn": "",
    "kind": "stock",
    "level": 209.46,
    "reason": "a breakdown (short) would start below here",
    "side": "short",
-   "status": "hit",
+   "status": "waiting",
    "symbol": "WSM"
   },
   "XEL-long-20261116": {
@@ -2948,37 +2948,10 @@
  },
  "floor": {
   "lastRun": {
-   "at": "2026-11-24T15:06:51Z",
-   "count": 1
+   "at": "2026-11-24T15:12:01Z",
+   "count": 3
   },
   "messages": [
-   {
-    "d": "research",
-    "k": "idea",
-    "n": 13,
-    "s": "XLI",
-    "t": "2026-11-20T18:16:35Z",
-    "to": "pm",
-    "x": "Short XLI: fell below its opening range, chart 25/30."
-   },
-   {
-    "d": "news",
-    "k": "vote",
-    "n": 14,
-    "s": "XLI",
-    "t": "2026-11-20T18:16:35Z",
-    "to": "pm",
-    "x": "XLI: 1 fresh headline, mixed; 13/25. Top: \"State Street Industrial Select Sector SPDR (XLI) Adds GE and...\""
-   },
-   {
-    "d": "pm",
-    "k": "decide",
-    "n": 15,
-    "s": "XLI",
-    "t": "2026-11-20T18:16:35Z",
-    "to": "all",
-    "x": "Short XLI scores 72, needs 70. Quant and Risk, check it."
-   },
    {
     "d": "quant",
     "k": "vote",
@@ -5651,6 +5624,33 @@
     "t": "2026-11-24T15:06:51Z",
     "to": "pm",
     "x": "WSM just went below $209.46. Bringing it back to the desk."
+   },
+   {
+    "d": "research",
+    "k": "info",
+    "n": 0,
+    "s": "",
+    "t": "2026-11-24T15:12:01Z",
+    "to": "pm",
+    "x": "Stock scan: 89 long and 70 short charts checked, 13 breakouts, 0 breakdowns. Strongest: YUM, XLP, XEL, WSM."
+   },
+   {
+    "d": "research",
+    "k": "info",
+    "n": 1,
+    "s": "",
+    "t": "2026-11-24T15:12:01Z",
+    "to": "pm",
+    "x": "TSX scan: 60 Canadian charts checked. Strongest: WN.TO, L.TO, IFC.TO."
+   },
+   {
+    "d": "research",
+    "k": "info",
+    "n": 2,
+    "s": "WSM",
+    "t": "2026-11-24T15:12:01Z",
+    "to": "pm",
+    "x": "Watching WSM: a breakdown (short) would start below here, at $209.46."
    }
   ],
   "said": {
@@ -5743,12 +5743,14 @@
    "scan:stocks:XLP,XEL,WTW,WFC:9:0": "2026-11-23T15:56:35Z",
    "scan:stocks:XLP,XEL,WTW,WFC:9:1": "2026-11-23T18:16:35Z",
    "scan:stocks:YUM,XLP,XEL,WSM:10:0": "2026-11-24T15:01:51Z",
+   "scan:stocks:YUM,XLP,XEL,WSM:13:0": "2026-11-24T15:12:01Z",
    "scan:stocks:YUM,XLP,XEL,WSM:4:0": "2026-11-24T14:51:50Z",
    "scan:tsx:TRP.TO,H.TO,GWO.TO": "2026-11-23T14:51:42Z",
    "scan:tsx:TRP.TO,L.TO,IFC.TO": "2026-11-23T17:06:49Z",
    "scan:tsx:TRP.TO,L.TO,KXS.TO": "2026-11-23T15:26:53Z",
    "scan:tsx:TRP.TO,SAP.TO,L.TO": "2026-11-23T15:36:45Z",
    "scan:tsx:WN.TO,IFC.TO,GWO.TO": "2026-11-24T14:51:50Z",
+   "scan:tsx:WN.TO,L.TO,IFC.TO": "2026-11-24T15:12:01Z",
    "scan:tsx:WN.TO,SAP.TO,REI-UN.TO": "2026-11-23T18:36:47Z",
    "scan:tsx:WN.TO,TRP.TO,L.TO": "2026-11-23T17:26:37Z",
    "scan:tsx:WN.TO,TRP.TO,SAP.TO": "2026-11-23T17:36:38Z",
@@ -5759,7 +5761,7 @@
  },
  "fund": {
   "benchmarkBtcUnits": 0.03103649722666308,
-  "benchmarkCad": 9240.66,
+  "benchmarkCad": 9230.97,
   "benchmarkSet": true,
   "benchmarkSpyUnits": 6.399142948573451,
   "cad": 3000.0,
@@ -5769,7 +5771,7 @@
   "earningsKnown": true,
   "entriesThisWeek": 0,
   "entriesToday": 0,
-  "equityCad": 9908.53,
+  "equityCad": 9909.5,
   "focus": {
    "active": [
     "NVDA",
@@ -6048,11 +6050,11 @@
   "lastCongressCheck": "2026-11-24",
   "lastEtfScan": "2026-11-21T11:01:42Z",
   "lastFuturesScan": "2026-11-24T15:01:51Z",
-  "lastRun": "2026-11-24T15:06:51Z",
+  "lastRun": "2026-11-24T15:12:01Z",
   "lastRunBy": "github",
-  "lastRunNote": "The S&P 500 fund was down 0.5% today; market mood risk-off. Bitcoin down 4.5% in 24 hours (risk-off). No new trades this run (nothing due). Holding 0 positions. Value $9,908.53 vs buy-and-hold $9,240.66.",
-  "lastSaved": "2026-11-24T15:06:51Z",
-  "lastStockScan": "2026-11-24T15:01:51Z",
+  "lastRunNote": "The S&P 500 fund was down 0.6% today; market mood risk-off. Bitcoin down 4.9% in 24 hours (risk-off). No trades: nothing scored high enough with a clean setup. Holding 0 positions. Value $9,909.50 vs buy-and-hold $9,230.97.",
+  "lastSaved": "2026-11-24T15:12:01Z",
+  "lastStockScan": "2026-11-24T15:12:01Z",
   "lastTradingDay": "2026-11-23",
   "lastUniverseScan": "2026-11-24T13:01:39Z",
   "maxDrawdownPct": 1.06,
@@ -6118,7 +6120,7 @@
   },
   "tradingDays": 6,
   "usd": 4832.15361973509,
-  "usdCad": 1.4297,
+  "usdCad": 1.4299,
   "weekStart": "2026-11-23",
   "weekStartEquityCad": 9923.99
  },
@@ -6766,7 +6768,7 @@
   {
    "blocked": [],
    "cryptoRegime": "risk-off",
-   "dataCalls": 11,
+   "dataCalls": 44,
    "date": "2026-11-24",
    "liquid": 2227,
    "regime": "risk-off",
@@ -6774,18 +6776,8 @@
    "summary": "",
    "topCandidates": [
     {
-     "score": 75,
-     "symbol": "SHORT M6E",
-     "verdict": "75/100, no clean setup yet"
-    },
-    {
      "score": 72,
      "symbol": "SHORT USHY",
-     "verdict": "72/100, no clean setup yet"
-    },
-    {
-     "score": 72,
-     "symbol": "SHORT MET",
      "verdict": "72/100, no clean setup yet"
     },
     {
@@ -6809,9 +6801,19 @@
      "verdict": "64/100, below the 70 needed"
     },
     {
-     "score": 61,
-     "symbol": "LONG GWO.TO",
-     "verdict": "61/100, below the 80 needed"
+     "score": 56,
+     "symbol": "LONG XEL",
+     "verdict": "56/100, below the 80 needed"
+    },
+    {
+     "score": 56,
+     "symbol": "LONG WM",
+     "verdict": "56/100, below the 80 needed"
+    },
+    {
+     "score": 56,
+     "symbol": "LONG INDA",
+     "verdict": "56/100, below the 80 needed"
     }
    ],
    "universe": 6225
@@ -6836,10 +6838,11 @@
    "exits": [],
    "signals": []
   },
-  "updated": "2026-11-24T15:06:51Z"
+  "updated": "2026-11-24T15:12:01Z"
  },
  "log": [
-  "Run 2026-11-24 WATCH (New York 10:06), stock market open day"
+  "Run 2026-11-24 WATCH (New York 10:12), stock market open day",
+  "Stock scan: 89 long and 70 short ideas pre-screened; 13 breakouts, 0 breakdowns"
  ],
  "nav": [
   {
@@ -6903,10 +6906,10 @@
    "equityCad": 9940.42
   },
   {
-   "benchmarkCad": 9240.66,
-   "cashCad": 9908.53,
+   "benchmarkCad": 9230.97,
+   "cashCad": 9909.5,
    "date": "2026-11-24",
-   "equityCad": 9908.53
+   "equityCad": 9909.5
   }
  ],
  "pack": {
@@ -6914,7 +6917,7 @@
   "alertState": {},
   "clock": {
    "calendar_known": true,
-   "checkedAt": "2026-11-24T15:06:51Z",
+   "checkedAt": "2026-11-24T15:12:01Z",
    "closes": "16:00",
    "date": "2026-11-24",
    "early_close": null,
