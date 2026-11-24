@@ -23,7 +23,7 @@
    "level": 78.54,
    "reason": "a breakdown (short) would start below here",
    "side": "short",
-   "status": "waiting",
+   "status": "expired",
    "symbol": "VCIT"
   },
   "WMT-long-20261116": {
@@ -36,7 +36,7 @@
    "level": 131.82,
    "reason": "a breakout would start above here",
    "side": "long",
-   "status": "waiting",
+   "status": "expired",
    "symbol": "WMT"
   },
   "XEL-long-20261116": {
@@ -49,7 +49,7 @@
    "level": 82.0,
    "reason": "a breakout would start above here",
    "side": "long",
-   "status": "waiting",
+   "status": "expired",
    "symbol": "XEL"
   },
   "XLF-long-20261116": {
@@ -62,7 +62,7 @@
    "level": 60.04,
    "reason": "a breakout would start above here",
    "side": "long",
-   "status": "waiting",
+   "status": "expired",
    "symbol": "XLF"
   },
   "XLK-short-20261117": {
@@ -101,7 +101,7 @@
    "level": 93.4,
    "reason": "a breakout would start above here",
    "side": "long",
-   "status": "waiting",
+   "status": "expired",
    "symbol": "XLP"
   },
   "XLV-long-20261116": {
@@ -114,7 +114,7 @@
    "level": 192.32,
    "reason": "a breakout would start above here",
    "side": "long",
-   "status": "waiting",
+   "status": "expired",
    "symbol": "XLV"
   },
   "XLY-long-20261116": {
@@ -127,7 +127,7 @@
    "level": 122.92,
    "reason": "a breakout would start above here",
    "side": "long",
-   "status": "waiting",
+   "status": "expired",
    "symbol": "XLY"
   }
  },
@@ -2860,55 +2860,10 @@
  },
  "floor": {
   "lastRun": {
-   "at": "2026-11-24T04:31:50Z",
-   "count": 1
+   "at": "2026-11-24T05:01:54Z",
+   "count": 5
   },
   "messages": [
-   {
-    "d": "quant",
-    "k": "vote",
-    "n": 4,
-    "s": "MET",
-    "t": "2026-11-20T15:31:44Z",
-    "to": "pm",
-    "x": "MET: in 10,000 daily replays the target comes first 0%, the stop 5%. Most run out of time first. Odds are against us."
-   },
-   {
-    "d": "risk",
-    "k": "block",
-    "n": 5,
-    "s": "MET",
-    "t": "2026-11-20T15:31:44Z",
-    "to": "pm",
-    "x": "Blocked MET: a stop-out would break today's loss limit; the replays favour the stop."
-   },
-   {
-    "d": "research",
-    "k": "info",
-    "n": 0,
-    "s": "",
-    "t": "2026-11-20T15:36:45Z",
-    "to": "pm",
-    "x": "TSX scan: 69 Canadian charts checked. Strongest: TRP.TO, PPL.TO, MRU.TO."
-   },
-   {
-    "d": "research",
-    "k": "info",
-    "n": 0,
-    "s": "",
-    "t": "2026-11-20T15:46:36Z",
-    "to": "pm",
-    "x": "Stock scan: 88 long and 59 short charts checked, 9 breakouts, 5 breakdowns. Strongest: XLP, XEL, WTW, XLI."
-   },
-   {
-    "d": "research",
-    "k": "idea",
-    "n": 1,
-    "s": "MU",
-    "t": "2026-11-20T15:46:36Z",
-    "to": "pm",
-    "x": "Short MU: down more than 10% today, chart 30/30."
-   },
    {
     "d": "news",
     "k": "vote",
@@ -5563,17 +5518,64 @@
     "t": "2026-11-24T04:31:50Z",
     "to": "all",
     "x": "Nothing good enough this scan. Closest: short MET at 62, needs 70."
+   },
+   {
+    "d": "strategy",
+    "k": "mood",
+    "n": 0,
+    "s": "",
+    "t": "2026-11-24T05:01:54Z",
+    "to": "pm",
+    "x": "Stocks are risk off: the S&P 500 fund is below its 200-day average."
+   },
+   {
+    "d": "strategy",
+    "k": "mood",
+    "n": 1,
+    "s": "",
+    "t": "2026-11-24T05:01:54Z",
+    "to": "pm",
+    "x": "Crypto is risk off: Bitcoin -1.3% in 24 hours, below its 50-day average."
+   },
+   {
+    "d": "research",
+    "k": "info",
+    "n": 2,
+    "s": "",
+    "t": "2026-11-24T05:01:54Z",
+    "to": "pm",
+    "x": "Data check: options backup not answering, borrow list not answering, economic calendar ok, SEC filings on."
+   },
+   {
+    "d": "strategy",
+    "k": "mood",
+    "n": 3,
+    "s": "",
+    "t": "2026-11-24T05:01:54Z",
+    "to": "pm",
+    "x": "NYSE is closed (before the open). Opens today at 9:30 AM."
+   },
+   {
+    "d": "risk",
+    "k": "check",
+    "n": 4,
+    "s": "",
+    "t": "2026-11-24T05:01:54Z",
+    "to": "research",
+    "x": "Futures that fit the account today: MET, M6E. Too big for one contract: MES, MNQ, MYM, M2K, MGC, SIL, MCL, MBT."
    }
   ],
   "said": {
    "clock:closed:2026-11-23:after the close": "2026-11-23T21:01:39Z",
    "clock:closed:2026-11-23:before the open": "2026-11-23T05:01:48Z",
+   "clock:closed:2026-11-24:before the open": "2026-11-24T05:01:54Z",
    "clock:open:2026-11-23": "2026-11-23T14:31:37Z",
    "futures-closed:2026-11-21": "2026-11-21T17:01:51Z",
    "futures-closed:2026-11-22": "2026-11-22T17:31:44Z",
    "futures-closed:2026-11-23": "2026-11-23T23:01:48Z",
    "futures-fit:2026-11-22:MET,M6E": "2026-11-22T23:31:47Z",
    "futures-fit:2026-11-23:MET,M6E": "2026-11-24T01:31:35Z",
+   "futures-fit:2026-11-24:MET,M6E": "2026-11-24T05:01:54Z",
    "idea:BKNG:short:16:breakdown": "2026-11-23T19:06:45Z",
    "idea:KRE:short:18:none": "2026-11-23T18:46:47Z",
    "idea:KRE:short:19:none": "2026-11-23T17:36:38Z",
@@ -5612,10 +5614,11 @@
    "macro:stocks:short:risk-off:2026-11-23T19:06:45.551841": "2026-11-23T19:06:45Z",
    "meeting:close:2026-11-23": "2026-11-23T20:16:42Z",
    "meeting:open:2026-11-23": "2026-11-23T15:16:36Z",
-   "mood:crypto:risk-off:2026-11-21": "2026-11-21T05:01:42Z",
    "mood:crypto:risk-off:2026-11-22": "2026-11-22T05:01:51Z",
    "mood:crypto:risk-off:2026-11-23": "2026-11-23T05:01:48Z",
+   "mood:crypto:risk-off:2026-11-24": "2026-11-24T05:01:54Z",
    "mood:stocks:risk-off:2026-11-23": "2026-11-23T05:01:48Z",
+   "mood:stocks:risk-off:2026-11-24": "2026-11-24T05:01:54Z",
    "nothing:KRE:18": "2026-11-23T18:46:47Z",
    "nothing:KRE:19": "2026-11-23T17:36:38Z",
    "nothing:KRE:20": "2026-11-23T16:56:47Z",
@@ -5643,24 +5646,24 @@
    "scan:tsx:WN.TO,SAP.TO,REI-UN.TO": "2026-11-23T18:36:47Z",
    "scan:tsx:WN.TO,TRP.TO,L.TO": "2026-11-23T17:26:37Z",
    "scan:tsx:WN.TO,TRP.TO,SAP.TO": "2026-11-23T17:36:38Z",
-   "sources:2026-11-21": "2026-11-21T05:01:42Z",
    "sources:2026-11-22": "2026-11-22T05:01:51Z",
-   "sources:2026-11-23": "2026-11-23T05:01:48Z"
+   "sources:2026-11-23": "2026-11-23T05:01:48Z",
+   "sources:2026-11-24": "2026-11-24T05:01:54Z"
   }
  },
  "fund": {
   "benchmarkBtcUnits": 0.03103649722666308,
-  "benchmarkCad": 9331.59,
+  "benchmarkCad": 9330.21,
   "benchmarkSet": true,
   "benchmarkSpyUnits": 6.399142948573451,
   "cad": 3000.0,
-  "dayDate": "2026-11-23",
-  "dayStartEquityCad": 9923.99,
+  "dayDate": "2026-11-24",
+  "dayStartEquityCad": 9940.42,
   "earningsCheckedOn": "2026-11-23",
   "earningsKnown": true,
   "entriesThisWeek": 0,
   "entriesToday": 0,
-  "equityCad": 9940.42,
+  "equityCad": 9939.46,
   "focus": {
    "active": [
     "SPY",
@@ -5935,11 +5938,11 @@
   "halted": false,
   "lastCongressCheck": "2026-11-23",
   "lastEtfScan": "2026-11-21T11:01:42Z",
-  "lastFuturesScan": "2026-11-24T04:31:50Z",
-  "lastRun": "2026-11-24T04:31:50Z",
+  "lastFuturesScan": "2026-11-24T05:01:54Z",
+  "lastRun": "2026-11-24T05:01:54Z",
   "lastRunBy": "github",
-  "lastRunNote": "The S&P 500 fund was up 4.7% today; market mood risk-off. Bitcoin down 1.0% in 24 hours (risk-off). No trades: nothing scored high enough with a clean setup. Holding 0 positions. Value $9,940.42 vs buy-and-hold $9,331.59.",
-  "lastSaved": "2026-11-24T04:31:50Z",
+  "lastRunNote": "The S&P 500 fund was up 0.0% today; market mood risk-off. Bitcoin down 1.3% in 24 hours (risk-off). No trades: nothing scored high enough with a clean setup. Holding 0 positions. Value $9,939.46 vs buy-and-hold $9,330.21.",
+  "lastSaved": "2026-11-24T05:01:54Z",
   "lastStockScan": "2026-11-23T19:46:33Z",
   "lastTradingDay": "2026-11-23",
   "lastUniverseScan": "2026-11-23T13:01:44Z",
@@ -6006,7 +6009,7 @@
   },
   "tradingDays": 6,
   "usd": 4832.15361973509,
-  "usdCad": 1.4363,
+  "usdCad": 1.4361,
   "weekStart": "2026-11-23",
   "weekStartEquityCad": 9923.99
  },
@@ -6617,6 +6620,29 @@
     }
    ],
    "universe": 6224
+  },
+  {
+   "blocked": [],
+   "cryptoRegime": "risk-off",
+   "dataCalls": 13,
+   "date": "2026-11-24",
+   "liquid": 2313,
+   "regime": "risk-off",
+   "screened": 6223,
+   "summary": "",
+   "topCandidates": [
+    {
+     "score": 62,
+     "symbol": "SHORT MET",
+     "verdict": "62/100, below the 70 needed"
+    },
+    {
+     "score": 60,
+     "symbol": "SHORT M6E",
+     "verdict": "60/100, below the 75 needed"
+    }
+   ],
+   "universe": 6224
   }
  ],
  "lessons": [],
@@ -6638,10 +6664,13 @@
    "exits": [],
    "signals": []
   },
-  "updated": "2026-11-24T04:31:50Z"
+  "updated": "2026-11-24T05:01:54Z"
  },
  "log": [
-  "Run 2026-11-23 WATCH (New York 23:31), stock market open day"
+  "Run 2026-11-24 WATCH (New York 00:01), stock market open day",
+  "Borrow list unavailable: TimeoutError: timed out",
+  "Borrow data for SPY unavailable (Remote end closed connection without response)",
+  "Data sources: Cboe options 0 rows, borrow list 0 names, CPI dates 13, jobs dates 13, SEC contact set"
  ],
  "nav": [
   {
@@ -6703,6 +6732,12 @@
    "cashCad": 9940.42,
    "date": "2026-11-23",
    "equityCad": 9940.42
+  },
+  {
+   "benchmarkCad": 9330.21,
+   "cashCad": 9939.46,
+   "date": "2026-11-24",
+   "equityCad": 9939.46
   }
  ],
  "pack": {
@@ -6710,14 +6745,14 @@
   "alertState": {},
   "clock": {
    "calendar_known": true,
-   "checkedAt": "2026-11-24T04:31:50Z",
+   "checkedAt": "2026-11-24T05:01:54Z",
    "closes": "16:00",
-   "date": "2026-11-23",
+   "date": "2026-11-24",
    "early_close": null,
    "next_open": "2026-11-24 09:30",
    "open": false,
    "opens": "09:30",
-   "reason": "after the close"
+   "reason": "before the open"
   }
  },
  "positions": {},
@@ -6784,7 +6819,7 @@
   "borrowNames": 0,
   "cboeOptions": 0,
   "cpiDates": 13,
-  "date": "2026-11-23",
+  "date": "2026-11-24",
   "jobsDates": 13,
   "secContact": true
  },
