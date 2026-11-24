@@ -2961,28 +2961,10 @@
  },
  "floor": {
   "lastRun": {
-   "at": "2026-11-24T17:46:44Z",
-   "count": 1
+   "at": "2026-11-24T17:56:41Z",
+   "count": 2
   },
   "messages": [
-   {
-    "d": "research",
-    "k": "idea",
-    "n": 0,
-    "s": "MET",
-    "t": "2026-11-20T22:31:42Z",
-    "to": "pm",
-    "x": "Short MET: no clean setup yet, chart 20/30."
-   },
-   {
-    "d": "news",
-    "k": "vote",
-    "n": 1,
-    "s": "MET",
-    "t": "2026-11-20T22:31:42Z",
-    "to": "pm",
-    "x": "MET: no fresh headlines, neutral 13/25."
-   },
    {
     "d": "strategy",
     "k": "vote",
@@ -5664,6 +5646,24 @@
     "t": "2026-11-24T17:46:44Z",
     "to": "pm",
     "x": "TSX scan: 78 Canadian charts checked. Strongest: WN.TO, REI-UN.TO, MRU.TO."
+   },
+   {
+    "d": "research",
+    "k": "info",
+    "n": 0,
+    "s": "",
+    "t": "2026-11-24T17:56:41Z",
+    "to": "pm",
+    "x": "Stock scan: 89 long and 70 short charts checked, 10 breakouts, 2 breakdowns. Strongest: YUM, XLP, XEL, WSM."
+   },
+   {
+    "d": "research",
+    "k": "info",
+    "n": 1,
+    "s": "",
+    "t": "2026-11-24T17:56:41Z",
+    "to": "pm",
+    "x": "TSX scan: 78 Canadian charts checked. Strongest: T.TO, REI-UN.TO, MRU.TO."
    }
   ],
   "said": {
@@ -5762,6 +5762,7 @@
    "scan:stocks:XLP,XEL,WTW,WFC:9:0": "2026-11-23T15:56:35Z",
    "scan:stocks:XLP,XEL,WTW,WFC:9:1": "2026-11-23T18:16:35Z",
    "scan:stocks:YUM,XLP,XEL,WSM:10:0": "2026-11-24T15:01:51Z",
+   "scan:stocks:YUM,XLP,XEL,WSM:10:2": "2026-11-24T17:56:41Z",
    "scan:stocks:YUM,XLP,XEL,WSM:11:2": "2026-11-24T17:26:47Z",
    "scan:stocks:YUM,XLP,XEL,WSM:11:3": "2026-11-24T16:46:44Z",
    "scan:stocks:YUM,XLP,XEL,WSM:12:1": "2026-11-24T15:46:51Z",
@@ -5770,6 +5771,7 @@
    "scan:stocks:YUM,XLP,XEL,WSM:13:1": "2026-11-24T15:26:51Z",
    "scan:stocks:YUM,XLP,XEL,WSM:13:3": "2026-11-24T16:06:40Z",
    "scan:stocks:YUM,XLP,XEL,WSM:4:0": "2026-11-24T14:51:50Z",
+   "scan:tsx:T.TO,REI-UN.TO,MRU.TO": "2026-11-24T17:56:41Z",
    "scan:tsx:T.TO,SAP.TO,IFC.TO": "2026-11-24T16:16:46Z",
    "scan:tsx:TRP.TO,H.TO,GWO.TO": "2026-11-23T14:51:42Z",
    "scan:tsx:TRP.TO,L.TO,IFC.TO": "2026-11-23T17:06:49Z",
@@ -5793,7 +5795,7 @@
  },
  "fund": {
   "benchmarkBtcUnits": 0.03103649722666308,
-  "benchmarkCad": 9223.38,
+  "benchmarkCad": 9231.34,
   "benchmarkSet": true,
   "benchmarkSpyUnits": 6.399142948573451,
   "cad": 3000.0,
@@ -5803,7 +5805,7 @@
   "earningsKnown": true,
   "entriesThisWeek": 0,
   "entriesToday": 0,
-  "equityCad": 9899.35,
+  "equityCad": 9899.83,
   "focus": {
    "active": [
     "NVDA",
@@ -6082,11 +6084,11 @@
   "lastCongressCheck": "2026-11-24",
   "lastEtfScan": "2026-11-21T11:01:42Z",
   "lastFuturesScan": "2026-11-24T17:31:42Z",
-  "lastRun": "2026-11-24T17:46:44Z",
+  "lastRun": "2026-11-24T17:56:41Z",
   "lastRunBy": "github",
-  "lastRunNote": "The S&P 500 fund was down 0.5% today; market mood risk-off. Bitcoin down 2.5% in 24 hours (risk-off). No trades: SHORT SRLN came closest but failed time machine favourable. Holding 0 positions. Value $9,899.35 vs buy-and-hold $9,223.38.",
-  "lastSaved": "2026-11-24T17:46:44Z",
-  "lastStockScan": "2026-11-24T17:46:44Z",
+  "lastRunNote": "The S&P 500 fund was down 0.4% today; market mood risk-off. Bitcoin down 2.6% in 24 hours (risk-off). No trades: SHORT SRLN came closest but failed time machine favourable. Holding 0 positions. Value $9,899.83 vs buy-and-hold $9,231.34.",
+  "lastSaved": "2026-11-24T17:56:41Z",
+  "lastStockScan": "2026-11-24T17:56:41Z",
   "lastTradingDay": "2026-11-23",
   "lastUniverseScan": "2026-11-24T13:01:39Z",
   "maxDrawdownPct": 1.06,
@@ -6152,7 +6154,7 @@
   },
   "tradingDays": 6,
   "usd": 4832.15361973509,
-  "usdCad": 1.4278,
+  "usdCad": 1.4279,
   "weekStart": "2026-11-23",
   "weekStartEquityCad": 9923.99
  },
@@ -6831,14 +6833,14 @@
      "verdict": "72/100, fell below its opening range"
     },
     {
-     "score": 64,
-     "symbol": "SHORT WSM",
-     "verdict": "64/100, below the 70 needed"
-    },
-    {
      "score": 62,
      "symbol": "SHORT WMB",
      "verdict": "62/100, below the 70 needed"
+    },
+    {
+     "score": 59,
+     "symbol": "SHORT WSM",
+     "verdict": "59/100, below the 70 needed"
     },
     {
      "score": 56,
@@ -6888,11 +6890,11 @@
    "exits": [],
    "signals": []
   },
-  "updated": "2026-11-24T17:46:44Z"
+  "updated": "2026-11-24T17:56:41Z"
  },
  "log": [
-  "Run 2026-11-24 WATCH (New York 12:46), stock market open day",
-  "Stock scan: 89 long and 70 short ideas pre-screened; 11 breakouts, 2 breakdowns",
+  "Run 2026-11-24 WATCH (New York 12:56), stock market open day",
+  "Stock scan: 89 long and 70 short ideas pre-screened; 10 breakouts, 2 breakdowns",
   "Borrow list unavailable: TimeoutError: timed out",
   "Borrow data for SRLN unavailable (Remote end closed connection without response)",
   "BLOCK SHORT SRLN: Time machine favourable"
@@ -6959,10 +6961,10 @@
    "equityCad": 9940.42
   },
   {
-   "benchmarkCad": 9223.38,
-   "cashCad": 9899.35,
+   "benchmarkCad": 9231.34,
+   "cashCad": 9899.83,
    "date": "2026-11-24",
-   "equityCad": 9899.35
+   "equityCad": 9899.83
   }
  ],
  "pack": {
@@ -6970,7 +6972,7 @@
   "alertState": {},
   "clock": {
    "calendar_known": true,
-   "checkedAt": "2026-11-24T17:46:44Z",
+   "checkedAt": "2026-11-24T17:56:41Z",
    "closes": "16:00",
    "date": "2026-11-24",
    "early_close": null,
