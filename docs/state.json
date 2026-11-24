@@ -78,6 +78,19 @@
    "status": "expired",
    "symbol": "WMT"
   },
+  "WSM-short-20261124": {
+   "createdOn": "2026-11-24",
+   "currency": "USD",
+   "direction": "below",
+   "expiresOn": "2026-12-02",
+   "hitOn": "",
+   "kind": "stock",
+   "level": 209.46,
+   "reason": "a breakdown (short) would start below here",
+   "side": "short",
+   "status": "waiting",
+   "symbol": "WSM"
+  },
   "XEL-long-20261116": {
    "createdOn": "2026-11-16",
    "currency": "USD",
@@ -2935,73 +2948,10 @@
  },
  "floor": {
   "lastRun": {
-   "at": "2026-11-24T14:51:50Z",
-   "count": 18
+   "at": "2026-11-24T15:01:51Z",
+   "count": 7
   },
   "messages": [
-   {
-    "d": "quant",
-    "k": "vote",
-    "n": 5,
-    "s": "UBER",
-    "t": "2026-11-20T18:16:35Z",
-    "to": "pm",
-    "x": "UBER: in 10,000 5-minute replays the target comes first 0%, the stop 0%. Most run out of time first. Odds are against us."
-   },
-   {
-    "d": "risk",
-    "k": "block",
-    "n": 6,
-    "s": "UBER",
-    "t": "2026-11-20T18:16:35Z",
-    "to": "pm",
-    "x": "Blocked UBER: the replays favour the stop."
-   },
-   {
-    "d": "research",
-    "k": "idea",
-    "n": 7,
-    "s": "ORCL",
-    "t": "2026-11-20T18:16:35Z",
-    "to": "pm",
-    "x": "Short ORCL: fell below its opening range, chart 25/30."
-   },
-   {
-    "d": "news",
-    "k": "vote",
-    "n": 8,
-    "s": "ORCL",
-    "t": "2026-11-20T18:16:35Z",
-    "to": "pm",
-    "x": "ORCL: 3 fresh headlines, mostly bad; 23/25. Top: \"Oracle Stock Slides 6%, but Bernstein Says It\u2019s Worth $133 Even...\""
-   },
-   {
-    "d": "analyst",
-    "k": "vote",
-    "n": 9,
-    "s": "ORCL",
-    "t": "2026-11-20T18:16:35Z",
-    "to": "pm",
-    "x": "ORCL: filed: operating margin 35%, sales +30%, P/E 18, debt/equity 1.9, target +120%; 1/15."
-   },
-   {
-    "d": "pm",
-    "k": "decide",
-    "n": 10,
-    "s": "ORCL",
-    "t": "2026-11-20T18:16:35Z",
-    "to": "all",
-    "x": "Short ORCL scores 74, needs 70. Quant and Risk, check it."
-   },
-   {
-    "d": "quant",
-    "k": "vote",
-    "n": 11,
-    "s": "ORCL",
-    "t": "2026-11-20T18:16:35Z",
-    "to": "pm",
-    "x": "ORCL: in 10,000 daily replays the target comes first 0%, the stop 1%. Most run out of time first. Odds are against us."
-   },
    {
     "d": "risk",
     "k": "block",
@@ -5638,6 +5588,69 @@
     "t": "2026-11-24T14:51:50Z",
     "to": "pm",
     "x": "Watching VBIL: a breakout would start above here, at $75.77."
+   },
+   {
+    "d": "research",
+    "k": "info",
+    "n": 0,
+    "s": "",
+    "t": "2026-11-24T15:01:51Z",
+    "to": "pm",
+    "x": "Stock scan: 89 long and 70 short charts checked, 10 breakouts, 0 breakdowns. Strongest: YUM, XLP, XEL, WSM."
+   },
+   {
+    "d": "research",
+    "k": "idea",
+    "n": 1,
+    "s": "MET",
+    "t": "2026-11-24T15:01:51Z",
+    "to": "pm",
+    "x": "Short MET: no clean setup yet, chart 20/30."
+   },
+   {
+    "d": "news",
+    "k": "vote",
+    "n": 2,
+    "s": "MET",
+    "t": "2026-11-24T15:01:51Z",
+    "to": "pm",
+    "x": "MET: no fresh headlines, neutral 13/25."
+   },
+   {
+    "d": "strategy",
+    "k": "vote",
+    "n": 3,
+    "s": "",
+    "t": "2026-11-24T15:01:51Z",
+    "to": "pm",
+    "x": "Futures are risk off: 15/15 for a short."
+   },
+   {
+    "d": "pm",
+    "k": "decide",
+    "n": 4,
+    "s": "MET",
+    "t": "2026-11-24T15:01:51Z",
+    "to": "all",
+    "x": "Short MET scores 72 but no clean setup yet. Waiting."
+   },
+   {
+    "d": "pm",
+    "k": "decide",
+    "n": 5,
+    "s": "",
+    "t": "2026-11-24T15:01:51Z",
+    "to": "all",
+    "x": "Nothing to trade this scan. Short M6E scores enough but has no clean setup yet."
+   },
+   {
+    "d": "research",
+    "k": "info",
+    "n": 6,
+    "s": "WSM",
+    "t": "2026-11-24T15:01:51Z",
+    "to": "pm",
+    "x": "Watching WSM: a breakdown (short) would start below here, at $209.46."
    }
   ],
   "said": {
@@ -5661,7 +5674,7 @@
    "idea:M6E:short:18:none": "2026-11-24T13:31:48Z",
    "idea:MET:short:16:none": "2026-11-23T03:31:44Z",
    "idea:MET:short:18:breakdown": "2026-11-23T20:01:40Z",
-   "idea:MET:short:18:none": "2026-11-24T12:01:44Z",
+   "idea:MET:short:18:none": "2026-11-24T15:01:51Z",
    "idea:MET:short:19:breakdown": "2026-11-23T20:31:43Z",
    "idea:ROST:short:17:none": "2026-11-23T15:26:53Z",
    "idea:UBER:short:16:none": "2026-11-23T15:01:43Z",
@@ -5692,6 +5705,7 @@
    "macro:futures:short:risk-off:2026-11-24T05:31:42.689631": "2026-11-24T05:31:42Z",
    "macro:futures:short:risk-off:2026-11-24T08:31:44.604134": "2026-11-24T08:31:44Z",
    "macro:futures:short:risk-off:2026-11-24T12:01:44.184987": "2026-11-24T12:01:44Z",
+   "macro:futures:short:risk-off:2026-11-24T15:01:51.254524": "2026-11-24T15:01:51Z",
    "macro:stocks:short:risk-off:2026-11-23T14:51:42.292869": "2026-11-23T14:51:42Z",
    "macro:stocks:short:risk-off:2026-11-23T15:01:43.556476": "2026-11-23T15:01:43Z",
    "macro:stocks:short:risk-off:2026-11-23T15:26:53.155617": "2026-11-23T15:26:53Z",
@@ -5712,7 +5726,7 @@
    "nothing:KRE:20": "2026-11-23T16:56:47Z",
    "nothing:M6E:16": "2026-11-23T05:01:48Z",
    "nothing:M6E:17": "2026-11-23T22:31:51Z",
-   "nothing:M6E:18": "2026-11-24T12:31:50Z",
+   "nothing:M6E:18": "2026-11-24T15:01:51Z",
    "nothing:MET:15": "2026-11-24T04:31:50Z",
    "nothing:MET:16": "2026-11-23T03:31:44Z",
    "nothing:MET:18": "2026-11-24T09:31:45Z",
@@ -5728,6 +5742,7 @@
    "scan:stocks:XLP,XEL,WTW,WFC:8:1": "2026-11-23T18:56:45Z",
    "scan:stocks:XLP,XEL,WTW,WFC:9:0": "2026-11-23T15:56:35Z",
    "scan:stocks:XLP,XEL,WTW,WFC:9:1": "2026-11-23T18:16:35Z",
+   "scan:stocks:YUM,XLP,XEL,WSM:10:0": "2026-11-24T15:01:51Z",
    "scan:stocks:YUM,XLP,XEL,WSM:4:0": "2026-11-24T14:51:50Z",
    "scan:tsx:TRP.TO,H.TO,GWO.TO": "2026-11-23T14:51:42Z",
    "scan:tsx:TRP.TO,L.TO,IFC.TO": "2026-11-23T17:06:49Z",
@@ -5744,7 +5759,7 @@
  },
  "fund": {
   "benchmarkBtcUnits": 0.03103649722666308,
-  "benchmarkCad": 9270.3,
+  "benchmarkCad": 9261.67,
   "benchmarkSet": true,
   "benchmarkSpyUnits": 6.399142948573451,
   "cad": 3000.0,
@@ -5754,7 +5769,7 @@
   "earningsKnown": true,
   "entriesThisWeek": 0,
   "entriesToday": 0,
-  "equityCad": 9908.53,
+  "equityCad": 9907.08,
   "focus": {
    "active": [
     "NVDA",
@@ -6032,12 +6047,12 @@
   "halted": false,
   "lastCongressCheck": "2026-11-24",
   "lastEtfScan": "2026-11-21T11:01:42Z",
-  "lastFuturesScan": "2026-11-24T14:31:36Z",
-  "lastRun": "2026-11-24T14:51:50Z",
+  "lastFuturesScan": "2026-11-24T15:01:51Z",
+  "lastRun": "2026-11-24T15:01:51Z",
   "lastRunBy": "github",
-  "lastRunNote": "The S&P 500 fund was down 0.3% today; market mood risk-off. Bitcoin down 3.9% in 24 hours (risk-off). No trades: nothing scored high enough with a clean setup. Holding 0 positions. Value $9,908.53 vs buy-and-hold $9,270.30.",
-  "lastSaved": "2026-11-24T14:51:50Z",
-  "lastStockScan": "2026-11-24T14:51:50Z",
+  "lastRunNote": "The S&P 500 fund was down 0.3% today; market mood risk-off. Bitcoin down 4.4% in 24 hours (risk-off). No trades: nothing scored high enough with a clean setup. Holding 0 positions. Value $9,907.08 vs buy-and-hold $9,261.67.",
+  "lastSaved": "2026-11-24T15:01:51Z",
+  "lastStockScan": "2026-11-24T15:01:51Z",
   "lastTradingDay": "2026-11-23",
   "lastUniverseScan": "2026-11-24T13:01:39Z",
   "maxDrawdownPct": 1.06,
@@ -6103,7 +6118,7 @@
   },
   "tradingDays": 6,
   "usd": 4832.15361973509,
-  "usdCad": 1.4297,
+  "usdCad": 1.4294,
   "weekStart": "2026-11-23",
   "weekStartEquityCad": 9923.99
  },
@@ -6457,7 +6472,7 @@
   "WM": {
    "debtToEquity": 2.37,
    "epsGrowthPct": 36.7,
-   "fetchedOn": "2026-11-17",
+   "fetchedOn": "2026-11-24",
    "freeCashFlow": 2297000.0,
    "lastEps": 2.05,
    "revGrowthPct": -21.6,
@@ -6751,7 +6766,7 @@
   {
    "blocked": [],
    "cryptoRegime": "risk-off",
-   "dataCalls": 63,
+   "dataCalls": 51,
    "date": "2026-11-24",
    "liquid": 2227,
    "regime": "risk-off",
@@ -6759,8 +6774,18 @@
    "summary": "",
    "topCandidates": [
     {
+     "score": 75,
+     "symbol": "SHORT M6E",
+     "verdict": "75/100, no clean setup yet"
+    },
+    {
      "score": 72,
      "symbol": "SHORT USHY",
+     "verdict": "72/100, no clean setup yet"
+    },
+    {
+     "score": 72,
+     "symbol": "SHORT MET",
      "verdict": "72/100, no clean setup yet"
     },
     {
@@ -6775,7 +6800,7 @@
     },
     {
      "score": 66,
-     "symbol": "LONG VBIL",
+     "symbol": "LONG WN.TO",
      "verdict": "66/100, below the 80 needed"
     },
     {
@@ -6785,18 +6810,8 @@
     },
     {
      "score": 61,
-     "symbol": "LONG WN.TO",
-     "verdict": "61/100, below the 80 needed"
-    },
-    {
-     "score": 61,
      "symbol": "LONG GWO.TO",
      "verdict": "61/100, below the 80 needed"
-    },
-    {
-     "score": 56,
-     "symbol": "LONG VRSN",
-     "verdict": "56/100, below the 80 needed"
     }
    ],
    "universe": 6225
@@ -6821,13 +6836,11 @@
    "exits": [],
    "signals": []
   },
-  "updated": "2026-11-24T14:51:50Z"
+  "updated": "2026-11-24T15:01:51Z"
  },
  "log": [
-  "Run 2026-11-24 WATCH (New York 09:51), stock market open day",
-  "Stock scan: 89 long and 70 short ideas pre-screened; 4 breakouts, 0 breakdowns",
-  "SEC filed numbers for WSM: sales 6.7% y/y, operating margin 22.9%",
-  "SEC filed numbers for WMB: sales 0.0% y/y, operating margin 35.0%"
+  "Run 2026-11-24 WATCH (New York 10:01), stock market open day",
+  "Stock scan: 89 long and 70 short ideas pre-screened; 10 breakouts, 0 breakdowns"
  ],
  "nav": [
   {
@@ -6891,10 +6904,10 @@
    "equityCad": 9940.42
   },
   {
-   "benchmarkCad": 9270.3,
-   "cashCad": 9908.53,
+   "benchmarkCad": 9261.67,
+   "cashCad": 9907.08,
    "date": "2026-11-24",
-   "equityCad": 9908.53
+   "equityCad": 9907.08
   }
  ],
  "pack": {
@@ -6902,7 +6915,7 @@
   "alertState": {},
   "clock": {
    "calendar_known": true,
-   "checkedAt": "2026-11-24T14:51:50Z",
+   "checkedAt": "2026-11-24T15:01:51Z",
    "closes": "16:00",
    "date": "2026-11-24",
    "early_close": null,
