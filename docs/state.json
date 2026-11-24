@@ -2961,19 +2961,10 @@
  },
  "floor": {
   "lastRun": {
-   "at": "2026-11-24T16:46:44Z",
+   "at": "2026-11-24T16:56:42Z",
    "count": 1
   },
   "messages": [
-   {
-    "d": "news",
-    "k": "vote",
-    "n": 1,
-    "s": "M6E",
-    "t": "2026-11-20T21:31:44Z",
-    "to": "pm",
-    "x": "M6E: no fresh headlines, neutral 13/25."
-   },
    {
     "d": "strategy",
     "k": "vote",
@@ -5664,6 +5655,15 @@
     "t": "2026-11-24T16:46:44Z",
     "to": "pm",
     "x": "Stock scan: 89 long and 70 short charts checked, 11 breakouts, 3 breakdowns. Strongest: YUM, XLP, XEL, WSM."
+   },
+   {
+    "d": "research",
+    "k": "info",
+    "n": 0,
+    "s": "",
+    "t": "2026-11-24T16:56:42Z",
+    "to": "pm",
+    "x": "TSX scan: 77 Canadian charts checked. Strongest: WN.TO, T.TO, REI-UN.TO."
    }
   ],
   "said": {
@@ -5781,6 +5781,7 @@
    "scan:tsx:WN.TO,SAP.TO,REI-UN.TO": "2026-11-23T18:36:47Z",
    "scan:tsx:WN.TO,T.TO,IFC.TO": "2026-11-24T15:26:51Z",
    "scan:tsx:WN.TO,T.TO,MRU.TO": "2026-11-24T16:26:47Z",
+   "scan:tsx:WN.TO,T.TO,REI-UN.TO": "2026-11-24T16:56:42Z",
    "scan:tsx:WN.TO,T.TO,SAP.TO": "2026-11-24T15:46:51Z",
    "scan:tsx:WN.TO,TRP.TO,L.TO": "2026-11-23T17:26:37Z",
    "scan:tsx:WN.TO,TRP.TO,SAP.TO": "2026-11-23T17:36:38Z",
@@ -5791,7 +5792,7 @@
  },
  "fund": {
   "benchmarkBtcUnits": 0.03103649722666308,
-  "benchmarkCad": 9193.5,
+  "benchmarkCad": 9189.28,
   "benchmarkSet": true,
   "benchmarkSpyUnits": 6.399142948573451,
   "cad": 3000.0,
@@ -5801,7 +5802,7 @@
   "earningsKnown": true,
   "entriesThisWeek": 0,
   "entriesToday": 0,
-  "equityCad": 9920.13,
+  "equityCad": 9917.71,
   "focus": {
    "active": [
     "NVDA",
@@ -6080,11 +6081,11 @@
   "lastCongressCheck": "2026-11-24",
   "lastEtfScan": "2026-11-21T11:01:42Z",
   "lastFuturesScan": "2026-11-24T16:31:41Z",
-  "lastRun": "2026-11-24T16:46:44Z",
+  "lastRun": "2026-11-24T16:56:42Z",
   "lastRunBy": "github",
-  "lastRunNote": "The S&P 500 fund was down 1.0% today; market mood risk-off. Bitcoin down 4.3% in 24 hours (risk-off). No trades: SHORT SRLN came closest but failed time machine favourable. Holding 0 positions. Value $9,920.13 vs buy-and-hold $9,193.50.",
-  "lastSaved": "2026-11-24T16:46:44Z",
-  "lastStockScan": "2026-11-24T16:46:44Z",
+  "lastRunNote": "The S&P 500 fund was down 1.1% today; market mood risk-off. Bitcoin down 4.4% in 24 hours (risk-off). No trades: SHORT SRLN came closest but failed time machine favourable. Holding 0 positions. Value $9,917.71 vs buy-and-hold $9,189.28.",
+  "lastSaved": "2026-11-24T16:56:42Z",
+  "lastStockScan": "2026-11-24T16:56:42Z",
   "lastTradingDay": "2026-11-23",
   "lastUniverseScan": "2026-11-24T13:01:39Z",
   "maxDrawdownPct": 1.06,
@@ -6150,7 +6151,7 @@
   },
   "tradingDays": 6,
   "usd": 4832.15361973509,
-  "usdCad": 1.4321,
+  "usdCad": 1.4316,
   "weekStart": "2026-11-23",
   "weekStartEquityCad": 9923.99
  },
@@ -6886,11 +6887,11 @@
    "exits": [],
    "signals": []
   },
-  "updated": "2026-11-24T16:46:44Z"
+  "updated": "2026-11-24T16:56:42Z"
  },
  "log": [
-  "Run 2026-11-24 WATCH (New York 11:46), stock market open day",
-  "Stock scan: 89 long and 70 short ideas pre-screened; 11 breakouts, 3 breakdowns",
+  "Run 2026-11-24 WATCH (New York 11:56), stock market open day",
+  "Stock scan: 89 long and 70 short ideas pre-screened; 11 breakouts, 2 breakdowns",
   "Borrow list unavailable: TimeoutError: timed out",
   "Borrow data for SRLN unavailable (Remote end closed connection without response)",
   "BLOCK SHORT SRLN: Time machine favourable"
@@ -6957,10 +6958,10 @@
    "equityCad": 9940.42
   },
   {
-   "benchmarkCad": 9193.5,
-   "cashCad": 9920.13,
+   "benchmarkCad": 9189.28,
+   "cashCad": 9917.71,
    "date": "2026-11-24",
-   "equityCad": 9920.13
+   "equityCad": 9917.71
   }
  ],
  "pack": {
@@ -6968,7 +6969,7 @@
   "alertState": {},
   "clock": {
    "calendar_known": true,
-   "checkedAt": "2026-11-24T16:46:44Z",
+   "checkedAt": "2026-11-24T16:56:42Z",
    "closes": "16:00",
    "date": "2026-11-24",
    "early_close": null,
