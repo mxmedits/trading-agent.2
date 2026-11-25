@@ -5811,7 +5811,7 @@
  },
  "fund": {
   "benchmarkBtcUnits": 0.03103649722666308,
-  "benchmarkCad": 9185.04,
+  "benchmarkCad": 9181.12,
   "benchmarkSet": true,
   "benchmarkSpyUnits": 6.399142948573451,
   "cad": 3000.0,
@@ -5821,7 +5821,7 @@
   "earningsKnown": true,
   "entriesThisWeek": 0,
   "entriesToday": 0,
-  "equityCad": 9902.25,
+  "equityCad": 9906.6,
   "focus": {
    "active": [
     "NVDA",
@@ -6099,11 +6099,11 @@
   "halted": false,
   "lastCongressCheck": "2026-11-24",
   "lastEtfScan": "2026-11-21T11:01:42Z",
-  "lastFuturesScan": "2026-11-25T07:31:45Z",
-  "lastRun": "2026-11-25T07:31:45Z",
+  "lastFuturesScan": "2026-11-25T08:01:46Z",
+  "lastRun": "2026-11-25T08:01:46Z",
   "lastRunBy": "github",
-  "lastRunNote": "The S&P 500 fund was down 0.0% today; market mood risk-off. Bitcoin down 2.4% in 24 hours (risk-off). No trades: nothing scored high enough with a clean setup. Holding 0 positions. Value $9,902.25 vs buy-and-hold $9,185.04.",
-  "lastSaved": "2026-11-25T07:31:45Z",
+  "lastRunNote": "The S&P 500 fund was down 0.0% today; market mood risk-off. Bitcoin down 2.5% in 24 hours (risk-off). No trades: nothing scored high enough with a clean setup. Holding 0 positions. Value $9,906.60 vs buy-and-hold $9,181.12.",
+  "lastSaved": "2026-11-25T08:01:46Z",
   "lastStockScan": "2026-11-24T19:46:43Z",
   "lastTradingDay": "2026-11-24",
   "lastUniverseScan": "2026-11-24T13:01:39Z",
@@ -6170,7 +6170,7 @@
   },
   "tradingDays": 7,
   "usd": 4832.15361973509,
-  "usdCad": 1.4284,
+  "usdCad": 1.4293,
   "weekStart": "2026-11-23",
   "weekStartEquityCad": 9923.99
  },
@@ -6892,10 +6892,10 @@
    "exits": [],
    "signals": []
   },
-  "updated": "2026-11-25T07:31:45Z"
+  "updated": "2026-11-25T08:01:46Z"
  },
  "log": [
-  "Run 2026-11-25 WATCH (New York 02:31), stock market open day"
+  "Run 2026-11-25 WATCH (New York 03:01), stock market open day"
  ],
  "nav": [
   {
@@ -6965,10 +6965,10 @@
    "equityCad": 9895.48
   },
   {
-   "benchmarkCad": 9185.04,
-   "cashCad": 9902.25,
+   "benchmarkCad": 9181.12,
+   "cashCad": 9906.6,
    "date": "2026-11-25",
-   "equityCad": 9902.25
+   "equityCad": 9906.6
   }
  ],
  "pack": {
@@ -6976,7 +6976,7 @@
   "alertState": {},
   "clock": {
    "calendar_known": true,
-   "checkedAt": "2026-11-25T07:31:45Z",
+   "checkedAt": "2026-11-25T08:01:46Z",
    "closes": "16:00",
    "date": "2026-11-25",
    "early_close": null,
