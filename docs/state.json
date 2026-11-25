@@ -1866,116 +1866,6 @@
   "symbols": 402
  },
  "congress": {
-  "2026-11-12-AMGN-Taylor-2": {
-   "amount": "$1,001 - $15,000",
-   "chamber": "House",
-   "filedDate": "2026-11-12",
-   "member": "David J. Taylor",
-   "note": "9 days to report",
-   "symbol": "AMGN",
-   "tradeDate": "2026-11-03",
-   "type": "Sale",
-   "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035831.pdf"
-  },
-  "2026-11-12-AMGN-Taylor-3": {
-   "amount": "$1,001 - $15,000",
-   "chamber": "House",
-   "filedDate": "2026-11-12",
-   "member": "David J. Taylor",
-   "note": "9 days to report",
-   "symbol": "AMGN",
-   "tradeDate": "2026-11-03",
-   "type": "Sale",
-   "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035831.pdf"
-  },
-  "2026-11-12-AVGO-Taylor-6": {
-   "amount": "$1,001 - $15,000",
-   "chamber": "House",
-   "filedDate": "2026-11-12",
-   "member": "David J. Taylor",
-   "note": "7 days to report",
-   "symbol": "AVGO",
-   "tradeDate": "2026-11-05",
-   "type": "Purchase",
-   "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035831.pdf"
-  },
-  "2026-11-12-ETN-Taylor-7": {
-   "amount": "$1,001 - $15,000",
-   "chamber": "House",
-   "filedDate": "2026-11-12",
-   "member": "David J. Taylor",
-   "note": "9 days to report",
-   "symbol": "ETN",
-   "tradeDate": "2026-11-03",
-   "type": "Purchase",
-   "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035831.pdf"
-  },
-  "2026-11-12-ETN-Taylor-8": {
-   "amount": "$1,001 - $15,000",
-   "chamber": "House",
-   "filedDate": "2026-11-12",
-   "member": "David J. Taylor",
-   "note": "9 days to report",
-   "symbol": "ETN",
-   "tradeDate": "2026-11-03",
-   "type": "Purchase",
-   "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035831.pdf"
-  },
-  "2026-11-12-GOOGL-Taylor-0": {
-   "amount": "$1,001 - $15,000",
-   "chamber": "House",
-   "filedDate": "2026-11-12",
-   "member": "David J. Taylor",
-   "note": "9 days to report",
-   "symbol": "GOOGL",
-   "tradeDate": "2026-11-03",
-   "type": "Purchase",
-   "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035831.pdf"
-  },
-  "2026-11-12-GOOGL-Taylor-1": {
-   "amount": "$1,001 - $15,000",
-   "chamber": "House",
-   "filedDate": "2026-11-12",
-   "member": "David J. Taylor",
-   "note": "9 days to report",
-   "symbol": "GOOGL",
-   "tradeDate": "2026-11-03",
-   "type": "Purchase",
-   "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035831.pdf"
-  },
-  "2026-11-12-HD-Taylor-11": {
-   "amount": "$1,001 - $15,000",
-   "chamber": "House",
-   "filedDate": "2026-11-12",
-   "member": "David J. Taylor",
-   "note": "7 days to report",
-   "symbol": "HD",
-   "tradeDate": "2026-11-05",
-   "type": "Sale",
-   "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035831.pdf"
-  },
-  "2026-11-12-LLY-Taylor-10": {
-   "amount": "$1,001 - $15,000",
-   "chamber": "House",
-   "filedDate": "2026-11-12",
-   "member": "David J. Taylor",
-   "note": "9 days to report",
-   "symbol": "LLY",
-   "tradeDate": "2026-11-03",
-   "type": "Sale",
-   "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035831.pdf"
-  },
-  "2026-11-12-LLY-Taylor-9": {
-   "amount": "$1,001 - $15,000",
-   "chamber": "House",
-   "filedDate": "2026-11-12",
-   "member": "David J. Taylor",
-   "note": "9 days to report",
-   "symbol": "LLY",
-   "tradeDate": "2026-11-03",
-   "type": "Sale",
-   "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035831.pdf"
-  },
   "2026-11-13-20035779": {
    "amount": "",
    "chamber": "House",
@@ -2018,39 +1908,6 @@
    "symbol": "DDOG",
    "tradeDate": "2026-10-22",
    "type": "Purchase",
-   "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035757.pdf"
-  },
-  "2026-11-13-EL-Jackson-2": {
-   "amount": "$1,001 - $15,000",
-   "chamber": "House",
-   "filedDate": "2026-11-13",
-   "member": "Jonathan Jackson",
-   "note": "32 days to report",
-   "symbol": "EL",
-   "tradeDate": "2026-10-12",
-   "type": "Purchase",
-   "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035757.pdf"
-  },
-  "2026-11-13-JBGS-Hill-0": {
-   "amount": "$1,001 - $15,000",
-   "chamber": "House",
-   "filedDate": "2026-11-13",
-   "member": "James French Hill",
-   "note": "4 days to report",
-   "symbol": "JBGS",
-   "tradeDate": "2026-11-09",
-   "type": "Sale",
-   "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035807.pdf"
-  },
-  "2026-11-13-SPHR-Jackson-3": {
-   "amount": "$1,001 - $15,000",
-   "chamber": "House",
-   "filedDate": "2026-11-13",
-   "member": "Jonathan Jackson",
-   "note": "32 days to report",
-   "symbol": "SPHR",
-   "tradeDate": "2026-10-12",
-   "type": "Sale",
    "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035757.pdf"
   },
   "2026-11-16-ADSK-Donalds-0": {
@@ -2305,12 +2162,156 @@
    "tradeDate": "2026-11-16",
    "type": "Purchase",
    "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20036891.pdf"
+  },
+  "2026-11-23-ABT-Hageman-0": {
+   "amount": "$1,001 - $15,000",
+   "chamber": "House",
+   "filedDate": "2026-11-23",
+   "member": "Harriet Hageman",
+   "note": "76 days to report",
+   "symbol": "ABT",
+   "tradeDate": "2026-09-08",
+   "type": "Purchase",
+   "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035776.pdf"
+  },
+  "2026-11-23-ACN-Hageman-1": {
+   "amount": "$1,001 - $15,000",
+   "chamber": "House",
+   "filedDate": "2026-11-23",
+   "member": "Harriet Hageman",
+   "note": "279 days to report",
+   "symbol": "ACN",
+   "tradeDate": "2026-02-17",
+   "type": "Sale",
+   "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035776.pdf"
+  },
+  "2026-11-23-ACN-Hageman-2": {
+   "amount": "$1,001 - $15,000",
+   "chamber": "House",
+   "filedDate": "2026-11-23",
+   "member": "Harriet Hageman",
+   "note": "279 days to report",
+   "symbol": "ACN",
+   "tradeDate": "2026-02-17",
+   "type": "Sale",
+   "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035776.pdf"
+  },
+  "2026-11-23-ACN-Hageman-3": {
+   "amount": "$1,001 - $15,000",
+   "chamber": "House",
+   "filedDate": "2026-11-23",
+   "member": "Harriet Hageman",
+   "note": "283 days to report",
+   "symbol": "ACN",
+   "tradeDate": "2026-02-13",
+   "type": "Sale",
+   "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035776.pdf"
+  },
+  "2026-11-23-ACN-Hageman-4": {
+   "amount": "$1,001 - $15,000",
+   "chamber": "House",
+   "filedDate": "2026-11-23",
+   "member": "Harriet Hageman",
+   "note": "283 days to report",
+   "symbol": "ACN",
+   "tradeDate": "2026-02-13",
+   "type": "Sale",
+   "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035776.pdf"
+  },
+  "2026-11-23-ACN-Hageman-5": {
+   "amount": "$1,001 - $15,000",
+   "chamber": "House",
+   "filedDate": "2026-11-23",
+   "member": "Harriet Hageman",
+   "note": "283 days to report",
+   "symbol": "ACN",
+   "tradeDate": "2026-02-13",
+   "type": "Purchase",
+   "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035776.pdf"
+  },
+  "2026-11-23-ACN-Hageman-6": {
+   "amount": "$1,001 - $15,000",
+   "chamber": "House",
+   "filedDate": "2026-11-23",
+   "member": "Harriet Hageman",
+   "note": "283 days to report",
+   "symbol": "ACN",
+   "tradeDate": "2026-02-13",
+   "type": "Purchase",
+   "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035776.pdf"
+  },
+  "2026-11-23-ACN-Hageman-7": {
+   "amount": "$1,001 - $15,000",
+   "chamber": "House",
+   "filedDate": "2026-11-23",
+   "member": "Harriet Hageman",
+   "note": "306 days to report",
+   "symbol": "ACN",
+   "tradeDate": "2026-01-21",
+   "type": "Purchase",
+   "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035776.pdf"
+  },
+  "2026-11-23-ACN-Hageman-8": {
+   "amount": "$1,001 - $15,000",
+   "chamber": "House",
+   "filedDate": "2026-11-23",
+   "member": "Harriet Hageman",
+   "note": "306 days to report",
+   "symbol": "ACN",
+   "tradeDate": "2026-01-21",
+   "type": "Purchase",
+   "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035776.pdf"
+  },
+  "2026-11-23-ADBE-Hageman-9": {
+   "amount": "$1,001 - $15,000",
+   "chamber": "House",
+   "filedDate": "2026-11-23",
+   "member": "Harriet Hageman",
+   "note": "237 days to report",
+   "symbol": "ADBE",
+   "tradeDate": "2026-03-31",
+   "type": "Sale",
+   "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035776.pdf"
+  },
+  "2026-11-23-AMD-Hageman-10": {
+   "amount": "$1,001 - $15,000",
+   "chamber": "House",
+   "filedDate": "2026-11-23",
+   "member": "Harriet Hageman",
+   "note": "40 days to report",
+   "symbol": "AMD",
+   "tradeDate": "2026-10-14",
+   "type": "Sale",
+   "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035776.pdf"
+  },
+  "2026-11-23-APD-Hageman-11": {
+   "amount": "$1,001 - $15,000",
+   "chamber": "House",
+   "filedDate": "2026-11-23",
+   "member": "Harriet Hageman",
+   "note": "40 days to report",
+   "symbol": "APD",
+   "tradeDate": "2026-10-14",
+   "type": "Sale",
+   "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035776.pdf"
+  },
+  "2026-11-24-NVDA-Meuser-0": {
+   "amount": "$1,001 - $15,000",
+   "chamber": "House",
+   "filedDate": "2026-11-24",
+   "member": "Daniel Meuser",
+   "note": "28 days to report",
+   "symbol": "NVDA",
+   "tradeDate": "2026-10-27",
+   "type": "Sale",
+   "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20036848.pdf"
   }
  },
  "congressSeen": [
   "20024921",
   "20035014",
   "20035757",
+  "20035776",
   "20035779",
   "20035786",
   "20035788",
@@ -2321,6 +2322,7 @@
   "20035826",
   "20035831",
   "20036844",
+  "20036848",
   "20036849",
   "20036855",
   "20036864",
@@ -2961,73 +2963,10 @@
  },
  "floor": {
   "lastRun": {
-   "at": "2026-11-25T13:01:40Z",
-   "count": 1
+   "at": "2026-11-25T14:01:45Z",
+   "count": 7
   },
   "messages": [
-   {
-    "d": "news",
-    "k": "vote",
-    "n": 1,
-    "s": "MET",
-    "t": "2026-11-23T12:31:41Z",
-    "to": "pm",
-    "x": "MET: no fresh headlines, neutral 13/25."
-   },
-   {
-    "d": "strategy",
-    "k": "vote",
-    "n": 2,
-    "s": "",
-    "t": "2026-11-23T12:31:41Z",
-    "to": "pm",
-    "x": "Futures are risk off: 15/15 for a short."
-   },
-   {
-    "d": "pm",
-    "k": "decide",
-    "n": 3,
-    "s": "MET",
-    "t": "2026-11-23T12:31:41Z",
-    "to": "all",
-    "x": "Short MET scores 72, needs 70. Quant and Risk, check it."
-   },
-   {
-    "d": "quant",
-    "k": "vote",
-    "n": 4,
-    "s": "MET",
-    "t": "2026-11-23T12:31:41Z",
-    "to": "pm",
-    "x": "MET: in 10,000 daily replays the target comes first 0%, the stop 4%. Most run out of time first. Odds are against us."
-   },
-   {
-    "d": "risk",
-    "k": "block",
-    "n": 5,
-    "s": "MET",
-    "t": "2026-11-23T12:31:41Z",
-    "to": "pm",
-    "x": "Blocked MET: a stop-out would break today's loss limit; the replays favour the stop."
-   },
-   {
-    "d": "pm",
-    "k": "decide",
-    "n": 6,
-    "s": "",
-    "t": "2026-11-23T12:31:41Z",
-    "to": "all",
-    "x": "Nothing good enough this scan. Closest: short MET at 72, needs 70."
-   },
-   {
-    "d": "research",
-    "k": "info",
-    "n": 0,
-    "s": "",
-    "t": "2026-11-23T13:01:44Z",
-    "to": "pm",
-    "x": "Morning screen: 6,223 charts read, 2,313 liquid enough. 60 long and 40 short ideas on today's list."
-   },
    {
     "d": "research",
     "k": "idea",
@@ -5664,6 +5603,69 @@
     "t": "2026-11-25T13:01:40Z",
     "to": "pm",
     "x": "Morning screen: 6,223 charts read, 2,204 liquid enough. 60 long and 40 short ideas on today's list."
+   },
+   {
+    "d": "analyst",
+    "k": "info",
+    "n": 0,
+    "s": "NVDA",
+    "t": "2026-11-25T14:01:45Z",
+    "to": "research",
+    "x": "House filing: Daniel Meuser sold NVDA ($1,001 - $15,000), traded Oct 27."
+   },
+   {
+    "d": "analyst",
+    "k": "info",
+    "n": 1,
+    "s": "ABT",
+    "t": "2026-11-25T14:01:45Z",
+    "to": "research",
+    "x": "House filing: Harriet Hageman bought ABT ($1,001 - $15,000), traded Sep 8."
+   },
+   {
+    "d": "analyst",
+    "k": "info",
+    "n": 2,
+    "s": "ACN",
+    "t": "2026-11-25T14:01:45Z",
+    "to": "research",
+    "x": "House filing: Harriet Hageman sold ACN ($1,001 - $15,000), traded Feb 17."
+   },
+   {
+    "d": "research",
+    "k": "idea",
+    "n": 3,
+    "s": "MET",
+    "t": "2026-11-25T14:01:45Z",
+    "to": "pm",
+    "x": "Short MET: no clean setup yet, chart 20/30."
+   },
+   {
+    "d": "news",
+    "k": "vote",
+    "n": 4,
+    "s": "MET",
+    "t": "2026-11-25T14:01:45Z",
+    "to": "pm",
+    "x": "MET: no fresh headlines, neutral 13/25."
+   },
+   {
+    "d": "strategy",
+    "k": "vote",
+    "n": 5,
+    "s": "",
+    "t": "2026-11-25T14:01:45Z",
+    "to": "pm",
+    "x": "Futures are risk off: 15/15 for a short."
+   },
+   {
+    "d": "pm",
+    "k": "decide",
+    "n": 6,
+    "s": "MET",
+    "t": "2026-11-25T14:01:45Z",
+    "to": "all",
+    "x": "Short MET scores 72 but no clean setup yet. Waiting."
    }
   ],
   "said": {
@@ -5693,7 +5695,7 @@
    "idea:MCL:short:18:none": "2026-11-25T11:01:34Z",
    "idea:MET:short:16:none": "2026-11-24T18:01:48Z",
    "idea:MET:short:18:breakdown": "2026-11-23T20:01:40Z",
-   "idea:MET:short:18:none": "2026-11-24T15:01:51Z",
+   "idea:MET:short:18:none": "2026-11-25T14:01:45Z",
    "idea:MET:short:19:breakdown": "2026-11-23T20:31:43Z",
    "idea:ROST:short:17:none": "2026-11-23T15:26:53Z",
    "idea:SRLN:short:18:breakdown": "2026-11-24T19:06:45Z",
@@ -5736,6 +5738,7 @@
    "macro:futures:short:risk-off:2026-11-24T12:01:44.184987": "2026-11-24T12:01:44Z",
    "macro:futures:short:risk-off:2026-11-24T15:01:51.254524": "2026-11-24T15:01:51Z",
    "macro:futures:short:risk-off:2026-11-24T18:01:48.036495": "2026-11-24T18:01:48Z",
+   "macro:futures:short:risk-off:2026-11-25T14:01:45.127673": "2026-11-25T14:01:45Z",
    "macro:stocks:short:risk-off:2026-11-23T14:51:42.292869": "2026-11-23T14:51:42Z",
    "macro:stocks:short:risk-off:2026-11-23T15:01:43.556476": "2026-11-23T15:01:43Z",
    "macro:stocks:short:risk-off:2026-11-23T15:26:53.155617": "2026-11-23T15:26:53Z",
@@ -5819,7 +5822,7 @@
  },
  "fund": {
   "benchmarkBtcUnits": 0.03103649722666308,
-  "benchmarkCad": 9137.61,
+  "benchmarkCad": 9118.04,
   "benchmarkSet": true,
   "benchmarkSpyUnits": 6.399142948573451,
   "cad": 3000.0,
@@ -6102,13 +6105,13 @@
   },
   "haltReason": "",
   "halted": false,
-  "lastCongressCheck": "2026-11-24",
+  "lastCongressCheck": "2026-11-25",
   "lastEtfScan": "2026-11-21T11:01:42Z",
-  "lastFuturesScan": "2026-11-25T13:31:49Z",
-  "lastRun": "2026-11-25T13:31:49Z",
+  "lastFuturesScan": "2026-11-25T14:01:45Z",
+  "lastRun": "2026-11-25T14:01:45Z",
   "lastRunBy": "github",
-  "lastRunNote": "The S&P 500 fund was down 0.0% today; market mood risk-off. Bitcoin down 2.5% in 24 hours (risk-off). No trades: nothing scored high enough with a clean setup. Holding 0 positions. Value $9,881.95 vs buy-and-hold $9,137.61.",
-  "lastSaved": "2026-11-25T13:31:49Z",
+  "lastRunNote": "The S&P 500 fund was down 0.0% today; market mood risk-off. Bitcoin down 3.6% in 24 hours (risk-off). No trades: nothing scored high enough with a clean setup. Holding 0 positions. Value $9,881.95 vs buy-and-hold $9,118.04.",
+  "lastSaved": "2026-11-25T14:01:45Z",
   "lastStockScan": "2026-11-24T19:46:43Z",
   "lastTradingDay": "2026-11-24",
   "lastUniverseScan": "2026-11-25T13:01:40Z",
@@ -6870,9 +6873,9 @@
      "verdict": "75/100, no clean setup yet"
     },
     {
-     "score": 70,
-     "symbol": "SHORT MCL",
-     "verdict": "70/100, below the 75 needed"
+     "score": 72,
+     "symbol": "SHORT MET",
+     "verdict": "72/100, no clean setup yet"
     }
    ],
    "universe": 6224
@@ -6897,10 +6900,11 @@
    "exits": [],
    "signals": []
   },
-  "updated": "2026-11-25T13:31:49Z"
+  "updated": "2026-11-25T14:01:45Z"
  },
  "log": [
-  "Run 2026-11-25 WATCH (New York 08:31), stock market open day"
+  "Run 2026-11-25 WATCH (New York 09:01), stock market open day",
+  "Congress tracker: 2 new House reports, 2 read"
  ],
  "nav": [
   {
@@ -6970,7 +6974,7 @@
    "equityCad": 9895.48
   },
   {
-   "benchmarkCad": 9137.61,
+   "benchmarkCad": 9118.04,
    "cashCad": 9881.95,
    "date": "2026-11-25",
    "equityCad": 9881.95
@@ -6981,7 +6985,7 @@
   "alertState": {},
   "clock": {
    "calendar_known": true,
-   "checkedAt": "2026-11-25T13:31:49Z",
+   "checkedAt": "2026-11-25T14:01:45Z",
    "closes": "16:00",
    "date": "2026-11-25",
    "early_close": null,
