@@ -3034,91 +3034,10 @@
  },
  "floor": {
   "lastRun": {
-   "at": "2026-11-25T15:16:54Z",
-   "count": 1
+   "at": "2026-11-25T15:26:44Z",
+   "count": 9
   },
   "messages": [
-   {
-    "d": "news",
-    "k": "vote",
-    "n": 4,
-    "s": "ROST",
-    "t": "2026-11-23T15:26:53Z",
-    "to": "pm",
-    "x": "ROST: no fresh headlines, neutral 13/25."
-   },
-   {
-    "d": "analyst",
-    "k": "vote",
-    "n": 5,
-    "s": "ROST",
-    "t": "2026-11-23T15:26:53Z",
-    "to": "pm",
-    "x": "ROST: filed: operating margin 18%, sales +13%, P/E 33, debt/equity 0.1, target +27%; 1/15."
-   },
-   {
-    "d": "strategy",
-    "k": "vote",
-    "n": 6,
-    "s": "",
-    "t": "2026-11-23T15:26:53Z",
-    "to": "pm",
-    "x": "Stocks are risk off: 15/15 for a short."
-   },
-   {
-    "d": "pm",
-    "k": "decide",
-    "n": 7,
-    "s": "ROST",
-    "t": "2026-11-23T15:26:53Z",
-    "to": "all",
-    "x": "Short ROST scores 69, needs 70. Pass."
-   },
-   {
-    "d": "research",
-    "k": "info",
-    "n": 0,
-    "s": "",
-    "t": "2026-11-23T15:36:45Z",
-    "to": "pm",
-    "x": "Stock scan: 89 long and 67 short charts checked, 7 breakouts, 0 breakdowns. Strongest: XLP, XEL, WTW, WFC."
-   },
-   {
-    "d": "research",
-    "k": "info",
-    "n": 1,
-    "s": "",
-    "t": "2026-11-23T15:36:45Z",
-    "to": "pm",
-    "x": "TSX scan: 69 Canadian charts checked. Strongest: TRP.TO, SAP.TO, L.TO."
-   },
-   {
-    "d": "research",
-    "k": "info",
-    "n": 0,
-    "s": "",
-    "t": "2026-11-23T15:56:35Z",
-    "to": "pm",
-    "x": "Stock scan: 89 long and 67 short charts checked, 9 breakouts, 0 breakdowns. Strongest: XLP, XEL, WTW, WFC."
-   },
-   {
-    "d": "research",
-    "k": "idea",
-    "n": 0,
-    "s": "M6E",
-    "t": "2026-11-23T16:01:49Z",
-    "to": "pm",
-    "x": "Short M6E: new 20-day low on heavy volume, chart 25/30."
-   },
-   {
-    "d": "news",
-    "k": "vote",
-    "n": 1,
-    "s": "M6E",
-    "t": "2026-11-23T16:01:49Z",
-    "to": "pm",
-    "x": "M6E: no fresh headlines, neutral 13/25."
-   },
    {
     "d": "strategy",
     "k": "vote",
@@ -5737,6 +5656,87 @@
     "t": "2026-11-25T15:16:54Z",
     "to": "all",
     "x": "Morning meeting: value $9,885.82, 0 positions held, stocks risk off, crypto risk off. Let's find setups."
+   },
+   {
+    "d": "research",
+    "k": "info",
+    "n": 0,
+    "s": "",
+    "t": "2026-11-25T15:26:44Z",
+    "to": "pm",
+    "x": "Stock scan: 88 long and 68 short charts checked, 3 breakouts, 1 breakdown. Strongest: ZBH, XLP, XEL, WMB."
+   },
+   {
+    "d": "research",
+    "k": "info",
+    "n": 1,
+    "s": "",
+    "t": "2026-11-25T15:26:44Z",
+    "to": "pm",
+    "x": "TSX scan: 62 Canadian charts checked. Strongest: T.TO, REI-UN.TO, PPL.TO."
+   },
+   {
+    "d": "research",
+    "k": "idea",
+    "n": 2,
+    "s": "USHY",
+    "t": "2026-11-25T15:26:44Z",
+    "to": "pm",
+    "x": "Short USHY: fell below its opening range, chart 30/30."
+   },
+   {
+    "d": "news",
+    "k": "vote",
+    "n": 3,
+    "s": "USHY",
+    "t": "2026-11-25T15:26:44Z",
+    "to": "pm",
+    "x": "USHY: no fresh headlines, neutral 13/25."
+   },
+   {
+    "d": "strategy",
+    "k": "vote",
+    "n": 4,
+    "s": "",
+    "t": "2026-11-25T15:26:44Z",
+    "to": "pm",
+    "x": "Stocks are risk off: 15/15 for a short."
+   },
+   {
+    "d": "pm",
+    "k": "decide",
+    "n": 5,
+    "s": "USHY",
+    "t": "2026-11-25T15:26:44Z",
+    "to": "all",
+    "x": "Short USHY scores 82, needs 70. Quant and Risk, check it."
+   },
+   {
+    "d": "quant",
+    "k": "vote",
+    "n": 6,
+    "s": "USHY",
+    "t": "2026-11-25T15:26:44Z",
+    "to": "pm",
+    "x": "USHY: in 10,000 5-minute replays the target comes first 0%, the stop 0%. Most run out of time first. Odds are against us."
+   },
+   {
+    "d": "risk",
+    "k": "block",
+    "n": 7,
+    "s": "USHY",
+    "t": "2026-11-25T15:26:44Z",
+    "to": "pm",
+    "x": "Blocked USHY: the replays favour the stop."
+   },
+   {
+    "d": "pm",
+    "k": "decide",
+    "n": 8,
+    "s": "",
+    "t": "2026-11-25T15:26:44Z",
+    "to": "all",
+    "x": "Nothing good enough this scan. Closest: short USHY at 82, needs 70."
    }
   ],
   "said": {
@@ -5774,6 +5774,7 @@
    "idea:SRLN:short:18:breakdown": "2026-11-24T19:06:45Z",
    "idea:UBER:short:16:none": "2026-11-25T14:51:43Z",
    "idea:USHY:short:18:none": "2026-11-24T14:51:50Z",
+   "idea:USHY:short:20:breakdown": "2026-11-25T15:26:44Z",
    "idea:VOO:short:20:none": "2026-11-25T14:51:43Z",
    "idea:WMB:short:16:none": "2026-11-25T14:51:43Z",
    "idea:WSM:short:16:breakdown": "2026-11-24T18:26:54Z",
@@ -5828,6 +5829,7 @@
    "macro:stocks:short:risk-off:2026-11-24T18:26:54.725166": "2026-11-24T18:26:54Z",
    "macro:stocks:short:risk-off:2026-11-24T19:06:45.199238": "2026-11-24T19:06:45Z",
    "macro:stocks:short:risk-off:2026-11-25T14:51:43.907288": "2026-11-25T14:51:43Z",
+   "macro:stocks:short:risk-off:2026-11-25T15:26:44.097374": "2026-11-25T15:26:44Z",
    "meeting:close:2026-11-23": "2026-11-23T20:16:42Z",
    "meeting:close:2026-11-24": "2026-11-24T20:16:52Z",
    "meeting:open:2026-11-23": "2026-11-23T15:16:36Z",
@@ -5853,6 +5855,7 @@
    "nothing:MET:19": "2026-11-23T19:01:34Z",
    "nothing:SRLN:18": "2026-11-24T18:16:35Z",
    "nothing:USHY:18": "2026-11-24T14:51:50Z",
+   "nothing:USHY:20": "2026-11-25T15:26:44Z",
    "nothing:VOO:20": "2026-11-25T14:51:43Z",
    "scan:stocks:XEL,WTW,WRB,WFC:3:0": "2026-11-23T15:01:43Z",
    "scan:stocks:XLP,XEL,WTW,WFC:2:0": "2026-11-23T14:51:42Z",
@@ -5877,10 +5880,12 @@
    "scan:stocks:YUM,XLP,XEL,WSM:9:2": "2026-11-24T19:06:45Z",
    "scan:stocks:ZBH,XLP,XEL,WMB:0:0": "2026-11-25T14:51:43Z",
    "scan:stocks:ZBH,XLP,XEL,WMB:2:0": "2026-11-25T15:12:01Z",
+   "scan:stocks:ZBH,XLP,XEL,WMB:3:1": "2026-11-25T15:26:44Z",
    "scan:tsx:SAP.TO,REI-UN.TO,MRU.TO": "2026-11-24T18:16:35Z",
    "scan:tsx:T.TO,REI-UN.TO,H.TO": "2026-11-25T15:01:50Z",
    "scan:tsx:T.TO,REI-UN.TO,L.TO": "2026-11-25T14:51:43Z",
    "scan:tsx:T.TO,REI-UN.TO,MRU.TO": "2026-11-24T17:56:41Z",
+   "scan:tsx:T.TO,REI-UN.TO,PPL.TO": "2026-11-25T15:26:44Z",
    "scan:tsx:T.TO,SAP.TO,IFC.TO": "2026-11-24T16:16:46Z",
    "scan:tsx:T.TO,SAP.TO,REI-UN.TO": "2026-11-24T18:06:37Z",
    "scan:tsx:TRP.TO,H.TO,GWO.TO": "2026-11-23T14:51:42Z",
@@ -5905,7 +5910,7 @@
  },
  "fund": {
   "benchmarkBtcUnits": 0.03103649722666308,
-  "benchmarkCad": 8933.8,
+  "benchmarkCad": 8931.4,
   "benchmarkSet": true,
   "benchmarkSpyUnits": 6.399142948573451,
   "cad": 3000.0,
@@ -5915,7 +5920,7 @@
   "earningsKnown": true,
   "entriesThisWeek": 0,
   "entriesToday": 0,
-  "equityCad": 9885.82,
+  "equityCad": 9880.99,
   "focus": {
    "active": [
     "NVDA",
@@ -6191,11 +6196,11 @@
   "lastCongressCheck": "2026-11-25",
   "lastEtfScan": "2026-11-21T11:01:42Z",
   "lastFuturesScan": "2026-11-25T15:01:50Z",
-  "lastRun": "2026-11-25T15:16:54Z",
+  "lastRun": "2026-11-25T15:26:44Z",
   "lastRunBy": "github",
-  "lastRunNote": "The S&P 500 fund was down 2.6% today; market mood risk-off. Bitcoin down 3.2% in 24 hours (risk-off). No trades: nothing scored high enough with a clean setup. Holding 0 positions. Value $9,885.82 vs buy-and-hold $8,933.80.",
-  "lastSaved": "2026-11-25T15:16:54Z",
-  "lastStockScan": "2026-11-25T15:16:54Z",
+  "lastRunNote": "The S&P 500 fund was down 2.8% today; market mood risk-off. Bitcoin down 3.0% in 24 hours (risk-off). No trades: SHORT USHY came closest but failed time machine favourable. Holding 0 positions. Value $9,880.99 vs buy-and-hold $8,931.40.",
+  "lastSaved": "2026-11-25T15:26:44Z",
+  "lastStockScan": "2026-11-25T15:26:44Z",
   "lastTradingDay": "2026-11-24",
   "lastUniverseScan": "2026-11-25T13:01:40Z",
   "maxDrawdownPct": 1.24,
@@ -6261,7 +6266,7 @@
   },
   "tradingDays": 7,
   "usd": 4832.15361973509,
-  "usdCad": 1.425,
+  "usdCad": 1.424,
   "weekStart": "2026-11-23",
   "weekStartEquityCad": 9923.99
  },
@@ -6952,9 +6957,16 @@
    "universe": 6225
   },
   {
-   "blocked": [],
+   "blocked": [
+    {
+     "failed": [
+      "Time machine favourable"
+     ],
+     "symbol": "SHORT USHY"
+    }
+   ],
    "cryptoRegime": "risk-off",
-   "dataCalls": 48,
+   "dataCalls": 49,
    "date": "2026-11-25",
    "liquid": 2204,
    "regime": "risk-off",
@@ -6963,8 +6975,8 @@
    "topCandidates": [
     {
      "score": 82,
-     "symbol": "SHORT VOO",
-     "verdict": "82/100, no clean setup yet"
+     "symbol": "SHORT USHY",
+     "verdict": "82/100, fell below its opening range"
     },
     {
      "score": 67,
@@ -6998,7 +7010,7 @@
     },
     {
      "score": 56,
-     "symbol": "LONG L.TO",
+     "symbol": "LONG WM",
      "verdict": "56/100, below the 80 needed"
     }
    ],
@@ -7024,12 +7036,15 @@
    "exits": [],
    "signals": []
   },
-  "updated": "2026-11-25T15:16:54Z"
+  "updated": "2026-11-25T15:26:44Z"
  },
  "log": [
-  "Run 2026-11-25 OPEN (New York 10:16), stock market open day",
-  "Stock scan: 88 long and 68 short ideas pre-screened; 2 breakouts, 0 breakdowns",
-  "News model loaded"
+  "Run 2026-11-25 WATCH (New York 10:26), stock market open day",
+  "Stock scan: 88 long and 68 short ideas pre-screened; 3 breakouts, 1 breakdowns",
+  "News model loaded",
+  "Borrow list unavailable: TimeoutError: timed out",
+  "Borrow data for USHY unavailable (Remote end closed connection without response)",
+  "BLOCK SHORT USHY: Time machine favourable"
  ],
  "nav": [
   {
@@ -7099,10 +7114,10 @@
    "equityCad": 9895.48
   },
   {
-   "benchmarkCad": 8933.8,
-   "cashCad": 9885.82,
+   "benchmarkCad": 8931.4,
+   "cashCad": 9880.99,
    "date": "2026-11-25",
-   "equityCad": 9885.82
+   "equityCad": 9880.99
   }
  ],
  "pack": {
@@ -7110,7 +7125,7 @@
   "alertState": {},
   "clock": {
    "calendar_known": true,
-   "checkedAt": "2026-11-25T15:16:54Z",
+   "checkedAt": "2026-11-25T15:26:44Z",
    "closes": "16:00",
    "date": "2026-11-25",
    "early_close": null,
