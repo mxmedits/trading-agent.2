@@ -2961,55 +2961,10 @@
  },
  "floor": {
   "lastRun": {
-   "at": "2026-11-25T12:01:38Z",
-   "count": 4
+   "at": "2026-11-25T12:31:48Z",
+   "count": 5
   },
   "messages": [
-   {
-    "d": "research",
-    "k": "idea",
-    "n": 0,
-    "s": "M6E",
-    "t": "2026-11-23T10:31:41Z",
-    "to": "pm",
-    "x": "Short M6E: no clean setup yet, chart 25/30."
-   },
-   {
-    "d": "news",
-    "k": "vote",
-    "n": 1,
-    "s": "M6E",
-    "t": "2026-11-23T10:31:41Z",
-    "to": "pm",
-    "x": "M6E: no fresh headlines, neutral 13/25."
-   },
-   {
-    "d": "strategy",
-    "k": "vote",
-    "n": 2,
-    "s": "",
-    "t": "2026-11-23T10:31:41Z",
-    "to": "pm",
-    "x": "Futures are neutral: 8/15 for a short."
-   },
-   {
-    "d": "pm",
-    "k": "decide",
-    "n": 3,
-    "s": "M6E",
-    "t": "2026-11-23T10:31:41Z",
-    "to": "all",
-    "x": "Short M6E scores 70, needs 75. Pass."
-   },
-   {
-    "d": "pm",
-    "k": "decide",
-    "n": 4,
-    "s": "",
-    "t": "2026-11-23T10:31:41Z",
-    "to": "all",
-    "x": "Nothing good enough this scan. Closest: short MET at 72, needs 70."
-   },
    {
     "d": "research",
     "k": "idea",
@@ -5664,6 +5619,51 @@
     "t": "2026-11-25T12:01:38Z",
     "to": "all",
     "x": "Short M6E scores 75 but no clean setup yet. Waiting."
+   },
+   {
+    "d": "research",
+    "k": "idea",
+    "n": 0,
+    "s": "MCL",
+    "t": "2026-11-25T12:31:48Z",
+    "to": "pm",
+    "x": "Short MCL: no clean setup yet, chart 25/30."
+   },
+   {
+    "d": "news",
+    "k": "vote",
+    "n": 1,
+    "s": "MCL",
+    "t": "2026-11-25T12:31:48Z",
+    "to": "pm",
+    "x": "MCL: no fresh headlines, neutral 13/25."
+   },
+   {
+    "d": "strategy",
+    "k": "vote",
+    "n": 2,
+    "s": "",
+    "t": "2026-11-25T12:31:48Z",
+    "to": "pm",
+    "x": "Futures are neutral: 8/15 for a short."
+   },
+   {
+    "d": "pm",
+    "k": "decide",
+    "n": 3,
+    "s": "MCL",
+    "t": "2026-11-25T12:31:48Z",
+    "to": "all",
+    "x": "Short MCL scores 70, needs 75. Pass."
+   },
+   {
+    "d": "pm",
+    "k": "decide",
+    "n": 4,
+    "s": "",
+    "t": "2026-11-25T12:31:48Z",
+    "to": "all",
+    "x": "Nothing to trade this scan. Short M6E scores enough but has no clean setup yet."
    }
   ],
   "said": {
@@ -5689,7 +5689,7 @@
    "idea:M6E:short:17:breakdown": "2026-11-23T22:31:51Z",
    "idea:M6E:short:17:none": "2026-11-24T08:31:44Z",
    "idea:M6E:short:18:none": "2026-11-25T12:01:38Z",
-   "idea:MCL:short:17:none": "2026-11-25T09:01:39Z",
+   "idea:MCL:short:17:none": "2026-11-25T12:31:48Z",
    "idea:MCL:short:18:none": "2026-11-25T11:01:34Z",
    "idea:MET:short:16:none": "2026-11-24T18:01:48Z",
    "idea:MET:short:18:breakdown": "2026-11-23T20:01:40Z",
@@ -5720,6 +5720,7 @@
    "macro:futures:short:neutral:2026-11-25T09:01:39.546534": "2026-11-25T09:01:39Z",
    "macro:futures:short:neutral:2026-11-25T11:01:34.846374": "2026-11-25T11:01:34Z",
    "macro:futures:short:neutral:2026-11-25T12:01:38.697041": "2026-11-25T12:01:38Z",
+   "macro:futures:short:neutral:2026-11-25T12:31:48.318963": "2026-11-25T12:31:48Z",
    "macro:futures:short:risk-off:2026-11-23T03:31:44.575538": "2026-11-23T03:31:44Z",
    "macro:futures:short:risk-off:2026-11-23T05:31:49.177076": "2026-11-23T05:31:49Z",
    "macro:futures:short:risk-off:2026-11-23T06:01:42.411376": "2026-11-23T06:01:42Z",
@@ -5762,7 +5763,7 @@
    "nothing:KRE:20": "2026-11-23T16:56:47Z",
    "nothing:M6E:16": "2026-11-25T01:31:52Z",
    "nothing:M6E:17": "2026-11-23T22:31:51Z",
-   "nothing:M6E:18": "2026-11-25T10:01:50Z",
+   "nothing:M6E:18": "2026-11-25T12:31:48Z",
    "nothing:MCL:16": "2026-11-25T05:01:39Z",
    "nothing:MCL:18": "2026-11-25T11:01:34Z",
    "nothing:MET:15": "2026-11-24T04:31:50Z",
@@ -5818,7 +5819,7 @@
  },
  "fund": {
   "benchmarkBtcUnits": 0.03103649722666308,
-  "benchmarkCad": 9155.18,
+  "benchmarkCad": 9154.78,
   "benchmarkSet": true,
   "benchmarkSpyUnits": 6.399142948573451,
   "cad": 3000.0,
@@ -5828,7 +5829,7 @@
   "earningsKnown": true,
   "entriesThisWeek": 0,
   "entriesToday": 0,
-  "equityCad": 9895.97,
+  "equityCad": 9892.1,
   "focus": {
    "active": [
     "NVDA",
@@ -6106,11 +6107,11 @@
   "halted": false,
   "lastCongressCheck": "2026-11-24",
   "lastEtfScan": "2026-11-21T11:01:42Z",
-  "lastFuturesScan": "2026-11-25T12:01:38Z",
-  "lastRun": "2026-11-25T12:01:38Z",
+  "lastFuturesScan": "2026-11-25T12:31:48Z",
+  "lastRun": "2026-11-25T12:31:48Z",
   "lastRunBy": "github",
-  "lastRunNote": "The S&P 500 fund was down 0.0% today; market mood risk-off. Bitcoin down 2.9% in 24 hours (risk-off). No trades: nothing scored high enough with a clean setup. Holding 0 positions. Value $9,895.97 vs buy-and-hold $9,155.18.",
-  "lastSaved": "2026-11-25T12:01:38Z",
+  "lastRunNote": "The S&P 500 fund was down 0.0% today; market mood risk-off. Bitcoin down 2.5% in 24 hours (risk-off). No trades: nothing scored high enough with a clean setup. Holding 0 positions. Value $9,892.10 vs buy-and-hold $9,154.78.",
+  "lastSaved": "2026-11-25T12:31:48Z",
   "lastStockScan": "2026-11-24T19:46:43Z",
   "lastTradingDay": "2026-11-24",
   "lastUniverseScan": "2026-11-24T13:01:39Z",
@@ -6177,7 +6178,7 @@
   },
   "tradingDays": 7,
   "usd": 4832.15361973509,
-  "usdCad": 1.4271,
+  "usdCad": 1.4263,
   "weekStart": "2026-11-23",
   "weekStartEquityCad": 9923.99
  },
@@ -6899,10 +6900,10 @@
    "exits": [],
    "signals": []
   },
-  "updated": "2026-11-25T12:01:38Z"
+  "updated": "2026-11-25T12:31:48Z"
  },
  "log": [
-  "Run 2026-11-25 WATCH (New York 07:01), stock market open day"
+  "Run 2026-11-25 WATCH (New York 07:31), stock market open day"
  ],
  "nav": [
   {
@@ -6972,10 +6973,10 @@
    "equityCad": 9895.48
   },
   {
-   "benchmarkCad": 9155.18,
-   "cashCad": 9895.97,
+   "benchmarkCad": 9154.78,
+   "cashCad": 9892.1,
    "date": "2026-11-25",
-   "equityCad": 9895.97
+   "equityCad": 9892.1
   }
  ],
  "pack": {
@@ -6983,7 +6984,7 @@
   "alertState": {},
   "clock": {
    "calendar_known": true,
-   "checkedAt": "2026-11-25T12:01:38Z",
+   "checkedAt": "2026-11-25T12:31:48Z",
    "closes": "16:00",
    "date": "2026-11-25",
    "early_close": null,
