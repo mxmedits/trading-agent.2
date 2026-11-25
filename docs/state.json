@@ -2961,46 +2961,10 @@
  },
  "floor": {
   "lastRun": {
-   "at": "2026-11-25T07:31:45Z",
-   "count": 1
+   "at": "2026-11-25T08:31:44Z",
+   "count": 4
   },
   "messages": [
-   {
-    "d": "pm",
-    "k": "decide",
-    "n": 0,
-    "s": "",
-    "t": "2026-11-23T08:01:48Z",
-    "to": "all",
-    "x": "Nothing to trade this scan. Short M6E scores enough but has no clean setup yet."
-   },
-   {
-    "d": "research",
-    "k": "idea",
-    "n": 0,
-    "s": "M6E",
-    "t": "2026-11-23T09:01:46Z",
-    "to": "pm",
-    "x": "Short M6E: no clean setup yet, chart 30/30."
-   },
-   {
-    "d": "news",
-    "k": "vote",
-    "n": 1,
-    "s": "M6E",
-    "t": "2026-11-23T09:01:46Z",
-    "to": "pm",
-    "x": "M6E: no fresh headlines, neutral 13/25."
-   },
-   {
-    "d": "strategy",
-    "k": "vote",
-    "n": 2,
-    "s": "",
-    "t": "2026-11-23T09:01:46Z",
-    "to": "pm",
-    "x": "Futures are neutral: 8/15 for a short."
-   },
    {
     "d": "pm",
     "k": "decide",
@@ -5664,6 +5628,42 @@
     "t": "2026-11-25T07:31:45Z",
     "to": "all",
     "x": "Nothing to trade this scan. Short M6E scores enough but has no clean setup yet."
+   },
+   {
+    "d": "research",
+    "k": "idea",
+    "n": 0,
+    "s": "M6E",
+    "t": "2026-11-25T08:31:44Z",
+    "to": "pm",
+    "x": "Short M6E: no clean setup yet, chart 30/30."
+   },
+   {
+    "d": "news",
+    "k": "vote",
+    "n": 1,
+    "s": "M6E",
+    "t": "2026-11-25T08:31:44Z",
+    "to": "pm",
+    "x": "M6E: no fresh headlines, neutral 13/25."
+   },
+   {
+    "d": "strategy",
+    "k": "vote",
+    "n": 2,
+    "s": "",
+    "t": "2026-11-25T08:31:44Z",
+    "to": "pm",
+    "x": "Futures are neutral: 8/15 for a short."
+   },
+   {
+    "d": "pm",
+    "k": "decide",
+    "n": 3,
+    "s": "M6E",
+    "t": "2026-11-25T08:31:44Z",
+    "to": "all",
+    "x": "Short M6E scores 75 but no clean setup yet. Waiting."
    }
   ],
   "said": {
@@ -5688,7 +5688,7 @@
    "idea:KRE:short:20:none": "2026-11-23T14:51:42Z",
    "idea:M6E:short:17:breakdown": "2026-11-23T22:31:51Z",
    "idea:M6E:short:17:none": "2026-11-24T08:31:44Z",
-   "idea:M6E:short:18:none": "2026-11-25T05:31:42Z",
+   "idea:M6E:short:18:none": "2026-11-25T08:31:44Z",
    "idea:MET:short:16:none": "2026-11-24T18:01:48Z",
    "idea:MET:short:18:breakdown": "2026-11-23T20:01:40Z",
    "idea:MET:short:18:none": "2026-11-24T15:01:51Z",
@@ -5714,6 +5714,7 @@
    "macro:futures:short:neutral:2026-11-24T17:01:44.511556": "2026-11-24T17:01:44Z",
    "macro:futures:short:neutral:2026-11-24T20:31:58.135473": "2026-11-24T20:31:58Z",
    "macro:futures:short:neutral:2026-11-25T05:31:42.356264": "2026-11-25T05:31:42Z",
+   "macro:futures:short:neutral:2026-11-25T08:31:44.749322": "2026-11-25T08:31:44Z",
    "macro:futures:short:risk-off:2026-11-23T03:31:44.575538": "2026-11-23T03:31:44Z",
    "macro:futures:short:risk-off:2026-11-23T05:31:49.177076": "2026-11-23T05:31:49Z",
    "macro:futures:short:risk-off:2026-11-23T06:01:42.411376": "2026-11-23T06:01:42Z",
@@ -5811,7 +5812,7 @@
  },
  "fund": {
   "benchmarkBtcUnits": 0.03103649722666308,
-  "benchmarkCad": 9181.12,
+  "benchmarkCad": 9200.97,
   "benchmarkSet": true,
   "benchmarkSpyUnits": 6.399142948573451,
   "cad": 3000.0,
@@ -5821,7 +5822,7 @@
   "earningsKnown": true,
   "entriesThisWeek": 0,
   "entriesToday": 0,
-  "equityCad": 9906.6,
+  "equityCad": 9902.73,
   "focus": {
    "active": [
     "NVDA",
@@ -6099,11 +6100,11 @@
   "halted": false,
   "lastCongressCheck": "2026-11-24",
   "lastEtfScan": "2026-11-21T11:01:42Z",
-  "lastFuturesScan": "2026-11-25T08:01:46Z",
-  "lastRun": "2026-11-25T08:01:46Z",
+  "lastFuturesScan": "2026-11-25T08:31:44Z",
+  "lastRun": "2026-11-25T08:31:44Z",
   "lastRunBy": "github",
-  "lastRunNote": "The S&P 500 fund was down 0.0% today; market mood risk-off. Bitcoin down 2.5% in 24 hours (risk-off). No trades: nothing scored high enough with a clean setup. Holding 0 positions. Value $9,906.60 vs buy-and-hold $9,181.12.",
-  "lastSaved": "2026-11-25T08:01:46Z",
+  "lastRunNote": "The S&P 500 fund was down 0.0% today; market mood risk-off. Bitcoin down 1.2% in 24 hours (risk-off). No trades: nothing scored high enough with a clean setup. Holding 0 positions. Value $9,902.73 vs buy-and-hold $9,200.97.",
+  "lastSaved": "2026-11-25T08:31:44Z",
   "lastStockScan": "2026-11-24T19:46:43Z",
   "lastTradingDay": "2026-11-24",
   "lastUniverseScan": "2026-11-24T13:01:39Z",
@@ -6170,7 +6171,7 @@
   },
   "tradingDays": 7,
   "usd": 4832.15361973509,
-  "usdCad": 1.4293,
+  "usdCad": 1.4285,
   "weekStart": "2026-11-23",
   "weekStartEquityCad": 9923.99
  },
@@ -6892,10 +6893,10 @@
    "exits": [],
    "signals": []
   },
-  "updated": "2026-11-25T08:01:46Z"
+  "updated": "2026-11-25T08:31:44Z"
  },
  "log": [
-  "Run 2026-11-25 WATCH (New York 03:01), stock market open day"
+  "Run 2026-11-25 WATCH (New York 03:31), stock market open day"
  ],
  "nav": [
   {
@@ -6965,10 +6966,10 @@
    "equityCad": 9895.48
   },
   {
-   "benchmarkCad": 9181.12,
-   "cashCad": 9906.6,
+   "benchmarkCad": 9200.97,
+   "cashCad": 9902.73,
    "date": "2026-11-25",
-   "equityCad": 9906.6
+   "equityCad": 9902.73
   }
  ],
  "pack": {
@@ -6976,7 +6977,7 @@
   "alertState": {},
   "clock": {
    "calendar_known": true,
-   "checkedAt": "2026-11-25T08:01:46Z",
+   "checkedAt": "2026-11-25T08:31:44Z",
    "closes": "16:00",
    "date": "2026-11-25",
    "early_close": null,
