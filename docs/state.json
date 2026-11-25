@@ -5819,7 +5819,7 @@
  },
  "fund": {
   "benchmarkBtcUnits": 0.03103649722666308,
-  "benchmarkCad": 9144.56,
+  "benchmarkCad": 9137.61,
   "benchmarkSet": true,
   "benchmarkSpyUnits": 6.399142948573451,
   "cad": 3000.0,
@@ -5829,7 +5829,7 @@
   "earningsKnown": true,
   "entriesThisWeek": 0,
   "entriesToday": 0,
-  "equityCad": 9887.27,
+  "equityCad": 9881.95,
   "focus": {
    "active": [
     "NVDA",
@@ -6104,15 +6104,15 @@
   "halted": false,
   "lastCongressCheck": "2026-11-24",
   "lastEtfScan": "2026-11-21T11:01:42Z",
-  "lastFuturesScan": "2026-11-25T13:01:40Z",
-  "lastRun": "2026-11-25T13:01:40Z",
+  "lastFuturesScan": "2026-11-25T13:31:49Z",
+  "lastRun": "2026-11-25T13:31:49Z",
   "lastRunBy": "github",
-  "lastRunNote": "The S&P 500 fund was down 0.0% today; market mood risk-off. Bitcoin down 3.1% in 24 hours (risk-off). No trades: nothing scored high enough with a clean setup. Holding 0 positions. Value $9,887.27 vs buy-and-hold $9,144.56.",
-  "lastSaved": "2026-11-25T13:01:40Z",
+  "lastRunNote": "The S&P 500 fund was down 0.0% today; market mood risk-off. Bitcoin down 2.5% in 24 hours (risk-off). No trades: nothing scored high enough with a clean setup. Holding 0 positions. Value $9,881.95 vs buy-and-hold $9,137.61.",
+  "lastSaved": "2026-11-25T13:31:49Z",
   "lastStockScan": "2026-11-24T19:46:43Z",
   "lastTradingDay": "2026-11-24",
   "lastUniverseScan": "2026-11-25T13:01:40Z",
-  "maxDrawdownPct": 1.13,
+  "maxDrawdownPct": 1.18,
   "peakEquityCad": 10000.0,
   "phase": "paper",
   "ruleBreaks": 0,
@@ -6175,7 +6175,7 @@
   },
   "tradingDays": 7,
   "usd": 4832.15361973509,
-  "usdCad": 1.4253,
+  "usdCad": 1.4242,
   "weekStart": "2026-11-23",
   "weekStartEquityCad": 9923.99
  },
@@ -6857,7 +6857,7 @@
   {
    "blocked": [],
    "cryptoRegime": "risk-off",
-   "dataCalls": 328,
+   "dataCalls": 16,
    "date": "2026-11-25",
    "liquid": 2204,
    "regime": "risk-off",
@@ -6897,11 +6897,10 @@
    "exits": [],
    "signals": []
   },
-  "updated": "2026-11-25T13:01:40Z"
+  "updated": "2026-11-25T13:31:49Z"
  },
  "log": [
-  "Run 2026-11-25 WATCH (New York 08:01), stock market open day",
-  "Market screen: 6223 of 6224 charts read, 2204 liquid, focus 60 long / 40 short ideas (127s)"
+  "Run 2026-11-25 WATCH (New York 08:31), stock market open day"
  ],
  "nav": [
   {
@@ -6971,10 +6970,10 @@
    "equityCad": 9895.48
   },
   {
-   "benchmarkCad": 9144.56,
-   "cashCad": 9887.27,
+   "benchmarkCad": 9137.61,
+   "cashCad": 9881.95,
    "date": "2026-11-25",
-   "equityCad": 9887.27
+   "equityCad": 9881.95
   }
  ],
  "pack": {
@@ -6982,7 +6981,7 @@
   "alertState": {},
   "clock": {
    "calendar_known": true,
-   "checkedAt": "2026-11-25T13:01:40Z",
+   "checkedAt": "2026-11-25T13:31:49Z",
    "closes": "16:00",
    "date": "2026-11-25",
    "early_close": null,
