@@ -2937,7 +2937,7 @@
    "revGrowth": 377.9
   },
   "TSM": {
-   "fetchedOn": "2026-11-18",
+   "fetchedOn": "2026-11-25",
    "missing": true
   },
   "UBER": {
@@ -3034,73 +3034,10 @@
  },
  "floor": {
   "lastRun": {
-   "at": "2026-11-25T15:31:44Z",
-   "count": 1
+   "at": "2026-11-25T15:36:55Z",
+   "count": 7
   },
   "messages": [
-   {
-    "d": "pm",
-    "k": "decide",
-    "n": 3,
-    "s": "M6E",
-    "t": "2026-11-23T16:01:49Z",
-    "to": "all",
-    "x": "Short M6E scores 70, needs 75. Pass."
-   },
-   {
-    "d": "research",
-    "k": "info",
-    "n": 0,
-    "s": "",
-    "t": "2026-11-23T16:06:44Z",
-    "to": "pm",
-    "x": "Stock scan: 89 long and 67 short charts checked, 9 breakouts, 1 breakdown. Strongest: XLP, XEL, WTW, WFC."
-   },
-   {
-    "d": "research",
-    "k": "idea",
-    "n": 1,
-    "s": "BKNG",
-    "t": "2026-11-23T16:06:44Z",
-    "to": "pm",
-    "x": "Short BKNG: fell below its opening range, chart 25/30."
-   },
-   {
-    "d": "news",
-    "k": "vote",
-    "n": 2,
-    "s": "BKNG",
-    "t": "2026-11-23T16:06:44Z",
-    "to": "pm",
-    "x": "BKNG: 1 fresh headline, mostly good; 8/25. Top: \"Why Expedia and Booking Can Beat the Muse Test\u2014and the Stocks...\""
-   },
-   {
-    "d": "analyst",
-    "k": "vote",
-    "n": 3,
-    "s": "BKNG",
-    "t": "2026-11-23T16:06:44Z",
-    "to": "pm",
-    "x": "BKNG: filed: operating margin 38%, sales -1%, P/E 16, debt/equity 1.9, target +44%; 7/15."
-   },
-   {
-    "d": "strategy",
-    "k": "vote",
-    "n": 4,
-    "s": "",
-    "t": "2026-11-23T16:06:44Z",
-    "to": "pm",
-    "x": "Stocks are risk off: 15/15 for a short."
-   },
-   {
-    "d": "pm",
-    "k": "decide",
-    "n": 5,
-    "s": "BKNG",
-    "t": "2026-11-23T16:06:44Z",
-    "to": "all",
-    "x": "Short BKNG scores 65, needs 70. Pass."
-   },
    {
     "d": "research",
     "k": "info",
@@ -5737,6 +5674,69 @@
     "t": "2026-11-25T15:31:44Z",
     "to": "all",
     "x": "Nothing to trade this scan. Short M6E scores enough but has no clean setup yet."
+   },
+   {
+    "d": "research",
+    "k": "info",
+    "n": 0,
+    "s": "",
+    "t": "2026-11-25T15:36:55Z",
+    "to": "pm",
+    "x": "Stock scan: 88 long and 68 short charts checked, 5 breakouts, 1 breakdown. Strongest: ZBH, XLP, XEL, VOO."
+   },
+   {
+    "d": "research",
+    "k": "idea",
+    "n": 1,
+    "s": "TSM",
+    "t": "2026-11-25T15:36:55Z",
+    "to": "pm",
+    "x": "Short TSM: no clean setup yet, chart 30/30."
+   },
+   {
+    "d": "news",
+    "k": "vote",
+    "n": 2,
+    "s": "TSM",
+    "t": "2026-11-25T15:36:55Z",
+    "to": "pm",
+    "x": "TSM: 2 fresh headlines, mostly bad; 18/25. Top: \"Market Chatter: Trump to Preside Over Taiwan Semiconductor...\""
+   },
+   {
+    "d": "analyst",
+    "k": "vote",
+    "n": 3,
+    "s": "TSM",
+    "t": "2026-11-25T15:36:55Z",
+    "to": "pm",
+    "x": "TSM: company numbers unavailable today, neutral 9/15."
+   },
+   {
+    "d": "strategy",
+    "k": "vote",
+    "n": 4,
+    "s": "",
+    "t": "2026-11-25T15:36:55Z",
+    "to": "pm",
+    "x": "Stocks are risk off: 15/15 for a short."
+   },
+   {
+    "d": "pm",
+    "k": "decide",
+    "n": 5,
+    "s": "TSM",
+    "t": "2026-11-25T15:36:55Z",
+    "to": "all",
+    "x": "Short TSM scores 87 but no clean setup yet. Waiting."
+   },
+   {
+    "d": "pm",
+    "k": "decide",
+    "n": 6,
+    "s": "",
+    "t": "2026-11-25T15:36:55Z",
+    "to": "all",
+    "x": "Nothing to trade this scan. Short TSM scores enough but has no clean setup yet."
    }
   ],
   "said": {
@@ -5772,6 +5772,7 @@
    "idea:MET:short:19:none": "2026-11-25T15:01:50Z",
    "idea:ROST:short:17:none": "2026-11-23T15:26:53Z",
    "idea:SRLN:short:18:breakdown": "2026-11-24T19:06:45Z",
+   "idea:TSM:short:21:none": "2026-11-25T15:36:55Z",
    "idea:UBER:short:16:none": "2026-11-25T14:51:43Z",
    "idea:USHY:short:18:none": "2026-11-24T14:51:50Z",
    "idea:USHY:short:20:breakdown": "2026-11-25T15:26:44Z",
@@ -5830,6 +5831,7 @@
    "macro:stocks:short:risk-off:2026-11-24T19:06:45.199238": "2026-11-24T19:06:45Z",
    "macro:stocks:short:risk-off:2026-11-25T14:51:43.907288": "2026-11-25T14:51:43Z",
    "macro:stocks:short:risk-off:2026-11-25T15:26:44.097374": "2026-11-25T15:26:44Z",
+   "macro:stocks:short:risk-off:2026-11-25T15:36:55.874970": "2026-11-25T15:36:55Z",
    "meeting:close:2026-11-23": "2026-11-23T20:16:42Z",
    "meeting:close:2026-11-24": "2026-11-24T20:16:52Z",
    "meeting:open:2026-11-23": "2026-11-23T15:16:36Z",
@@ -5854,6 +5856,7 @@
    "nothing:MET:18": "2026-11-24T09:31:45Z",
    "nothing:MET:19": "2026-11-23T19:01:34Z",
    "nothing:SRLN:18": "2026-11-24T18:16:35Z",
+   "nothing:TSM:21": "2026-11-25T15:36:55Z",
    "nothing:USHY:18": "2026-11-24T14:51:50Z",
    "nothing:USHY:20": "2026-11-25T15:26:44Z",
    "nothing:VOO:20": "2026-11-25T14:51:43Z",
@@ -5878,6 +5881,7 @@
    "scan:stocks:YUM,XLP,XEL,WSM:13:3": "2026-11-24T16:06:40Z",
    "scan:stocks:YUM,XLP,XEL,WSM:4:0": "2026-11-24T14:51:50Z",
    "scan:stocks:YUM,XLP,XEL,WSM:9:2": "2026-11-24T19:06:45Z",
+   "scan:stocks:ZBH,XLP,XEL,VOO:5:1": "2026-11-25T15:36:55Z",
    "scan:stocks:ZBH,XLP,XEL,WMB:0:0": "2026-11-25T14:51:43Z",
    "scan:stocks:ZBH,XLP,XEL,WMB:2:0": "2026-11-25T15:12:01Z",
    "scan:stocks:ZBH,XLP,XEL,WMB:3:1": "2026-11-25T15:26:44Z",
@@ -5910,7 +5914,7 @@
  },
  "fund": {
   "benchmarkBtcUnits": 0.03103649722666308,
-  "benchmarkCad": 8947.21,
+  "benchmarkCad": 8980.06,
   "benchmarkSet": true,
   "benchmarkSpyUnits": 6.399142948573451,
   "cad": 3000.0,
@@ -5920,7 +5924,7 @@
   "earningsKnown": true,
   "entriesThisWeek": 0,
   "entriesToday": 0,
-  "equityCad": 9879.54,
+  "equityCad": 9878.57,
   "focus": {
    "active": [
     "NVDA",
@@ -6196,11 +6200,11 @@
   "lastCongressCheck": "2026-11-25",
   "lastEtfScan": "2026-11-21T11:01:42Z",
   "lastFuturesScan": "2026-11-25T15:31:44Z",
-  "lastRun": "2026-11-25T15:31:44Z",
+  "lastRun": "2026-11-25T15:36:55Z",
   "lastRunBy": "github",
-  "lastRunNote": "The S&P 500 fund was down 2.6% today; market mood risk-off. Bitcoin down 3.3% in 24 hours (risk-off). No trades: nothing scored high enough with a clean setup. Holding 0 positions. Value $9,879.54 vs buy-and-hold $8,947.21.",
-  "lastSaved": "2026-11-25T15:31:44Z",
-  "lastStockScan": "2026-11-25T15:26:44Z",
+  "lastRunNote": "The S&P 500 fund was down 2.3% today; market mood risk-off. Bitcoin down 2.0% in 24 hours (risk-off). No trades: SHORT USHY came closest but failed time machine favourable. Holding 0 positions. Value $9,878.57 vs buy-and-hold $8,980.06.",
+  "lastSaved": "2026-11-25T15:36:55Z",
+  "lastStockScan": "2026-11-25T15:36:55Z",
   "lastTradingDay": "2026-11-24",
   "lastUniverseScan": "2026-11-25T13:01:40Z",
   "maxDrawdownPct": 1.24,
@@ -6266,7 +6270,7 @@
   },
   "tradingDays": 7,
   "usd": 4832.15361973509,
-  "usdCad": 1.4237,
+  "usdCad": 1.4235,
   "weekStart": "2026-11-23",
   "weekStartEquityCad": 9923.99
  },
@@ -6957,9 +6961,16 @@
    "universe": 6225
   },
   {
-   "blocked": [],
+   "blocked": [
+    {
+     "failed": [
+      "Time machine favourable"
+     ],
+     "symbol": "SHORT USHY"
+    }
+   ],
    "cryptoRegime": "risk-off",
-   "dataCalls": 18,
+   "dataCalls": 51,
    "date": "2026-11-25",
    "liquid": 2204,
    "regime": "risk-off",
@@ -6967,14 +6978,44 @@
    "summary": "Morning: The S&P 500 fund was down 2.6% today; market mood risk-off. Bitcoin down 3.2% in 24 hours (risk-off). No trades: nothing scored high enough with a clean setup. Holding 0 positions. Value $9,885.82 vs buy-and-hold $8,933.80.",
    "topCandidates": [
     {
-     "score": 75,
-     "symbol": "SHORT M6E",
-     "verdict": "75/100, no clean setup yet"
+     "score": 87,
+     "symbol": "SHORT TSM",
+     "verdict": "87/100, no clean setup yet"
     },
     {
-     "score": 72,
-     "symbol": "SHORT MET",
-     "verdict": "72/100, no clean setup yet"
+     "score": 82,
+     "symbol": "SHORT USHY",
+     "verdict": "82/100, fell below its opening range"
+    },
+    {
+     "score": 67,
+     "symbol": "SHORT UBER",
+     "verdict": "67/100, below the 70 needed"
+    },
+    {
+     "score": 66,
+     "symbol": "LONG XLP",
+     "verdict": "66/100, below the 80 needed"
+    },
+    {
+     "score": 66,
+     "symbol": "LONG VBIL",
+     "verdict": "66/100, below the 80 needed"
+    },
+    {
+     "score": 66,
+     "symbol": "LONG REI-UN.TO",
+     "verdict": "66/100, below the 80 needed"
+    },
+    {
+     "score": 56,
+     "symbol": "LONG TRV",
+     "verdict": "56/100, below the 80 needed"
+    },
+    {
+     "score": 55,
+     "symbol": "LONG ZBH",
+     "verdict": "55/100, below the 80 needed"
     }
    ],
    "universe": 6224
@@ -6999,10 +7040,16 @@
    "exits": [],
    "signals": []
   },
-  "updated": "2026-11-25T15:31:44Z"
+  "updated": "2026-11-25T15:36:55Z"
  },
  "log": [
-  "Run 2026-11-25 WATCH (New York 10:31), stock market open day"
+  "Run 2026-11-25 WATCH (New York 10:36), stock market open day",
+  "Stock scan: 88 long and 68 short ideas pre-screened; 5 breakouts, 1 breakdowns",
+  "News model loaded",
+  "SEC filed numbers for TSM: none ([]\nfacts: 1046179: no quarterly revenue or net income in the XBRL facts)",
+  "Borrow list unavailable: TimeoutError: timed out",
+  "Borrow data for USHY unavailable (Remote end closed connection without response)",
+  "BLOCK SHORT USHY: Time machine favourable"
  ],
  "nav": [
   {
@@ -7072,10 +7119,10 @@
    "equityCad": 9895.48
   },
   {
-   "benchmarkCad": 8947.21,
-   "cashCad": 9879.54,
+   "benchmarkCad": 8980.06,
+   "cashCad": 9878.57,
    "date": "2026-11-25",
-   "equityCad": 9879.54
+   "equityCad": 9878.57
   }
  ],
  "pack": {
@@ -7083,7 +7130,7 @@
   "alertState": {},
   "clock": {
    "calendar_known": true,
-   "checkedAt": "2026-11-25T15:31:44Z",
+   "checkedAt": "2026-11-25T15:36:55Z",
    "closes": "16:00",
    "date": "2026-11-25",
    "early_close": null,
