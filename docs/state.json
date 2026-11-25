@@ -3034,19 +3034,10 @@
  },
  "floor": {
   "lastRun": {
-   "at": "2026-11-25T15:26:44Z",
-   "count": 9
+   "at": "2026-11-25T15:31:44Z",
+   "count": 1
   },
   "messages": [
-   {
-    "d": "strategy",
-    "k": "vote",
-    "n": 2,
-    "s": "",
-    "t": "2026-11-23T16:01:49Z",
-    "to": "pm",
-    "x": "Futures are neutral: 8/15 for a short."
-   },
    {
     "d": "pm",
     "k": "decide",
@@ -5737,6 +5728,15 @@
     "t": "2026-11-25T15:26:44Z",
     "to": "all",
     "x": "Nothing good enough this scan. Closest: short USHY at 82, needs 70."
+   },
+   {
+    "d": "pm",
+    "k": "decide",
+    "n": 0,
+    "s": "",
+    "t": "2026-11-25T15:31:44Z",
+    "to": "all",
+    "x": "Nothing to trade this scan. Short M6E scores enough but has no clean setup yet."
    }
   ],
   "said": {
@@ -5846,7 +5846,7 @@
    "nothing:KRE:20": "2026-11-23T16:56:47Z",
    "nothing:M6E:16": "2026-11-25T01:31:52Z",
    "nothing:M6E:17": "2026-11-23T22:31:51Z",
-   "nothing:M6E:18": "2026-11-25T12:31:48Z",
+   "nothing:M6E:18": "2026-11-25T15:31:44Z",
    "nothing:MCL:16": "2026-11-25T05:01:39Z",
    "nothing:MCL:18": "2026-11-25T11:01:34Z",
    "nothing:MET:15": "2026-11-24T04:31:50Z",
@@ -5910,7 +5910,7 @@
  },
  "fund": {
   "benchmarkBtcUnits": 0.03103649722666308,
-  "benchmarkCad": 8931.4,
+  "benchmarkCad": 8947.21,
   "benchmarkSet": true,
   "benchmarkSpyUnits": 6.399142948573451,
   "cad": 3000.0,
@@ -5920,7 +5920,7 @@
   "earningsKnown": true,
   "entriesThisWeek": 0,
   "entriesToday": 0,
-  "equityCad": 9880.99,
+  "equityCad": 9879.54,
   "focus": {
    "active": [
     "NVDA",
@@ -6195,11 +6195,11 @@
   "halted": false,
   "lastCongressCheck": "2026-11-25",
   "lastEtfScan": "2026-11-21T11:01:42Z",
-  "lastFuturesScan": "2026-11-25T15:01:50Z",
-  "lastRun": "2026-11-25T15:26:44Z",
+  "lastFuturesScan": "2026-11-25T15:31:44Z",
+  "lastRun": "2026-11-25T15:31:44Z",
   "lastRunBy": "github",
-  "lastRunNote": "The S&P 500 fund was down 2.8% today; market mood risk-off. Bitcoin down 3.0% in 24 hours (risk-off). No trades: SHORT USHY came closest but failed time machine favourable. Holding 0 positions. Value $9,880.99 vs buy-and-hold $8,931.40.",
-  "lastSaved": "2026-11-25T15:26:44Z",
+  "lastRunNote": "The S&P 500 fund was down 2.6% today; market mood risk-off. Bitcoin down 3.3% in 24 hours (risk-off). No trades: nothing scored high enough with a clean setup. Holding 0 positions. Value $9,879.54 vs buy-and-hold $8,947.21.",
+  "lastSaved": "2026-11-25T15:31:44Z",
   "lastStockScan": "2026-11-25T15:26:44Z",
   "lastTradingDay": "2026-11-24",
   "lastUniverseScan": "2026-11-25T13:01:40Z",
@@ -6266,7 +6266,7 @@
   },
   "tradingDays": 7,
   "usd": 4832.15361973509,
-  "usdCad": 1.424,
+  "usdCad": 1.4237,
   "weekStart": "2026-11-23",
   "weekStartEquityCad": 9923.99
  },
@@ -6957,16 +6957,9 @@
    "universe": 6225
   },
   {
-   "blocked": [
-    {
-     "failed": [
-      "Time machine favourable"
-     ],
-     "symbol": "SHORT USHY"
-    }
-   ],
+   "blocked": [],
    "cryptoRegime": "risk-off",
-   "dataCalls": 49,
+   "dataCalls": 18,
    "date": "2026-11-25",
    "liquid": 2204,
    "regime": "risk-off",
@@ -6974,44 +6967,14 @@
    "summary": "Morning: The S&P 500 fund was down 2.6% today; market mood risk-off. Bitcoin down 3.2% in 24 hours (risk-off). No trades: nothing scored high enough with a clean setup. Holding 0 positions. Value $9,885.82 vs buy-and-hold $8,933.80.",
    "topCandidates": [
     {
-     "score": 82,
-     "symbol": "SHORT USHY",
-     "verdict": "82/100, fell below its opening range"
+     "score": 75,
+     "symbol": "SHORT M6E",
+     "verdict": "75/100, no clean setup yet"
     },
     {
-     "score": 67,
-     "symbol": "SHORT UBER",
-     "verdict": "67/100, below the 70 needed"
-    },
-    {
-     "score": 66,
-     "symbol": "LONG XLP",
-     "verdict": "66/100, below the 80 needed"
-    },
-    {
-     "score": 66,
-     "symbol": "LONG VBIL",
-     "verdict": "66/100, below the 80 needed"
-    },
-    {
-     "score": 66,
-     "symbol": "LONG REI-UN.TO",
-     "verdict": "66/100, below the 80 needed"
-    },
-    {
-     "score": 62,
-     "symbol": "SHORT WMB",
-     "verdict": "62/100, below the 70 needed"
-    },
-    {
-     "score": 60,
-     "symbol": "LONG SO",
-     "verdict": "60/100, below the 80 needed"
-    },
-    {
-     "score": 56,
-     "symbol": "LONG WM",
-     "verdict": "56/100, below the 80 needed"
+     "score": 72,
+     "symbol": "SHORT MET",
+     "verdict": "72/100, no clean setup yet"
     }
    ],
    "universe": 6224
@@ -7036,15 +6999,10 @@
    "exits": [],
    "signals": []
   },
-  "updated": "2026-11-25T15:26:44Z"
+  "updated": "2026-11-25T15:31:44Z"
  },
  "log": [
-  "Run 2026-11-25 WATCH (New York 10:26), stock market open day",
-  "Stock scan: 88 long and 68 short ideas pre-screened; 3 breakouts, 1 breakdowns",
-  "News model loaded",
-  "Borrow list unavailable: TimeoutError: timed out",
-  "Borrow data for USHY unavailable (Remote end closed connection without response)",
-  "BLOCK SHORT USHY: Time machine favourable"
+  "Run 2026-11-25 WATCH (New York 10:31), stock market open day"
  ],
  "nav": [
   {
@@ -7114,10 +7072,10 @@
    "equityCad": 9895.48
   },
   {
-   "benchmarkCad": 8931.4,
-   "cashCad": 9880.99,
+   "benchmarkCad": 8947.21,
+   "cashCad": 9879.54,
    "date": "2026-11-25",
-   "equityCad": 9880.99
+   "equityCad": 9879.54
   }
  ],
  "pack": {
@@ -7125,7 +7083,7 @@
   "alertState": {},
   "clock": {
    "calendar_known": true,
-   "checkedAt": "2026-11-25T15:26:44Z",
+   "checkedAt": "2026-11-25T15:31:44Z",
    "closes": "16:00",
    "date": "2026-11-25",
    "early_close": null,
