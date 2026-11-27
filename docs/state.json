@@ -6773,7 +6773,7 @@
  },
  "fund": {
   "benchmarkBtcUnits": 0.03103649722666308,
-  "benchmarkCad": 9287.21,
+  "benchmarkCad": 9291.44,
   "benchmarkSet": true,
   "benchmarkSpyUnits": 6.399142948573451,
   "cad": 3000.0,
@@ -6783,7 +6783,7 @@
   "earningsKnown": true,
   "entriesThisWeek": 0,
   "entriesToday": 0,
-  "equityCad": 9566.28,
+  "equityCad": 9568.59,
   "focus": {
    "active": [
     "NVDA",
@@ -7061,10 +7061,10 @@
   "lastCongressCheck": "2026-11-27",
   "lastEtfScan": "2026-11-21T11:01:42Z",
   "lastFuturesScan": "2026-11-27T19:31:33Z",
-  "lastRun": "2026-11-27T19:31:33Z",
+  "lastRun": "2026-11-27T19:36:45Z",
   "lastRunBy": "github",
-  "lastRunNote": "The S&P 500 fund was up 1.6% today; market mood risk-off. Bitcoin down 1.1% in 24 hours (risk-off). No trades: nothing scored high enough with a clean setup. Holding 0 positions. Value $9,566.28 vs buy-and-hold $9,287.21.",
-  "lastSaved": "2026-11-27T19:31:33Z",
+  "lastRunNote": "The S&P 500 fund was up 1.6% today; market mood risk-off. Bitcoin down 1.1% in 24 hours (risk-off). No new trades this run (the pack's NYSE clock says the market is closed (after the close)). Holding 0 positions. Value $9,568.59 vs buy-and-",
+  "lastSaved": "2026-11-27T19:36:45Z",
   "lastStockScan": "2026-11-27T17:56:42Z",
   "lastTradingDay": "2026-11-24",
   "lastUniverseScan": "2026-11-27T13:01:45Z",
@@ -7131,7 +7131,7 @@
   },
   "tradingDays": 7,
   "usd": 4609.536402712771,
-  "usdCad": 1.4245,
+  "usdCad": 1.425,
   "weekStart": "2026-11-23",
   "weekStartEquityCad": 9923.99
  },
@@ -9124,11 +9124,11 @@
     "AMD": 1795802400,
     "AMZN": 1795802400,
     "AVGO": 1795802400,
-    "BTC": 1795807800,
+    "BTC": 1795808100,
     "DIA": 1795802400,
-    "DOGE": 1795807800,
+    "DOGE": 1795808100,
     "EEM": 1795802400,
-    "ETH": 1795807800,
+    "ETH": 1795808100,
     "GOOGL": 1795802400,
     "IWM": 1795802400,
     "M2K": 1795802400,
@@ -9147,7 +9147,7 @@
     "QQQ": 1795802400,
     "SIL": 1795802400,
     "SMH": 1795802400,
-    "SOL": 1795807800,
+    "SOL": 1795808100,
     "SPY": 1795802400,
     "TLT": 1795802400,
     "TSLA": 1795802400,
@@ -9155,7 +9155,7 @@
     "XLF": 1795802340,
     "XLK": 1795802340,
     "XLV": 1795802280,
-    "XRP": 1795807800
+    "XRP": 1795808100
    },
    "positions": {},
    "totals": {
@@ -11152,14 +11152,9 @@
    },
    "crypto": {
     "banner": null,
-    "barT": 1795807800,
+    "barT": 1795808100,
     "chart": {
      "c": [
-      72.97,
-      72.98,
-      73.02,
-      73.03,
-      72.97,
       72.96,
       72.99,
       72.99,
@@ -11565,7 +11560,12 @@
       72.17,
       72.19,
       72.19,
-      72.22
+      72.22,
+      72.28,
+      72.31,
+      72.25,
+      72.27,
+      72.3
      ],
      "dec": 2,
      "m": [
@@ -11983,7 +11983,7 @@
      ],
      "marks": [],
      "sym": "SOL",
-     "t0": 1795783200,
+     "t0": 1795783500,
      "vw": [
       null,
       null,
@@ -12035,11 +12035,6 @@
       null,
       null,
       null,
-      72.91,
-      72.91,
-      72.91,
-      72.92,
-      72.92,
       72.92,
       72.92,
       72.92,
@@ -12395,6 +12390,11 @@
       72.15,
       72.15,
       72.15,
+      72.15,
+      72.15,
+      72.15,
+      72.15,
+      72.15,
       72.15
      ],
      "warm": 50
@@ -12416,7 +12416,7 @@
     "longOnly": true,
     "name": "Crypto",
     "open": [],
-    "price": 72.220001,
+    "price": 72.300003,
     "setups": [
      {
       "fired": false,
@@ -12440,7 +12440,7 @@
       "state": "watching for a pullback"
      }
     ],
-    "status": "Sitting out \u00b7 SOL: costs would eat the trade (533% of the risk)",
+    "status": "Flat \u00b7 watching for a pullback",
     "symbols": [
      "BTC",
      "ETH",
@@ -16236,7 +16236,7 @@
     }
    }
   },
-  "checkedAt": 1795807893,
+  "checkedAt": 1795808205,
   "controls": {
    "auto": true,
    "chop_filter": true,
@@ -16256,7 +16256,7 @@
   "maxTrades": 15,
   "profitBrakePct": 3.0,
   "riskPct": 1.0,
-  "savedAt": 1795807010,
+  "savedAt": 1795808205,
   "summary": {
    "day": "2026-11-27",
    "n": 32,
@@ -16540,7 +16540,7 @@
   {
    "blocked": [],
    "cryptoRegime": "risk-off",
-   "dataCalls": 20,
+   "dataCalls": 19,
    "date": "2026-11-27",
    "liquid": 2217,
    "regime": "risk-off",
@@ -16580,12 +16580,12 @@
    "exits": [],
    "signals": []
   },
-  "updated": "2026-11-27T19:31:33Z"
+  "updated": "2026-11-27T19:36:45Z"
  },
  "log": [
-  "Run 2026-11-27 WATCH (New York 14:31), stock market open day",
+  "Run 2026-11-27 WATCH (New York 14:36), stock market open day",
   "No stock trades: the pack's NYSE clock says the market is closed (after the close)",
-  "Futures market closed now: no futures trades"
+  "No new trades this run: the pack's NYSE clock says the market is closed (after the close)"
  ],
  "nav": [
   {
@@ -16667,10 +16667,10 @@
    "equityCad": 9883.89
   },
   {
-   "benchmarkCad": 9287.21,
-   "cashCad": 9566.28,
+   "benchmarkCad": 9291.44,
+   "cashCad": 9568.59,
    "date": "2026-11-27",
-   "equityCad": 9566.28
+   "equityCad": 9568.59
   }
  ],
  "pack": {
@@ -16678,7 +16678,7 @@
   "alertState": {},
   "clock": {
    "calendar_known": true,
-   "checkedAt": "2026-11-27T19:31:33Z",
+   "checkedAt": "2026-11-27T19:36:45Z",
    "closes": "13:00",
    "date": "2026-11-27",
    "early_close": "day after Thanksgiving",
