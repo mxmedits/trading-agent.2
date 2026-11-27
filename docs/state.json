@@ -6771,7 +6771,7 @@
  },
  "fund": {
   "benchmarkBtcUnits": 0.03103649722666308,
-  "benchmarkCad": 9282.57,
+  "benchmarkCad": 9280.27,
   "benchmarkSet": true,
   "benchmarkSpyUnits": 6.399142948573451,
   "cad": 3000.0,
@@ -6781,7 +6781,7 @@
   "earningsKnown": true,
   "entriesThisWeek": 0,
   "entriesToday": 0,
-  "equityCad": 9568.13,
+  "equityCad": 9567.67,
   "focus": {
    "active": [
     "NVDA",
@@ -7058,11 +7058,11 @@
   "halted": false,
   "lastCongressCheck": "2026-11-27",
   "lastEtfScan": "2026-11-21T11:01:42Z",
-  "lastFuturesScan": "2026-11-27T21:31:42Z",
-  "lastRun": "2026-11-27T21:51:49Z",
+  "lastFuturesScan": "2026-11-27T22:01:42Z",
+  "lastRun": "2026-11-27T22:01:42Z",
   "lastRunBy": "github",
-  "lastRunNote": "The S&P 500 fund was up 1.6% today; market mood risk-off. Bitcoin down 1.7% in 24 hours (risk-off). No new trades this run (nothing due). Holding 0 positions. Value $9,568.13 vs buy-and-hold $9,282.57.",
-  "lastSaved": "2026-11-27T21:51:49Z",
+  "lastRunNote": "The S&P 500 fund was up 1.6% today; market mood risk-off. Bitcoin down 1.5% in 24 hours (risk-off). No trades: nothing scored high enough with a clean setup. Holding 0 positions. Value $9,567.67 vs buy-and-hold $9,280.27.",
+  "lastSaved": "2026-11-27T22:01:42Z",
   "lastStockScan": "2026-11-27T17:56:42Z",
   "lastTradingDay": "2026-11-27",
   "lastUniverseScan": "2026-11-27T13:01:45Z",
@@ -7129,7 +7129,7 @@
   },
   "tradingDays": 8,
   "usd": 4609.536402712771,
-  "usdCad": 1.4249,
+  "usdCad": 1.4248,
   "weekStart": "2026-11-23",
   "weekStartEquityCad": 9923.99
  },
@@ -9122,11 +9122,11 @@
     "AMD": 1795802400,
     "AMZN": 1795802400,
     "AVGO": 1795802400,
-    "BTC": 1795816200,
+    "BTC": 1795816800,
     "DIA": 1795802400,
-    "DOGE": 1795816200,
+    "DOGE": 1795816800,
     "EEM": 1795802400,
-    "ETH": 1795816200,
+    "ETH": 1795816800,
     "GOOGL": 1795802400,
     "IWM": 1795802400,
     "M2K": 1795802400,
@@ -9145,7 +9145,7 @@
     "QQQ": 1795802400,
     "SIL": 1795802400,
     "SMH": 1795802400,
-    "SOL": 1795816200,
+    "SOL": 1795816800,
     "SPY": 1795802400,
     "TLT": 1795802400,
     "TSLA": 1795802400,
@@ -9153,7 +9153,7 @@
     "XLF": 1795802340,
     "XLK": 1795802340,
     "XLV": 1795802280,
-    "XRP": 1795816200
+    "XRP": 1795816800
    },
    "positions": {},
    "totals": {
@@ -11150,19 +11150,9 @@
    },
    "crypto": {
     "banner": null,
-    "barT": 1795816200,
+    "barT": 1795816800,
     "chart": {
      "c": [
-      0.9332,
-      0.9364,
-      0.9342,
-      0.9357,
-      0.9356,
-      0.9321,
-      0.9342,
-      0.935,
-      0.9348,
-      0.9354,
       0.9389,
       0.9423,
       0.9416,
@@ -11563,7 +11553,17 @@
       0.9479,
       0.9477,
       0.9482,
-      0.9478
+      0.9478,
+      0.9481,
+      0.9477,
+      0.9477,
+      0.9483,
+      0.9483,
+      0.9487,
+      0.9483,
+      0.9486,
+      0.9479,
+      0.947
      ],
      "dec": 4,
      "m": [
@@ -11981,7 +11981,7 @@
      ],
      "marks": [],
      "sym": "XRP",
-     "t0": 1795791600,
+     "t0": 1795792200,
      "vw": [
       null,
       null,
@@ -12033,16 +12033,6 @@
       null,
       null,
       null,
-      0.9606,
-      0.9606,
-      0.9606,
-      0.9606,
-      0.9606,
-      0.9605,
-      0.9605,
-      0.9605,
-      0.9604,
-      0.9604,
       0.9604,
       0.9604,
       0.9604,
@@ -12377,6 +12367,16 @@
       0.9586,
       0.9586,
       0.9586,
+      0.9585,
+      0.9585,
+      0.9585,
+      0.9585,
+      0.9585,
+      0.9585,
+      0.9585,
+      0.9585,
+      0.9585,
+      0.9585,
       0.9585,
       0.9585,
       0.9585,
@@ -12414,7 +12414,7 @@
     "longOnly": true,
     "name": "Crypto",
     "open": [],
-    "price": 0.9478,
+    "price": 0.947,
     "setups": [
      {
       "fired": false,
@@ -12425,10 +12425,10 @@
      },
      {
       "fired": false,
-      "pct": 75,
+      "pct": 35,
       "setup": "EMA50 cross",
       "side": "BUY",
-      "state": "close"
+      "state": "far"
      },
      {
       "fired": false,
@@ -16234,7 +16234,7 @@
     }
    }
   },
-  "checkedAt": 1795816309,
+  "checkedAt": 1795816902,
   "controls": {
    "auto": true,
    "chop_filter": true,
@@ -16538,7 +16538,7 @@
   {
    "blocked": [],
    "cryptoRegime": "risk-off",
-   "dataCalls": 19,
+   "dataCalls": 20,
    "date": "2026-11-27",
    "liquid": 2217,
    "regime": "risk-off",
@@ -16578,10 +16578,11 @@
    "exits": [],
    "signals": []
   },
-  "updated": "2026-11-27T21:51:49Z"
+  "updated": "2026-11-27T22:01:42Z"
  },
  "log": [
-  "Run 2026-11-27 WATCH (New York 16:51), stock market open day"
+  "Run 2026-11-27 WATCH (New York 17:01), stock market open day",
+  "Futures market closed now: no futures trades"
  ],
  "nav": [
   {
@@ -16663,10 +16664,10 @@
    "equityCad": 9883.89
   },
   {
-   "benchmarkCad": 9282.57,
-   "cashCad": 9568.13,
+   "benchmarkCad": 9280.27,
+   "cashCad": 9567.67,
    "date": "2026-11-27",
-   "equityCad": 9568.13
+   "equityCad": 9567.67
   }
  ],
  "pack": {
@@ -16674,7 +16675,7 @@
   "alertState": {},
   "clock": {
    "calendar_known": true,
-   "checkedAt": "2026-11-27T21:51:49Z",
+   "checkedAt": "2026-11-27T22:01:42Z",
    "closes": "13:00",
    "date": "2026-11-27",
    "early_close": "day after Thanksgiving",
