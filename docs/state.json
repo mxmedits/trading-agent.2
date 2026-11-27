@@ -3034,55 +3034,10 @@
  },
  "floor": {
   "lastRun": {
-   "at": "2026-11-26T14:32:02Z",
-   "count": 3
+   "at": "2026-11-27T05:25:10Z",
+   "count": 5
   },
   "messages": [
-   {
-    "d": "research",
-    "k": "idea",
-    "n": 2,
-    "s": "KRE",
-    "t": "2026-11-23T17:36:38Z",
-    "to": "pm",
-    "x": "Short KRE: no clean setup yet, chart 30/30."
-   },
-   {
-    "d": "news",
-    "k": "vote",
-    "n": 3,
-    "s": "KRE",
-    "t": "2026-11-23T17:36:38Z",
-    "to": "pm",
-    "x": "KRE: no fresh headlines, neutral 13/25."
-   },
-   {
-    "d": "strategy",
-    "k": "vote",
-    "n": 4,
-    "s": "",
-    "t": "2026-11-23T17:36:38Z",
-    "to": "pm",
-    "x": "Stocks are risk off: 15/15 for a short."
-   },
-   {
-    "d": "pm",
-    "k": "decide",
-    "n": 5,
-    "s": "KRE",
-    "t": "2026-11-23T17:36:38Z",
-    "to": "all",
-    "x": "Short KRE scores 77 but no clean setup yet. Waiting."
-   },
-   {
-    "d": "pm",
-    "k": "decide",
-    "n": 6,
-    "s": "",
-    "t": "2026-11-23T17:36:38Z",
-    "to": "all",
-    "x": "Nothing to trade this scan. Short KRE scores enough but has no clean setup yet."
-   },
    {
     "d": "research",
     "k": "info",
@@ -5737,18 +5692,63 @@
     "t": "2026-11-26T14:32:02Z",
     "to": "pm",
     "x": "Futures market is closed right now. No futures trades."
+   },
+   {
+    "d": "strategy",
+    "k": "mood",
+    "n": 0,
+    "s": "",
+    "t": "2026-11-27T05:25:10Z",
+    "to": "pm",
+    "x": "Stocks are risk off: the S&P 500 fund is below its 200-day average."
+   },
+   {
+    "d": "strategy",
+    "k": "mood",
+    "n": 1,
+    "s": "",
+    "t": "2026-11-27T05:25:10Z",
+    "to": "pm",
+    "x": "Crypto is risk off: Bitcoin +1.2% in 24 hours, below its 50-day average."
+   },
+   {
+    "d": "research",
+    "k": "info",
+    "n": 2,
+    "s": "",
+    "t": "2026-11-27T05:25:10Z",
+    "to": "pm",
+    "x": "Data check: options backup not answering, borrow list not answering, economic calendar ok, SEC filings on."
+   },
+   {
+    "d": "strategy",
+    "k": "mood",
+    "n": 3,
+    "s": "",
+    "t": "2026-11-27T05:25:10Z",
+    "to": "pm",
+    "x": "NYSE is closed (before the open). Opens today at 9:30 AM."
+   },
+   {
+    "d": "strategy",
+    "k": "mood",
+    "n": 4,
+    "s": "",
+    "t": "2026-11-27T05:25:10Z",
+    "to": "pm",
+    "x": "Futures market is closed right now. No futures trades."
    }
   ],
   "said": {
    "clock:closed:2026-11-24:after the close": "2026-11-24T21:01:45Z",
-   "clock:closed:2026-11-24:before the open": "2026-11-24T05:01:54Z",
    "clock:closed:2026-11-25:after the close": "2026-11-25T22:24:54Z",
    "clock:closed:2026-11-25:before the open": "2026-11-25T05:01:39Z",
+   "clock:closed:2026-11-27:before the open": "2026-11-27T05:25:10Z",
    "clock:open:2026-11-24": "2026-11-24T14:31:36Z",
    "clock:open:2026-11-25": "2026-11-25T14:31:43Z",
    "futures-closed:2026-11-24": "2026-11-24T23:01:46Z",
    "futures-closed:2026-11-26": "2026-11-26T14:32:02Z",
-   "futures-fit:2026-11-23:MET,M6E": "2026-11-24T01:31:35Z",
+   "futures-closed:2026-11-27": "2026-11-27T05:25:10Z",
    "futures-fit:2026-11-24:MCL,MET,M6E": "2026-11-25T02:31:52Z",
    "futures-fit:2026-11-24:MET,M6E": "2026-11-25T01:31:52Z",
    "futures-fit:2026-11-25:MCL,MET,M6E": "2026-11-26T04:28:38Z",
@@ -5801,16 +5801,15 @@
    "meeting:close:2026-11-24": "2026-11-24T20:16:52Z",
    "meeting:open:2026-11-24": "2026-11-24T15:17:04Z",
    "meeting:open:2026-11-25": "2026-11-25T15:16:54Z",
-   "mood:crypto:risk-off:2026-11-24": "2026-11-24T05:01:54Z",
    "mood:crypto:risk-off:2026-11-25": "2026-11-25T05:01:39Z",
    "mood:crypto:risk-off:2026-11-26": "2026-11-26T14:32:02Z",
-   "mood:stocks:risk-off:2026-11-24": "2026-11-24T05:01:54Z",
+   "mood:crypto:risk-off:2026-11-27": "2026-11-27T05:25:10Z",
    "mood:stocks:risk-off:2026-11-25": "2026-11-25T05:01:39Z",
+   "mood:stocks:risk-off:2026-11-27": "2026-11-27T05:25:10Z",
    "nothing:M6E:16": "2026-11-25T01:31:52Z",
    "nothing:M6E:18": "2026-11-25T22:24:54Z",
    "nothing:MCL:16": "2026-11-25T05:01:39Z",
    "nothing:MCL:18": "2026-11-25T11:01:34Z",
-   "nothing:MET:15": "2026-11-24T04:31:50Z",
    "nothing:MET:16": "2026-11-26T04:28:38Z",
    "nothing:MET:18": "2026-11-24T09:31:45Z",
    "nothing:SRLN:18": "2026-11-24T18:16:35Z",
@@ -5848,24 +5847,24 @@
    "scan:tsx:WN.TO,T.TO,MRU.TO": "2026-11-24T16:26:47Z",
    "scan:tsx:WN.TO,T.TO,REI-UN.TO": "2026-11-24T16:56:42Z",
    "scan:tsx:WN.TO,T.TO,SAP.TO": "2026-11-24T15:46:51Z",
-   "sources:2026-11-24": "2026-11-24T05:01:54Z",
    "sources:2026-11-25": "2026-11-25T05:01:39Z",
-   "sources:2026-11-26": "2026-11-26T14:32:02Z"
+   "sources:2026-11-26": "2026-11-26T14:32:02Z",
+   "sources:2026-11-27": "2026-11-27T05:25:10Z"
   }
  },
  "fund": {
   "benchmarkBtcUnits": 0.03103649722666308,
-  "benchmarkCad": 9204.0,
+  "benchmarkCad": 9253.23,
   "benchmarkSet": true,
   "benchmarkSpyUnits": 6.399142948573451,
   "cad": 3000.0,
-  "dayDate": "2026-11-26",
-  "dayStartEquityCad": 9871.32,
+  "dayDate": "2026-11-27",
+  "dayStartEquityCad": 9883.89,
   "earningsCheckedOn": "2026-11-25",
   "earningsKnown": true,
   "entriesThisWeek": 0,
   "entriesToday": 0,
-  "equityCad": 9883.89,
+  "equityCad": 9878.57,
   "focus": {
    "active": [
     "NVDA",
@@ -6140,11 +6139,11 @@
   "halted": false,
   "lastCongressCheck": "2026-11-25",
   "lastEtfScan": "2026-11-21T11:01:42Z",
-  "lastFuturesScan": "2026-11-26T23:22:15Z",
-  "lastRun": "2026-11-26T23:22:15Z",
+  "lastFuturesScan": "2026-11-27T05:25:10Z",
+  "lastRun": "2026-11-27T05:25:10Z",
   "lastRunBy": "github",
-  "lastRunNote": "US stock market closed today. Bitcoin up 0.4% in 24 hours (risk-off). No trades: nothing scored high enough with a clean setup. Holding 0 positions. Value $9,883.89 vs buy-and-hold $9,204.00.",
-  "lastSaved": "2026-11-26T23:22:15Z",
+  "lastRunNote": "The S&P 500 fund was down 0.0% today; market mood risk-off. Bitcoin up 1.2% in 24 hours (risk-off). No trades: nothing scored high enough with a clean setup. Holding 0 positions. Value $9,878.57 vs buy-and-hold $9,253.23.",
+  "lastSaved": "2026-11-27T05:25:10Z",
   "lastStockScan": "2026-11-25T15:36:55Z",
   "lastTradingDay": "2026-11-24",
   "lastUniverseScan": "2026-11-25T13:01:40Z",
@@ -6211,7 +6210,7 @@
   },
   "tradingDays": 7,
   "usd": 4832.15361973509,
-  "usdCad": 1.4246,
+  "usdCad": 1.4235,
   "weekStart": "2026-11-23",
   "weekStartEquityCad": 9923.99
  },
@@ -6933,6 +6932,16 @@
    "screened": 6223,
    "summary": "",
    "universe": 6224
+  },
+  {
+   "cryptoRegime": "risk-off",
+   "dataCalls": 17,
+   "date": "2026-11-27",
+   "liquid": 2204,
+   "regime": "risk-off",
+   "screened": 6223,
+   "summary": "",
+   "universe": 6224
   }
  ],
  "lessons": [],
@@ -6954,10 +6963,13 @@
    "exits": [],
    "signals": []
   },
-  "updated": "2026-11-26T23:22:15Z"
+  "updated": "2026-11-27T05:25:10Z"
  },
  "log": [
-  "Run 2026-11-26 WATCH (New York 18:22), stock market closed today",
+  "Run 2026-11-27 WATCH (New York 00:25), stock market open day",
+  "Borrow list unavailable: TimeoutError: timed out",
+  "Borrow data for SPY unavailable (Remote end closed connection without response)",
+  "Data sources: Cboe options 0 rows, borrow list 0 names, CPI dates 13, jobs dates 13, SEC contact set",
   "Futures market closed now: no futures trades"
  ],
  "nav": [
@@ -7038,6 +7050,12 @@
    "cashCad": 9883.89,
    "date": "2026-11-26",
    "equityCad": 9883.89
+  },
+  {
+   "benchmarkCad": 9253.23,
+   "cashCad": 9878.57,
+   "date": "2026-11-27",
+   "equityCad": 9878.57
   }
  ],
  "pack": {
@@ -7045,14 +7063,14 @@
   "alertState": {},
   "clock": {
    "calendar_known": true,
-   "checkedAt": "2026-11-26T23:22:15Z",
-   "closes": null,
-   "date": "2026-11-26",
-   "early_close": null,
+   "checkedAt": "2026-11-27T05:25:10Z",
+   "closes": "13:00",
+   "date": "2026-11-27",
+   "early_close": "day after Thanksgiving",
    "next_open": "2026-11-27 09:30",
    "open": false,
-   "opens": null,
-   "reason": "NYSE holiday: Thanksgiving Day"
+   "opens": "09:30",
+   "reason": "before the open"
   }
  },
  "positions": {},
@@ -7131,7 +7149,7 @@
   "borrowNames": 0,
   "cboeOptions": 0,
   "cpiDates": 13,
-  "date": "2026-11-26",
+  "date": "2026-11-27",
   "jobsDates": 13,
   "secContact": true
  },
