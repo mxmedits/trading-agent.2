@@ -2,8 +2,12 @@ name: agent
 
 # Runs the trading agent on GitHub's free computers.
 # Each run queues the next one: every 5 minutes while US markets can be open, every 30 minutes otherwise.
-# GitHub's own schedule below is a second way to start it. Times are UTC.
+# GitHub's own schedule below is a second way to start it, and it restarts the chain if it ever breaks.
+# Only one "next" wait is kept at a time, so there is never more than one chain. Times are UTC.
 on:
+  push:
+    branches: [main]
+    paths: [".github/workflows/agent.yml"]
   schedule:
     - cron: "2-59/5 13-21 * * 1-5"
     - cron: "17,47 * * * *"
@@ -54,11 +58,15 @@ jobs:
           AGENT_RUNNER: github
 
   next:
-    # Keeps the agent going even if GitHub's schedule is late, and even if the run above failed or was cancelled.
+    # Keeps the agent going even if GitHub's schedule is late, and even if the run above failed.
+    # A newer wait replaces an older one, so scheduled runs restart a broken chain without ever starting a second.
     needs: run
-    if: always() && github.event_name == 'workflow_dispatch' && github.event.inputs.command == 'run'
+    if: always() && (github.event_name != 'workflow_dispatch' || github.event.inputs.command == 'run')
     runs-on: ubuntu-latest
     timeout-minutes: 40
+    concurrency:
+      group: agent-next
+      cancel-in-progress: true
     steps:
       - name: Wait for the next check time, then queue the next run
         run: |
