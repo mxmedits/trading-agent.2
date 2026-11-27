@@ -702,6 +702,8 @@ def checklist(ind, i, cfg, ctl, used):
         if d < 0 and cfg.get("long_only"):
             continue
         for s in setups(ind, i, d, ctl, used.get(d)):
+            if s["setup"] == "orb" and cfg["hours"] == "24h":
+                continue          # crypto has no opening bell
             out.append({"setup": SETUP_NAMES[s["setup"]], "side": side_word(cfg["inst"], d), "state": s["state"],
                         "pct": s["pct"], "fired": s["fired"]})
     return out
