@@ -32,6 +32,7 @@ from core import *  # noqa: F401,F403  (clock, data sources, judgement, maths, s
 from core import OPTION_ERRORS, LOG, CALLS, RULES, FUTURES, INDEX_FUTURES, CRYPTO_FUTURES, LONG_SETUPS, SHORT_SETUPS, SETUPS
 from live import LiveDesk
 from floor import Floor, fail_words
+import intraday
 
 
 def kind_group(kind):
@@ -203,9 +204,18 @@ class Run:
         p["pnlCad"] = r2(pnl)
         p["pnlPct"] = round(pnl / abs(p["costCad"]) * 100, 2) if p.get("costCad") else 0.0
 
+    def ib_positions(self):
+        """Open positions of the intraday bots (intraday.py). They share this book's cash, value and limits."""
+        return list(((self.s.get("intraday") or {}).get("book") or {}).get("positions", {}).values())
+
+    def ib_value(self, sleeve=None):
+        return sum(intraday.value_cad(p, self.fx) for p in self.ib_positions()
+                   if sleeve is None or (p["inst"] == "crypto") == (sleeve == "cad"))
+
     def recompute(self):
         f = self.f
-        f["equityCad"] = r2(f.get("usd", 0) * self.fx + f.get("cad", 0) + sum(p["valueCad"] for p in self.s["positions"].values()))
+        f["equityCad"] = r2(f.get("usd", 0) * self.fx + f.get("cad", 0) + sum(p["valueCad"] for p in self.s["positions"].values())
+                            + self.ib_value())
         f["benchmarkCad"] = r2(f["benchmarkSpyUnits"] * self.spy * self.fx + f["benchmarkBtcUnits"] * self.btc * self.fx)
 
     def free_usd(self):
@@ -215,13 +225,15 @@ class Run:
                 locked += p["units"] * p["lastPrice"] * (1 + RULES["short_collateral"])
             elif p["kind"] == "future":
                 locked += p.get("marginUsd", 0)
+        locked += sum(intraday.locked_usd(p) for p in self.ib_positions())
         return self.f.get("usd", 0) - locked
 
     def sleeve_value(self, sleeve):
         f = self.f
         if sleeve == "cad":
-            return f.get("cad", 0) + sum(p["valueCad"] for p in self.s["positions"].values() if p["sleeve"] == "cad")
-        return f.get("usd", 0) * self.fx + sum(p["valueCad"] for p in self.s["positions"].values() if p["sleeve"] == "usd")
+            return f.get("cad", 0) + sum(p["valueCad"] for p in self.s["positions"].values() if p["sleeve"] == "cad") + self.ib_value("cad")
+        return f.get("usd", 0) * self.fx + sum(p["valueCad"] for p in self.s["positions"].values() if p["sleeve"] == "usd") \
+            + self.ib_value("usd")
 
     def open_risk(self):
         tot = 0.0
@@ -229,7 +241,7 @@ class Run:
             at_entry = (p["side"] == "long" and p["stopPrice"] >= p["entryPrice"]) or \
                        (p["side"] == "short" and p["stopPrice"] <= p["entryPrice"])
             tot += 0 if at_entry and p["kind"] != "option" else p.get("riskCad", 0)
-        return tot
+        return tot + sum(intraday.open_risk_cad(p) for p in self.ib_positions())
 
     def count(self, group):
         return sum(1 for p in self.s["positions"].values() if kind_group(p["kind"]) == group)
@@ -1462,9 +1474,12 @@ class Run:
         b = self.s.get("backtest") or {}
         if self.replay_now or self.dry:
             return
+        in_hours = self.market_day and 9 * 60 <= self.hm <= 16 * 60 + 30
+        weekly = lambda x: not x.get("ranOn") or (self.ny.weekday() == 5 and (self.today - dt.date.fromisoformat(x["ranOn"])).days >= 6)
+        if force or (not in_hours and weekly((self.s.get("intraday") or {}).get("backtest") or {})):
+            self.intraday_backtest()
         if not force:
-            in_hours = self.market_day and 9 * 60 <= self.hm <= 16 * 60 + 30
-            due = not b.get("ranOn") or (self.ny.weekday() == 5 and (self.today - dt.date.fromisoformat(b["ranOn"])).days >= 6)
+            due = weekly(b)
             if in_hours or not due:
                 return
         import backtest
@@ -1485,6 +1500,30 @@ class Run:
                            "At 1%% risk: %+.2fR, %+.1f%%." % (live["trades"], live["avgR"], live["returnPct"], live["maxDrawdownPct"],
                                                            ", and hit the -15% stop" if live["halted"] else "", one["avgR"], one["returnPct"]),
                            to="pm", kind="meeting")
+
+    @addon(None)
+    def intraday_backtest(self):
+        """The bots over the last month of 1-minute candles (Yahoo keeps 30 days): every Saturday, and once after they're added."""
+        res = intraday.backtest(self.cfg)
+        st = self.s.setdefault("intraday", {})
+        res["ranOn"] = self.today.isoformat()
+        st["backtest"] = res
+        self.scanned = True
+        v = (res.get("variants") or {}).get("reel rules") or {}
+        a = v.get("all") or {}
+        if a.get("n"):
+            best = max(((k, x.get("pnl", 0)) for k, x in v["bots"].items() if x.get("n")), key=lambda kv: kv[1], default=None)
+            self.floor.say("quant", "Bots backtest, last month of 1-minute candles: %d trades, %d%% winners, %s%s, %+.2fR a trade%s." % (
+                a["n"], a["win"], "+" if a["pnl"] >= 0 else "-", money(abs(a["pnl"])), a["avgR"],
+                (". Best market: %s" % intraday.BOTS[best[0]]["name"]) if best else ""), to="pm", kind="meeting")
+        log("Bots backtest: %s trades, %s in %ss" % (a.get("n"), money(a.get("pnl", 0)), res.get("seconds")))
+
+    @addon(None)
+    def intraday_bots(self):
+        """The reel's 1-minute EMA/VWAP bots, one per market (intraday.py). Paper only, like everything here."""
+        if self.replay_now:
+            return
+        intraday.Desk(self).go()
 
     @addon(None)
     def econ_refresh(self):
@@ -1922,6 +1961,7 @@ class Run:
         self.source_check()
         self.gate()
         self.pack_clock()
+        self.intraday_bots()
         if self.type == "OPEN":
             self.floor_meeting("open")
         if self.etf_due:
@@ -1951,7 +1991,7 @@ class Run:
             problems.append("crypto cash is negative")
         if self.free_usd() < -1:
             self.notes.append("USD cash is fully committed (shorts or futures moved against it)")
-        if abs(cash + sum(p["valueCad"] for p in s["positions"].values()) - f["equityCad"]) > 0.05:
+        if abs(cash + sum(p["valueCad"] for p in s["positions"].values()) + self.ib_value() - f["equityCad"]) > 0.05:
             problems.append("value does not add up")
         if f["entriesToday"] > RULES["entries_per_day"] or f["entriesThisWeek"] > RULES["entries_per_week"]:
             problems.append("too many trades")
@@ -2161,6 +2201,9 @@ def cmd_selftest(a):
         print("%-28s OK    no SEC_CONTACT secret yet: reports read from headlines" % "SEC earnings reports")
     check("House Clerk (Congress)", lambda: (lambda s: (s[0] == 200, "HTTP %s" % s[0]))(
         http("https://disclosures-clerk.house.gov/public_disc/financial-pdfs/%dFD.zip" % to_ny(utcnow()).year, method="HEAD")))
+    check("Yahoo 1-minute (QQQ)", lambda: (lambda b: (len(b) > 100, "%d candles" % len(b)))(intraday.minutes("QQQ", "5d")))
+    check("Cboe options (QQQ)", lambda: (lambda q: (bool(q.get("quotes")), "next expiry %s, %d quotes, IV %s" % (
+        q.get("expiry"), len(q.get("quotes") or {}), round(q["iv"], 3) if q.get("iv") else "none")))(intraday.cboe_quotes("QQQ", to_ny(utcnow()).date())))
     check("News model", lambda: (lambda r: (bool(news_model()), "loaded" if news_model() else "word rules"))(None))
     if getattr(a, "state", None) or os.environ.get("AGENT_GITHUB_TOKEN"):
         def gh():

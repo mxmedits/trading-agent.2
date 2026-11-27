@@ -45,6 +45,38 @@ It never places a real order. There is no broker code in this repository.
 - **Shorts:** only when Interactive Brokers' public list shows shares to borrow, at under 20% a year; the real fee is charged.
 - **Options data:** Nasdaq first, Cboe's free delayed quotes when Nasdaq has none; bought at the ask, sold at the bid.
 
+## Intraday bots
+
+Six bots run the 1-minute rules from Nick Fischer's "QQQ bots" reel, one per market:
+
+| bot | trades | how |
+| --- | --- | --- |
+| Options | QQQ, SPY, IWM | calls and puts expiring the next trading day, priced from Cboe's delayed quotes and implied volatility |
+| Stocks | NVDA, TSLA, AAPL, MSFT, AMZN, META, GOOGL, AMD, AVGO, PLTR, NFLX, MU | shares, long or short |
+| ETFs | DIA, SMH, XLK, XLF, XLE, XLV, TLT, EEM | shares, long or short |
+| Futures | micro S&P 500, Nasdaq, Dow, Russell, euro | 8:00 AM to 3:55 PM New York, long or short |
+| Commodities | micro gold, silver, crude oil | same hours as futures |
+| Crypto | BTC, ETH, SOL, XRP, DOGE | around the clock, buys only |
+
+- **Signals**, on each closed 1-minute candle with the 9, 21 and 50 EMAs and VWAP: VWAP cross, EMA50 cross,
+  opening-range break (first 15 minutes, once each way a day) and trend continuation (EMAs stacked, a pullback to the 9 EMA).
+- **Filters**: trend (no buys while the 50 EMA falls, no puts or shorts while it rises), chop (no trades after 4 VWAP
+  crossings in 30 minutes), RSI past 75 / 25, and costs (no trade when buying and selling costs over a quarter of the risk).
+- **Exits**: a stop on every trade (1.5 one-minute ranges), a profit lock (+0.25R once up 1R), a trailing stop (1R behind
+  the best price from +1.5R), a quick target at 2R on crossing trades, 30/90-minute time stops, flat 5 minutes before the close.
+- **Brakes**: 1% of the account at risk a trade ("Medium"); each bot stops for the day at -2% or +3%, or after 15 trades.
+  The account's own limits still apply: the 15% open-risk cap, the -5% day and -10% week pauses, CPI/jobs mornings and Fed afternoons.
+- **Every trade logs** why it bought: the setup, the EMAs, VWAP and the gap to it, RSI, the price in and out, and how long it held.
+- The agent checks in every 5 minutes; each check plays through the candles that closed since the last one, using only what was
+  known at each close. New trades only on candles from the last 35 minutes.
+- **Last month's test** (Nov 27 2026, 20 trading days, the same code): about 1,000 trades, 51% winners, between +$59 and -$401
+  on CAD 10,000 depending on the start hour: break-even at best. Options did best, futures and commodities lost, crypto never traded
+  (Kraken's 0.4% fee each way is bigger than a 1-minute move). Turning the filters off (like the reel's "QQQ OG") made about +$2,000,
+  almost all from options; small rule changes swung results by thousands, so none of this is a proven edge.
+  It reruns every Saturday on the latest 30 days and shows on the page.
+
+Change the controls in `config.json` under `"intraday"`, e.g. `{"controls": {"risk": "low", "style": "trend"}, "bots": {"crypto": {"on": false}}}`.
+
 ## Risk and the backtest
 
 Each trade risks up to 5% of the account (your choice, Nov 18 2026), with at most 15% at risk across all open trades.
@@ -64,7 +96,7 @@ Saturday (and once soon after it was added), and the results show on the page. W
 The backtest can't see past headlines or company numbers, can't replay opening-range day trades or options, and uses
 today's list of companies. Run it by hand from Actions with the command `backtest`.
 
-**Trading floor:** eight desks (Research, News, Analyst, Strategy, Quant, Risk, Trader and the Portfolio manager)
+**Trading floor:** nine desks (Research, News, Analyst, Strategy, Quant, Risk, Trader, the Portfolio manager and the intraday bots)
 report each real step of a run to each other, one line at a time: scans, headlines, scores, replays, risk checks, fills
 and exits. The code writes every line from what it just did; no AI chat, no cost. Tap Replay on the page to watch the
 latest check play out.
@@ -102,7 +134,7 @@ Without it, earnings are judged from Nasdaq's numbers and the earnings headlines
 
 ## Running it by hand, or stopping it
 
-GitHub app or github.com → this repository → **Actions → agent → Run workflow** (`run`, `selftest` or `probe`).
+GitHub app or github.com → this repository → **Actions → agent → Run workflow** (`run`, `selftest`, `probe` or `backtest`).
 To stop it: **Actions → agent → ⋯ → Disable workflow**.
 
 ## Files
@@ -111,7 +143,8 @@ To stop it: **Actions → agent → ⋯ → Disable workflow**.
 | --- | --- |
 | `agent.py` | the trading logic: one run per call |
 | `backtest.py` | the two-year backtest of the agent's own daily rules |
-| `floor.py` | the trading floor: the eight desks and what they say to each other |
+| `intraday.py` | the six intraday bots (the reel's 1-minute rules) and their one-month backtest |
+| `floor.py` | the trading floor: the nine desks and what they say to each other |
 | `core.py` | clock, free data sources, judgement, paper-trading maths, storage, alerts |
 | `config.json` | fallback lists and the names used to match headlines |
 | `docs/state.json` | everything it knows: cash, holdings, trades, history (written by each run) |

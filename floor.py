@@ -15,9 +15,10 @@ DESKS = {
     "risk": "Risk",              # sizing, the 17 rule checks, limits, halts
     "trader": "Trader",          # tickets, fills, stops, exits, big-move alerts
     "pm": "Portfolio manager",   # decides, runs the morning meeting and the closing bell
+    "bots": "Intraday bots",     # the reel's 1-minute EMA/VWAP bots, one per market
 }
 
-KEEP = 300   # messages kept in the records
+KEEP = 400   # messages kept in the records
 
 # The risk check's rule names, said the way a risk manager would say them
 FAILS = {
