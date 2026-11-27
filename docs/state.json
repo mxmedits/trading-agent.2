@@ -3048,8 +3048,8 @@
  },
  "floor": {
   "lastRun": {
-   "at": "2026-11-27T15:31:49Z",
-   "count": 2
+   "at": "2026-11-27T15:36:47Z",
+   "count": 5
   },
   "messages": [
    {
@@ -6282,6 +6282,51 @@
     "t": "2026-11-27T15:31:49Z",
     "to": "pm",
     "x": "ETFs bot: XLE shares (opening-range break) +$0.01, +0.0% in 6m 00s, profit lock."
+   },
+   {
+    "d": "research",
+    "k": "idea",
+    "n": 0,
+    "s": "WSM",
+    "t": "2026-11-27T15:36:47Z",
+    "to": "pm",
+    "x": "Short WSM: fell below its opening range, chart 25/30."
+   },
+   {
+    "d": "news",
+    "k": "vote",
+    "n": 1,
+    "s": "WSM",
+    "t": "2026-11-27T15:36:47Z",
+    "to": "pm",
+    "x": "WSM: no fresh headlines, neutral 13/25."
+   },
+   {
+    "d": "analyst",
+    "k": "vote",
+    "n": 2,
+    "s": "WSM",
+    "t": "2026-11-27T15:36:47Z",
+    "to": "pm",
+    "x": "WSM: filed: operating margin 23%, sales +7%, P/E 24, debt/equity 0.0, target +19%; 1/15."
+   },
+   {
+    "d": "strategy",
+    "k": "vote",
+    "n": 3,
+    "s": "",
+    "t": "2026-11-27T15:36:47Z",
+    "to": "pm",
+    "x": "Stocks are risk off: 15/15 for a short."
+   },
+   {
+    "d": "pm",
+    "k": "decide",
+    "n": 4,
+    "s": "WSM",
+    "t": "2026-11-27T15:36:47Z",
+    "to": "all",
+    "x": "Short WSM scores 64, needs 70. Pass."
    }
   ],
   "said": {
@@ -6314,7 +6359,7 @@
    "idea:USHY:short:20:breakdown": "2026-11-25T15:26:44Z",
    "idea:VOO:short:20:none": "2026-11-25T14:51:43Z",
    "idea:WMB:short:16:none": "2026-11-25T14:51:43Z",
-   "idea:WSM:short:16:breakdown": "2026-11-24T18:26:54Z",
+   "idea:WSM:short:16:breakdown": "2026-11-27T15:36:47Z",
    "macro:futures:short:neutral:2026-11-24T17:01:44.511556": "2026-11-24T17:01:44Z",
    "macro:futures:short:neutral:2026-11-24T20:31:58.135473": "2026-11-24T20:31:58Z",
    "macro:futures:short:neutral:2026-11-25T05:31:42.356264": "2026-11-25T05:31:42Z",
@@ -6339,6 +6384,7 @@
    "macro:stocks:short:risk-off:2026-11-27T14:51:44.431470": "2026-11-27T14:51:44Z",
    "macro:stocks:short:risk-off:2026-11-27T15:01:41.964850": "2026-11-27T15:01:41Z",
    "macro:stocks:short:risk-off:2026-11-27T15:26:47.799875": "2026-11-27T15:26:47Z",
+   "macro:stocks:short:risk-off:2026-11-27T15:36:47.988127": "2026-11-27T15:36:47Z",
    "meeting:close:2026-11-24": "2026-11-24T20:16:52Z",
    "meeting:open:2026-11-25": "2026-11-25T15:16:54Z",
    "meeting:open:2026-11-27": "2026-11-27T15:16:39Z",
@@ -6394,7 +6440,7 @@
  },
  "fund": {
   "benchmarkBtcUnits": 0.03103649722666308,
-  "benchmarkCad": 9235.19,
+  "benchmarkCad": 9261.74,
   "benchmarkSet": true,
   "benchmarkSpyUnits": 6.399142948573451,
   "cad": 3000.0,
@@ -6404,7 +6450,7 @@
   "earningsKnown": true,
   "entriesThisWeek": 0,
   "entriesToday": 0,
-  "equityCad": 9780.18,
+  "equityCad": 9785.51,
   "focus": {
    "active": [
     "NVDA",
@@ -6682,11 +6728,11 @@
   "lastCongressCheck": "2026-11-27",
   "lastEtfScan": "2026-11-21T11:01:42Z",
   "lastFuturesScan": "2026-11-27T15:31:49Z",
-  "lastRun": "2026-11-27T15:31:49Z",
+  "lastRun": "2026-11-27T15:36:47Z",
   "lastRunBy": "github",
-  "lastRunNote": "The S&P 500 fund was up 0.9% today; market mood risk-off. Bitcoin down 1.0% in 24 hours (risk-off). No trades: nothing scored high enough with a clean setup. Holding 0 positions. Value $9,780.18 vs buy-and-hold $9,235.19.",
-  "lastSaved": "2026-11-27T15:31:49Z",
-  "lastStockScan": "2026-11-27T15:26:47Z",
+  "lastRunNote": "The S&P 500 fund was up 1.1% today; market mood risk-off. Bitcoin down 0.6% in 24 hours (risk-off). No trades: SHORT USHY came closest but failed time machine favourable. Holding 0 positions. Value $9,785.51 vs buy-and-hold $9,261.74.",
+  "lastSaved": "2026-11-27T15:36:47Z",
+  "lastStockScan": "2026-11-27T15:36:47Z",
   "lastTradingDay": "2026-11-24",
   "lastUniverseScan": "2026-11-27T13:01:45Z",
   "maxDrawdownPct": 2.2,
@@ -6752,7 +6798,7 @@
   },
   "tradingDays": 7,
   "usd": 381.88147807063865,
-  "usdCad": 1.4252,
+  "usdCad": 1.4251,
   "weekStart": "2026-11-23",
   "weekStartEquityCad": 9923.99
  },
@@ -8657,42 +8703,42 @@
     }
    },
    "last": {
-    "AAPL": 1795793400,
-    "AMD": 1795793400,
-    "AMZN": 1795793400,
-    "AVGO": 1795793400,
-    "BTC": 1795793400,
-    "DIA": 1795793400,
-    "DOGE": 1795793400,
-    "EEM": 1795793400,
-    "ETH": 1795793400,
-    "GOOGL": 1795793400,
-    "IWM": 1795793400,
-    "M2K": 1795792860,
-    "M6E": 1795792860,
-    "MCL": 1795792860,
-    "MES": 1795792860,
-    "META": 1795793400,
-    "MGC": 1795792860,
-    "MNQ": 1795792860,
-    "MSFT": 1795793400,
-    "MU": 1795793400,
-    "MYM": 1795792860,
-    "NFLX": 1795793400,
-    "NVDA": 1795793400,
-    "PLTR": 1795793400,
-    "QQQ": 1795793400,
-    "SIL": 1795792860,
-    "SMH": 1795793400,
-    "SOL": 1795793400,
-    "SPY": 1795793400,
-    "TLT": 1795793400,
-    "TSLA": 1795793400,
-    "XLE": 1795793400,
-    "XLF": 1795793400,
-    "XLK": 1795793400,
-    "XLV": 1795793400,
-    "XRP": 1795793400
+    "AAPL": 1795793700,
+    "AMD": 1795793700,
+    "AMZN": 1795793700,
+    "AVGO": 1795793700,
+    "BTC": 1795793700,
+    "DIA": 1795793700,
+    "DOGE": 1795793700,
+    "EEM": 1795793700,
+    "ETH": 1795793700,
+    "GOOGL": 1795793700,
+    "IWM": 1795793700,
+    "M2K": 1795793160,
+    "M6E": 1795793160,
+    "MCL": 1795793160,
+    "MES": 1795793160,
+    "META": 1795793700,
+    "MGC": 1795793160,
+    "MNQ": 1795793160,
+    "MSFT": 1795793700,
+    "MU": 1795793700,
+    "MYM": 1795793160,
+    "NFLX": 1795793700,
+    "NVDA": 1795793700,
+    "PLTR": 1795793700,
+    "QQQ": 1795793700,
+    "SIL": 1795793160,
+    "SMH": 1795793700,
+    "SOL": 1795793700,
+    "SPY": 1795793700,
+    "TLT": 1795793700,
+    "TSLA": 1795793700,
+    "XLE": 1795793700,
+    "XLF": 1795793700,
+    "XLK": 1795793700,
+    "XLV": 1795793700,
+    "XRP": 1795793700
    },
    "positions": {
     "etfs:EEM": {
@@ -8705,8 +8751,8 @@
      "inPx": 57.716542831420895,
      "inT": 1795792320,
      "inst": "etf",
-     "lastT": 1795793400,
-     "mark": 57.775001525878906,
+     "lastT": 1795793700,
+     "mark": 57.77000045776367,
      "riskCad": 0.44,
      "setup": "vwap",
      "stop": 57.573095361075524,
@@ -8716,7 +8762,7 @@
      "sym": "EEM",
      "target": 57.96881477101302,
      "uIn": 57.70500183105469,
-     "uLast": 57.775001525878906,
+     "uLast": 57.77000045776367,
      "units": 2,
      "why": {
       "atr": 0.0879,
@@ -8731,7 +8777,7 @@
     },
     "etfs:XLK": {
      "R": 0.49758391181942696,
-     "best": 157.8000030517578,
+     "best": 157.9199981689453,
      "bot": "etfs",
      "costCad": 897.15,
      "dir": 1,
@@ -8739,18 +8785,18 @@
      "inPx": 157.3614678314209,
      "inT": 1795792620,
      "inst": "etf",
-     "lastT": 1795793400,
-     "mark": 157.72000122070312,
+     "lastT": 1795793700,
+     "mark": 157.88999938964844,
      "riskCad": 3.2,
      "setup": "trend",
-     "stop": 156.83241791923527,
+     "stop": 157.45439780900955,
      "stop0": 156.83241791923527,
-     "stopBy": "Stop loss",
+     "stopBy": "Profit lock",
      "style": "trend",
      "sym": "XLK",
      "target": null,
      "uIn": 157.3300018310547,
-     "uLast": 157.72000122070312,
+     "uLast": 157.88999938964844,
      "units": 4,
      "why": {
       "atr": 0.3317,
@@ -8773,8 +8819,8 @@
      "inPx": 357.4364632324219,
      "inT": 1795792500,
      "inst": "stock",
-     "lastT": 1795793400,
-     "mark": 358.1300048828125,
+     "lastT": 1795793700,
+     "mark": 358.2449951171875,
      "riskCad": 6.71,
      "setup": "trend",
      "stop": 357.98803615867575,
@@ -8784,7 +8830,7 @@
      "sym": "AAPL",
      "target": null,
      "uIn": 357.364990234375,
-     "uLast": 358.1300048828125,
+     "uLast": 358.2449951171875,
      "units": 6,
      "why": {
       "atr": 0.428,
@@ -8799,7 +8845,7 @@
     },
     "stocks:META": {
      "R": 2.2854576491449645,
-     "best": 632.0,
+     "best": 632.8800048828125,
      "bot": "stocks",
      "costCad": 899.94,
      "dir": 1,
@@ -8807,8 +8853,8 @@
      "inPx": 631.4462713256836,
      "inT": 1795793280,
      "inst": "stock",
-     "lastT": 1795793400,
-     "mark": 631.4600219726562,
+     "lastT": 1795793700,
+     "mark": 632.5150146484375,
      "riskCad": 3.62,
      "setup": "trend",
      "stop": 629.0345496750738,
@@ -8818,7 +8864,7 @@
      "sym": "META",
      "target": null,
      "uIn": 631.3200073242188,
-     "uLast": 631.4600219726562,
+     "uLast": 632.5150146484375,
      "units": 1,
      "why": {
       "atr": 1.5236,
@@ -8833,7 +8879,7 @@
     },
     "stocks:PLTR": {
      "R": 0.6084522792861966,
-     "best": 169.75999450683594,
+     "best": 170.0919952392578,
      "bot": "stocks",
      "costCad": 1209.95,
      "dir": 1,
@@ -8841,8 +8887,8 @@
      "inPx": 169.7939465057373,
      "inT": 1795793460,
      "inst": "stock",
-     "lastT": 1795793400,
-     "mark": 169.75999450683594,
+     "lastT": 1795793700,
+     "mark": 170.0919952392578,
      "riskCad": 4.82,
      "setup": "trend",
      "stop": 169.15154222754975,
@@ -8852,7 +8898,7 @@
      "sym": "PLTR",
      "target": null,
      "uIn": 169.75999450683594,
-     "uLast": 169.75999450683594,
+     "uLast": 170.0919952392578,
      "units": 5,
      "why": {
       "atr": 0.4056,
@@ -9346,8 +9392,8 @@
   },
   "bots": {
    "commodities": {
-    "banner": "Signal forming, but a filter says no",
-    "barT": 1795792860,
+    "banner": null,
+    "barT": 1795793160,
     "chart": {
      "c": [
       3607.9,
@@ -9451,7 +9497,12 @@
       3659.0,
       3656.8,
       3653.7,
-      3651.0
+      3650.9,
+      3653.3,
+      3652.8,
+      3657.6,
+      3655.2,
+      3655.3
      ],
      "dec": 2,
      "m": [
@@ -9556,7 +9607,12 @@
       2109,
       2110,
       2111,
-      2112
+      2112,
+      2113,
+      2114,
+      2115,
+      2116,
+      2117
      ],
      "marks": [],
      "sym": "MGC",
@@ -9663,7 +9719,12 @@
       3661.56,
       3661.53,
       3661.41,
-      3661.41
+      3661.27,
+      3661.11,
+      3661.04,
+      3660.98,
+      3660.93,
+      3660.93
      ],
      "warm": 50
     },
@@ -9684,21 +9745,21 @@
     "longOnly": false,
     "name": "Commodities",
     "open": [],
-    "price": 3651.0,
+    "price": 3655.300049,
     "setups": [
      {
       "fired": false,
-      "pct": 5,
+      "pct": 46,
       "setup": "VWAP cross",
       "side": "BUY",
       "state": "far"
      },
      {
       "fired": false,
-      "pct": 66,
+      "pct": 100,
       "setup": "EMA50 cross",
       "side": "BUY",
-      "state": "close"
+      "state": "on the right side"
      },
      {
       "fired": false,
@@ -9723,17 +9784,17 @@
      },
      {
       "fired": false,
-      "pct": 100,
+      "pct": 94,
       "setup": "EMA50 cross",
       "side": "SHORT",
-      "state": "on the right side"
+      "state": "almost there"
      },
      {
       "fired": false,
-      "pct": 100,
+      "pct": 67,
       "setup": "Opening-range break",
       "side": "SHORT",
-      "state": "trend filter says no"
+      "state": "close"
      },
      {
       "fired": false,
@@ -9743,7 +9804,7 @@
       "state": "not lined up yet"
      }
     ],
-    "status": "Sitting out \u00b7 MCL: costs would eat the trade (27% of the risk)",
+    "status": "Flat \u00b7 watching for the next setup",
     "symbols": [
      "MGC",
      "SIL",
@@ -9753,14 +9814,9 @@
    },
    "crypto": {
     "banner": null,
-    "barT": 1795793400,
+    "barT": 1795793700,
     "chart": {
      "c": [
-      1727.23,
-      1727.89,
-      1729.72,
-      1728.88,
-      1728.92,
       1728.47,
       1728.67,
       1728.02,
@@ -10166,7 +10222,12 @@
       1663.53,
       1661.16,
       1661.6,
-      1663.09
+      1663.09,
+      1662.11,
+      1661.41,
+      1661.51,
+      1663.72,
+      1669.74
      ],
      "dec": 2,
      "m": [
@@ -10584,7 +10645,7 @@
      ],
      "marks": [],
      "sym": "ETH",
-     "t0": 1795768800,
+     "t0": 1795769100,
      "vw": [
       null,
       null,
@@ -10636,11 +10697,6 @@
       null,
       null,
       null,
-      1725.53,
-      1725.53,
-      1725.53,
-      1725.55,
-      1725.55,
       1725.55,
       1725.55,
       1725.59,
@@ -10996,7 +11052,12 @@
       1711.26,
       1711.26,
       1711.26,
-      1711.26
+      1711.26,
+      1710.91,
+      1710.91,
+      1710.88,
+      1710.88,
+      1710.87
      ],
      "warm": 50
     },
@@ -11017,7 +11078,7 @@
     "longOnly": true,
     "name": "Crypto",
     "open": [],
-    "price": 1663.089966,
+    "price": 1669.73999,
     "setups": [
      {
       "fired": false,
@@ -11028,10 +11089,10 @@
      },
      {
       "fired": false,
-      "pct": 83,
+      "pct": 70,
       "setup": "EMA50 cross",
       "side": "BUY",
-      "state": "almost there"
+      "state": "not lined up yet"
      },
      {
       "fired": false,
@@ -11052,8 +11113,8 @@
     "totals": null
    },
    "etfs": {
-    "banner": "Signal forming, but a filter says no",
-    "barT": 1795793400,
+    "banner": null,
+    "barT": 1795793700,
     "chart": {
      "c": [
       56.25,
@@ -11153,8 +11214,8 @@
       57.74,
       57.71,
       57.7,
-      57.75,
-      57.77,
+      57.74,
+      57.78,
       57.73,
       57.67,
       57.65,
@@ -11166,7 +11227,12 @@
       57.75,
       57.71,
       57.74,
-      57.78
+      57.78,
+      57.73,
+      57.72,
+      57.69,
+      57.71,
+      57.77
      ],
      "dec": 2,
      "m": [
@@ -11280,7 +11346,12 @@
       2597,
       2598,
       2599,
-      2600
+      2600,
+      2601,
+      2602,
+      2603,
+      2604,
+      2605
      ],
      "marks": [
       [
@@ -11403,7 +11474,12 @@
       57.65,
       57.65,
       57.65,
-      57.65
+      57.65,
+      57.65,
+      57.65,
+      57.65,
+      57.65,
+      57.66
      ],
      "warm": 50
     },
@@ -11434,7 +11510,7 @@
      "start": 9883.89,
      "w": 2
     },
-    "focus": "SMH",
+    "focus": "DIA",
     "hours": "us",
     "inst": "etf",
     "live": true,
@@ -11444,7 +11520,7 @@
      {
       "describe": "2 EEM shares",
       "inT": 1795792320,
-      "pnlCad": 0.17,
+      "pnlCad": 0.15,
       "setup": "VWAP cross",
       "side": "BUY",
       "stop": 57.573095,
@@ -11457,25 +11533,25 @@
      {
       "describe": "4 XLK shares",
       "inT": 1795792620,
-      "pnlCad": 2.04,
+      "pnlCad": 3.01,
       "setup": "Trend continuation",
       "side": "BUY",
-      "stop": 156.832418,
-      "stopBy": "Stop loss",
+      "stop": 157.454398,
+      "stopBy": "Profit lock",
       "sym": "XLK",
       "target": null,
       "uIn": 157.330002,
       "units": 4
      }
     ],
-    "price": 429.054108,
+    "price": 505.619995,
     "setups": [
      {
-      "fired": false,
+      "fired": true,
       "pct": 100,
       "setup": "VWAP cross",
       "side": "BUY",
-      "state": "on the right side"
+      "state": "lined up"
      },
      {
       "fired": false,
@@ -11493,21 +11569,21 @@
      },
      {
       "fired": false,
-      "pct": 100,
+      "pct": 60,
       "setup": "Trend continuation",
       "side": "BUY",
-      "state": "chop filter says no"
+      "state": "watching for a pullback"
      },
      {
       "fired": false,
-      "pct": 64,
+      "pct": 70,
       "setup": "VWAP cross",
       "side": "SHORT",
       "state": "close"
      },
      {
       "fired": false,
-      "pct": 31,
+      "pct": 4,
       "setup": "EMA50 cross",
       "side": "SHORT",
       "state": "far"
@@ -11547,111 +11623,116 @@
    },
    "futures": {
     "banner": null,
-    "barT": 1795792860,
+    "barT": 1795793160,
     "chart": {
      "c": [
-      7245.5,
-      7244.25,
-      7244.25,
-      7246.0,
-      7246.5,
-      7247.75,
-      7247.25,
-      7248.25,
-      7247.25,
-      7247.75,
-      7247.0,
-      7248.5,
-      7247.75,
-      7248.25,
-      7249.0,
-      7251.0,
-      7252.25,
-      7250.75,
-      7249.75,
-      7247.0,
-      7247.5,
-      7247.25,
-      7248.25,
-      7250.5,
-      7250.0,
-      7250.0,
-      7250.0,
-      7249.0,
-      7248.25,
-      7248.25,
-      7248.5,
-      7252.25,
-      7251.0,
-      7251.75,
-      7251.75,
-      7250.25,
-      7250.5,
-      7252.0,
-      7252.0,
-      7252.25,
-      7251.0,
-      7251.25,
-      7251.5,
-      7250.75,
-      7250.75,
-      7250.25,
-      7248.75,
-      7246.25,
-      7246.0,
-      7247.75,
-      7279.25,
-      7274.5,
-      7273.25,
-      7264.5,
-      7258.0,
-      7250.25,
-      7263.25,
-      7254.0,
-      7247.0,
-      7244.25,
-      7245.75,
-      7241.75,
-      7240.25,
-      7250.75,
-      7253.75,
-      7250.75,
-      7236.25,
-      7241.0,
-      7244.0,
-      7238.0,
-      7247.25,
-      7244.5,
-      7243.5,
-      7238.5,
-      7241.25,
-      7244.75,
-      7238.0,
-      7237.5,
-      7229.75,
-      7228.0,
-      7233.75,
-      7231.5,
-      7229.0,
-      7232.75,
-      7232.0,
-      7226.25,
-      7236.75,
-      7238.75,
-      7245.25,
-      7237.0,
-      7239.25,
-      7247.0,
-      7247.0,
-      7248.75,
-      7248.75,
-      7251.25,
-      7249.5,
-      7256.25,
-      7257.0,
-      7252.75,
-      7251.0,
-      7248.5
+      50414.0,
+      50412.0,
+      50404.0,
+      50401.0,
+      50403.0,
+      50406.0,
+      50392.0,
+      50390.0,
+      50402.0,
+      50405.0,
+      50414.0,
+      50415.0,
+      50416.0,
+      50405.0,
+      50410.0,
+      50410.0,
+      50409.0,
+      50423.0,
+      50433.0,
+      50432.0,
+      50436.0,
+      50432.0,
+      50419.0,
+      50414.0,
+      50413.0,
+      50417.0,
+      50431.0,
+      50426.0,
+      50424.0,
+      50427.0,
+      50421.0,
+      50414.0,
+      50410.0,
+      50413.0,
+      50426.0,
+      50434.0,
+      50427.0,
+      50436.0,
+      50430.0,
+      50432.0,
+      50430.0,
+      50436.0,
+      50434.0,
+      50434.0,
+      50437.0,
+      50432.0,
+      50431.0,
+      50409.0,
+      50418.0,
+      50415.0,
+      50727.0,
+      50705.0,
+      50702.0,
+      50677.0,
+      50650.0,
+      50602.0,
+      50629.0,
+      50611.0,
+      50565.0,
+      50575.0,
+      50572.0,
+      50549.0,
+      50546.0,
+      50586.0,
+      50599.0,
+      50602.0,
+      50543.0,
+      50561.0,
+      50595.0,
+      50543.0,
+      50553.0,
+      50546.0,
+      50528.0,
+      50493.0,
+      50513.0,
+      50528.0,
+      50508.0,
+      50485.0,
+      50443.0,
+      50425.0,
+      50495.0,
+      50493.0,
+      50495.0,
+      50510.0,
+      50505.0,
+      50482.0,
+      50517.0,
+      50524.0,
+      50561.0,
+      50527.0,
+      50534.0,
+      50550.0,
+      50559.0,
+      50570.0,
+      50558.0,
+      50569.0,
+      50564.0,
+      50596.0,
+      50601.0,
+      50574.0,
+      50575.0,
+      50549.0,
+      50586.0,
+      50613.0,
+      50641.0,
+      50603.0,
+      50599.0
      ],
      "dec": 2,
      "m": [
@@ -11661,7 +11742,6 @@
       3,
       4,
       5,
-      6,
       7,
       8,
       9,
@@ -11670,8 +11750,6 @@
       12,
       13,
       14,
-      15,
-      16,
       17,
       18,
       19,
@@ -11699,18 +11777,15 @@
       41,
       42,
       43,
-      44,
       45,
       46,
       47,
       48,
       49,
-      2061,
-      2062,
-      2063,
-      2064,
-      2065,
-      2066,
+      51,
+      53,
+      54,
+      55,
       2067,
       2068,
       2069,
@@ -11756,11 +11831,22 @@
       2109,
       2110,
       2111,
-      2112
+      2112,
+      2113,
+      2114,
+      2115,
+      2116,
+      2117,
+      2118,
+      2119,
+      2120,
+      2121,
+      2122,
+      2123
      ],
      "marks": [],
-     "sym": "MES",
-     "t0": 1795666140,
+     "sym": "MYM",
+     "t0": 1795665780,
      "vw": [
       null,
       null,
@@ -11812,58 +11898,63 @@
       null,
       null,
       null,
-      7280.67,
-      7278.44,
-      7277.46,
-      7275.85,
-      7272.97,
-      7269.1,
-      7267.62,
-      7266.57,
-      7265.14,
-      7263.53,
-      7261.99,
-      7260.78,
-      7259.63,
-      7259.01,
-      7258.57,
-      7258.2,
-      7257.43,
-      7255.98,
-      7255.32,
-      7254.77,
-      7254.4,
-      7254.16,
-      7253.87,
-      7253.63,
-      7253.43,
-      7253.28,
-      7253.05,
-      7252.84,
-      7252.2,
-      7251.73,
-      7251.23,
-      7250.87,
-      7250.6,
-      7250.35,
-      7250.14,
-      7249.74,
-      7249.45,
-      7249.12,
-      7249.03,
-      7248.88,
-      7248.76,
-      7248.69,
-      7248.67,
-      7248.67,
-      7248.68,
-      7248.71,
-      7248.71,
-      7248.78,
-      7248.89,
-      7248.95,
-      7248.98,
-      7248.98
+      50725.67,
+      50718.83,
+      50717.6,
+      50714.28,
+      50707.73,
+      50696.88,
+      50692.05,
+      50688.41,
+      50682.77,
+      50676.71,
+      50672.11,
+      50664.15,
+      50661.54,
+      50658.23,
+      50655.55,
+      50653.45,
+      50650.07,
+      50646.21,
+      50644.88,
+      50642.29,
+      50639.94,
+      50638.49,
+      50636.59,
+      50634.03,
+      50632.62,
+      50630.48,
+      50629.1,
+      50627.63,
+      50619.62,
+      50614.32,
+      50608.82,
+      50606.99,
+      50606.17,
+      50604.99,
+      50604.19,
+      50602.96,
+      50600.47,
+      50598.76,
+      50598.07,
+      50597.18,
+      50596.71,
+      50596.29,
+      50595.79,
+      50595.59,
+      50595.33,
+      50595.09,
+      50594.76,
+      50594.7,
+      50594.79,
+      50594.73,
+      50594.55,
+      50593.77,
+      50593.59,
+      50593.8,
+      50594.14,
+      50594.36,
+      50594.36
      ],
      "warm": 50
     },
@@ -11877,21 +11968,21 @@
      "start": 9883.89,
      "w": 0
     },
-    "focus": "MES",
+    "focus": "MYM",
     "hours": "fut",
     "inst": "future",
     "live": true,
     "longOnly": false,
     "name": "Futures",
     "open": [],
-    "price": 7248.5,
+    "price": 50599.0,
     "setups": [
      {
       "fired": false,
-      "pct": 98,
+      "pct": 100,
       "setup": "VWAP cross",
       "side": "BUY",
-      "state": "almost there"
+      "state": "on the right side"
      },
      {
       "fired": false,
@@ -11909,28 +12000,28 @@
      },
      {
       "fired": false,
-      "pct": 20,
+      "pct": 60,
       "setup": "Trend continuation",
       "side": "BUY",
-      "state": "not lined up yet"
+      "state": "watching for a pullback"
      },
      {
       "fired": false,
-      "pct": 70,
+      "pct": 96,
       "setup": "VWAP cross",
-      "side": "SHORT",
-      "state": "not lined up yet"
-     },
-     {
-      "fired": false,
-      "pct": 86,
-      "setup": "EMA50 cross",
       "side": "SHORT",
       "state": "almost there"
      },
      {
       "fired": false,
-      "pct": 49,
+      "pct": 57,
+      "setup": "EMA50 cross",
+      "side": "SHORT",
+      "state": "close"
+     },
+     {
+      "fired": false,
+      "pct": 39,
       "setup": "Opening-range break",
       "side": "SHORT",
       "state": "far"
@@ -11943,7 +12034,7 @@
       "state": "not lined up yet"
      }
     ],
-    "status": "Sitting out \u00b7 M6E: costs would eat the trade (123% of the risk)",
+    "status": "Sitting out \u00b7 MYM: one contract needs more than the risk budget or margin",
     "symbols": [
      "MES",
      "MNQ",
@@ -11955,7 +12046,7 @@
    },
    "options": {
     "banner": null,
-    "barT": 1795793400,
+    "barT": 1795793700,
     "chart": {
      "c": [
       715.8,
@@ -12055,10 +12146,10 @@
       722.21,
       722.37,
       722.27,
-      722.88,
-      722.93,
+      722.89,
+      722.98,
       722.6,
-      722.41,
+      722.35,
       722.13,
       722.86,
       723.17,
@@ -12068,7 +12159,12 @@
       723.15,
       722.81,
       723.05,
-      723.14
+      723.14,
+      722.8,
+      722.96,
+      722.79,
+      723.28,
+      724.1
      ],
      "dec": 2,
      "m": [
@@ -12182,7 +12278,12 @@
       2597,
       2598,
       2599,
-      2600
+      2600,
+      2601,
+      2602,
+      2603,
+      2604,
+      2605
      ],
      "marks": [
       [
@@ -12297,21 +12398,26 @@
       722.53,
       722.53,
       722.53,
-      722.53,
-      722.53,
-      722.54,
-      722.54,
-      722.54,
-      722.53,
-      722.54,
-      722.54,
-      722.55,
-      722.56,
-      722.56,
-      722.56,
-      722.57,
-      722.57,
-      722.57
+      722.35,
+      722.35,
+      722.35,
+      722.36,
+      722.36,
+      722.36,
+      722.36,
+      722.36,
+      722.37,
+      722.37,
+      722.37,
+      722.38,
+      722.38,
+      722.38,
+      722.39,
+      722.39,
+      722.39,
+      722.39,
+      722.39,
+      722.4
      ],
      "warm": 50
     },
@@ -12337,7 +12443,7 @@
     "longOnly": false,
     "name": "Options",
     "open": [],
-    "price": 642.0,
+    "price": 643.51001,
     "setups": [
      {
       "fired": false,
@@ -12355,28 +12461,28 @@
      },
      {
       "fired": false,
-      "pct": 0,
+      "pct": 19,
       "setup": "Opening-range break",
       "side": "CALL",
       "state": "far"
      },
      {
-      "fired": true,
-      "pct": 100,
+      "fired": false,
+      "pct": 60,
       "setup": "Trend continuation",
       "side": "CALL",
-      "state": "lined up"
+      "state": "watching for a pullback"
      },
      {
       "fired": false,
-      "pct": 47,
+      "pct": 0,
       "setup": "VWAP cross",
       "side": "PUT",
       "state": "far"
      },
      {
       "fired": false,
-      "pct": 25,
+      "pct": 0,
       "setup": "EMA50 cross",
       "side": "PUT",
       "state": "far"
@@ -12411,7 +12517,7 @@
    },
    "stocks": {
     "banner": "Signal forming, but a filter says no",
-    "barT": 1795793400,
+    "barT": 1795793700,
     "chart": {
      "c": [
       354.69,
@@ -12524,7 +12630,12 @@
       358.42,
       358.39,
       358.42,
-      358.13
+      358.13,
+      358.12,
+      358.26,
+      358.14,
+      358.11,
+      358.24
      ],
      "dec": 2,
      "m": [
@@ -12638,7 +12749,12 @@
       2597,
       2598,
       2599,
-      2600
+      2600,
+      2601,
+      2602,
+      2603,
+      2604,
+      2605
      ],
      "marks": [
       [
@@ -12761,7 +12877,12 @@
       357.32,
       357.32,
       357.33,
-      357.34
+      357.34,
+      357.34,
+      357.36,
+      357.36,
+      357.37,
+      357.37
      ],
      "warm": 50
     },
@@ -12822,7 +12943,7 @@
      {
       "describe": "6 AAPL shares",
       "inT": 1795792500,
-      "pnlCad": 5.93,
+      "pnlCad": 6.91,
       "setup": "Trend continuation",
       "side": "BUY",
       "stop": 357.988036,
@@ -12835,7 +12956,7 @@
      {
       "describe": "1 META shares",
       "inT": 1795793280,
-      "pnlCad": 0.02,
+      "pnlCad": 1.52,
       "setup": "Trend continuation",
       "side": "BUY",
       "stop": 629.03455,
@@ -12848,7 +12969,7 @@
      {
       "describe": "5 PLTR shares",
       "inT": 1795793460,
-      "pnlCad": -0.24,
+      "pnlCad": 2.12,
       "setup": "Trend continuation",
       "side": "BUY",
       "stop": 169.151542,
@@ -12859,7 +12980,7 @@
       "units": 5
      }
     ],
-    "price": 147.210007,
+    "price": 147.160004,
     "setups": [
      {
       "fired": false,
@@ -12873,7 +12994,7 @@
       "pct": 100,
       "setup": "EMA50 cross",
       "side": "BUY",
-      "state": "on the right side"
+      "state": "trend filter says no"
      },
      {
       "fired": false,
@@ -12891,14 +13012,14 @@
      },
      {
       "fired": false,
-      "pct": 96,
+      "pct": 97,
       "setup": "VWAP cross",
       "side": "SHORT",
       "state": "almost there"
      },
      {
       "fired": false,
-      "pct": 81,
+      "pct": 82,
       "setup": "EMA50 cross",
       "side": "SHORT",
       "state": "close"
@@ -12941,7 +13062,7 @@
     }
    }
   },
-  "checkedAt": 1795793509,
+  "checkedAt": 1795793807,
   "controls": {
    "auto": true,
    "chop_filter": true,
@@ -12961,7 +13082,7 @@
   "maxTrades": 15,
   "profitBrakePct": 3.0,
   "riskPct": 1.0,
-  "savedAt": 1795793509
+  "savedAt": 1795793807
  },
  "journal": [
   {
@@ -13236,9 +13357,16 @@
    "universe": 6224
   },
   {
-   "blocked": [],
+   "blocked": [
+    {
+     "failed": [
+      "Time machine favourable"
+     ],
+     "symbol": "SHORT USHY"
+    }
+   ],
    "cryptoRegime": "risk-off",
-   "dataCalls": 61,
+   "dataCalls": 92,
    "date": "2026-11-27",
    "liquid": 2217,
    "regime": "risk-off",
@@ -13246,14 +13374,44 @@
    "summary": "Morning: The S&P 500 fund was up 0.7% today; market mood risk-off. Bitcoin down 1.1% in 24 hours (risk-off). No trades: SHORT USHY came closest but failed time machine favourable. Holding 0 positions. Value $9,891.75 vs buy-and-hold $9,215.19.",
    "topCandidates": [
     {
-     "score": 75,
-     "symbol": "SHORT M6E",
-     "verdict": "75/100, no clean setup yet"
+     "score": 72,
+     "symbol": "SHORT USHY",
+     "verdict": "72/100, fell below its opening range"
     },
     {
      "score": 70,
-     "symbol": "SHORT MCL",
-     "verdict": "70/100, below the 75 needed"
+     "symbol": "LONG V",
+     "verdict": "70/100, below the 80 needed"
+    },
+    {
+     "score": 65,
+     "symbol": "SHORT MNST",
+     "verdict": "65/100, below the 70 needed"
+    },
+    {
+     "score": 64,
+     "symbol": "SHORT WSM",
+     "verdict": "64/100, below the 70 needed"
+    },
+    {
+     "score": 59,
+     "symbol": "LONG TTWO",
+     "verdict": "59/100, below the 80 needed"
+    },
+    {
+     "score": 56,
+     "symbol": "LONG XLP",
+     "verdict": "56/100, below the 80 needed"
+    },
+    {
+     "score": 56,
+     "symbol": "LONG TRP.TO",
+     "verdict": "56/100, below the 80 needed"
+    },
+    {
+     "score": 56,
+     "symbol": "LONG QSR.TO",
+     "verdict": "56/100, below the 80 needed"
     }
    ],
    "universe": 6222
@@ -13278,10 +13436,15 @@
    "exits": [],
    "signals": []
   },
-  "updated": "2026-11-27T15:31:49Z"
+  "updated": "2026-11-27T15:36:47Z"
  },
  "log": [
-  "Run 2026-11-27 WATCH (New York 10:31), stock market open day"
+  "Run 2026-11-27 WATCH (New York 10:36), stock market open day",
+  "Stock scan: 89 long and 69 short ideas pre-screened; 6 breakouts, 7 breakdowns",
+  "News model loaded",
+  "Borrow list unavailable: TimeoutError: timed out",
+  "Borrow data for USHY unavailable (Remote end closed connection without response)",
+  "BLOCK SHORT USHY: Time machine favourable"
  ],
  "nav": [
   {
@@ -13363,10 +13526,10 @@
    "equityCad": 9883.89
   },
   {
-   "benchmarkCad": 9235.19,
-   "cashCad": 3544.26,
+   "benchmarkCad": 9261.74,
+   "cashCad": 3544.22,
    "date": "2026-11-27",
-   "equityCad": 9780.18
+   "equityCad": 9785.51
   }
  ],
  "pack": {
@@ -13374,7 +13537,7 @@
   "alertState": {},
   "clock": {
    "calendar_known": true,
-   "checkedAt": "2026-11-27T15:31:49Z",
+   "checkedAt": "2026-11-27T15:36:47Z",
    "closes": "13:00",
    "date": "2026-11-27",
    "early_close": "day after Thanksgiving",
