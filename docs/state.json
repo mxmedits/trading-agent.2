@@ -3065,19 +3065,10 @@
  },
  "floor": {
   "lastRun": {
-   "at": "2026-11-27T18:01:54Z",
-   "count": 5
+   "at": "2026-11-27T18:06:47Z",
+   "count": 1
   },
   "messages": [
-   {
-    "d": "research",
-    "k": "idea",
-    "n": 0,
-    "s": "BKNG",
-    "t": "2026-11-23T19:06:45Z",
-    "to": "pm",
-    "x": "Short BKNG: fell below its opening range, chart 25/30."
-   },
    {
     "d": "news",
     "k": "vote",
@@ -6668,6 +6659,15 @@
     "t": "2026-11-27T18:01:54Z",
     "to": "all",
     "x": "Short M6E scores 75 but no clean setup yet. Waiting."
+   },
+   {
+    "d": "pm",
+    "k": "meeting",
+    "n": 0,
+    "s": "",
+    "t": "2026-11-27T18:06:47Z",
+    "to": "all",
+    "x": "Intraday bots today: Stocks 16 trades 10W/6L +$30.78; ETFs 10 trades 8W/2L +$8.51; Options 4 trades 0W/4L -$346.35 (loss brake); Commodities 2 trades "
    }
   ],
   "said": {
@@ -6768,7 +6768,6 @@
    "scan:tsx:T.TO,REI-UN.TO,H.TO": "2026-11-25T15:01:50Z",
    "scan:tsx:T.TO,REI-UN.TO,L.TO": "2026-11-25T14:51:43Z",
    "scan:tsx:T.TO,REI-UN.TO,PPL.TO": "2026-11-25T15:26:44Z",
-   "scan:tsx:T.TO,SAP.TO,REI-UN.TO": "2026-11-24T18:06:37Z",
    "scan:tsx:TRP.TO,IAG.TO,GIB-A.TO": "2026-11-27T14:51:44Z",
    "scan:tsx:TRP.TO,PPL.TO,IAG.TO": "2026-11-27T15:01:41Z",
    "scan:tsx:TRP.TO,PPL.TO,L.TO": "2026-11-27T15:11:40Z",
@@ -6781,7 +6780,7 @@
  },
  "fund": {
   "benchmarkBtcUnits": 0.03103649722666308,
-  "benchmarkCad": 9286.81,
+  "benchmarkCad": 9287.23,
   "benchmarkSet": true,
   "benchmarkSpyUnits": 6.399142948573451,
   "cad": 3000.0,
@@ -6791,7 +6790,7 @@
   "earningsKnown": true,
   "entriesThisWeek": 0,
   "entriesToday": 0,
-  "equityCad": 9566.28,
+  "equityCad": 9566.75,
   "focus": {
    "active": [
     "NVDA",
@@ -7069,10 +7068,10 @@
   "lastCongressCheck": "2026-11-27",
   "lastEtfScan": "2026-11-21T11:01:42Z",
   "lastFuturesScan": "2026-11-27T18:01:54Z",
-  "lastRun": "2026-11-27T18:01:54Z",
+  "lastRun": "2026-11-27T18:06:47Z",
   "lastRunBy": "github",
-  "lastRunNote": "The S&P 500 fund was up 1.7% today; market mood risk-off. Bitcoin down 1.1% in 24 hours (risk-off). No trades: nothing scored high enough with a clean setup. Holding 0 positions. Value $9,566.28 vs buy-and-hold $9,286.81.",
-  "lastSaved": "2026-11-27T18:01:54Z",
+  "lastRunNote": "The S&P 500 fund was up 1.7% today; market mood risk-off. Bitcoin down 1.1% in 24 hours (risk-off). No new trades this run (the pack's NYSE clock says the market is closed (after the close)). Holding 0 positions. Value $9,566.75 vs buy-and-",
+  "lastSaved": "2026-11-27T18:06:47Z",
   "lastStockScan": "2026-11-27T17:56:42Z",
   "lastTradingDay": "2026-11-24",
   "lastUniverseScan": "2026-11-27T13:01:45Z",
@@ -7139,7 +7138,7 @@
   },
   "tradingDays": 7,
   "usd": 4609.536402712771,
-  "usdCad": 1.4245,
+  "usdCad": 1.4246,
   "weekStart": "2026-11-23",
   "weekStartEquityCad": 9923.99
  },
@@ -9135,11 +9134,11 @@
     "AMD": 1795802400,
     "AMZN": 1795802400,
     "AVGO": 1795802400,
-    "BTC": 1795802400,
-    "DIA": 1795802340,
-    "DOGE": 1795802400,
+    "BTC": 1795802700,
+    "DIA": 1795802400,
+    "DOGE": 1795802700,
     "EEM": 1795802400,
-    "ETH": 1795802400,
+    "ETH": 1795802700,
     "GOOGL": 1795802400,
     "IWM": 1795802400,
     "M2K": 1795802400,
@@ -9158,15 +9157,15 @@
     "QQQ": 1795802400,
     "SIL": 1795802400,
     "SMH": 1795802400,
-    "SOL": 1795802400,
+    "SOL": 1795802700,
     "SPY": 1795802400,
     "TLT": 1795802400,
     "TSLA": 1795802400,
-    "XLE": 1795802340,
+    "XLE": 1795802400,
     "XLF": 1795802340,
     "XLK": 1795802340,
     "XLV": 1795802280,
-    "XRP": 1795802400
+    "XRP": 1795802700
    },
    "positions": {},
    "totals": {
@@ -11052,7 +11051,7 @@
       83.4,
       83.4,
       83.4,
-      83.4,
+      83.39,
       83.39,
       83.39,
       83.39,
@@ -11163,14 +11162,9 @@
    },
    "crypto": {
     "banner": null,
-    "barT": 1795802400,
+    "barT": 1795802700,
     "chart": {
      "c": [
-      0.05849,
-      0.05854,
-      0.05855,
-      0.05855,
-      0.05859,
       0.05867,
       0.0587,
       0.05863,
@@ -11576,7 +11570,12 @@
       0.05761,
       0.05765,
       0.05785,
-      0.05767
+      0.05767,
+      0.05776,
+      0.0577,
+      0.05764,
+      0.05762,
+      0.05768
      ],
      "dec": 6,
      "m": [
@@ -11994,7 +11993,7 @@
      ],
      "marks": [],
      "sym": "DOGE",
-     "t0": 1795777800,
+     "t0": 1795778100,
      "vw": [
       null,
       null,
@@ -12046,11 +12045,6 @@
       null,
       null,
       null,
-      0.058045,
-      0.058045,
-      0.058045,
-      0.058045,
-      0.058045,
       0.058045,
       0.058045,
       0.058045,
@@ -12406,7 +12400,12 @@
       0.057748,
       0.057748,
       0.057748,
-      0.057748
+      0.057748,
+      0.057748,
+      0.057748,
+      0.057748,
+      0.057748,
+      0.057747
      ],
      "warm": 50
     },
@@ -12427,11 +12426,11 @@
     "longOnly": true,
     "name": "Crypto",
     "open": [],
-    "price": 0.05767,
+    "price": 0.05768,
     "setups": [
      {
       "fired": false,
-      "pct": 71,
+      "pct": 73,
       "setup": "VWAP cross",
       "side": "BUY",
       "state": "close"
@@ -12451,7 +12450,7 @@
       "state": "not lined up yet"
      }
     ],
-    "status": "Sitting out \u00b7 DOGE: costs would eat the trade (381% of the risk)",
+    "status": "Sitting out \u00b7 DOGE: costs would eat the trade (333% of the risk)",
     "symbols": [
      "BTC",
      "ETH",
@@ -13348,28 +13347,28 @@
      "start": 9883.89,
      "w": 8
     },
-    "focus": "DIA",
+    "focus": "XLF",
     "hours": "us",
     "inst": "etf",
     "live": true,
     "longOnly": false,
     "name": "ETFs",
     "open": [],
-    "price": 507.679993,
+    "price": 57.189999,
     "setups": [
      {
       "fired": false,
-      "pct": 100,
+      "pct": 70,
       "setup": "VWAP cross",
       "side": "BUY",
-      "state": "on the right side"
+      "state": "not lined up yet"
      },
      {
       "fired": false,
-      "pct": 100,
+      "pct": 70,
       "setup": "EMA50 cross",
       "side": "BUY",
-      "state": "trend filter says no"
+      "state": "not lined up yet"
      },
      {
       "fired": false,
@@ -13387,17 +13386,17 @@
      },
      {
       "fired": false,
-      "pct": 0,
+      "pct": 54,
       "setup": "VWAP cross",
       "side": "SHORT",
-      "state": "far"
+      "state": "close"
      },
      {
       "fired": false,
-      "pct": 4,
+      "pct": 88,
       "setup": "EMA50 cross",
       "side": "SHORT",
-      "state": "far"
+      "state": "almost there"
      },
      {
       "fired": false,
@@ -16247,7 +16246,7 @@
     }
    }
   },
-  "checkedAt": 1795802514,
+  "checkedAt": 1795802807,
   "controls": {
    "auto": true,
    "chop_filter": true,
@@ -16267,7 +16266,14 @@
   "maxTrades": 15,
   "profitBrakePct": 3.0,
   "riskPct": 1.0,
-  "savedAt": 1795802514
+  "savedAt": 1795802514,
+  "summary": {
+   "day": "2026-11-27",
+   "n": 32,
+   "text": "Intraday bots today: Stocks 16 trades 10W/6L +$30.78; ETFs 10 trades 8W/2L +$8.51; Options 4 trades 0W/4L -$346.35 (loss brake); Commodities 2 trades 1W/1L -$10.16. Total -$317.22.",
+   "total": -317.22
+  },
+  "summaryDay": "2026-11-27"
  },
  "journal": [
   {
@@ -16544,7 +16550,7 @@
   {
    "blocked": [],
    "cryptoRegime": "risk-off",
-   "dataCalls": 61,
+   "dataCalls": 57,
    "date": "2026-11-27",
    "liquid": 2217,
    "regime": "risk-off",
@@ -16584,10 +16590,12 @@
    "exits": [],
    "signals": []
   },
-  "updated": "2026-11-27T18:01:54Z"
+  "updated": "2026-11-27T18:06:47Z"
  },
  "log": [
-  "Run 2026-11-27 WATCH (New York 13:01), stock market open day"
+  "Run 2026-11-27 WATCH (New York 13:06), stock market open day",
+  "No stock trades: the pack's NYSE clock says the market is closed (after the close)",
+  "No new trades this run: the pack's NYSE clock says the market is closed (after the close)"
  ],
  "nav": [
   {
@@ -16669,10 +16677,10 @@
    "equityCad": 9883.89
   },
   {
-   "benchmarkCad": 9286.81,
-   "cashCad": 9566.28,
+   "benchmarkCad": 9287.23,
+   "cashCad": 9566.75,
    "date": "2026-11-27",
-   "equityCad": 9566.28
+   "equityCad": 9566.75
   }
  ],
  "pack": {
@@ -16680,7 +16688,7 @@
   "alertState": {},
   "clock": {
    "calendar_known": true,
-   "checkedAt": "2026-11-27T18:01:54Z",
+   "checkedAt": "2026-11-27T18:06:47Z",
    "closes": "13:00",
    "date": "2026-11-27",
    "early_close": "day after Thanksgiving",
