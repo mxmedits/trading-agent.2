@@ -3048,8 +3048,8 @@
  },
  "floor": {
   "lastRun": {
-   "at": "2026-11-27T15:36:47Z",
-   "count": 5
+   "at": "2026-11-27T15:46:34Z",
+   "count": 2
   },
   "messages": [
    {
@@ -6327,6 +6327,24 @@
     "t": "2026-11-27T15:36:47Z",
     "to": "all",
     "x": "Short WSM scores 64, needs 70. Pass."
+   },
+   {
+    "d": "bots",
+    "k": "fill",
+    "n": 0,
+    "s": "EEM",
+    "t": "2026-11-27T15:46:34Z",
+    "to": "pm",
+    "x": "ETFs bot: EEM shares (vwap cross) +$0.32, +0.2% in 31m 00s, time stop."
+   },
+   {
+    "d": "research",
+    "k": "info",
+    "n": 1,
+    "s": "",
+    "t": "2026-11-27T15:46:34Z",
+    "to": "pm",
+    "x": "Stock scan: 89 long and 69 short charts checked, 5 breakouts, 7 breakdowns. Strongest: XLP, XEL, WELL, WSM."
    }
   ],
   "said": {
@@ -6405,6 +6423,7 @@
    "nothing:VOO:20": "2026-11-25T14:51:43Z",
    "scan:stocks:XLP,XEL,WELL,WSM:3:3": "2026-11-27T14:51:44Z",
    "scan:stocks:XLP,XEL,WELL,WSM:4:4": "2026-11-27T15:01:41Z",
+   "scan:stocks:XLP,XEL,WELL,WSM:5:7": "2026-11-27T15:46:34Z",
    "scan:stocks:XLP,XEL,WELL,WSM:6:4": "2026-11-27T15:11:40Z",
    "scan:stocks:XLP,XEL,WELL,WSM:6:7": "2026-11-27T15:26:47Z",
    "scan:stocks:YUM,XLP,XEL,WSM:10:2": "2026-11-24T18:56:43Z",
@@ -6440,7 +6459,7 @@
  },
  "fund": {
   "benchmarkBtcUnits": 0.03103649722666308,
-  "benchmarkCad": 9263.8,
+  "benchmarkCad": 9278.08,
   "benchmarkSet": true,
   "benchmarkSpyUnits": 6.399142948573451,
   "cad": 3000.0,
@@ -6450,7 +6469,7 @@
   "earningsKnown": true,
   "entriesThisWeek": 0,
   "entriesToday": 0,
-  "equityCad": 9800.02,
+  "equityCad": 9812.15,
   "focus": {
    "active": [
     "NVDA",
@@ -6728,11 +6747,11 @@
   "lastCongressCheck": "2026-11-27",
   "lastEtfScan": "2026-11-21T11:01:42Z",
   "lastFuturesScan": "2026-11-27T15:31:49Z",
-  "lastRun": "2026-11-27T15:41:43Z",
+  "lastRun": "2026-11-27T15:46:34Z",
   "lastRunBy": "github",
-  "lastRunNote": "The S&P 500 fund was up 1.2% today; market mood risk-off. Bitcoin down 0.7% in 24 hours (risk-off). No new trades this run (nothing due). Holding 0 positions. Value $9,800.02 vs buy-and-hold $9,263.80.",
-  "lastSaved": "2026-11-27T15:41:43Z",
-  "lastStockScan": "2026-11-27T15:36:47Z",
+  "lastRunNote": "The S&P 500 fund was up 1.3% today; market mood risk-off. Bitcoin down 0.8% in 24 hours (risk-off). No trades: SHORT USHY came closest but failed time machine favourable. Holding 0 positions. Value $9,812.15 vs buy-and-hold $9,278.08.",
+  "lastSaved": "2026-11-27T15:46:34Z",
+  "lastStockScan": "2026-11-27T15:46:34Z",
   "lastTradingDay": "2026-11-24",
   "lastUniverseScan": "2026-11-27T13:01:45Z",
   "maxDrawdownPct": 2.2,
@@ -6797,8 +6816,8 @@
    "wins": 0
   },
   "tradingDays": 7,
-  "usd": 381.88147807063865,
-  "usdCad": 1.4249,
+  "usd": 497.5383423757534,
+  "usdCad": 1.4252,
   "weekStart": "2026-11-23",
   "weekStartEquityCad": 9923.99
  },
@@ -7085,6 +7104,17 @@
    "sector": "Consumer Discretionary",
    "target1y": 38.0,
    "ttmEps": 1.86
+  },
+  "TSLA": {
+   "debtToEquity": 0.11,
+   "epsGrowthPct": -43.6,
+   "fetchedOn": "2026-11-27",
+   "freeCashFlow": 10995000.0,
+   "lastEps": 0.22,
+   "revGrowthPct": -17.0,
+   "sector": "Industrials",
+   "target1y": 430.0,
+   "ttmEps": 0.91
   },
   "TTWO": {
    "debtToEquity": 0.69,
@@ -8572,6 +8602,7 @@
    "cool": {
     "AMD": 1795792740,
     "AVGO": 1795793340,
+    "EEM": 1795794180,
     "META": 1795792800,
     "MSFT": 1795792440,
     "NVDA": 1795792020,
@@ -8606,8 +8637,8 @@
      "brake": null,
      "day": "2026-11-27",
      "l": 2,
-     "n": 4,
-     "pnl": -11.75,
+     "n": 5,
+     "pnl": -11.43,
      "spark": [
       [
        1795790940,
@@ -8624,10 +8655,14 @@
       [
        1795793340,
        -11.75
+      ],
+      [
+       1795794180,
+       -11.43
       ]
      ],
      "start": 9883.89,
-     "w": 2
+     "w": 3
     },
     "futures": {
      "brake": null,
@@ -8703,81 +8738,47 @@
     }
    },
    "last": {
-    "AAPL": 1795794000,
-    "AMD": 1795794000,
-    "AMZN": 1795794000,
-    "AVGO": 1795794000,
-    "BTC": 1795794000,
-    "DIA": 1795794000,
-    "DOGE": 1795794000,
-    "EEM": 1795794000,
-    "ETH": 1795794000,
-    "GOOGL": 1795794000,
-    "IWM": 1795794000,
-    "M2K": 1795793460,
-    "M6E": 1795793460,
-    "MCL": 1795793460,
-    "MES": 1795793460,
-    "META": 1795794000,
-    "MGC": 1795793460,
-    "MNQ": 1795793460,
-    "MSFT": 1795794000,
-    "MU": 1795794000,
-    "MYM": 1795793460,
-    "NFLX": 1795794000,
-    "NVDA": 1795794000,
-    "PLTR": 1795794000,
-    "QQQ": 1795794000,
-    "SIL": 1795793460,
-    "SMH": 1795794000,
-    "SOL": 1795794000,
-    "SPY": 1795794000,
-    "TLT": 1795794000,
-    "TSLA": 1795794000,
-    "XLE": 1795794000,
-    "XLF": 1795794000,
-    "XLK": 1795794000,
-    "XLV": 1795794000,
-    "XRP": 1795794000
+    "AAPL": 1795794300,
+    "AMD": 1795794300,
+    "AMZN": 1795794300,
+    "AVGO": 1795794300,
+    "BTC": 1795794300,
+    "DIA": 1795794300,
+    "DOGE": 1795794300,
+    "EEM": 1795794300,
+    "ETH": 1795794300,
+    "GOOGL": 1795794300,
+    "IWM": 1795794300,
+    "M2K": 1795793760,
+    "M6E": 1795793760,
+    "MCL": 1795793760,
+    "MES": 1795793760,
+    "META": 1795794300,
+    "MGC": 1795793760,
+    "MNQ": 1795793760,
+    "MSFT": 1795794300,
+    "MU": 1795794300,
+    "MYM": 1795793760,
+    "NFLX": 1795794300,
+    "NVDA": 1795794300,
+    "PLTR": 1795794300,
+    "QQQ": 1795794300,
+    "SIL": 1795793760,
+    "SMH": 1795794300,
+    "SOL": 1795794300,
+    "SPY": 1795794300,
+    "TLT": 1795794300,
+    "TSLA": 1795794300,
+    "XLE": 1795794300,
+    "XLF": 1795794300,
+    "XLK": 1795794300,
+    "XLV": 1795794300,
+    "XRP": 1795794300
    },
    "positions": {
-    "etfs:EEM": {
-     "R": 0.13190646997916694,
-     "best": 57.904998779296875,
-     "bot": "etfs",
-     "costCad": 164.49,
-     "dir": 1,
-     "id": "etfs:EEM:1795792260",
-     "inPx": 57.716542831420895,
-     "inT": 1795792320,
-     "inst": "etf",
-     "lastT": 1795794000,
-     "mark": 57.880001068115234,
-     "riskCad": 0.44,
-     "setup": "vwap",
-     "stop": 57.77309230931771,
-     "stop0": 57.573095361075524,
-     "stopBy": "Trailing stop",
-     "style": "scalp",
-     "sym": "EEM",
-     "target": 57.96881477101302,
-     "uIn": 57.70500183105469,
-     "uLast": 57.880001068115234,
-     "units": 2,
-     "why": {
-      "atr": 0.0879,
-      "e21": 57.5552,
-      "e50": 57.3357,
-      "e9": 57.5962,
-      "gap": 0.073,
-      "rsi": 62,
-      "stack": "Stacked up (9 > 21 > 50)",
-      "vwap": 57.632
-     }
-    },
     "etfs:XLK": {
      "R": 0.49758391181942696,
-     "best": 158.6199951171875,
+     "best": 158.77999877929688,
      "bot": "etfs",
      "costCad": 897.15,
      "dir": 1,
@@ -8785,18 +8786,18 @@
      "inPx": 157.3614678314209,
      "inT": 1795792620,
      "inst": "etf",
-     "lastT": 1795794000,
-     "mark": 158.52000427246094,
+     "lastT": 1795794300,
+     "mark": 158.77999877929688,
      "riskCad": 3.2,
      "setup": "trend",
-     "stop": 158.12241120536808,
+     "stop": 158.28241486747746,
      "stop0": 156.83241791923527,
      "stopBy": "Trailing stop",
      "style": "trend",
      "sym": "XLK",
      "target": null,
      "uIn": 157.3300018310547,
-     "uLast": 158.52000427246094,
+     "uLast": 158.77999877929688,
      "units": 4,
      "why": {
       "atr": 0.3317,
@@ -8811,7 +8812,7 @@
     },
     "stocks:AAPL": {
      "R": 0.6419687241367438,
-     "best": 358.9800109863281,
+     "best": 359.4100036621094,
      "bot": "stocks",
      "costCad": 3056.08,
      "dir": 1,
@@ -8819,18 +8820,18 @@
      "inPx": 357.4364632324219,
      "inT": 1795792500,
      "inst": "stock",
-     "lastT": 1795794000,
-     "mark": 358.9800109863281,
+     "lastT": 1795794300,
+     "mark": 359.1925048828125,
      "riskCad": 6.71,
      "setup": "trend",
-     "stop": 358.3380422621914,
+     "stop": 358.76803493797263,
      "stop0": 356.72302151023825,
      "stopBy": "Trailing stop",
      "style": "trend",
      "sym": "AAPL",
      "target": null,
      "uIn": 357.364990234375,
-     "uLast": 358.9800109863281,
+     "uLast": 359.1925048828125,
      "units": 6,
      "why": {
       "atr": 0.428,
@@ -8845,7 +8846,7 @@
     },
     "stocks:META": {
      "R": 2.2854576491449645,
-     "best": 633.5,
+     "best": 635.6799926757812,
      "bot": "stocks",
      "costCad": 899.94,
      "dir": 1,
@@ -8853,18 +8854,18 @@
      "inPx": 631.4462713256836,
      "inT": 1795793280,
      "inst": "stock",
-     "lastT": 1795794000,
-     "mark": 632.8300170898438,
+     "lastT": 1795794300,
+     "mark": 635.6199951171875,
      "riskCad": 3.62,
      "setup": "trend",
-     "stop": 629.0345496750738,
+     "stop": 633.3945350266363,
      "stop0": 629.0345496750738,
-     "stopBy": "Stop loss",
+     "stopBy": "Trailing stop",
      "style": "trend",
      "sym": "META",
      "target": null,
      "uIn": 631.3200073242188,
-     "uLast": 632.8300170898438,
+     "uLast": 635.6199951171875,
      "units": 1,
      "why": {
       "atr": 1.5236,
@@ -8879,7 +8880,7 @@
     },
     "stocks:PLTR": {
      "R": 0.6084522792861966,
-     "best": 171.0,
+     "best": 171.2949981689453,
      "bot": "stocks",
      "costCad": 1209.95,
      "dir": 1,
@@ -8887,18 +8888,18 @@
      "inPx": 169.7939465057373,
      "inT": 1795793460,
      "inst": "stock",
-     "lastT": 1795794000,
-     "mark": 170.77000427246094,
+     "lastT": 1795794300,
+     "mark": 171.27000427246094,
      "riskCad": 4.82,
      "setup": "trend",
-     "stop": 170.39154772071382,
+     "stop": 170.68654588965913,
      "stop0": 169.15154222754975,
      "stopBy": "Trailing stop",
      "style": "trend",
      "sym": "PLTR",
      "target": null,
      "uIn": 169.75999450683594,
-     "uLast": 170.77000427246094,
+     "uLast": 171.27000427246094,
      "units": 5,
      "why": {
       "atr": 0.4056,
@@ -8914,10 +8915,10 @@
    },
    "totals": {
     "etfs": {
-     "n": 4,
-     "pnl": -11.75,
+     "n": 5,
+     "pnl": -11.43,
      "since": "2026-11-27",
-     "w": 2
+     "w": 3
     },
     "options": {
      "n": 1,
@@ -9383,6 +9384,38 @@
       "stack": "Stacked up (9 > 21 > 50)",
       "vwap": 61.8309
      }
+    },
+    {
+     "bot": "etfs",
+     "exit": "Time stop",
+     "held": 1860,
+     "id": "etfs:EEM:1795792260",
+     "inPx": 57.716543,
+     "inT": 1795792320,
+     "inst": "etf",
+     "outPx": 57.828432,
+     "outT": 1795794180,
+     "pct": 0.19,
+     "pnlCad": 0.32,
+     "r": 0.72,
+     "riskCad": 0.44,
+     "setup": "vwap",
+     "side": "BUY",
+     "style": "scalp",
+     "sym": "EEM",
+     "uIn": 57.705002,
+     "uOut": 57.84,
+     "units": 2,
+     "why": {
+      "atr": 0.0879,
+      "e21": 57.5552,
+      "e50": 57.3357,
+      "e9": 57.5962,
+      "gap": 0.073,
+      "rsi": 62,
+      "stack": "Stacked up (9 > 21 > 50)",
+      "vwap": 57.632
+     }
     }
    ],
    "used": {
@@ -9393,7 +9426,7 @@
   "bots": {
    "commodities": {
     "banner": null,
-    "barT": 1795793460,
+    "barT": 1795793760,
     "chart": {
      "c": [
       84.36,
@@ -9507,7 +9540,12 @@
       83.88,
       84.01,
       83.99,
-      83.91
+      83.91,
+      83.94,
+      83.97,
+      84.05,
+      84.06,
+      83.98
      ],
      "dec": 2,
      "m": [
@@ -9622,7 +9660,12 @@
       2120,
       2121,
       2122,
-      2123
+      2123,
+      2124,
+      2125,
+      2126,
+      2127,
+      2128
      ],
      "marks": [],
      "sym": "MCL",
@@ -9739,7 +9782,12 @@
       83.91,
       83.91,
       83.91,
-      83.91
+      83.91,
+      83.91,
+      83.92,
+      83.92,
+      83.92,
+      83.92
      ],
      "warm": 50
     },
@@ -9760,14 +9808,14 @@
     "longOnly": false,
     "name": "Commodities",
     "open": [],
-    "price": 83.910004,
+    "price": 83.980003,
     "setups": [
      {
       "fired": false,
-      "pct": 98,
+      "pct": 100,
       "setup": "VWAP cross",
       "side": "BUY",
-      "state": "almost there"
+      "state": "on the right side"
      },
      {
       "fired": false,
@@ -9778,7 +9826,7 @@
      },
      {
       "fired": false,
-      "pct": 15,
+      "pct": 36,
       "setup": "Opening-range break",
       "side": "BUY",
       "state": "far"
@@ -9792,24 +9840,24 @@
      },
      {
       "fired": false,
-      "pct": 70,
+      "pct": 80,
       "setup": "VWAP cross",
       "side": "SHORT",
-      "state": "not lined up yet"
+      "state": "close"
      },
      {
       "fired": false,
-      "pct": 96,
+      "pct": 79,
       "setup": "EMA50 cross",
       "side": "SHORT",
-      "state": "almost there"
+      "state": "close"
      },
      {
-      "fired": true,
-      "pct": 100,
+      "fired": false,
+      "pct": 87,
       "setup": "Opening-range break",
       "side": "SHORT",
-      "state": "lined up"
+      "state": "almost there"
      },
      {
       "fired": false,
@@ -9829,14 +9877,9 @@
    },
    "crypto": {
     "banner": null,
-    "barT": 1795794000,
+    "barT": 1795794300,
     "chart": {
      "c": [
-      73.25,
-      73.22,
-      73.25,
-      73.23,
-      73.29,
       73.24,
       73.33,
       73.31,
@@ -10242,7 +10285,12 @@
       72.1,
       72.11,
       72.13,
-      72.02
+      72.02,
+      71.92,
+      71.9,
+      72.06,
+      72.06,
+      72.1
      ],
      "dec": 2,
      "m": [
@@ -10660,7 +10708,7 @@
      ],
      "marks": [],
      "sym": "SOL",
-     "t0": 1795769400,
+     "t0": 1795769700,
      "vw": [
       null,
       null,
@@ -10712,11 +10760,6 @@
       null,
       null,
       null,
-      72.87,
-      72.87,
-      72.88,
-      72.88,
-      72.88,
       72.88,
       72.88,
       72.88,
@@ -11072,6 +11115,11 @@
       72.19,
       72.19,
       72.19,
+      72.19,
+      72.19,
+      72.19,
+      72.19,
+      72.19,
       72.19
      ],
      "warm": 50
@@ -11093,11 +11141,11 @@
     "longOnly": true,
     "name": "Crypto",
     "open": [],
-    "price": 72.019997,
+    "price": 72.099998,
     "setups": [
      {
       "fired": false,
-      "pct": 67,
+      "pct": 81,
       "setup": "VWAP cross",
       "side": "BUY",
       "state": "close"
@@ -11128,131 +11176,136 @@
     "totals": null
    },
    "etfs": {
-    "banner": null,
-    "barT": 1795794000,
+    "banner": "Signal forming, but a filter says no",
+    "barT": 1795794300,
     "chart": {
      "c": [
-      56.25,
-      56.24,
-      56.28,
-      56.29,
-      56.26,
-      56.27,
-      56.26,
-      56.28,
-      56.28,
-      56.26,
-      56.29,
-      56.28,
-      56.33,
-      56.31,
-      56.28,
-      56.28,
-      56.31,
-      56.28,
-      56.28,
-      56.26,
-      56.17,
-      56.14,
-      56.15,
-      56.19,
-      56.18,
-      56.17,
-      56.1,
-      56.08,
-      56.1,
-      56.13,
-      56.16,
-      56.15,
-      56.17,
-      56.19,
-      56.21,
-      56.26,
-      56.28,
-      56.28,
-      56.27,
-      56.31,
-      56.38,
-      56.35,
-      56.33,
-      56.33,
-      56.33,
-      56.4,
-      56.4,
-      56.42,
-      56.42,
-      56.38,
-      57.76,
-      57.72,
-      57.78,
-      57.68,
-      57.62,
-      57.59,
-      57.73,
-      57.69,
-      57.58,
-      57.51,
-      57.52,
-      57.51,
-      57.5,
-      57.62,
-      57.64,
-      57.58,
-      57.44,
-      57.45,
-      57.49,
-      57.48,
-      57.62,
-      57.59,
-      57.6,
-      57.59,
-      57.62,
-      57.69,
-      57.61,
-      57.63,
-      57.57,
-      57.53,
-      57.56,
-      57.52,
-      57.49,
-      57.53,
-      57.5,
-      57.47,
-      57.58,
-      57.58,
-      57.63,
-      57.54,
-      57.61,
-      57.71,
-      57.71,
-      57.73,
-      57.74,
-      57.71,
-      57.7,
-      57.74,
-      57.78,
-      57.73,
-      57.67,
-      57.65,
-      57.72,
-      57.75,
-      57.77,
-      57.74,
-      57.73,
-      57.75,
-      57.71,
-      57.74,
-      57.78,
-      57.73,
-      57.72,
-      57.69,
-      57.71,
-      57.77,
-      57.84,
-      57.88,
-      57.89,
-      57.88,
-      57.88
+      154.97,
+      154.89,
+      155.14,
+      155.14,
+      155.0,
+      155.08,
+      155.0,
+      155.07,
+      155.08,
+      155.02,
+      155.15,
+      155.01,
+      155.2,
+      155.21,
+      155.07,
+      155.07,
+      155.18,
+      155.13,
+      155.08,
+      154.93,
+      154.48,
+      154.47,
+      154.45,
+      154.6,
+      154.59,
+      154.57,
+      154.26,
+      154.13,
+      154.11,
+      154.3,
+      154.45,
+      154.37,
+      154.45,
+      154.61,
+      154.66,
+      154.91,
+      155.01,
+      155.09,
+      154.98,
+      155.07,
+      155.51,
+      155.49,
+      155.35,
+      155.37,
+      155.36,
+      155.74,
+      155.85,
+      155.91,
+      155.89,
+      155.81,
+      158.47,
+      158.22,
+      158.23,
+      157.69,
+      157.46,
+      157.17,
+      157.69,
+      157.17,
+      156.96,
+      156.63,
+      156.8,
+      156.75,
+      156.54,
+      156.95,
+      157.01,
+      157.03,
+      156.32,
+      156.39,
+      156.46,
+      156.47,
+      157.0,
+      156.85,
+      156.9,
+      156.88,
+      156.97,
+      157.23,
+      156.99,
+      157.07,
+      156.76,
+      156.58,
+      156.67,
+      156.54,
+      156.45,
+      156.61,
+      156.57,
+      156.35,
+      156.77,
+      156.83,
+      157.01,
+      156.58,
+      156.8,
+      157.26,
+      157.2,
+      157.4,
+      157.47,
+      157.41,
+      157.33,
+      157.52,
+      157.62,
+      157.48,
+      157.33,
+      157.21,
+      157.51,
+      157.63,
+      157.77,
+      157.64,
+      157.53,
+      157.52,
+      157.37,
+      157.49,
+      157.71,
+      157.5,
+      157.55,
+      157.51,
+      157.56,
+      157.89,
+      158.21,
+      158.42,
+      158.49,
+      158.47,
+      158.52,
+      158.3,
+      158.4,
+      158.65,
+      158.52,
+      158.78
      ],
      "dec": 2,
      "m": [
@@ -11376,17 +11429,22 @@
       2607,
       2608,
       2609,
-      2610
+      2610,
+      2611,
+      2612,
+      2613,
+      2614,
+      2615
      ],
      "marks": [
       [
-       2581,
+       2586,
        "in",
        1,
        null
       ]
      ],
-     "sym": "EEM",
+     "sym": "XLK",
      "t0": 1795637400,
      "vw": [
       null,
@@ -11439,77 +11497,82 @@
       null,
       null,
       null,
-      57.77,
-      57.76,
-      57.76,
-      57.76,
-      57.73,
-      57.71,
-      57.71,
-      57.71,
-      57.71,
-      57.7,
-      57.69,
-      57.69,
-      57.69,
-      57.68,
-      57.68,
-      57.68,
-      57.67,
-      57.67,
-      57.66,
-      57.66,
-      57.66,
-      57.66,
-      57.65,
-      57.65,
-      57.65,
-      57.65,
-      57.65,
-      57.65,
-      57.65,
-      57.65,
-      57.65,
-      57.64,
-      57.64,
-      57.64,
-      57.64,
-      57.63,
-      57.63,
-      57.63,
-      57.63,
-      57.63,
-      57.63,
-      57.63,
-      57.63,
-      57.63,
-      57.64,
-      57.64,
-      57.64,
-      57.64,
-      57.65,
-      57.65,
-      57.65,
-      57.65,
-      57.65,
-      57.65,
-      57.65,
-      57.65,
-      57.65,
-      57.65,
-      57.65,
-      57.65,
-      57.65,
-      57.65,
-      57.65,
-      57.65,
-      57.65,
-      57.66,
-      57.66,
-      57.67,
-      57.67,
-      57.67,
-      57.67
+      158.67,
+      158.6,
+      158.55,
+      158.5,
+      158.38,
+      158.21,
+      158.13,
+      158.05,
+      158.02,
+      157.95,
+      157.89,
+      157.83,
+      157.79,
+      157.74,
+      157.7,
+      157.68,
+      157.63,
+      157.56,
+      157.53,
+      157.5,
+      157.48,
+      157.47,
+      157.44,
+      157.43,
+      157.42,
+      157.42,
+      157.41,
+      157.4,
+      157.37,
+      157.35,
+      157.33,
+      157.31,
+      157.29,
+      157.27,
+      157.26,
+      157.22,
+      157.17,
+      157.16,
+      157.16,
+      157.15,
+      157.15,
+      157.14,
+      157.14,
+      157.15,
+      157.15,
+      157.16,
+      157.16,
+      157.16,
+      157.17,
+      157.17,
+      157.17,
+      157.18,
+      157.18,
+      157.18,
+      157.2,
+      157.21,
+      157.21,
+      157.21,
+      157.21,
+      157.22,
+      157.23,
+      157.23,
+      157.23,
+      157.23,
+      157.23,
+      157.24,
+      157.24,
+      157.25,
+      157.26,
+      157.27,
+      157.28,
+      157.3,
+      157.3,
+      157.32,
+      157.33,
+      157.34
      ],
      "warm": 50
     },
@@ -11517,8 +11580,8 @@
      "brake": null,
      "day": "2026-11-27",
      "l": 2,
-     "n": 4,
-     "pnl": -11.75,
+     "n": 5,
+     "pnl": -11.43,
      "spark": [
       [
        1795790940,
@@ -11535,12 +11598,16 @@
       [
        1795793340,
        -11.75
+      ],
+      [
+       1795794180,
+       -11.43
       ]
      ],
      "start": 9883.89,
-     "w": 2
+     "w": 3
     },
-    "focus": "XLF",
+    "focus": "SMH",
     "hours": "us",
     "inst": "etf",
     "live": true,
@@ -11548,25 +11615,12 @@
     "name": "ETFs",
     "open": [
      {
-      "describe": "2 EEM shares",
-      "inT": 1795792320,
-      "pnlCad": 0.47,
-      "setup": "VWAP cross",
-      "side": "BUY",
-      "stop": 57.773092,
-      "stopBy": "Trailing stop",
-      "sym": "EEM",
-      "target": 57.968815,
-      "uIn": 57.705002,
-      "units": 2
-     },
-     {
       "describe": "4 XLK shares",
       "inT": 1795792620,
-      "pnlCad": 6.6,
+      "pnlCad": 8.09,
       "setup": "Trend continuation",
       "side": "BUY",
-      "stop": 158.122411,
+      "stop": 158.282415,
       "stopBy": "Trailing stop",
       "sym": "XLK",
       "target": null,
@@ -11574,7 +11628,7 @@
       "units": 4
      }
     ],
-    "price": 57.169998,
+    "price": 432.559509,
     "setups": [
      {
       "fired": false,
@@ -11591,18 +11645,18 @@
       "state": "on the right side"
      },
      {
-      "fired": true,
-      "pct": 100,
+      "fired": false,
+      "pct": 24,
       "setup": "Opening-range break",
       "side": "BUY",
-      "state": "lined up"
+      "state": "far"
      },
      {
       "fired": false,
-      "pct": 60,
+      "pct": 100,
       "setup": "Trend continuation",
       "side": "BUY",
-      "state": "watching for a pullback"
+      "state": "chop filter says no"
      },
      {
       "fired": false,
@@ -11633,7 +11687,7 @@
       "state": "not lined up yet"
      }
     ],
-    "status": "Holding 2 EEM shares and 1 more",
+    "status": "Holding 4 XLK shares",
     "symbols": [
      "DIA",
      "SMH",
@@ -11645,15 +11699,15 @@
      "EEM"
     ],
     "totals": {
-     "n": 4,
-     "pnl": -11.75,
+     "n": 5,
+     "pnl": -11.43,
      "since": "2026-11-27",
-     "w": 2
+     "w": 3
     }
    },
    "futures": {
     "banner": null,
-    "barT": 1795793460,
+    "barT": 1795793760,
     "chart": {
      "c": [
       2720.6,
@@ -11767,7 +11821,12 @@
       2734.0,
       2734.6,
       2734.6,
-      2733.1
+      2733.1,
+      2732.7,
+      2732.6,
+      2735.3,
+      2738.1,
+      2739.8
      ],
      "dec": 2,
      "m": [
@@ -11882,7 +11941,12 @@
       2124,
       2125,
       2126,
-      2127
+      2127,
+      2128,
+      2129,
+      2130,
+      2131,
+      2132
      ],
      "marks": [],
      "sym": "M2K",
@@ -11999,7 +12063,12 @@
       2732.7,
       2732.71,
       2732.72,
-      2732.72
+      2732.73,
+      2732.73,
+      2732.73,
+      2732.74,
+      2732.79,
+      2732.79
      ],
      "warm": 50
     },
@@ -12020,7 +12089,7 @@
     "longOnly": false,
     "name": "Futures",
     "open": [],
-    "price": 2733.100098,
+    "price": 2739.800049,
     "setups": [
      {
       "fired": false,
@@ -12038,10 +12107,10 @@
      },
      {
       "fired": false,
-      "pct": 0,
+      "pct": 80,
       "setup": "Opening-range break",
       "side": "BUY",
-      "state": "far"
+      "state": "close"
      },
      {
       "fired": false,
@@ -12052,21 +12121,21 @@
      },
      {
       "fired": false,
-      "pct": 94,
+      "pct": 2,
       "setup": "VWAP cross",
       "side": "SHORT",
-      "state": "almost there"
+      "state": "far"
      },
      {
       "fired": false,
-      "pct": 66,
+      "pct": 0,
       "setup": "EMA50 cross",
       "side": "SHORT",
-      "state": "close"
+      "state": "far"
      },
      {
       "fired": false,
-      "pct": 31,
+      "pct": 0,
       "setup": "Opening-range break",
       "side": "SHORT",
       "state": "far"
@@ -12090,8 +12159,8 @@
     "totals": null
    },
    "options": {
-    "banner": null,
-    "barT": 1795794000,
+    "banner": "Signal forming, but a filter says no",
+    "barT": 1795794300,
     "chart": {
      "c": [
       715.8,
@@ -12200,10 +12269,10 @@
       723.17,
       723.65,
       723.09,
-      723.03,
+      722.98,
       723.15,
-      722.81,
-      723.05,
+      722.79,
+      723.06,
       723.14,
       722.8,
       722.96,
@@ -12214,7 +12283,12 @@
       724.96,
       725.19,
       725.24,
-      725.55
+      725.55,
+      724.98,
+      725.47,
+      725.83,
+      725.59,
+      726.22
      ],
      "dec": 2,
      "m": [
@@ -12338,7 +12412,12 @@
       2607,
       2608,
       2609,
-      2610
+      2610,
+      2611,
+      2612,
+      2613,
+      2614,
+      2615
      ],
      "marks": [
       [
@@ -12477,7 +12556,12 @@
       722.78,
       722.8,
       722.82,
-      722.84
+      722.84,
+      722.85,
+      722.86,
+      722.88,
+      722.89,
+      722.91
      ],
      "warm": 50
     },
@@ -12503,7 +12587,7 @@
     "longOnly": false,
     "name": "Options",
     "open": [],
-    "price": 645.440002,
+    "price": 646.130005,
     "setups": [
      {
       "fired": false,
@@ -12521,10 +12605,10 @@
      },
      {
       "fired": false,
-      "pct": 83,
+      "pct": 100,
       "setup": "Opening-range break",
       "side": "CALL",
-      "state": "almost there"
+      "state": "chop filter says no"
      },
      {
       "fired": false,
@@ -12562,7 +12646,7 @@
       "state": "not lined up yet"
      }
     ],
-    "status": "Flat \u00b7 watching for a pullback",
+    "status": "Sitting out \u00b7 SPY: no call fits the risk budget (strikes 726, 727, 728)",
     "symbols": [
      "QQQ",
      "SPY",
@@ -12577,7 +12661,7 @@
    },
    "stocks": {
     "banner": "Signal forming, but a filter says no",
-    "barT": 1795794000,
+    "barT": 1795794300,
     "chart": {
      "c": [
       354.69,
@@ -12700,7 +12784,12 @@
       358.46,
       358.42,
       358.65,
-      358.98
+      358.98,
+      358.88,
+      358.99,
+      359.21,
+      359.18,
+      359.19
      ],
      "dec": 2,
      "m": [
@@ -12824,7 +12913,12 @@
       2607,
       2608,
       2609,
-      2610
+      2610,
+      2611,
+      2612,
+      2613,
+      2614,
+      2615
      ],
      "marks": [
       [
@@ -12957,7 +13051,12 @@
       357.39,
       357.41,
       357.42,
-      357.45
+      357.45,
+      357.48,
+      357.5,
+      357.52,
+      357.54,
+      357.56
      ],
      "warm": 50
     },
@@ -13008,7 +13107,7 @@
      "start": 9883.89,
      "w": 5
     },
-    "focus": "AAPL",
+    "focus": "TSLA",
     "hours": "us",
     "inst": "stock",
     "live": true,
@@ -13018,10 +13117,10 @@
      {
       "describe": "6 AAPL shares",
       "inT": 1795792500,
-      "pnlCad": 13.2,
+      "pnlCad": 15.02,
       "setup": "Trend continuation",
       "side": "BUY",
-      "stop": 358.338042,
+      "stop": 358.768035,
       "stopBy": "Trailing stop",
       "sym": "AAPL",
       "target": null,
@@ -13031,11 +13130,11 @@
      {
       "describe": "1 META shares",
       "inT": 1795793280,
-      "pnlCad": 1.97,
+      "pnlCad": 5.95,
       "setup": "Trend continuation",
       "side": "BUY",
-      "stop": 629.03455,
-      "stopBy": "Stop loss",
+      "stop": 633.394535,
+      "stopBy": "Trailing stop",
       "sym": "META",
       "target": null,
       "uIn": 631.320007,
@@ -13044,10 +13143,10 @@
      {
       "describe": "5 PLTR shares",
       "inT": 1795793460,
-      "pnlCad": 6.95,
+      "pnlCad": 10.52,
       "setup": "Trend continuation",
       "side": "BUY",
-      "stop": 170.391548,
+      "stop": 170.686546,
       "stopBy": "Trailing stop",
       "sym": "PLTR",
       "target": null,
@@ -13055,7 +13154,7 @@
       "units": 5
      }
     ],
-    "price": 358.980011,
+    "price": 400.790009,
     "setups": [
      {
       "fired": false,
@@ -13072,11 +13171,11 @@
       "state": "on the right side"
      },
      {
-      "fired": true,
+      "fired": false,
       "pct": 100,
       "setup": "Opening-range break",
       "side": "BUY",
-      "state": "lined up"
+      "state": "on the right side"
      },
      {
       "fired": false,
@@ -13137,7 +13236,7 @@
     }
    }
   },
-  "checkedAt": 1795794103,
+  "checkedAt": 1795794394,
   "controls": {
    "auto": true,
    "chop_filter": true,
@@ -13157,7 +13256,7 @@
   "maxTrades": 15,
   "profitBrakePct": 3.0,
   "riskPct": 1.0,
-  "savedAt": 1795794103
+  "savedAt": 1795794394
  },
  "journal": [
   {
@@ -13441,7 +13540,7 @@
     }
    ],
    "cryptoRegime": "risk-off",
-   "dataCalls": 57,
+   "dataCalls": 95,
    "date": "2026-11-27",
    "liquid": 2217,
    "regime": "risk-off",
@@ -13452,11 +13551,6 @@
      "score": 72,
      "symbol": "SHORT USHY",
      "verdict": "72/100, fell below its opening range"
-    },
-    {
-     "score": 70,
-     "symbol": "LONG V",
-     "verdict": "70/100, below the 80 needed"
     },
     {
      "score": 65,
@@ -13476,6 +13570,11 @@
     {
      "score": 56,
      "symbol": "LONG XLP",
+     "verdict": "56/100, below the 80 needed"
+    },
+    {
+     "score": 56,
+     "symbol": "LONG TSLA",
      "verdict": "56/100, below the 80 needed"
     },
     {
@@ -13511,10 +13610,15 @@
    "exits": [],
    "signals": []
   },
-  "updated": "2026-11-27T15:41:43Z"
+  "updated": "2026-11-27T15:46:34Z"
  },
  "log": [
-  "Run 2026-11-27 WATCH (New York 10:41), stock market open day"
+  "Run 2026-11-27 WATCH (New York 10:46), stock market open day",
+  "Stock scan: 89 long and 69 short ideas pre-screened; 5 breakouts, 7 breakdowns",
+  "News model loaded",
+  "Borrow list unavailable: TimeoutError: timed out",
+  "Borrow data for USHY unavailable (Remote end closed connection without response)",
+  "BLOCK SHORT USHY: Time machine favourable"
  ],
  "nav": [
   {
@@ -13596,10 +13700,10 @@
    "equityCad": 9883.89
   },
   {
-   "benchmarkCad": 9263.8,
-   "cashCad": 3544.14,
+   "benchmarkCad": 9278.08,
+   "cashCad": 3709.09,
    "date": "2026-11-27",
-   "equityCad": 9800.02
+   "equityCad": 9812.15
   }
  ],
  "pack": {
@@ -13607,7 +13711,7 @@
   "alertState": {},
   "clock": {
    "calendar_known": true,
-   "checkedAt": "2026-11-27T15:41:43Z",
+   "checkedAt": "2026-11-27T15:46:34Z",
    "closes": "13:00",
    "date": "2026-11-27",
    "early_close": "day after Thanksgiving",
